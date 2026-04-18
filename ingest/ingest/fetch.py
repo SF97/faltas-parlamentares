@@ -22,7 +22,7 @@ _client: httpx.Client | None = None
 def client() -> httpx.Client:
     global _client
     if _client is None:
-        _client = httpx.Client(headers=HEADERS, timeout=30.0, follow_redirects=True)
+        _client = httpx.Client(headers=HEADERS, timeout=60.0, follow_redirects=True)
     return _client
 
 
@@ -34,7 +34,8 @@ def fetch(url: str, *, cache: bool = True) -> str:
     if use_cache and cached.exists():
         return cached.read_text(encoding="utf-8")
 
-    for attempt in range(3):
+    attempts = 6
+    for attempt in range(attempts):
         try:
             r = client().get(url)
             r.raise_for_status()
@@ -42,7 +43,7 @@ def fetch(url: str, *, cache: bool = True) -> str:
             cached.write_text(text, encoding="utf-8")
             return text
         except httpx.HTTPError:
-            if attempt == 2:
+            if attempt == attempts - 1:
                 raise
-            time.sleep(2**attempt)
+            time.sleep(min(30, 2**attempt))
     raise RuntimeError("unreachable")
