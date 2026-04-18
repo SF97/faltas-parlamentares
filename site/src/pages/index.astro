@@ -87,6 +87,11 @@ const fqv = deputados
 	</ul>
 
 	<h2>Por grupo parlamentar</h2>
+	<div class="legend">
+		<span><span class="badge FI">FI</span> Falta injustificada</span>
+		<span><span class="badge FJ">FJ</span> Falta justificada</span>
+		<span><span class="badge AMP">AMP</span> Ausência em missão parlamentar</span>
+	</div>
 	<table>
 		<thead>
 			<tr>
@@ -136,6 +141,12 @@ const fqv = deputados
 	)}
 
 	<h2>Deputados</h2>
+	<div class="legend">
+		<span><span class="badge P">P</span> Presença</span>
+		<span><span class="badge FJ">FJ</span> Falta justificada</span>
+		<span><span class="badge FI">FI</span> Falta injustificada</span>
+		<span><span class="badge AMP">AMP</span> Ausência em missão parlamentar</span>
+	</div>
 	<div class="filters" id="party-filters">
 		<button data-gp="" aria-pressed="true">Todos</button>
 		{parties.map((p) => (
