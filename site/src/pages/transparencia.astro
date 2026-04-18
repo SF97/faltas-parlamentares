@@ -1,0 +1,35 @@
+---
+import Base from "../layouts/Base.astro";
+import { base } from "../lib/base";
+---
+
+<Base title="Transparência">
+	<h1>Transparência</h1>
+	<p class="lede">Quem mantém este site e com que intenção.</p>
+
+	<h2>Objectivo</h2>
+	<p>
+		O objectivo deste site é puramente de <strong>transparência</strong>: disponibilizar, de forma legível, os dados que o
+		próprio Parlamento já publica sobre a participação dos deputados nas reuniões plenárias. Não há aqui qualquer intenção
+		editorial, comentário político ou interpretação das faltas.
+	</p>
+
+	<h2>Afiliação política</h2>
+	<p>
+		Este site <strong>não tem qualquer afiliação política</strong>, partidária ou institucional. Não é patrocinado, financiado
+		ou endossado por nenhum partido, grupo parlamentar, fundação, associação cívica ou órgão de comunicação social. É um
+		projecto pessoal, sem fins lucrativos.
+	</p>
+
+	<h2>Fonte dos dados</h2>
+	<p>
+		Todos os números apresentados vêm directamente das páginas públicas do <a href="https://www.parlamento.pt/DeputadoGP/Paginas/reunioesplenarias.aspx">Parlamento</a>.
+		Para detalhes sobre como os dados são recolhidos e classificados, consulte a <a href={`${base}/metodologia`}>metodologia</a>.
+	</p>
+
+	<h2>Contacto</h2>
+	<p>
+		Questões, correcções ou sugestões devem ser enviadas para
+		<a href="mailto:faltasparlamentares@sergioferreira.net">faltasparlamentares@sergioferreira.net</a>.
+	</p>
+</Base>

@@ -1,0 +1,56 @@
+---
+import Base from "../layouts/Base.astro";
+import meta from "../data/meta.json";
+---
+
+<Base title="Metodologia">
+	<h1>Metodologia</h1>
+	<p class="lede">Como é que este site conta as faltas dos deputados.</p>
+
+	<h2>Fonte dos dados</h2>
+	<p>
+		Os dados vêm das páginas oficiais <em>Presenças às Reuniões Plenárias</em> publicadas pelo Parlamento (uma por deputado, em
+		<code>parlamento.pt/DeputadoGP/Paginas/PresencasReunioesPlenarias.aspx?BID=&lt;id&gt;</code>). A lista de deputados activos
+		é obtida a partir da página de detalhe de uma reunião recente da {meta.legislatura} Legislatura.
+	</p>
+
+	<h2>Classificação de cada reunião</h2>
+	<p>O próprio Parlamento classifica a participação de cada deputado em cada reunião plenária numa de cinco categorias:</p>
+	<ul>
+		<li><span class="badge P">P</span> <strong>Presença</strong> — o deputado esteve presente.</li>
+		<li><span class="badge FJ">FJ</span> <strong>Falta Justificada</strong> — o deputado não esteve presente mas apresentou justificação aceite (motivos legais previstos no Estatuto dos Deputados).</li>
+		<li><span class="badge FI">FI</span> <strong>Falta Injustificada</strong> — o deputado não esteve presente nem apresentou justificação.</li>
+		<li><span class="badge AMP">AMP</span> <strong>Ausência em Missão Parlamentar</strong> — ausência oficial ao serviço da Assembleia (ex. delegações, missões internacionais).</li>
+		<li><span class="badge FQV">FQV</span> <strong>Falta ao Quórum de Votação</strong> — esteve presente mas não participou no número mínimo de votações do dia.</li>
+		<li><span class="badge PNO">PNO</span> <strong>Presença Noutro Órgão</strong> — ausente do plenário por estar em serviço noutro órgão parlamentar (comissão, subcomissão, etc.) à mesma hora.</li>
+	</ul>
+
+	<h2>O que o ranking mostra</h2>
+	<p>
+		A tabela principal está ordenada por <strong>faltas injustificadas (FI)</strong>, com desempate por faltas justificadas (FJ)
+		e depois por nome. O total de reuniões elegíveis varia por deputado (ver secção seguinte).
+	</p>
+
+	<h2>Substituições e efectivos temporariamente substituídos</h2>
+	<p>
+		Quando um deputado efectivo se ausenta por período prolongado (licença, candidatura a outro cargo, função no Governo, etc.),
+		um deputado suplente ocupa o seu lugar. As reuniões desse período ficam registadas na página do suplente, não do efectivo.
+		Como resultado, deputados substituídos no decurso da Legislatura aparecem aqui com menos reuniões. O mesmo acontece com
+		suplentes que só entraram a meio — só registam as reuniões em que estiveram activos.
+	</p>
+	<p>
+		Por agora este site <strong>não funde</strong> os registos de efectivo e suplente. Se o José Cesário, por exemplo, aparece
+		com 73 reuniões em vez de 74, é porque, durante uma breve suspensão do mandato em Junho de 2025, o seu substituto Flávio
+		Martins cobriu uma plenária; esse dia é contado na página do substituto, não nesta.
+	</p>
+
+	<h2>Limitações</h2>
+	<ul>
+		<li>Só reuniões plenárias. Comissões parlamentares não contam.</li>
+		<li>Registos de efectivos e respectivos suplentes são contados separadamente (ver acima).</li>
+		<li>Os dados são apenas tão fiáveis quanto a publicação oficial. Correções posteriores pelo Parlamento só se reflectem aqui no próximo ciclo de ingestão diária.</li>
+	</ul>
+
+	<h2>Código</h2>
+	<p>Este site é aberto — o pipeline de ingestão e o código do site estão em GitHub.</p>
+</Base>

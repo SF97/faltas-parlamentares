@@ -1,0 +1,30 @@
+# Node / Astro
+node_modules/
+.astro/
+dist/
+.output/
+.vercel/
+.netlify/
+.wrangler/
+.cache/
+
+# Python / uv
+__pycache__/
+*.pyc
+.venv/
+.uv-cache/
+
+# Raw XML cache from parlamento.pt
+ingest/.cache/
+
+# Env files
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.vscode/
+.idea/

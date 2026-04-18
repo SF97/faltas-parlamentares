@@ -1,0 +1,698 @@
+[
+  {
+    "data": "2026-04-11",
+    "substituido": "Tomás Pereira",
+    "substituto": "Isabel Mendes Lopes",
+    "circulo": "Lisboa",
+    "gp": "L",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2026-03-28",
+    "substituido": "Marta Patrícia Silva",
+    "substituto": "Miguel Rangel",
+    "circulo": "Porto",
+    "gp": "IL",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2026-03-12",
+    "substituido": "Isabel Mendes Lopes",
+    "substituto": "Tomás Pereira",
+    "circulo": "Lisboa",
+    "gp": "L",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2026-03-02",
+    "substituido": "Jorge Botelho",
+    "substituto": "Vítor Guerreiro",
+    "circulo": "Faro",
+    "gp": "PS",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2026-02-26",
+    "substituido": "Miguel Rangel",
+    "substituto": "Marta Patrícia Silva",
+    "circulo": "Porto",
+    "gp": "IL",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2026-02-26",
+    "substituido": "João Alves Ambrósio",
+    "substituto": "Miguel Rangel",
+    "circulo": "Porto",
+    "gp": "IL",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2026-02-20",
+    "substituido": "Marta Patrícia Silva",
+    "substituto": "Carlos Guimarães Pinto",
+    "circulo": "Porto",
+    "gp": "IL",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2026-02-09",
+    "substituido": "Luís Gonçalves Pereira",
+    "substituto": "André Ventura",
+    "circulo": "Lisboa",
+    "gp": "CH",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2026-01-27",
+    "substituido": "Miguel Rangel",
+    "substituto": "João Alves Ambrósio",
+    "circulo": "Porto",
+    "gp": "IL",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2026-01-21",
+    "substituido": "Carlos Guimarães Pinto",
+    "substituto": "Marta Patrícia Silva",
+    "circulo": "Porto",
+    "gp": "IL",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2026-01-13",
+    "substituido": "Pedro Sousa",
+    "substituto": "Hernâni Loureiro",
+    "circulo": "Braga",
+    "gp": "PS",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2026-01-13",
+    "substituido": "Darlene Costa",
+    "substituto": "Pedro dos Santos Frazão",
+    "circulo": "Aveiro",
+    "gp": "CH",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2026-01-12",
+    "substituido": "Pedro dos Santos Frazão",
+    "substituto": "Darlene Costa",
+    "circulo": "Aveiro",
+    "gp": "CH",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2026-01-01",
+    "substituido": "Mariana Mortágua",
+    "substituto": "Fabian Figueiredo",
+    "circulo": "Lisboa",
+    "gp": "BE",
+    "motivo": "Cessação"
+  },
+  {
+    "data": "2026-01-01",
+    "substituido": "André Ventura",
+    "substituto": "Luís Gonçalves Pereira",
+    "circulo": "Lisboa",
+    "gp": "CH",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-11-03",
+    "substituido": "Rui Cristina",
+    "substituto": "António Carneiro",
+    "circulo": "Beja",
+    "gp": "CH",
+    "motivo": "Cessação"
+  },
+  {
+    "data": "2025-11-03",
+    "substituido": "Carlos Reis",
+    "substituto": "Liliana Fidalgo",
+    "circulo": "Lisboa",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-11-02",
+    "substituido": "Sofia Canha",
+    "substituto": "Emanuel Câmara",
+    "circulo": "Madeira",
+    "gp": "PS",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-11-01",
+    "substituido": "Andreia Bernardo",
+    "substituto": "Carlos Reis",
+    "circulo": "Lisboa",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-10-24",
+    "substituido": "Pedro Nuno Santos",
+    "substituto": "Lia Ferreira",
+    "circulo": "Aveiro",
+    "gp": "PS",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-10-23",
+    "substituido": "Andreia Galvão",
+    "substituto": "Mariana Mortágua",
+    "circulo": "Lisboa",
+    "gp": "BE",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-09-22",
+    "substituido": "Mariana Mortágua",
+    "substituto": "Andreia Galvão",
+    "circulo": "Lisboa",
+    "gp": "BE",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-09-22",
+    "substituido": "Gabriel Mithá Ribeiro",
+    "substituto": "Rui Fernandes",
+    "circulo": "Leiria",
+    "gp": "CH",
+    "motivo": "Cessação"
+  },
+  {
+    "data": "2025-06-13",
+    "substituido": "Luísa Vaz",
+    "substituto": "Cristina Rodrigues",
+    "circulo": "Porto",
+    "gp": "CH",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-12",
+    "substituido": "Cristina Rodrigues",
+    "substituto": "Luísa Vaz",
+    "circulo": "Porto",
+    "gp": "CH",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Silvério Regalado",
+    "substituto": "Firmino Ferreira",
+    "circulo": "Aveiro",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Salvador Malheiro",
+    "substituto": "Helga Correia",
+    "circulo": "Aveiro",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Rui Ladeira Pereira",
+    "substituto": "Isabel Fernandes",
+    "circulo": "Viseu",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Pedro Reis",
+    "substituto": "Leonor Cipriano",
+    "circulo": "Castelo Branco",
+    "gp": "PSD",
+    "motivo": "Cessação"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Pedro Machado",
+    "substituto": "Joana Seabra",
+    "circulo": "Coimbra",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Paulo Simões Ribeiro",
+    "substituto": "Paulo Edson Cunha",
+    "circulo": "Setúbal",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "João Vale e Azevedo",
+    "substituto": "Francisco José Martins",
+    "circulo": "Lisboa",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "João Moura",
+    "substituto": "Ricardo Carlos",
+    "circulo": "Santarém",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "João Manuel Esteves",
+    "substituto": "José Lago Gonçalves",
+    "circulo": "Viana do Castelo",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Inês Domingos",
+    "substituto": "Bruno Faria",
+    "circulo": "Viseu",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Emídio Sousa",
+    "substituto": "Carolina Marques",
+    "circulo": "Aveiro",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Clara Marques Mendes",
+    "substituto": "Sónia Margarida Fernandes",
+    "circulo": "Braga",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Ana Isabel Xavier",
+    "substituto": "Andreia Bernardo",
+    "circulo": "Lisboa",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Álvaro Castello-Branco",
+    "substituto": "João Pinho de Almeida",
+    "circulo": "Porto",
+    "gp": "CDS-PP",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Alexandre Homem Cristo",
+    "substituto": "Paulo Lopes Marcelo",
+    "circulo": "Lisboa",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-06",
+    "substituido": "Alberto Santos",
+    "substituto": "Alberto Fonseca",
+    "circulo": "Porto",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Sónia Margarida Fernandes",
+    "substituto": "Clara Marques Mendes",
+    "circulo": "Braga",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Ricardo Carlos",
+    "substituto": "João Moura",
+    "circulo": "Santarém",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Paulo Edson Cunha",
+    "substituto": "Paulo Simões Ribeiro",
+    "circulo": "Setúbal",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Nuno Melo",
+    "substituto": "Álvaro Castello-Branco",
+    "circulo": "Porto",
+    "gp": "CDS-PP",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Leonor Cipriano",
+    "substituto": "Pedro Reis",
+    "circulo": "Castelo Branco",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "João Pinho de Almeida",
+    "substituto": "Nuno Melo",
+    "circulo": "Porto",
+    "gp": "CDS-PP",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Joana Seabra",
+    "substituto": "Pedro Machado",
+    "circulo": "Coimbra",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Isabel Fernandes",
+    "substituto": "António Leitão Amaro",
+    "circulo": "Viseu",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Francisco José Martins",
+    "substituto": "Ana Isabel Xavier",
+    "circulo": "Lisboa",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Flávio Martins",
+    "substituto": "José Cesário",
+    "circulo": "Fora da Europa",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Firmino Ferreira",
+    "substituto": "Silvério Regalado",
+    "circulo": "Aveiro",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Carolina Marques",
+    "substituto": "Emídio Sousa",
+    "circulo": "Aveiro",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Carlos Reis",
+    "substituto": "Alexandre Homem Cristo",
+    "circulo": "Lisboa",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Bruno Faria",
+    "substituto": "Inês Domingos",
+    "circulo": "Viseu",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "António Leitão Amaro",
+    "substituto": "Rui Ladeira Pereira",
+    "circulo": "Viseu",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Andreia Bernardo",
+    "substituto": "Cristina Vaz Tomé",
+    "circulo": "Lisboa",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-05",
+    "substituido": "Alberto Fonseca",
+    "substituto": "Alberto Santos",
+    "circulo": "Porto",
+    "gp": "PSD",
+    "motivo": "Termo da suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Silvério Regalado",
+    "substituto": "Firmino Ferreira",
+    "circulo": "Aveiro",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Rita Alarcão Júdice",
+    "substituto": "Martim Syder",
+    "circulo": "Coimbra",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Pedro Reis",
+    "substituto": "Leonor Cipriano",
+    "circulo": "Castelo Branco",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Pedro Machado",
+    "substituto": "Joana Seabra",
+    "circulo": "Coimbra",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Paulo Simões Ribeiro",
+    "substituto": "Paulo Edson Cunha",
+    "circulo": "Setúbal",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Paulo Castro Rangel",
+    "substituto": "Gonçalo Dinis Capitão",
+    "circulo": "Porto",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Nuno Melo",
+    "substituto": "João Pinho de Almeida",
+    "circulo": "Porto",
+    "gp": "CDS-PP",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Miguel Pinto Luz",
+    "substituto": "Eva Brás Pinho",
+    "circulo": "Lisboa",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Maria da Graça Carvalho",
+    "substituto": "Miguel Santos",
+    "circulo": "Faro",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Margarida Balseiro Lopes",
+    "substituto": "Célia Freire",
+    "circulo": "Leiria",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Luís Montenegro",
+    "substituto": "Paulo Cavaleiro",
+    "circulo": "Aveiro",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "José Manuel Fernandes",
+    "substituto": "Carlos Alberto Gonçalves",
+    "circulo": "Europa",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "José Cesário",
+    "substituto": "Flávio Martins",
+    "circulo": "Fora da Europa",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "João Moura",
+    "substituto": "Ricardo Carlos",
+    "circulo": "Santarém",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Jamila Madeira",
+    "substituto": "Luís Graça",
+    "circulo": "Faro",
+    "gp": "PS",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Inês Domingos",
+    "substituto": "Bruno Faria",
+    "circulo": "Viseu",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Francisco Lima",
+    "substituto": "Ana Martins",
+    "circulo": "Açores",
+    "gp": "CH",
+    "motivo": "Cessação"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Fernando Araújo",
+    "substituto": "Sofia Andrade",
+    "circulo": "Porto",
+    "gp": "PS",
+    "motivo": "Cessação"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Fernando Alexandre",
+    "substituto": "Inês Barroso",
+    "circulo": "Santarém",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Emídio Sousa",
+    "substituto": "Carolina Marques",
+    "circulo": "Aveiro",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Emanuel Câmara",
+    "substituto": "Sofia Canha",
+    "circulo": "Madeira",
+    "gp": "PS",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Cristina Vaz Tomé",
+    "substituto": "Andreia Bernardo",
+    "circulo": "Lisboa",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Clara Marques Mendes",
+    "substituto": "Sónia Margarida Fernandes",
+    "circulo": "Braga",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Carlos Abreu Amorim",
+    "substituto": "Ana Isabel Ferreira",
+    "circulo": "Porto",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "António Leitão Amaro",
+    "substituto": "Isabel Fernandes",
+    "circulo": "Viseu",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Ana Paula Martins",
+    "substituto": "Ana Silveira",
+    "circulo": "Vila Real",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Ana Isabel Xavier",
+    "substituto": "Carlos Reis",
+    "circulo": "Lisboa",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Alexandre Homem Cristo",
+    "substituto": "Francisco José Martins",
+    "circulo": "Lisboa",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  },
+  {
+    "data": "2025-06-03",
+    "substituido": "Alberto Santos",
+    "substituto": "Alberto Fonseca",
+    "circulo": "Porto",
+    "gp": "PSD",
+    "motivo": "Suspensão"
+  }
+]

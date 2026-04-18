@@ -1,0 +1,102 @@
+{
+  "bid": 7012,
+  "nome": "Tomás Pereira",
+  "gp": "L",
+  "totais": {
+    "P": 11
+  },
+  "total_reunioes": 11,
+  "eventos": [
+    {
+      "data": "2026-03-12",
+      "tipo": "entrada",
+      "motivo": "Suspensão",
+      "contraparte": "Isabel Mendes Lopes"
+    },
+    {
+      "data": "2026-04-11",
+      "tipo": "saida",
+      "motivo": "Termo da suspensão",
+      "contraparte": "Isabel Mendes Lopes"
+    }
+  ],
+  "sessoes": [
+    {
+      "data": "2026-04-10",
+      "reuniao_bid": 376274,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-09",
+      "reuniao_bid": 376273,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-02",
+      "reuniao_bid": 366154,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-01",
+      "reuniao_bid": 366153,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-03-26",
+      "reuniao_bid": 366152,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-03-25",
+      "reuniao_bid": 366151,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-03-20",
+      "reuniao_bid": 366150,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-03-19",
+      "reuniao_bid": 366149,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-03-18",
+      "reuniao_bid": 366148,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-03-13",
+      "reuniao_bid": 366065,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-03-12",
+      "reuniao_bid": 366056,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    }
+  ]
+}

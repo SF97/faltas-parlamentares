@@ -1,0 +1,159 @@
+---
+import Base from "../layouts/Base.astro";
+import deputados from "../data/deputados.json";
+import meta from "../data/meta.json";
+import { base } from "../lib/base";
+
+type Row = (typeof deputados)[number];
+
+type Sessao = { estado: string; motivo: string | null };
+type DeputadoDetail = { sessoes: Sessao[] };
+
+const slugify = (s: string): string =>
+	s
+		.normalize("NFD")
+		.replace(/[\u0300-\u036f]/g, "")
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, "-")
+		.replace(/(^-|-$)/g, "");
+
+const detailFiles = import.meta.glob<{ default: DeputadoDetail }>("../data/deputado/*.json", { eager: true });
+const motivoCounts = new Map<string, number>();
+for (const mod of Object.values(detailFiles)) {
+	for (const s of mod.default.sessoes) {
+		if (s.estado !== "FJ" || !s.motivo) continue;
+		motivoCounts.set(s.motivo, (motivoCounts.get(s.motivo) ?? 0) + 1);
+	}
+}
+const topMotivos = Array.from(motivoCounts.entries())
+	.map(([motivo, n]) => ({ motivo, n, slug: slugify(motivo) }))
+	.sort((a, b) => b.n - a.n)
+	.slice(0, 5);
+
+const parties = Array.from(new Set(deputados.map((d: Row) => d.gp))).sort();
+
+const byParty = (list: Row[]) => {
+	const m = new Map<string, { gp: string; deputados: number; fi: number; fj: number; amp: number; total: number }>();
+	for (const d of list) {
+		const e = m.get(d.gp) ?? { gp: d.gp, deputados: 0, fi: 0, fj: 0, amp: 0, total: 0 };
+		e.deputados++;
+		e.fi += d.faltas_injustificadas;
+		e.fj += d.faltas_justificadas;
+		e.amp += d.missao_parlamentar;
+		e.total += d.total_reunioes;
+		m.set(d.gp, e);
+	}
+	return Array.from(m.values()).sort((a, b) => b.fi - a.fi);
+};
+
+const totals = {
+	deputados: deputados.length,
+	fi: deputados.reduce((a, d) => a + d.faltas_injustificadas, 0),
+	fj: deputados.reduce((a, d) => a + d.faltas_justificadas, 0),
+	amp: deputados.reduce((a, d) => a + d.missao_parlamentar, 0),
+};
+
+const ranked = [...deputados].sort((a, b) => {
+	if (b.faltas_injustificadas !== a.faltas_injustificadas) return b.faltas_injustificadas - a.faltas_injustificadas;
+	if (b.faltas_justificadas !== a.faltas_justificadas) return b.faltas_justificadas - a.faltas_justificadas;
+	return a.nome.localeCompare(b.nome, "pt-PT");
+});
+---
+
+<Base title="Ranking de faltas">
+	<h1>Ranking de faltas em plenário</h1>
+	<p class="lede">{totals.deputados} deputados da {meta.legislatura} Legislatura, por ordem decrescente de faltas injustificadas.</p>
+
+	<div class="stat-grid">
+		<div class="stat"><div class="n">{totals.fi}</div><div class="l">Faltas injustificadas</div></div>
+		<div class="stat"><div class="n">{totals.fj}</div><div class="l">Faltas justificadas</div></div>
+		<div class="stat"><div class="n">{totals.amp}</div><div class="l">Ausências em missão</div></div>
+		<div class="stat"><div class="n">{totals.deputados}</div><div class="l">Deputados</div></div>
+	</div>
+
+	<h2>Principais motivos das faltas justificadas</h2>
+	<ul class="motivo-list">
+		{topMotivos.map((m) => (
+			<li>
+				<a href={`${base}/motivo/${m.slug}`}>{m.motivo}</a>
+				<span class="motivo-count">{m.n}</span>
+			</li>
+		))}
+		<li class="motivo-more"><a href={`${base}/motivos`}>Ver todos os motivos →</a></li>
+	</ul>
+
+	<h2>Por grupo parlamentar</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>GP</th>
+				<th class="num">Deputados</th>
+				<th class="num"><abbr title="Falta Injustificada">FI</abbr></th>
+				<th class="num"><abbr title="Falta Justificada">FJ</abbr></th>
+				<th class="num"><abbr title="Ausência em Missão Parlamentar">AMP</abbr></th>
+			</tr>
+		</thead>
+		<tbody>
+			{byParty(deputados).map((p) => (
+				<tr>
+					<td><span class="gp" data-p={p.gp}>{p.gp}</span></td>
+					<td class="num">{p.deputados}</td>
+					<td class="num">{p.fi}</td>
+					<td class="num">{p.fj}</td>
+					<td class="num">{p.amp}</td>
+				</tr>
+			))}
+		</tbody>
+	</table>
+
+	<h2>Deputados</h2>
+	<div class="filters" id="party-filters">
+		<button data-gp="" aria-pressed="true">Todos</button>
+		{parties.map((p) => (
+			<button data-gp={p}>{p}</button>
+		))}
+	</div>
+
+	<table id="deputados-table">
+		<thead>
+			<tr>
+				<th>Deputado</th>
+				<th>GP</th>
+				<th class="num">Reuniões</th>
+				<th class="num">P</th>
+				<th class="num">FJ</th>
+				<th class="num">FI</th>
+				<th class="num">AMP</th>
+			</tr>
+		</thead>
+		<tbody>
+			{ranked.map((d) => (
+				<tr data-gp={d.gp}>
+					<td><a href={`${base}/deputado/${d.bid}`}>{d.nome}</a></td>
+					<td><span class="gp" data-p={d.gp}>{d.gp}</span></td>
+					<td class="num">{d.total_reunioes}</td>
+					<td class="num">{d.presencas}</td>
+					<td class="num">{d.faltas_justificadas}</td>
+					<td class="num">{d.faltas_injustificadas}</td>
+					<td class="num">{d.missao_parlamentar}</td>
+				</tr>
+			))}
+		</tbody>
+	</table>
+
+	<script is:inline>
+		(() => {
+			const buttons = document.querySelectorAll("#party-filters button");
+			const rows = document.querySelectorAll("#deputados-table tbody tr");
+			buttons.forEach((btn) => {
+				btn.addEventListener("click", () => {
+					const gp = btn.getAttribute("data-gp") || "";
+					buttons.forEach((b) => b.setAttribute("aria-pressed", b === btn ? "true" : "false"));
+					rows.forEach((r) => {
+						r.style.display = !gp || r.getAttribute("data-gp") === gp ? "" : "none";
+					});
+				});
+			});
+		})();
+	</script>
+</Base>

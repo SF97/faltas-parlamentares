@@ -1,0 +1,85 @@
+---
+import Base from "../../layouts/Base.astro";
+import { base } from "../../lib/base";
+
+type Evento = { data: string; tipo: string; motivo: string; contraparte: string };
+type Sessao = { data: string; reuniao_bid: number; estado: string; estado_label: string; motivo: string | null };
+type DeputadoDetail = {
+	bid: number;
+	nome: string;
+	gp: string;
+	totais: Record<string, number>;
+	total_reunioes: number;
+	eventos: Evento[];
+	sessoes: Sessao[];
+};
+
+type Row = { bid: number; nome: string; gp: string; data: string; reuniao_bid: number };
+
+export async function getStaticPaths() {
+	const slugify = (s: string): string =>
+		s
+			.normalize("NFD")
+			.replace(/[\u0300-\u036f]/g, "")
+			.toLowerCase()
+			.replace(/[^a-z0-9]+/g, "-")
+			.replace(/(^-|-$)/g, "");
+	const files = import.meta.glob<{ default: DeputadoDetail }>("../../data/deputado/*.json", { eager: true });
+	const byMotivo = new Map<string, { motivo: string; rows: Row[] }>();
+	for (const mod of Object.values(files)) {
+		const d = mod.default;
+		for (const s of d.sessoes) {
+			if (s.estado !== "FJ" || !s.motivo) continue;
+			const key = s.motivo;
+			if (!byMotivo.has(key)) byMotivo.set(key, { motivo: key, rows: [] });
+			byMotivo.get(key)!.rows.push({ bid: d.bid, nome: d.nome, gp: d.gp, data: s.data, reuniao_bid: s.reuniao_bid });
+		}
+	}
+	return Array.from(byMotivo.values()).map((m) => ({
+		params: { slug: slugify(m.motivo) },
+		props: { motivo: m.motivo, rows: m.rows },
+	}));
+}
+
+const { motivo, rows } = Astro.props as { motivo: string; rows: Row[] };
+
+rows.sort((a, b) => b.data.localeCompare(a.data) || a.nome.localeCompare(b.nome, "pt-PT"));
+
+const byDeputy = new Map<number, { bid: number; nome: string; gp: string; datas: string[] }>();
+for (const r of rows) {
+	if (!byDeputy.has(r.bid)) byDeputy.set(r.bid, { bid: r.bid, nome: r.nome, gp: r.gp, datas: [] });
+	byDeputy.get(r.bid)!.datas.push(r.data);
+}
+const deputadoList = Array.from(byDeputy.values()).sort((a, b) => b.datas.length - a.datas.length || a.nome.localeCompare(b.nome, "pt-PT"));
+---
+
+<Base title={`Motivo: ${motivo}`} description={`Faltas justificadas com motivo "${motivo}" na XVII Legislatura.`}>
+	<p><a href={`${base}/motivos`}>← Todos os motivos</a></p>
+	<h1>{motivo}</h1>
+	<p class="lede">
+		{rows.length} {rows.length === 1 ? "falta justificada" : "faltas justificadas"} com este motivo,
+		distribuídas por {deputadoList.length} {deputadoList.length === 1 ? "deputado" : "deputados"}.
+	</p>
+
+	<h2>Deputados</h2>
+	<table>
+		<thead>
+			<tr>
+				<th>Deputado</th>
+				<th>GP</th>
+				<th class="num">Faltas</th>
+				<th>Datas</th>
+			</tr>
+		</thead>
+		<tbody>
+			{deputadoList.map((d) => (
+				<tr>
+					<td><a href={`${base}/deputado/${d.bid}`}>{d.nome}</a></td>
+					<td><span class="gp" data-p={d.gp}>{d.gp}</span></td>
+					<td class="num">{d.datas.length}</td>
+					<td class="motivo">{d.datas.slice().sort((a, b) => b.localeCompare(a)).join(", ")}</td>
+				</tr>
+			))}
+		</tbody>
+	</table>
+</Base>

@@ -1,0 +1,100 @@
+---
+import Base from "../../layouts/Base.astro";
+import deputados from "../../data/deputados.json";
+import { base } from "../../lib/base";
+
+type Summary = (typeof deputados)[number];
+
+export async function getStaticPaths() {
+	const files = import.meta.glob<{ default: DeputadoDetail }>("../../data/deputado/*.json", { eager: true });
+	return Object.entries(files).map(([path, mod]) => {
+		const bid = path.split("/").pop()!.replace(".json", "");
+		return { params: { bid }, props: { detail: mod.default } };
+	});
+}
+
+type Sessao = { data: string; reuniao_bid: number; estado: string; estado_label: string; motivo: string | null };
+type Evento = { data: string; tipo: "entrada" | "saida"; motivo: string; contraparte: string };
+type DeputadoDetail = {
+	bid: number;
+	nome: string;
+	gp: string;
+	totais: Record<string, number>;
+	total_reunioes: number;
+	eventos: Evento[];
+	sessoes: Sessao[];
+};
+
+const eventoFrase = (e: Evento, nome: string) => {
+	if (e.tipo === "entrada") {
+		return e.motivo === "Cessação"
+			? `Entrou para o lugar de ${e.contraparte}, que cessou o mandato.`
+			: e.motivo === "Termo da suspensão"
+				? `Retomou o mandato, substituindo ${e.contraparte}.`
+				: `Substituiu ${e.contraparte} (${e.motivo.toLowerCase()}).`;
+	}
+	return e.motivo === "Cessação"
+		? `Cessou o mandato; o lugar passou para ${e.contraparte}.`
+		: `Suspendeu o mandato; ${e.contraparte} tomou o lugar.`;
+};
+
+const { detail } = Astro.props as { detail: DeputadoDetail };
+const t = detail.totais;
+const rank = [...deputados]
+	.sort((a, b) => b.faltas_injustificadas - a.faltas_injustificadas)
+	.findIndex((d) => d.bid === detail.bid) + 1;
+---
+
+<Base title={detail.nome} description={`Registo de presenças e faltas de ${detail.nome} (${detail.gp}) em plenário.`}>
+	<p><a href={base}>← Ranking</a></p>
+	<h1>{detail.nome}</h1>
+	<p class="lede">
+		<span class="gp" data-p={detail.gp}>{detail.gp}</span>
+		&nbsp;·&nbsp; posição {rank} de {deputados.length} no ranking de faltas injustificadas
+	</p>
+
+	<div class="stat-grid">
+		<div class="stat"><div class="n">{detail.total_reunioes}</div><div class="l">Reuniões</div></div>
+		<div class="stat"><div class="n">{t.P ?? 0}</div><div class="l">Presenças</div></div>
+		<div class="stat"><div class="n">{t.FJ ?? 0}</div><div class="l">Falta justificada</div></div>
+		<div class="stat"><div class="n">{t.FI ?? 0}</div><div class="l">Falta injustificada</div></div>
+		<div class="stat"><div class="n">{t.AMP ?? 0}</div><div class="l">Missão parlamentar</div></div>
+	</div>
+
+	{(detail.eventos ?? []).length > 0 && (
+		<Fragment>
+			<h2>Alterações à composição</h2>
+			<table>
+				<thead>
+					<tr><th>Data</th><th>Evento</th></tr>
+				</thead>
+				<tbody>
+					{detail.eventos.map((e) => (
+						<tr>
+							<td>{e.data}</td>
+							<td>{eventoFrase(e, detail.nome)}</td>
+						</tr>
+					))}
+				</tbody>
+			</table>
+		</Fragment>
+	)}
+
+	<h2>Histórico de reuniões</h2>
+	<table>
+		<thead>
+			<tr><th>Data</th><th>Estado</th></tr>
+		</thead>
+		<tbody>
+			{detail.sessoes.map((s) => (
+				<tr>
+					<td>{s.data}</td>
+					<td>
+						<span class={`badge ${s.estado}`}>{s.estado}</span> {s.estado_label}
+						{s.motivo && <span class="motivo"> — {s.motivo}</span>}
+					</td>
+				</tr>
+			))}
+		</tbody>
+	</table>
+</Base>

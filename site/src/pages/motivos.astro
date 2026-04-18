@@ -1,0 +1,75 @@
+---
+import Base from "../layouts/Base.astro";
+import { base } from "../lib/base";
+
+type Evento = { data: string; tipo: string; motivo: string; contraparte: string };
+type Sessao = { data: string; reuniao_bid: number; estado: string; estado_label: string; motivo: string | null };
+type DeputadoDetail = {
+	bid: number;
+	nome: string;
+	gp: string;
+	totais: Record<string, number>;
+	total_reunioes: number;
+	eventos: Evento[];
+	sessoes: Sessao[];
+};
+
+const slugify = (s: string): string =>
+	s
+		.normalize("NFD")
+		.replace(/[\u0300-\u036f]/g, "")
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, "-")
+		.replace(/(^-|-$)/g, "");
+
+const files = import.meta.glob<{ default: DeputadoDetail }>("../data/deputado/*.json", { eager: true });
+const counts = new Map<string, { motivo: string; faltas: number; deputados: Set<number> }>();
+let fjTotal = 0;
+let fjSemMotivo = 0;
+for (const mod of Object.values(files)) {
+	const d = mod.default;
+	for (const s of d.sessoes) {
+		if (s.estado !== "FJ") continue;
+		fjTotal++;
+		if (!s.motivo) {
+			fjSemMotivo++;
+			continue;
+		}
+		if (!counts.has(s.motivo)) counts.set(s.motivo, { motivo: s.motivo, faltas: 0, deputados: new Set() });
+		const e = counts.get(s.motivo)!;
+		e.faltas++;
+		e.deputados.add(d.bid);
+	}
+}
+
+const rows = Array.from(counts.values())
+	.map((e) => ({ motivo: e.motivo, faltas: e.faltas, deputados: e.deputados.size, slug: slugify(e.motivo) }))
+	.sort((a, b) => b.faltas - a.faltas);
+---
+
+<Base title="Motivos das faltas justificadas">
+	<h1>Motivos das faltas justificadas</h1>
+	<p class="lede">
+		{fjTotal} faltas justificadas em plenário na XVII Legislatura, por motivo declarado oficialmente.
+		{fjSemMotivo > 0 && ` (${fjSemMotivo} sem motivo indicado)`}
+	</p>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Motivo</th>
+				<th class="num">Faltas</th>
+				<th class="num">Deputados</th>
+			</tr>
+		</thead>
+		<tbody>
+			{rows.map((r) => (
+				<tr>
+					<td><a href={`${base}/motivo/${r.slug}`}>{r.motivo}</a></td>
+					<td class="num">{r.faltas}</td>
+					<td class="num">{r.deputados}</td>
+				</tr>
+			))}
+		</tbody>
+	</table>
+</Base>
