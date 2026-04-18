@@ -58,6 +58,10 @@ const ranked = [...deputados].sort((a, b) => {
 	if (b.faltas_justificadas !== a.faltas_justificadas) return b.faltas_justificadas - a.faltas_justificadas;
 	return a.nome.localeCompare(b.nome, "pt-PT");
 });
+
+const fqv = deputados
+	.filter((d) => d.falta_quorum_votacao > 0)
+	.sort((a, b) => b.falta_quorum_votacao - a.falta_quorum_votacao || a.nome.localeCompare(b.nome, "pt-PT"));
 ---
 
 <Base title="Ranking de faltas">
@@ -105,6 +109,31 @@ const ranked = [...deputados].sort((a, b) => {
 			))}
 		</tbody>
 	</table>
+
+	{fqv.length > 0 && (
+		<Fragment>
+			<h2>Faltas ao quórum de votação</h2>
+			<p class="lede">Deputados que estiveram presentes mas não participaram no número mínimo de votações do dia.</p>
+			<table>
+				<thead>
+					<tr>
+						<th>Deputado</th>
+						<th>GP</th>
+						<th class="num"><abbr title="Falta ao Quórum de Votação">FQV</abbr></th>
+					</tr>
+				</thead>
+				<tbody>
+					{fqv.map((d) => (
+						<tr>
+							<td><a href={`${base}/deputado/${d.bid}`}>{d.nome}</a></td>
+							<td><span class="gp" data-p={d.gp}>{d.gp}</span></td>
+							<td class="num">{d.falta_quorum_votacao}</td>
+						</tr>
+					))}
+				</tbody>
+			</table>
+		</Fragment>
+	)}
 
 	<h2>Deputados</h2>
 	<div class="filters" id="party-filters">
