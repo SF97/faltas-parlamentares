@@ -3,11 +3,11 @@
   "nome": "José Cesário",
   "gp": "PSD",
   "totais": {
-    "FJ": 16,
-    "P": 48,
+    "P": 50,
+    "FJ": 18,
     "AMP": 9
   },
-  "total_reunioes": 73,
+  "total_reunioes": 77,
   "eventos": [
     {
       "data": "2025-06-03",
@@ -24,6 +24,27 @@
   ],
   "sessoes": [
     {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
+    },
+    {
       "data": "2026-04-10",
       "reuniao_bid": 376274,
       "estado": "FJ",
@@ -33,6 +54,13 @@
     {
       "data": "2026-04-09",
       "reuniao_bid": 376273,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
       "motivo": "Trabalho Político"

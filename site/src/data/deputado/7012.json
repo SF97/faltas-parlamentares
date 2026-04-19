@@ -3,9 +3,9 @@
   "nome": "Tomás Pereira",
   "gp": "L",
   "totais": {
-    "P": 11
+    "P": 12
   },
-  "total_reunioes": 11,
+  "total_reunioes": 12,
   "eventos": [
     {
       "data": "2026-03-12",
@@ -31,6 +31,13 @@
     {
       "data": "2026-04-09",
       "reuniao_bid": 376273,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null

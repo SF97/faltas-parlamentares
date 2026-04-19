@@ -3,10 +3,10 @@
   "nome": "Cristina Rodrigues",
   "gp": "CH",
   "totais": {
-    "P": 68,
-    "FJ": 6
+    "P": 71,
+    "FJ": 7
   },
-  "total_reunioes": 74,
+  "total_reunioes": 78,
   "eventos": [
     {
       "data": "2025-06-12",
@@ -23,6 +23,27 @@
   ],
   "sessoes": [
     {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
       "data": "2026-04-10",
       "reuniao_bid": 376274,
       "estado": "P",
@@ -35,6 +56,13 @@
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2026-04-02",

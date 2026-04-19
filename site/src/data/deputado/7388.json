@@ -3,10 +3,10 @@
   "nome": "Inês Barroso",
   "gp": "PSD",
   "totais": {
-    "FJ": 21,
-    "P": 53
+    "P": 57,
+    "FJ": 21
   },
-  "total_reunioes": 74,
+  "total_reunioes": 78,
   "eventos": [
     {
       "data": "2025-06-03",
@@ -16,6 +16,27 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-10",
       "reuniao_bid": 376274,
@@ -29,6 +50,13 @@
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
       "motivo": "Doença"
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
     },
     {
       "data": "2026-04-02",

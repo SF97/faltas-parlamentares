@@ -3,12 +3,13 @@
   "nome": "Eva Brás Pinho",
   "gp": "PSD",
   "totais": {
-    "P": 64,
+    "UNKNOWN": 3,
+    "P": 65,
     "PNO": 5,
     "AMP": 3,
     "FJ": 2
   },
-  "total_reunioes": 74,
+  "total_reunioes": 78,
   "eventos": [
     {
       "data": "2025-06-03",
@@ -19,6 +20,27 @@
   ],
   "sessoes": [
     {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "UNKNOWN",
+      "estado_label": "Falta",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "UNKNOWN",
+      "estado_label": "Falta",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "UNKNOWN",
+      "estado_label": "Falta",
+      "motivo": null
+    },
+    {
       "data": "2026-04-10",
       "reuniao_bid": 376274,
       "estado": "P",
@@ -28,6 +50,13 @@
     {
       "data": "2026-04-09",
       "reuniao_bid": 376273,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null

@@ -3,27 +3,53 @@
   "nome": "Ricardo Carvalho",
   "gp": "PSD",
   "totais": {
-    "FQV": 1,
-    "UNKNOWN": 1,
-    "FJ": 6,
-    "P": 48,
+    "P": 52,
+    "FJ": 8,
     "AMP": 18
   },
-  "total_reunioes": 74,
+  "total_reunioes": 78,
   "eventos": [],
   "sessoes": [
     {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
       "data": "2026-04-10",
       "reuniao_bid": 376274,
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Parlamentar"
     },
     {
       "data": "2026-04-09",
       "reuniao_bid": 376273,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Parlamentar"
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null
     },
     {

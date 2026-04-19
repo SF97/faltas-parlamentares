@@ -3,11 +3,11 @@
   "nome": "Paulo Lopes Marcelo",
   "gp": "PSD",
   "totais": {
-    "P": 65,
-    "FJ": 6,
+    "P": 68,
+    "FJ": 7,
     "AMP": 2
   },
-  "total_reunioes": 73,
+  "total_reunioes": 77,
   "eventos": [
     {
       "data": "2025-06-06",
@@ -17,6 +17,27 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-10",
       "reuniao_bid": 376274,
@@ -30,6 +51,13 @@
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Paternidade"
     },
     {
       "data": "2026-04-02",

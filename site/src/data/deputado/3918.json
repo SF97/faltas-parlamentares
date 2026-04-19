@@ -3,13 +3,35 @@
   "nome": "Paula Cardoso",
   "gp": "PSD",
   "totais": {
-    "P": 57,
+    "UNKNOWN": 1,
+    "P": 60,
     "FJ": 3,
     "AMP": 14
   },
-  "total_reunioes": 74,
+  "total_reunioes": 78,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "UNKNOWN",
+      "estado_label": "Falta",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-10",
       "reuniao_bid": 376274,
@@ -20,6 +42,13 @@
     {
       "data": "2026-04-09",
       "reuniao_bid": 376273,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null

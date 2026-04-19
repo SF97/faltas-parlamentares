@@ -3,13 +3,34 @@
   "nome": "Felicidade Vital",
   "gp": "CH",
   "totais": {
-    "AMP": 2,
-    "P": 70,
+    "P": 73,
+    "AMP": 3,
     "FJ": 2
   },
-  "total_reunioes": 74,
+  "total_reunioes": 78,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-10",
       "reuniao_bid": 376274,
@@ -20,6 +41,13 @@
     {
       "data": "2026-04-09",
       "reuniao_bid": 376273,
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
       "motivo": null

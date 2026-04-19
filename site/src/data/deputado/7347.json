@@ -3,21 +3,41 @@
   "nome": "Manuel Magno",
   "gp": "CH",
   "totais": {
-    "FQV": 1,
-    "UNKNOWN": 1,
-    "P": 43,
-    "FJ": 23,
+    "P": 45,
+    "UNKNOWN": 2,
+    "FJ": 25,
     "AMP": 6
   },
-  "total_reunioes": 74,
+  "total_reunioes": 78,
   "eventos": [],
   "sessoes": [
     {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "UNKNOWN",
+      "estado_label": "Falta",
+      "motivo": null
+    },
+    {
       "data": "2026-04-10",
       "reuniao_bid": 376274,
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Parlamentar"
     },
     {
       "data": "2026-04-09",
@@ -25,6 +45,13 @@
       "estado": "UNKNOWN",
       "estado_label": "Falta",
       "motivo": null
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2026-04-02",
