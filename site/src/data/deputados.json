@@ -698,7 +698,7 @@
     "gp": "PS",
     "total_reunioes": 78,
     "presencas": 67,
-    "faltas_justificadas": 8,
+    "faltas_justificadas": 11,
     "faltas_injustificadas": 0,
     "missao_parlamentar": 0,
     "falta_quorum_votacao": 0
@@ -1083,7 +1083,7 @@
     "gp": "PSD",
     "total_reunioes": 78,
     "presencas": 70,
-    "faltas_justificadas": 1,
+    "faltas_justificadas": 2,
     "faltas_injustificadas": 0,
     "missao_parlamentar": 1,
     "falta_quorum_votacao": 0
@@ -1402,7 +1402,7 @@
     "gp": "PS",
     "total_reunioes": 53,
     "presencas": 52,
-    "faltas_justificadas": 0,
+    "faltas_justificadas": 1,
     "faltas_injustificadas": 0,
     "missao_parlamentar": 0,
     "falta_quorum_votacao": 0
@@ -1842,7 +1842,7 @@
     "gp": "PSD",
     "total_reunioes": 78,
     "presencas": 60,
-    "faltas_justificadas": 3,
+    "faltas_justificadas": 4,
     "faltas_injustificadas": 0,
     "missao_parlamentar": 14,
     "falta_quorum_votacao": 0
@@ -2084,7 +2084,7 @@
     "gp": "CH",
     "total_reunioes": 78,
     "presencas": 59,
-    "faltas_justificadas": 10,
+    "faltas_justificadas": 13,
     "faltas_injustificadas": 0,
     "missao_parlamentar": 2,
     "falta_quorum_votacao": 0

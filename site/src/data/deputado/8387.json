@@ -4,7 +4,7 @@
   "gp": "PS",
   "totais": {
     "P": 52,
-    "UNKNOWN": 1
+    "FJ": 1
   },
   "total_reunioes": 53,
   "eventos": [
@@ -26,9 +26,9 @@
     {
       "data": "2026-04-16",
       "reuniao_bid": 376276,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Doença"
     },
     {
       "data": "2026-04-15",

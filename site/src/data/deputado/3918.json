@@ -3,9 +3,8 @@
   "nome": "Paula Cardoso",
   "gp": "PSD",
   "totais": {
-    "UNKNOWN": 1,
+    "FJ": 4,
     "P": 60,
-    "FJ": 3,
     "AMP": 14
   },
   "total_reunioes": 78,
@@ -14,9 +13,9 @@
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Parlamentar"
     },
     {
       "data": "2026-04-16",

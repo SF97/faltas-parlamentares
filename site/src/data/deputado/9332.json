@@ -3,9 +3,8 @@
   "nome": "Eva Cruzeiro",
   "gp": "PS",
   "totais": {
-    "UNKNOWN": 3,
-    "P": 67,
-    "FJ": 8
+    "FJ": 11,
+    "P": 67
   },
   "total_reunioes": 78,
   "eventos": [],
@@ -13,23 +12,23 @@
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2026-04-16",
       "reuniao_bid": 376276,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2026-04-15",
       "reuniao_bid": 376275,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2026-04-10",

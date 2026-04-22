@@ -3,9 +3,8 @@
   "nome": "Pedro dos Santos Frazão",
   "gp": "CH",
   "totais": {
-    "UNKNOWN": 3,
+    "FJ": 13,
     "P": 59,
-    "FJ": 10,
     "PNO": 4,
     "AMP": 2
   },
@@ -28,23 +27,23 @@
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família"
     },
     {
       "data": "2026-04-16",
       "reuniao_bid": 376276,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família"
     },
     {
       "data": "2026-04-15",
       "reuniao_bid": 376275,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família"
     },
     {
       "data": "2026-04-10",
