@@ -3,9 +3,8 @@
   "nome": "Joana Seabra",
   "gp": "PSD",
   "totais": {
-    "UNKNOWN": 1,
-    "P": 70,
-    "FJ": 7
+    "FJ": 8,
+    "P": 70
   },
   "total_reunioes": 78,
   "eventos": [
@@ -32,9 +31,9 @@
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família"
     },
     {
       "data": "2026-04-16",

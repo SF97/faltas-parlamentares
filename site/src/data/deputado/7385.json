@@ -4,9 +4,8 @@
   "gp": "CH",
   "totais": {
     "P": 71,
-    "UNKNOWN": 1,
-    "PNO": 3,
-    "FJ": 3
+    "FJ": 4,
+    "PNO": 3
   },
   "total_reunioes": 78,
   "eventos": [],
@@ -28,9 +27,9 @@
     {
       "data": "2026-04-15",
       "reuniao_bid": 376275,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2026-04-10",

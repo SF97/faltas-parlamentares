@@ -13,6 +13,12 @@
       "tipo": "entrada",
       "motivo": "Suspensão",
       "contraparte": "Pedro Nuno Santos"
+    },
+    {
+      "data": "2026-04-22",
+      "tipo": "saida",
+      "motivo": "Termo da suspensão",
+      "contraparte": "Pedro Nuno Santos"
     }
   ],
   "sessoes": [

@@ -3,10 +3,9 @@
   "nome": "Pedro Pessanha",
   "gp": "CH",
   "totais": {
-    "UNKNOWN": 2,
+    "FJ": 6,
     "P": 64,
-    "AMP": 8,
-    "FJ": 4
+    "AMP": 8
   },
   "total_reunioes": 78,
   "eventos": [],
@@ -14,9 +13,9 @@
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Doença"
     },
     {
       "data": "2026-04-16",
@@ -28,9 +27,9 @@
     {
       "data": "2026-04-15",
       "reuniao_bid": 376275,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Doença"
     },
     {
       "data": "2026-04-10",
