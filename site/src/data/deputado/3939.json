@@ -3,10 +3,10 @@
   "nome": "Hernâni Loureiro",
   "gp": "PS",
   "totais": {
-    "P": 32,
+    "P": 33,
     "AMP": 1
   },
-  "total_reunioes": 33,
+  "total_reunioes": 34,
   "eventos": [
     {
       "data": "2026-01-13",
@@ -16,6 +16,13 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,

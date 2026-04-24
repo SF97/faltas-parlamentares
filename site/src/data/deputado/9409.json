@@ -3,15 +3,22 @@
   "nome": "Patrícia Nascimento",
   "gp": "CH",
   "totais": {
-    "UNKNOWN": 1,
+    "UNKNOWN": 2,
     "P": 66,
     "FJ": 4,
     "PNO": 5,
     "AMP": 2
   },
-  "total_reunioes": 78,
+  "total_reunioes": 79,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "UNKNOWN",
+      "estado_label": "Falta",
+      "motivo": null
+    },
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,

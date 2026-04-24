@@ -3,10 +3,10 @@
   "nome": "Emanuel Câmara",
   "gp": "PS",
   "totais": {
-    "P": 50,
+    "P": 51,
     "FJ": 1
   },
-  "total_reunioes": 51,
+  "total_reunioes": 52,
   "eventos": [
     {
       "data": "2025-06-03",
@@ -22,6 +22,13 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,

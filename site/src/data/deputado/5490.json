@@ -3,10 +3,10 @@
   "nome": "Helga Correia",
   "gp": "PSD",
   "totais": {
-    "P": 75,
+    "P": 76,
     "FJ": 2
   },
-  "total_reunioes": 77,
+  "total_reunioes": 78,
   "eventos": [
     {
       "data": "2025-06-06",
@@ -16,6 +16,13 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,

@@ -3,14 +3,20 @@
   "nome": "Manuel Magno",
   "gp": "CH",
   "totais": {
-    "P": 45,
-    "UNKNOWN": 2,
-    "FJ": 25,
+    "P": 46,
+    "FJ": 27,
     "AMP": 6
   },
-  "total_reunioes": 78,
+  "total_reunioes": 79,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,
@@ -28,9 +34,9 @@
     {
       "data": "2026-04-15",
       "reuniao_bid": 376275,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2026-04-10",
@@ -42,9 +48,9 @@
     {
       "data": "2026-04-09",
       "reuniao_bid": 376273,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2026-04-08",

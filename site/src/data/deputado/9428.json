@@ -3,10 +3,10 @@
   "nome": "Miguel Rangel",
   "gp": "IL",
   "totais": {
-    "P": 52,
+    "P": 53,
     "FJ": 4
   },
-  "total_reunioes": 56,
+  "total_reunioes": 57,
   "eventos": [
     {
       "data": "2026-01-27",
@@ -34,6 +34,13 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,

@@ -3,12 +3,19 @@
   "nome": "Rita Matias",
   "gp": "CH",
   "totais": {
-    "P": 67,
-    "FJ": 11
+    "FJ": 12,
+    "P": 67
   },
-  "total_reunioes": 78,
+  "total_reunioes": 79,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
+    },
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,

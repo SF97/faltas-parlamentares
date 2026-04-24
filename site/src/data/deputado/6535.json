@@ -3,12 +3,10 @@
   "nome": "André Ventura",
   "gp": "CH",
   "totais": {
-    "UNKNOWN": 1,
-    "P": 50,
-    "FJ": 17,
-    "FQV": 1
+    "FJ": 20,
+    "P": 50
   },
-  "total_reunioes": 69,
+  "total_reunioes": 70,
   "eventos": [
     {
       "data": "2026-01-01",
@@ -25,11 +23,18 @@
   ],
   "sessoes": [
     {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
+    },
+    {
       "data": "2026-04-17",
       "reuniao_bid": 376277,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2026-04-16",
@@ -216,9 +221,9 @@
     {
       "data": "2025-12-19",
       "reuniao_bid": 335331,
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2025-12-18",

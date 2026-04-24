@@ -3,12 +3,12 @@
   "nome": "Pedro dos Santos Frazão",
   "gp": "CH",
   "totais": {
+    "P": 60,
     "FJ": 13,
-    "P": 59,
     "PNO": 4,
     "AMP": 2
   },
-  "total_reunioes": 78,
+  "total_reunioes": 79,
   "eventos": [
     {
       "data": "2026-01-12",
@@ -24,6 +24,13 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,

@@ -3,12 +3,19 @@
   "nome": "Rui Afonso",
   "gp": "CH",
   "totais": {
-    "P": 77,
+    "P": 78,
     "FJ": 1
   },
-  "total_reunioes": 78,
+  "total_reunioes": 79,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,

@@ -3,12 +3,19 @@
   "nome": "Pedro Soares Pimenta",
   "gp": "PSD",
   "totais": {
-    "P": 35,
+    "P": 36,
     "FJ": 1
   },
-  "total_reunioes": 36,
+  "total_reunioes": 37,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,

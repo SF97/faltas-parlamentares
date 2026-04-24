@@ -3,15 +3,21 @@
   "nome": "Paula Santos",
   "gp": "PCP",
   "totais": {
-    "P": 71,
-    "UNKNOWN": 1,
+    "P": 73,
     "AMP": 3,
     "PNO": 2,
     "FI": 1
   },
-  "total_reunioes": 78,
+  "total_reunioes": 79,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,
@@ -22,8 +28,8 @@
     {
       "data": "2026-04-16",
       "reuniao_bid": 376276,
-      "estado": "UNKNOWN",
-      "estado_label": "Falta",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null
     },
     {

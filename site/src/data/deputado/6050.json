@@ -3,14 +3,21 @@
   "nome": "André Pinotes Batista",
   "gp": "PS",
   "totais": {
+    "P": 63,
     "AMP": 3,
-    "P": 62,
     "UNKNOWN": 2,
     "FJ": 11
   },
-  "total_reunioes": 78,
+  "total_reunioes": 79,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-17",
       "reuniao_bid": 376277,
