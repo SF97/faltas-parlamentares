@@ -3,12 +3,12 @@
   "nome": "Isabel Fernandes",
   "gp": "PSD",
   "totais": {
-    "P": 71,
+    "P": 73,
     "FJ": 2,
     "PNO": 5,
     "AMP": 1
   },
-  "total_reunioes": 79,
+  "total_reunioes": 81,
   "eventos": [
     {
       "data": "2025-06-03",
@@ -30,6 +30,20 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-22",
       "reuniao_bid": 376278,

@@ -3,12 +3,26 @@
   "nome": "Liliana Sousa",
   "gp": "PSD",
   "totais": {
-    "P": 19,
+    "P": 21,
     "FJ": 1
   },
-  "total_reunioes": 20,
+  "total_reunioes": 22,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-22",
       "reuniao_bid": 376278,

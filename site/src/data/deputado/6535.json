@@ -3,10 +3,10 @@
   "nome": "André Ventura",
   "gp": "CH",
   "totais": {
-    "FJ": 20,
-    "P": 50
+    "P": 52,
+    "FJ": 20
   },
-  "total_reunioes": 70,
+  "total_reunioes": 72,
   "eventos": [
     {
       "data": "2026-01-01",
@@ -22,6 +22,20 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-22",
       "reuniao_bid": 376278,

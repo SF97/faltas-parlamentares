@@ -3,14 +3,29 @@
   "nome": "Maurício Marques",
   "gp": "PSD",
   "totais": {
-    "P": 68,
+    "FQV": 1,
+    "P": 69,
     "FJ": 2,
     "AMP": 8,
     "PNO": 1
   },
-  "total_reunioes": 79,
+  "total_reunioes": 81,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-22",
       "reuniao_bid": 376278,

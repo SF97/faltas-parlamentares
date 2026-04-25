@@ -3,13 +3,27 @@
   "nome": "Nuno Simões de Melo",
   "gp": "CH",
   "totais": {
-    "P": 74,
-    "AMP": 3,
-    "FJ": 2
+    "P": 75,
+    "FJ": 3,
+    "AMP": 3
   },
-  "total_reunioes": 79,
+  "total_reunioes": 81,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família"
+    },
     {
       "data": "2026-04-22",
       "reuniao_bid": 376278,

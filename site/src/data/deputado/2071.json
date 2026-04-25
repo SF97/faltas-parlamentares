@@ -3,11 +3,11 @@
   "nome": "Miguel Santos",
   "gp": "PSD",
   "totais": {
-    "P": 68,
+    "P": 70,
     "AMP": 5,
     "FJ": 6
   },
-  "total_reunioes": 79,
+  "total_reunioes": 81,
   "eventos": [
     {
       "data": "2025-06-03",
@@ -17,6 +17,20 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-22",
       "reuniao_bid": 376278,

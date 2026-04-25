@@ -3,11 +3,11 @@
   "nome": "José Cesário",
   "gp": "PSD",
   "totais": {
+    "P": 52,
     "FJ": 19,
-    "P": 50,
     "AMP": 9
   },
-  "total_reunioes": 78,
+  "total_reunioes": 80,
   "eventos": [
     {
       "data": "2025-06-03",
@@ -23,6 +23,20 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-22",
       "reuniao_bid": 376278,

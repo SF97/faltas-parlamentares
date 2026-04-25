@@ -3,11 +3,11 @@
   "nome": "Carlos Guimarães Pinto",
   "gp": "IL",
   "totais": {
-    "P": 62,
+    "P": 64,
     "FJ": 4,
     "AMP": 3
   },
-  "total_reunioes": 69,
+  "total_reunioes": 71,
   "eventos": [
     {
       "data": "2026-01-21",
@@ -23,6 +23,20 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-22",
       "reuniao_bid": 376278,

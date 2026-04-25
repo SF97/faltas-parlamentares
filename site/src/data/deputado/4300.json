@@ -3,13 +3,28 @@
   "nome": "Hugo Soares",
   "gp": "PSD",
   "totais": {
-    "P": 73,
+    "P": 74,
+    "UNKNOWN": 1,
     "FQV": 1,
     "FJ": 5
   },
-  "total_reunioes": 79,
+  "total_reunioes": 81,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "UNKNOWN",
+      "estado_label": "Falta",
+      "motivo": null
+    },
     {
       "data": "2026-04-22",
       "reuniao_bid": 376278,
