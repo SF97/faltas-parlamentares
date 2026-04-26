@@ -4,8 +4,8 @@
   "gp": "IL",
   "totais": {
     "P": 54,
-    "UNKNOWN": 1,
-    "FJ": 4
+    "FJ": 4,
+    "F": 1
   },
   "total_reunioes": 59,
   "eventos": [
@@ -45,7 +45,7 @@
     {
       "data": "2026-04-23",
       "reuniao_bid": 376279,
-      "estado": "UNKNOWN",
+      "estado": "F",
       "estado_label": "Falta",
       "motivo": null
     },

@@ -6,9 +6,9 @@
     "FQV": 7,
     "P": 67,
     "PNO": 1,
-    "UNKNOWN": 4,
     "FJ": 1,
-    "AMP": 1
+    "AMP": 1,
+    "F": 4
   },
   "total_reunioes": 81,
   "eventos": [],
@@ -275,14 +275,14 @@
     {
       "data": "2026-01-08",
       "reuniao_bid": 335340,
-      "estado": "UNKNOWN",
+      "estado": "F",
       "estado_label": "Falta",
       "motivo": null
     },
     {
       "data": "2026-01-07",
       "reuniao_bid": 335339,
-      "estado": "UNKNOWN",
+      "estado": "F",
       "estado_label": "Falta",
       "motivo": null
     },
@@ -324,7 +324,7 @@
     {
       "data": "2025-12-10",
       "reuniao_bid": 335280,
-      "estado": "UNKNOWN",
+      "estado": "F",
       "estado_label": "Falta",
       "motivo": null
     },
@@ -338,7 +338,7 @@
     {
       "data": "2025-12-04",
       "reuniao_bid": 335277,
-      "estado": "UNKNOWN",
+      "estado": "F",
       "estado_label": "Falta",
       "motivo": null
     },

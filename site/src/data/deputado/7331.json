@@ -6,8 +6,8 @@
     "P": 64,
     "PNO": 2,
     "FJ": 12,
-    "UNKNOWN": 2,
-    "FQV": 1
+    "FQV": 1,
+    "F": 2
   },
   "total_reunioes": 81,
   "eventos": [],
@@ -113,7 +113,7 @@
     {
       "data": "2026-03-19",
       "reuniao_bid": 366149,
-      "estado": "UNKNOWN",
+      "estado": "F",
       "estado_label": "Falta",
       "motivo": null
     },
@@ -232,7 +232,7 @@
     {
       "data": "2026-01-29",
       "reuniao_bid": 355456,
-      "estado": "UNKNOWN",
+      "estado": "F",
       "estado_label": "Falta",
       "motivo": null
     },

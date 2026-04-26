@@ -10,6 +10,7 @@ STATUS_CODES = {
     "Ausência em Missão Parlamentar (AMP)": "AMP",
     "Falta ao Quórum de Votação": "FQV",
     "Presença Noutro Órgão (PNO)": "PNO",
+    "Falta": "F",
 }
 
 

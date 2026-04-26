@@ -6,7 +6,7 @@
     "P": 66,
     "FJ": 4,
     "AMP": 10,
-    "UNKNOWN": 1
+    "F": 1
   },
   "total_reunioes": 81,
   "eventos": [],
@@ -196,7 +196,7 @@
     {
       "data": "2026-02-19",
       "reuniao_bid": 365968,
-      "estado": "UNKNOWN",
+      "estado": "F",
       "estado_label": "Falta",
       "motivo": null
     },
