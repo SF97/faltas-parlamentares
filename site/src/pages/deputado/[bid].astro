@@ -90,7 +90,7 @@ const rank = [...deputados]
 				<tr>
 					<td>{s.data}</td>
 					<td>
-						<span class={`badge ${s.estado}`}>{s.estado}</span> {s.estado_label}
+						<span class={`badge ${s.estado}`}>{s.estado}</span> {s.estado === "F" ? "Falta (não classificada pelo Parlamento)" : s.estado_label}
 						{s.motivo && <span class="motivo"> — {s.motivo}</span>}
 					</td>
 				</tr>
