@@ -4,10 +4,10 @@
   "gp": "PSD",
   "totais": {
     "P": 66,
+    "F": 1,
     "AMP": 9,
     "PNO": 2,
-    "FJ": 3,
-    "F": 1
+    "FJ": 3
   },
   "total_reunioes": 81,
   "eventos": [],

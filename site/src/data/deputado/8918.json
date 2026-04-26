@@ -3,14 +3,55 @@
   "nome": "Ricardo Dias Pinto",
   "gp": "CH",
   "totais": {
-    "P": 59,
-    "FJ": 12,
-    "AMP": 2,
-    "F": 1
+    "AMP": 5,
+    "P": 62,
+    "FJ": 14
   },
-  "total_reunioes": 74,
+  "total_reunioes": 81,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-10",
       "reuniao_bid": 376274,
@@ -21,9 +62,16 @@
     {
       "data": "2026-04-09",
       "reuniao_bid": 376273,
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família"
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família"
     },
     {
       "data": "2026-04-02",

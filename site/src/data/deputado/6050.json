@@ -3,13 +3,56 @@
   "nome": "André Pinotes Batista",
   "gp": "PS",
   "totais": {
-    "P": 61,
-    "FJ": 11,
-    "F": 2
+    "P": 65,
+    "AMP": 3,
+    "F": 2,
+    "FJ": 11
   },
-  "total_reunioes": 74,
+  "total_reunioes": 81,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null
+    },
     {
       "data": "2026-04-10",
       "reuniao_bid": 376274,
@@ -20,6 +63,13 @@
     {
       "data": "2026-04-09",
       "reuniao_bid": 376273,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null

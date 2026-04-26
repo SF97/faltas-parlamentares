@@ -3,16 +3,58 @@
   "nome": "Sandra Pereira",
   "gp": "PSD",
   "totais": {
-    "FQV": 1,
-    "P": 57,
+    "FQV": 2,
+    "P": 63,
+    "F": 1,
     "FJ": 5,
     "PNO": 3,
-    "AMP": 7,
-    "F": 1
+    "AMP": 7
   },
-  "total_reunioes": 74,
+  "total_reunioes": 81,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-10",
       "reuniao_bid": 376274,
@@ -25,6 +67,13 @@
       "reuniao_bid": 376273,
       "estado": "F",
       "estado_label": "Falta",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null
     },
     {

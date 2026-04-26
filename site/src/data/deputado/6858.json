@@ -3,24 +3,72 @@
   "nome": "Diogo Pacheco de Amorim",
   "gp": "CH",
   "totais": {
-    "FQV": 3,
-    "P": 64,
-    "FJ": 6,
-    "F": 1
+    "FQV": 1,
+    "P": 70,
+    "FJ": 10
   },
-  "total_reunioes": 74,
+  "total_reunioes": 81,
   "eventos": [],
   "sessoes": [
     {
-      "data": "2026-04-10",
-      "reuniao_bid": 376274,
+      "data": "2026-04-24",
+      "reuniao_bid": 376280,
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
       "motivo": null
     },
     {
+      "data": "2026-04-23",
+      "reuniao_bid": 376279,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-22",
+      "reuniao_bid": 376278,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-17",
+      "reuniao_bid": 376277,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-16",
+      "reuniao_bid": 376276,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-15",
+      "reuniao_bid": 376275,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-10",
+      "reuniao_bid": 376274,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
+    },
+    {
       "data": "2026-04-09",
       "reuniao_bid": 376273,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
+      "data": "2026-04-08",
+      "reuniao_bid": 376272,
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null
@@ -56,9 +104,9 @@
     {
       "data": "2026-03-20",
       "reuniao_bid": 366150,
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2026-03-19",
@@ -203,9 +251,9 @@
     {
       "data": "2026-01-22",
       "reuniao_bid": 355452,
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2026-01-21",
@@ -217,9 +265,9 @@
     {
       "data": "2026-01-09",
       "reuniao_bid": 335342,
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político"
     },
     {
       "data": "2026-01-08",
