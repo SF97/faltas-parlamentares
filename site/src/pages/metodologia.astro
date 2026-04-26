@@ -10,7 +10,7 @@ import meta from "../data/meta.json";
 	<h2>Fonte dos dados</h2>
 	<p>
 		Os dados vêm das páginas oficiais <em>Presenças às Reuniões Plenárias</em> publicadas pelo Parlamento (uma por deputado, em
-		<code>parlamento.pt/DeputadoGP/Paginas/PresencasReunioesPlenarias.aspx?BID=&lt;id&gt;</code>). A lista de deputados activos
+		<code>parlamento.pt/DeputadoGP/Paginas/PresencasReunioesPlenarias.aspx?BID=&lt;id&gt;</code>). A lista de deputados ativos
 		é obtida a partir da página de detalhe de uma reunião recente da {meta.legislatura} Legislatura.
 	</p>
 
@@ -31,15 +31,15 @@ import meta from "../data/meta.json";
 		e depois por nome. O total de reuniões elegíveis varia por deputado (ver secção seguinte).
 	</p>
 
-	<h2>Substituições e efectivos temporariamente substituídos</h2>
+	<h2>Substituições e efetivos temporariamente substituídos</h2>
 	<p>
-		Quando um deputado efectivo se ausenta por período prolongado (licença, candidatura a outro cargo, função no Governo, etc.),
-		um deputado suplente ocupa o seu lugar. As reuniões desse período ficam registadas na página do suplente, não do efectivo.
+		Quando um deputado efetivo se ausenta por período prolongado (licença, candidatura a outro cargo, função no Governo, etc.),
+		um deputado suplente ocupa o seu lugar. As reuniões desse período ficam registadas na página do suplente, não do efetivo.
 		Como resultado, deputados substituídos no decurso da Legislatura aparecem aqui com menos reuniões. O mesmo acontece com
-		suplentes que só entraram a meio — só registam as reuniões em que estiveram activos.
+		suplentes que só entraram a meio — só registam as reuniões em que estiveram ativos.
 	</p>
 	<p>
-		Por agora este site <strong>não funde</strong> os registos de efectivo e suplente. Se o José Cesário, por exemplo, aparece
+		Por agora este site <strong>não funde</strong> os registos de efetivo e suplente. Se o José Cesário, por exemplo, aparece
 		com 73 reuniões em vez de 74, é porque, durante uma breve suspensão do mandato em Junho de 2025, o seu substituto Flávio
 		Martins cobriu uma plenária; esse dia é contado na página do substituto, não nesta.
 	</p>
@@ -47,8 +47,8 @@ import meta from "../data/meta.json";
 	<h2>Limitações</h2>
 	<ul>
 		<li>Só reuniões plenárias. Comissões parlamentares não contam.</li>
-		<li>Registos de efectivos e respectivos suplentes são contados separadamente (ver acima).</li>
-		<li>Os dados são apenas tão fiáveis quanto a publicação oficial. Correções posteriores pelo Parlamento só se reflectem aqui no próximo ciclo de ingestão diária.</li>
+		<li>Registos de efetivos e respetivos suplentes são contados separadamente (ver acima).</li>
+		<li>Os dados são apenas tão fiáveis quanto a publicação oficial. Correções posteriores pelo Parlamento só se refletem aqui no próximo ciclo de ingestão diária.</li>
 	</ul>
 
 	<h2>Código</h2>
