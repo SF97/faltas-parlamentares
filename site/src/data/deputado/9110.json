@@ -3,13 +3,21 @@
   "nome": "Leandro Ferreira Luís",
   "gp": "PSD",
   "totais": {
+    "F": 1,
     "P": 51,
     "AMP": 1,
     "FJ": 4
   },
-  "total_reunioes": 56,
+  "total_reunioes": 57,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-25",
+      "reuniao_bid": 376281,
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null
+    },
     {
       "data": "2026-04-24",
       "reuniao_bid": 376280,

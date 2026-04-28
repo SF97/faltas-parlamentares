@@ -3,9 +3,10 @@
   "nome": "Vítor Guerreiro",
   "gp": "PS",
   "totais": {
+    "F": 1,
     "P": 22
   },
-  "total_reunioes": 22,
+  "total_reunioes": 23,
   "eventos": [
     {
       "data": "2026-03-02",
@@ -15,6 +16,13 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-25",
+      "reuniao_bid": 376281,
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null
+    },
     {
       "data": "2026-04-24",
       "reuniao_bid": 376280,

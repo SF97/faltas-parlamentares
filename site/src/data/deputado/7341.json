@@ -3,12 +3,20 @@
   "nome": "Francisco César",
   "gp": "PS",
   "totais": {
+    "F": 1,
     "P": 76,
     "FJ": 5
   },
-  "total_reunioes": 81,
+  "total_reunioes": 82,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-25",
+      "reuniao_bid": 376281,
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null
+    },
     {
       "data": "2026-04-24",
       "reuniao_bid": 376280,

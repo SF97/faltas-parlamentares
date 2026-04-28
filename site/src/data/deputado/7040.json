@@ -3,9 +3,9 @@
   "nome": "Fabian Figueiredo",
   "gp": "BE",
   "totais": {
-    "P": 39
+    "P": 40
   },
-  "total_reunioes": 39,
+  "total_reunioes": 40,
   "eventos": [
     {
       "data": "2026-01-01",
@@ -15,6 +15,13 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-25",
+      "reuniao_bid": 376281,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-24",
       "reuniao_bid": 376280,

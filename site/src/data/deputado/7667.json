@@ -3,10 +3,10 @@
   "nome": "Liliana Fidalgo",
   "gp": "PSD",
   "totais": {
-    "P": 49,
+    "P": 50,
     "FJ": 5
   },
-  "total_reunioes": 54,
+  "total_reunioes": 55,
   "eventos": [
     {
       "data": "2025-11-03",
@@ -16,6 +16,13 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-25",
+      "reuniao_bid": 376281,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-24",
       "reuniao_bid": 376280,

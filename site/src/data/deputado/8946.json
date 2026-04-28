@@ -3,11 +3,11 @@
   "nome": "Rui Fernandes",
   "gp": "CH",
   "totais": {
-    "P": 59,
+    "P": 60,
     "F": 1,
     "FJ": 4
   },
-  "total_reunioes": 64,
+  "total_reunioes": 65,
   "eventos": [
     {
       "data": "2025-09-22",
@@ -17,6 +17,13 @@
     }
   ],
   "sessoes": [
+    {
+      "data": "2026-04-25",
+      "reuniao_bid": 376281,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
     {
       "data": "2026-04-24",
       "reuniao_bid": 376280,

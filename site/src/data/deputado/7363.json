@@ -3,28 +3,33 @@
   "nome": "Rodrigo Alves Taxa",
   "gp": "CH",
   "totais": {
-    "FQV": 1,
-    "F": 1,
-    "P": 66,
-    "FJ": 11,
+    "P": 67,
+    "FJ": 13,
     "PNO": 2
   },
-  "total_reunioes": 81,
+  "total_reunioes": 82,
   "eventos": [],
   "sessoes": [
     {
+      "data": "2026-04-25",
+      "reuniao_bid": 376281,
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null
+    },
+    {
       "data": "2026-04-24",
       "reuniao_bid": 376280,
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Paternidade"
     },
     {
       "data": "2026-04-23",
       "reuniao_bid": 376279,
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Paternidade"
     },
     {
       "data": "2026-04-22",

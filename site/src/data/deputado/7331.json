@@ -3,15 +3,22 @@
   "nome": "Rui Rocha",
   "gp": "IL",
   "totais": {
+    "F": 3,
     "P": 64,
     "PNO": 2,
     "FJ": 12,
-    "F": 2,
     "FQV": 1
   },
-  "total_reunioes": 81,
+  "total_reunioes": 82,
   "eventos": [],
   "sessoes": [
+    {
+      "data": "2026-04-25",
+      "reuniao_bid": 376281,
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null
+    },
     {
       "data": "2026-04-24",
       "reuniao_bid": 376280,
