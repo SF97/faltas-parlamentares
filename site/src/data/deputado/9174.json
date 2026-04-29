@@ -1,181 +1,181 @@
 {
   "bid": 9174,
-  "nome": "Vítor Guerreiro",
+  "eventos": [
+    {
+      "contraparte": "Jorge Botelho",
+      "data": "2026-03-02",
+      "motivo": "Suspensão",
+      "tipo": "entrada"
+    }
+  ],
   "gp": "PS",
+  "nome": "Vítor Guerreiro",
+  "sessoes": [
+    {
+      "data": "2026-04-25",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 376281
+    },
+    {
+      "data": "2026-04-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376280
+    },
+    {
+      "data": "2026-04-23",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376279
+    },
+    {
+      "data": "2026-04-22",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376278
+    },
+    {
+      "data": "2026-04-17",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376277
+    },
+    {
+      "data": "2026-04-16",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376276
+    },
+    {
+      "data": "2026-04-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376275
+    },
+    {
+      "data": "2026-04-10",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376274
+    },
+    {
+      "data": "2026-04-09",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376273
+    },
+    {
+      "data": "2026-04-08",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376272
+    },
+    {
+      "data": "2026-04-02",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366154
+    },
+    {
+      "data": "2026-04-01",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366153
+    },
+    {
+      "data": "2026-03-26",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366152
+    },
+    {
+      "data": "2026-03-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366151
+    },
+    {
+      "data": "2026-03-20",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366150
+    },
+    {
+      "data": "2026-03-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366149
+    },
+    {
+      "data": "2026-03-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366148
+    },
+    {
+      "data": "2026-03-13",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366065
+    },
+    {
+      "data": "2026-03-12",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366056
+    },
+    {
+      "data": "2026-03-09",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366054
+    },
+    {
+      "data": "2026-03-06",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366052
+    },
+    {
+      "data": "2026-03-05",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366051
+    },
+    {
+      "data": "2026-03-04",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366047
+    }
+  ],
   "totais": {
     "F": 1,
     "P": 22
   },
-  "total_reunioes": 23,
-  "eventos": [
-    {
-      "data": "2026-03-02",
-      "tipo": "entrada",
-      "motivo": "Suspensão",
-      "contraparte": "Jorge Botelho"
-    }
-  ],
-  "sessoes": [
-    {
-      "data": "2026-04-25",
-      "reuniao_bid": 376281,
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null
-    },
-    {
-      "data": "2026-04-24",
-      "reuniao_bid": 376280,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-04-23",
-      "reuniao_bid": 376279,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-04-22",
-      "reuniao_bid": 376278,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-04-17",
-      "reuniao_bid": 376277,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-04-16",
-      "reuniao_bid": 376276,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-04-15",
-      "reuniao_bid": 376275,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-04-10",
-      "reuniao_bid": 376274,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-04-09",
-      "reuniao_bid": 376273,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-04-08",
-      "reuniao_bid": 376272,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-04-02",
-      "reuniao_bid": 366154,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-04-01",
-      "reuniao_bid": 366153,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-03-26",
-      "reuniao_bid": 366152,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-03-25",
-      "reuniao_bid": 366151,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-03-20",
-      "reuniao_bid": 366150,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-03-19",
-      "reuniao_bid": 366149,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-03-18",
-      "reuniao_bid": 366148,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-03-13",
-      "reuniao_bid": 366065,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-03-12",
-      "reuniao_bid": 366056,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-03-09",
-      "reuniao_bid": 366054,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-03-06",
-      "reuniao_bid": 366052,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-03-05",
-      "reuniao_bid": 366051,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    },
-    {
-      "data": "2026-03-04",
-      "reuniao_bid": 366047,
-      "estado": "P",
-      "estado_label": "Presença (P)",
-      "motivo": null
-    }
-  ]
+  "total_reunioes": 23
 }
