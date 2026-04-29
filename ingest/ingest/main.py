@@ -46,8 +46,13 @@ def main() -> int:
     print("alteracoes: fetching…", file=sys.stderr)
     alteracoes = fetch_alteracoes()
     print(f"alteracoes: {len(alteracoes)} events", file=sys.stderr)
+    if len(alteracoes) == 0:
+        raise SystemExit(
+            "alteracoes sanity check failed: got 0 events. "
+            "Parliament's HTML may have changed."
+        )
     (SITE_DATA / "substituicoes.json").write_text(
-        json.dumps([asdict(a) for a in alteracoes], ensure_ascii=False, indent=2),
+        json.dumps([asdict(a) for a in alteracoes], ensure_ascii=False, indent=2, sort_keys=True),
         encoding="utf-8",
     )
 
@@ -97,7 +102,7 @@ def main() -> int:
             ],
         }
         (SITE_DATA / "deputado" / f"{r.bid}.json").write_text(
-            json.dumps(detail, ensure_ascii=False, indent=2), encoding="utf-8"
+            json.dumps(detail, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8"
         )
 
         summary.append(
@@ -116,7 +121,7 @@ def main() -> int:
 
     summary.sort(key=lambda d: -(d["faltas_injustificadas"]))
     (SITE_DATA / "deputados.json").write_text(
-        json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(summary, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8"
     )
 
     meta = {
@@ -126,7 +131,7 @@ def main() -> int:
         "substituicoes": len(alteracoes),
     }
     (SITE_DATA / "meta.json").write_text(
-        json.dumps(meta, ensure_ascii=False, indent=2), encoding="utf-8"
+        json.dumps(meta, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8"
     )
 
     print(f"wrote {len(summary)} deputados to {SITE_DATA}", file=sys.stderr)
