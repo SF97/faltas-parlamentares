@@ -18,6 +18,20 @@
   "nome": "José Cesário",
   "sessoes": [
     {
+      "data": "2026-04-30",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376476
+    },
+    {
+      "data": "2026-04-29",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376475
+    },
+    {
       "data": "2026-04-25",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -586,9 +600,9 @@
     }
   ],
   "totais": {
-    "AMP": 9,
+    "AMP": 11,
     "FJ": 20,
     "P": 52
   },
-  "total_reunioes": 81
+  "total_reunioes": 83
 }

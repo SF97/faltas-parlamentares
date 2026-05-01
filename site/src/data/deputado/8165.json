@@ -5,6 +5,20 @@
   "nome": "Catarina Louro",
   "sessoes": [
     {
+      "data": "2026-04-30",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376476
+    },
+    {
+      "data": "2026-04-29",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376475
+    },
+    {
       "data": "2026-04-25",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -580,9 +594,9 @@
     }
   ],
   "totais": {
-    "AMP": 6,
+    "AMP": 8,
     "FJ": 8,
     "P": 68
   },
-  "total_reunioes": 82
+  "total_reunioes": 84
 }

@@ -5,6 +5,20 @@
   "nome": "João Torres",
   "sessoes": [
     {
+      "data": "2026-04-30",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376476
+    },
+    {
+      "data": "2026-04-29",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376475
+    },
+    {
       "data": "2026-04-25",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -583,7 +597,7 @@
     "AMP": 10,
     "F": 1,
     "FJ": 4,
-    "P": 67
+    "P": 69
   },
-  "total_reunioes": 82
+  "total_reunioes": 84
 }
