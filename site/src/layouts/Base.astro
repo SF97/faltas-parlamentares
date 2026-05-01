@@ -79,7 +79,8 @@ const { title, description = "Ausências dos deputados da Assembleia da Repúbli
 			th { background: #f3f1ec; font-weight: 600; color: var(--fg-muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; position: sticky; top: 0; z-index: 1; }
 			tr:last-child td { border-bottom: 0; }
 			td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
-			.gp { display: inline-block; padding: .1rem .45rem; border-radius: 3px; font-size: .75rem; font-weight: 600; color: #fff; letter-spacing: .02em; }
+			.gp { display: inline-block; padding: .1rem .45rem; border-radius: 3px; font-size: .75rem; font-weight: 600; color: #fff; letter-spacing: .02em; text-decoration: none; }
+			a.gp:hover { filter: brightness(1.1); }
 			.gp[data-p="PS"]   { background: #ec407a; }
 			.gp[data-p="PSD"]  { background: #f57c00; }
 			.gp[data-p="CH"]   { background: #1a3a8a; }

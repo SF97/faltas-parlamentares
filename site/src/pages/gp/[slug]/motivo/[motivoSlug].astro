@@ -1,0 +1,83 @@
+---
+import Base from "../../../../layouts/Base.astro";
+import { base } from "../../../../lib/base";
+
+type Sessao = { data: string; reuniao_bid: number; estado: string; motivo: string | null };
+type DeputadoDetail = { bid: number; nome: string; gp: string; sessoes: Sessao[] };
+
+const slugify = (s: string): string =>
+	s
+		.normalize("NFD")
+		.replace(/[̀-ͯ]/g, "")
+		.toLowerCase()
+		.replace(/[^a-z0-9]+/g, "-")
+		.replace(/(^-|-$)/g, "");
+
+export async function getStaticPaths() {
+	const slug = (s: string): string =>
+		s
+			.normalize("NFD")
+			.replace(/[̀-ͯ]/g, "")
+			.toLowerCase()
+			.replace(/[^a-z0-9]+/g, "-")
+			.replace(/(^-|-$)/g, "");
+	const files = import.meta.glob<{ default: DeputadoDetail }>("../../../../data/deputado/*.json", { eager: true });
+	type Row = { bid: number; nome: string; data: string; reuniao_bid: number };
+	type Bucket = { gp: string; motivo: string; rows: Row[] };
+	const buckets = new Map<string, Bucket>();
+	for (const mod of Object.values(files)) {
+		const d = mod.default;
+		for (const s of d.sessoes) {
+			if (s.estado !== "FJ" || !s.motivo) continue;
+			const key = `${d.gp}::${s.motivo}`;
+			if (!buckets.has(key)) buckets.set(key, { gp: d.gp, motivo: s.motivo, rows: [] });
+			buckets.get(key)!.rows.push({ bid: d.bid, nome: d.nome, data: s.data, reuniao_bid: s.reuniao_bid });
+		}
+	}
+	return Array.from(buckets.values()).map((b) => ({
+		params: { slug: slug(b.gp), motivoSlug: slug(b.motivo) },
+		props: { gp: b.gp, motivo: b.motivo, rows: b.rows },
+	}));
+}
+
+type Row = { bid: number; nome: string; data: string; reuniao_bid: number };
+const { gp, motivo, rows } = Astro.props as { gp: string; motivo: string; rows: Row[] };
+
+const byDeputy = new Map<number, { bid: number; nome: string; datas: string[] }>();
+for (const r of rows) {
+	if (!byDeputy.has(r.bid)) byDeputy.set(r.bid, { bid: r.bid, nome: r.nome, datas: [] });
+	byDeputy.get(r.bid)!.datas.push(r.data);
+}
+const deputadoList = Array.from(byDeputy.values()).sort(
+	(a, b) => b.datas.length - a.datas.length || a.nome.localeCompare(b.nome, "pt-PT"),
+);
+---
+
+<Base title={`${gp} · ${motivo}`} description={`Faltas justificadas com motivo "${motivo}" de deputados do ${gp}.`}>
+	<p><a href={`${base}/gp/${slugify(gp)}`}>← {gp}</a></p>
+	<h1><span class="gp" data-p={gp}>{gp}</span> &middot; {motivo}</h1>
+	<p class="lede">
+		{rows.length} {rows.length === 1 ? "falta justificada" : "faltas justificadas"} com este motivo,
+		{" "}distribuídas por {deputadoList.length} {deputadoList.length === 1 ? "deputado" : "deputados"} do {gp}.
+	</p>
+	<p><a href={`${base}/motivo/${slugify(motivo)}`}>Ver todos os GPs com este motivo →</a></p>
+
+	<table>
+		<thead>
+			<tr>
+				<th>Deputado</th>
+				<th class="num">Faltas</th>
+				<th>Datas</th>
+			</tr>
+		</thead>
+		<tbody>
+			{deputadoList.map((d) => (
+				<tr>
+					<td><a href={`${base}/deputado/${d.bid}`}>{d.nome}</a></td>
+					<td class="num">{d.datas.length}</td>
+					<td class="motivo">{d.datas.slice().sort((a, b) => b.localeCompare(a)).join(", ")}</td>
+				</tr>
+			))}
+		</tbody>
+	</table>
+</Base>

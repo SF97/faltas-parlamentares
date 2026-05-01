@@ -1,0 +1,131 @@
+---
+import Base from "../../layouts/Base.astro";
+import deputados from "../../data/deputados.json";
+import { base } from "../../lib/base";
+
+type Sessao = { estado: string; motivo: string | null };
+type DeputadoDetail = { bid: number; gp: string; totais: Record<string, number>; sessoes: Sessao[] };
+
+export async function getStaticPaths() {
+	const slugify = (s: string): string =>
+		s
+			.normalize("NFD")
+			.replace(/[̀-ͯ]/g, "")
+			.toLowerCase()
+			.replace(/[^a-z0-9]+/g, "-")
+			.replace(/(^-|-$)/g, "");
+	const files = import.meta.glob<{ default: DeputadoDetail }>("../../data/deputado/*.json", { eager: true });
+	const fByBid = new Map<number, number>();
+	const motivosByGp = new Map<string, Map<string, number>>();
+	for (const mod of Object.values(files)) {
+		const d = mod.default;
+		const f = d.totais?.F ?? 0;
+		if (f > 0) fByBid.set(d.bid, f);
+		const map = motivosByGp.get(d.gp) ?? new Map<string, number>();
+		for (const s of d.sessoes) {
+			if (s.estado !== "FJ" || !s.motivo) continue;
+			map.set(s.motivo, (map.get(s.motivo) ?? 0) + 1);
+		}
+		motivosByGp.set(d.gp, map);
+	}
+	const gps = Array.from(new Set(deputados.map((d) => d.gp))).sort();
+	return gps.map((gp) => {
+		const members = deputados
+			.filter((d) => d.gp === gp)
+			.map((d) => ({ ...d, f: fByBid.get(d.bid) ?? 0 }))
+			.sort((a, b) => {
+				if (b.faltas_injustificadas !== a.faltas_injustificadas) return b.faltas_injustificadas - a.faltas_injustificadas;
+				if (b.faltas_justificadas !== a.faltas_justificadas) return b.faltas_justificadas - a.faltas_justificadas;
+				return a.nome.localeCompare(b.nome, "pt-PT");
+			});
+		const totals = {
+			deputados: members.length,
+			reunioes: members.reduce((a, m) => a + m.total_reunioes, 0),
+			p: members.reduce((a, m) => a + m.presencas, 0),
+			fj: members.reduce((a, m) => a + m.faltas_justificadas, 0),
+			fi: members.reduce((a, m) => a + m.faltas_injustificadas, 0),
+			f: members.reduce((a, m) => a + m.f, 0),
+			amp: members.reduce((a, m) => a + m.missao_parlamentar, 0),
+			fqv: members.reduce((a, m) => a + m.falta_quorum_votacao, 0),
+		};
+		const topMotivos = Array.from(motivosByGp.get(gp)?.entries() ?? [])
+			.map(([motivo, n]) => ({ motivo, n: n as number, slug: slugify(motivo) }))
+			.sort((a, b) => b.n - a.n)
+			.slice(0, 5);
+		return { params: { slug: slugify(gp) }, props: { gp, members, totals, topMotivos } };
+	});
+}
+
+type Member = (typeof deputados)[number] & { f: number };
+const { gp, members, totals, topMotivos } = Astro.props as {
+	gp: string;
+	members: Member[];
+	totals: { deputados: number; reunioes: number; p: number; fj: number; fi: number; f: number; amp: number; fqv: number };
+	topMotivos: { motivo: string; n: number; slug: string }[];
+};
+---
+
+<Base title={`Grupo parlamentar ${gp}`} description={`Faltas dos deputados do ${gp} na XVII Legislatura.`}>
+	<p><a href={`${base}/`}>← Ranking</a></p>
+	<h1>Grupo parlamentar <span class="gp" data-p={gp}>{gp}</span></h1>
+	<p class="lede">
+		{totals.deputados} {totals.deputados === 1 ? "deputado" : "deputados"} · {totals.reunioes} {totals.reunioes === 1 ? "presença ou ausência registada" : "presenças e ausências registadas"} no plenário.
+	</p>
+
+	<div class="stat-grid">
+		<div class="stat"><div class="n">{totals.fi}</div><div class="l">Faltas injustificadas</div></div>
+		<div class="stat"><div class="n">{totals.fj}</div><div class="l">Faltas justificadas</div></div>
+		<div class="stat"><div class="n">{totals.f}</div><div class="l">Faltas não classificadas</div></div>
+		<div class="stat"><div class="n">{totals.amp}</div><div class="l">Ausências em missão</div></div>
+		<div class="stat"><div class="n">{totals.fqv}</div><div class="l">Faltas ao quórum</div></div>
+	</div>
+
+	{topMotivos.length > 0 && (
+		<Fragment>
+			<h2>Principais motivos das faltas justificadas</h2>
+			<ul class="motivo-list">
+				{topMotivos.map((m) => (
+					<li>
+						<a href={`${base}/gp/${Astro.params.slug}/motivo/${m.slug}`}>{m.motivo}</a>
+						<span class="motivo-count">{m.n}</span>
+					</li>
+				))}
+			</ul>
+		</Fragment>
+	)}
+
+	<h2>Deputados</h2>
+	<div class="legend">
+		<span><span class="badge P">P</span> Presença</span>
+		<span><span class="badge FJ">FJ</span> Falta justificada</span>
+		<span><span class="badge FI">FI</span> Falta injustificada</span>
+		<span><span class="badge F">F</span> Falta não classificada</span>
+		<span><span class="badge AMP">AMP</span> Ausência em missão parlamentar</span>
+	</div>
+	<table>
+		<thead>
+			<tr>
+				<th>Deputado</th>
+				<th class="num">Reuniões</th>
+				<th class="num">P</th>
+				<th class="num">FJ</th>
+				<th class="num">FI</th>
+				<th class="num"><abbr title="Falta não classificada">F</abbr></th>
+				<th class="num">AMP</th>
+			</tr>
+		</thead>
+		<tbody>
+			{members.map((d) => (
+				<tr>
+					<td><a href={`${base}/deputado/${d.bid}`}>{d.nome}</a></td>
+					<td class="num">{d.total_reunioes}</td>
+					<td class="num">{d.presencas}</td>
+					<td class="num">{d.faltas_justificadas}</td>
+					<td class="num">{d.faltas_injustificadas}</td>
+					<td class="num">{d.f}</td>
+					<td class="num">{d.missao_parlamentar}</td>
+				</tr>
+			))}
+		</tbody>
+	</table>
+</Base>

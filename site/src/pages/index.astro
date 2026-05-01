@@ -7,7 +7,7 @@ import { base } from "../lib/base";
 type Row = (typeof deputados)[number];
 
 type Sessao = { estado: string; motivo: string | null };
-type DeputadoDetail = { sessoes: Sessao[] };
+type DeputadoDetail = { bid: number; totais: Record<string, number>; sessoes: Sessao[] };
 
 const slugify = (s: string): string =>
 	s
@@ -19,7 +19,10 @@ const slugify = (s: string): string =>
 
 const detailFiles = import.meta.glob<{ default: DeputadoDetail }>("../data/deputado/*.json", { eager: true });
 const motivoCounts = new Map<string, number>();
+const fCountsByBid = new Map<number, number>();
 for (const mod of Object.values(detailFiles)) {
+	const f = mod.default.totais?.F ?? 0;
+	if (f > 0) fCountsByBid.set(mod.default.bid, f);
 	for (const s of mod.default.sessoes) {
 		if (s.estado !== "FJ" || !s.motivo) continue;
 		motivoCounts.set(s.motivo, (motivoCounts.get(s.motivo) ?? 0) + 1);
@@ -33,12 +36,13 @@ const topMotivos = Array.from(motivoCounts.entries())
 const parties = Array.from(new Set(deputados.map((d: Row) => d.gp))).sort();
 
 const byParty = (list: Row[]) => {
-	const m = new Map<string, { gp: string; deputados: number; fi: number; fj: number; amp: number; total: number }>();
+	const m = new Map<string, { gp: string; deputados: number; fi: number; fj: number; f: number; amp: number; total: number }>();
 	for (const d of list) {
-		const e = m.get(d.gp) ?? { gp: d.gp, deputados: 0, fi: 0, fj: 0, amp: 0, total: 0 };
+		const e = m.get(d.gp) ?? { gp: d.gp, deputados: 0, fi: 0, fj: 0, f: 0, amp: 0, total: 0 };
 		e.deputados++;
 		e.fi += d.faltas_injustificadas;
 		e.fj += d.faltas_justificadas;
+		e.f += fCountsByBid.get(d.bid) ?? 0;
 		e.amp += d.missao_parlamentar;
 		e.total += d.total_reunioes;
 		m.set(d.gp, e);
@@ -51,13 +55,16 @@ const totals = {
 	fi: deputados.reduce((a, d) => a + d.faltas_injustificadas, 0),
 	fj: deputados.reduce((a, d) => a + d.faltas_justificadas, 0),
 	amp: deputados.reduce((a, d) => a + d.missao_parlamentar, 0),
+	f: Array.from(fCountsByBid.values()).reduce((a, n) => a + n, 0),
 };
 
-const ranked = [...deputados].sort((a, b) => {
-	if (b.faltas_injustificadas !== a.faltas_injustificadas) return b.faltas_injustificadas - a.faltas_injustificadas;
-	if (b.faltas_justificadas !== a.faltas_justificadas) return b.faltas_justificadas - a.faltas_justificadas;
-	return a.nome.localeCompare(b.nome, "pt-PT");
-});
+const ranked = deputados
+	.map((d) => ({ ...d, f: fCountsByBid.get(d.bid) ?? 0 }))
+	.sort((a, b) => {
+		if (b.faltas_injustificadas !== a.faltas_injustificadas) return b.faltas_injustificadas - a.faltas_injustificadas;
+		if (b.faltas_justificadas !== a.faltas_justificadas) return b.faltas_justificadas - a.faltas_justificadas;
+		return a.nome.localeCompare(b.nome, "pt-PT");
+	});
 
 const fqv = deputados
 	.filter((d) => d.falta_quorum_votacao > 0)
@@ -69,10 +76,11 @@ const fqv = deputados
 	<p class="lede">{totals.deputados} deputados da {meta.legislatura} Legislatura, por ordem decrescente de faltas injustificadas.</p>
 
 	<div class="stat-grid">
+		<div class="stat"><div class="n">{totals.deputados}</div><div class="l">Deputados</div></div>
 		<div class="stat"><div class="n">{totals.fi}</div><div class="l">Faltas injustificadas</div></div>
 		<div class="stat"><div class="n">{totals.fj}</div><div class="l">Faltas justificadas</div></div>
+		<div class="stat"><div class="n">{totals.f}</div><div class="l">Faltas não classificadas</div></div>
 		<div class="stat"><div class="n">{totals.amp}</div><div class="l">Ausências em missão</div></div>
-		<div class="stat"><div class="n">{totals.deputados}</div><div class="l">Deputados</div></div>
 	</div>
 
 	<h2>Principais motivos das faltas justificadas</h2>
@@ -90,6 +98,7 @@ const fqv = deputados
 	<div class="legend">
 		<span><span class="badge FI">FI</span> Falta injustificada</span>
 		<span><span class="badge FJ">FJ</span> Falta justificada</span>
+		<span><span class="badge F">F</span> Falta não classificada</span>
 		<span><span class="badge AMP">AMP</span> Ausência em missão parlamentar</span>
 	</div>
 	<table>
@@ -99,16 +108,18 @@ const fqv = deputados
 				<th class="num">Deputados</th>
 				<th class="num"><abbr title="Falta Injustificada">FI</abbr></th>
 				<th class="num"><abbr title="Falta Justificada">FJ</abbr></th>
+				<th class="num"><abbr title="Falta não classificada">F</abbr></th>
 				<th class="num"><abbr title="Ausência em Missão Parlamentar">AMP</abbr></th>
 			</tr>
 		</thead>
 		<tbody>
 			{byParty(deputados).map((p) => (
 				<tr>
-					<td><span class="gp" data-p={p.gp}>{p.gp}</span></td>
+					<td><a class="gp" data-p={p.gp} href={`${base}/gp/${slugify(p.gp)}`}>{p.gp}</a></td>
 					<td class="num">{p.deputados}</td>
 					<td class="num">{p.fi}</td>
 					<td class="num">{p.fj}</td>
+					<td class="num">{p.f}</td>
 					<td class="num">{p.amp}</td>
 				</tr>
 			))}
@@ -145,6 +156,7 @@ const fqv = deputados
 		<span><span class="badge P">P</span> Presença</span>
 		<span><span class="badge FJ">FJ</span> Falta justificada</span>
 		<span><span class="badge FI">FI</span> Falta injustificada</span>
+		<span><span class="badge F">F</span> Falta não classificada</span>
 		<span><span class="badge AMP">AMP</span> Ausência em missão parlamentar</span>
 	</div>
 	<div class="filters" id="party-filters">
@@ -163,6 +175,7 @@ const fqv = deputados
 				<th class="num">P</th>
 				<th class="num">FJ</th>
 				<th class="num">FI</th>
+				<th class="num"><abbr title="Falta não classificada">F</abbr></th>
 				<th class="num">AMP</th>
 			</tr>
 		</thead>
@@ -175,6 +188,7 @@ const fqv = deputados
 					<td class="num">{d.presencas}</td>
 					<td class="num">{d.faltas_justificadas}</td>
 					<td class="num">{d.faltas_injustificadas}</td>
+					<td class="num">{d.f}</td>
 					<td class="num">{d.missao_parlamentar}</td>
 				</tr>
 			))}

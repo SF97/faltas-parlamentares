@@ -114,6 +114,7 @@ def main() -> int:
                 "presencas": codes.get("P", 0),
                 "faltas_justificadas": codes.get("FJ", 0),
                 "faltas_injustificadas": codes.get("FI", 0),
+                "faltas_nao_classificadas": codes.get("F", 0),
                 "missao_parlamentar": codes.get("AMP", 0),
                 "falta_quorum_votacao": codes.get("FQV", 0),
             }
