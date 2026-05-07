@@ -53,7 +53,7 @@ const deputadoList = Array.from(byDeputy.values()).sort(
 );
 ---
 
-<Base title={`${gp} · ${motivo}`} description={`Faltas justificadas com motivo "${motivo}" de deputados do ${gp}.`}>
+<Base title={`${gp} · ${motivo}`} description={`${rows.length} ${rows.length === 1 ? "falta justificada" : "faltas justificadas"} com motivo "${motivo}" por ${byDeputy.size} ${byDeputy.size === 1 ? "deputado" : "deputados"} do ${gp} na XVII Legislatura.`}>
 	<p><a href={`${base}/gp/${slugify(gp)}`}>← {gp}</a></p>
 	<h1><span class="gp" data-p={gp}>{gp}</span> &middot; {motivo}</h1>
 	<p class="lede">

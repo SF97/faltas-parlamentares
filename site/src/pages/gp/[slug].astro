@@ -66,7 +66,7 @@ const { gp, members, totals, topMotivos } = Astro.props as {
 };
 ---
 
-<Base title={`Grupo parlamentar ${gp}`} description={`Faltas dos deputados do ${gp} na XVII Legislatura.`}>
+<Base title={`Grupo parlamentar ${gp}`} description={`${gp}: ${totals.deputados} ${totals.deputados === 1 ? "deputado" : "deputados"} da XVII Legislatura, com ${totals.fi} faltas injustificadas e ${totals.fj} justificadas em ${totals.reunioes} presenças possíveis.`}>
 	<p><a href={`${base}/`}>← Ranking</a></p>
 	<h1>Grupo parlamentar <span class="gp" data-p={gp}>{gp}</span></h1>
 	<p class="lede">

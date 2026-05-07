@@ -47,7 +47,7 @@ const rows = Array.from(counts.values())
 	.sort((a, b) => b.faltas - a.faltas);
 ---
 
-<Base title="Motivos das faltas justificadas">
+<Base title="Motivos das faltas justificadas" description={`Distribuição dos ${fjTotal} motivos invocados pelos deputados para justificar faltas em plenário na XVII Legislatura.`}>
 	<h1>Motivos das faltas justificadas</h1>
 	<p class="lede">
 		{fjTotal} faltas justificadas em plenário na XVII Legislatura, por motivo declarado oficialmente.

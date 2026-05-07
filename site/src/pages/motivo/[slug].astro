@@ -53,7 +53,7 @@ for (const r of rows) {
 const deputadoList = Array.from(byDeputy.values()).sort((a, b) => b.datas.length - a.datas.length || a.nome.localeCompare(b.nome, "pt-PT"));
 ---
 
-<Base title={`Motivo: ${motivo}`} description={`Faltas justificadas com motivo "${motivo}" na XVII Legislatura.`}>
+<Base title={`Motivo: ${motivo}`} description={`${rows.length} ${rows.length === 1 ? "falta justificada" : "faltas justificadas"} com motivo "${motivo}", por ${byDeputy.size} ${byDeputy.size === 1 ? "deputado" : "deputados"} da XVII Legislatura.`}>
 	<p><a href={`${base}/motivos`}>← Todos os motivos</a></p>
 	<h1>{motivo}</h1>
 	<p class="lede">

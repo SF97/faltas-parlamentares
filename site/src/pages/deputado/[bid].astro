@@ -43,9 +43,12 @@ const t = detail.totais;
 const rank = [...deputados]
 	.sort((a, b) => b.faltas_injustificadas - a.faltas_injustificadas)
 	.findIndex((d) => d.bid === detail.bid) + 1;
+const fi = t.FI ?? 0;
+const fj = t.FJ ?? 0;
+const desc = `${detail.nome} (${detail.gp}), XVII Legislatura: ${fi} ${fi === 1 ? "falta injustificada" : "faltas injustificadas"} e ${fj} ${fj === 1 ? "justificada" : "justificadas"} em ${detail.total_reunioes} reuniões plenárias.`;
 ---
 
-<Base title={detail.nome} description={`Registo de presenças e faltas de ${detail.nome} (${detail.gp}) em plenário.`}>
+<Base title={detail.nome} description={desc}>
 	<p><a href={`${base}/`}>← Ranking</a></p>
 	<h1>{detail.nome}</h1>
 	<p class="lede">

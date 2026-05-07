@@ -72,7 +72,7 @@ const fqv = deputados
 	.sort((a, b) => b.falta_quorum_votacao - a.falta_quorum_votacao || a.nome.localeCompare(b.nome, "pt-PT"));
 ---
 
-<Base title="Ranking de faltas">
+<Base title="Ranking de faltas" description={`Ranking dos ${totals.deputados} deputados da XVII Legislatura por faltas em reuniões plenárias da Assembleia da República.`}>
 	<h1>Ranking de faltas em plenário</h1>
 	<p class="lede">{totals.deputados} deputados da {meta.legislatura} Legislatura, por ordem decrescente de faltas injustificadas.</p>
 
