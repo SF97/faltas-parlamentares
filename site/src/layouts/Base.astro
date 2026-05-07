@@ -8,6 +8,7 @@ import { BUILD_TIME, DATA_UPDATED_AT, formatPT } from "../lib/timestamps";
 const { title, description = "Ausências dos deputados da Assembleia da República na XVII Legislatura." } = Astro.props;
 const fullTitle = `${title} · Faltas parlamentares`;
 const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).toString() : Astro.url.pathname;
+const ogImage = Astro.site ? new URL("/og.png", Astro.site).toString() : `${base}/og.png`;
 const checkedAt = formatPT(BUILD_TIME);
 const dataChangedAt = formatPT(DATA_UPDATED_AT);
 ---
@@ -26,9 +27,13 @@ const dataChangedAt = formatPT(DATA_UPDATED_AT);
 		<meta property="og:title" content={fullTitle} />
 		<meta property="og:description" content={description} />
 		<meta property="og:url" content={canonical} />
-		<meta name="twitter:card" content="summary" />
+		<meta property="og:image" content={ogImage} />
+		<meta property="og:image:width" content="1200" />
+		<meta property="og:image:height" content="630" />
+		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:title" content={fullTitle} />
 		<meta name="twitter:description" content={description} />
+		<meta name="twitter:image" content={ogImage} />
 		<title>{fullTitle}</title>
 	</head>
 	<body>
