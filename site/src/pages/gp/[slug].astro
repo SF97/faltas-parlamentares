@@ -36,6 +36,7 @@ export async function getStaticPaths() {
 			.sort((a, b) => {
 				if (b.faltas_injustificadas !== a.faltas_injustificadas) return b.faltas_injustificadas - a.faltas_injustificadas;
 				if (b.faltas_justificadas !== a.faltas_justificadas) return b.faltas_justificadas - a.faltas_justificadas;
+				if (b.f !== a.f) return b.f - a.f;
 				return a.nome.localeCompare(b.nome, "pt-PT");
 			});
 		const totals = {
