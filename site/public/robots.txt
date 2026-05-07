@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://faltasparlamentares.sergioferreira.net/sitemap-index.xml
