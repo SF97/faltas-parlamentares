@@ -4,7 +4,12 @@ interface Props {
 	description?: string;
 }
 import { base } from "../lib/base";
+import { BUILD_TIME, DATA_UPDATED_AT, formatPT } from "../lib/timestamps";
 const { title, description = "Ausências dos deputados da Assembleia da República na XVII Legislatura." } = Astro.props;
+const fullTitle = `${title} · Faltas parlamentares`;
+const canonical = Astro.site ? new URL(Astro.url.pathname, Astro.site).toString() : Astro.url.pathname;
+const checkedAt = formatPT(BUILD_TIME);
+const dataChangedAt = formatPT(DATA_UPDATED_AT);
 ---
 
 <!doctype html>
@@ -13,8 +18,18 @@ const { title, description = "Ausências dos deputados da Assembleia da Repúbli
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="description" content={description} />
+		<link rel="canonical" href={canonical} />
 		<link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
-		<title>{title} · Faltas parlamentares</title>
+		<meta property="og:type" content="website" />
+		<meta property="og:locale" content="pt_PT" />
+		<meta property="og:site_name" content="Faltas parlamentares" />
+		<meta property="og:title" content={fullTitle} />
+		<meta property="og:description" content={description} />
+		<meta property="og:url" content={canonical} />
+		<meta name="twitter:card" content="summary" />
+		<meta name="twitter:title" content={fullTitle} />
+		<meta name="twitter:description" content={description} />
+		<title>{fullTitle}</title>
 	</head>
 	<body>
 		<header class="site-header">
@@ -34,6 +49,7 @@ const { title, description = "Ausências dos deputados da Assembleia da Repúbli
 		<footer class="site-footer">
 			<div class="wrap">
 				<p>Dados do <a href="https://www.parlamento.pt/DeputadoGP/Paginas/reunioesplenarias.aspx">Parlamento</a>. Reunião plenária apenas; não inclui comissões.</p>
+				<p>Última verificação: {checkedAt}. Última alteração nos dados: {dataChangedAt}.</p>
 			</div>
 		</footer>
 		<style is:global>
