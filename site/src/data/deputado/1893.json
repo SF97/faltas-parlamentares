@@ -20,9 +20,9 @@
     },
     {
       "data": "2026-04-25",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família",
       "reuniao_bid": 376281
     },
     {
@@ -595,8 +595,7 @@
   ],
   "totais": {
     "AMP": 5,
-    "F": 1,
-    "FJ": 4,
+    "FJ": 5,
     "P": 74
   },
   "total_reunioes": 84

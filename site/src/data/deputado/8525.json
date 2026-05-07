@@ -6,9 +6,9 @@
   "sessoes": [
     {
       "data": "2026-04-30",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 376476
     },
     {
@@ -594,8 +594,7 @@
     }
   ],
   "totais": {
-    "FJ": 5,
-    "FQV": 1,
+    "FJ": 6,
     "P": 77,
     "PNO": 1
   },

@@ -6,6 +6,12 @@
       "data": "2026-01-13",
       "motivo": "Suspensão",
       "tipo": "entrada"
+    },
+    {
+      "contraparte": "Isabel Costa",
+      "data": "2026-05-03",
+      "motivo": "Suspensão",
+      "tipo": "saida"
     }
   ],
   "gp": "PS",
