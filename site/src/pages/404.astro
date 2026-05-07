@@ -1,0 +1,16 @@
+---
+import Base from "../layouts/Base.astro";
+import { base } from "../lib/base";
+---
+
+<Base title="Página não encontrada" description="A página que procura não existe ou foi movida.">
+	<h1>404 — Página não encontrada</h1>
+	<p class="lede">A página que procura não existe ou foi movida.</p>
+
+	<p>Algumas hipóteses:</p>
+	<ul>
+		<li>Se procura um deputado, vá ao <a href={`${base}/`}>ranking</a> e use o filtro por grupo parlamentar ou Ctrl+F com o nome.</li>
+		<li>Se procura um motivo de falta justificada, veja a <a href={`${base}/motivos`}>lista completa de motivos</a>.</li>
+		<li>Se procura informação sobre o site, veja a <a href={`${base}/metodologia`}>metodologia</a> ou a <a href={`${base}/transparencia`}>transparência</a>.</li>
+	</ul>
+</Base>
