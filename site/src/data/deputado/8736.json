@@ -5,6 +5,13 @@
   "nome": "Bernardo Pessanha",
   "sessoes": [
     {
+      "data": "2026-05-06",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 376477
+    },
+    {
       "data": "2026-04-30",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -595,10 +602,10 @@
   ],
   "totais": {
     "AMP": 2,
-    "F": 1,
+    "F": 2,
     "FJ": 6,
     "FQV": 1,
     "P": 74
   },
-  "total_reunioes": 84
+  "total_reunioes": 85
 }

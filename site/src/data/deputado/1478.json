@@ -12,6 +12,13 @@
   "nome": "Gonçalo Dinis Capitão",
   "sessoes": [
     {
+      "data": "2026-05-06",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376477
+    },
+    {
       "data": "2026-04-30",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -601,8 +608,8 @@
     }
   ],
   "totais": {
-    "P": 80,
+    "P": 81,
     "PNO": 4
   },
-  "total_reunioes": 84
+  "total_reunioes": 85
 }

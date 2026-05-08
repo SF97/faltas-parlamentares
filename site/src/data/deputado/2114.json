@@ -5,6 +5,13 @@
   "nome": "Emídio Guerreiro",
   "sessoes": [
     {
+      "data": "2026-05-06",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376477
+    },
+    {
       "data": "2026-04-30",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -595,7 +602,7 @@
   ],
   "totais": {
     "FJ": 3,
-    "P": 81
+    "P": 82
   },
-  "total_reunioes": 84
+  "total_reunioes": 85
 }
