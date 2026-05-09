@@ -24,6 +24,20 @@
   "nome": "Leonor Cipriano",
   "sessoes": [
     {
+      "data": "2026-05-08",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376480
+    },
+    {
+      "data": "2026-05-07",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376478
+    },
+    {
       "data": "2026-05-06",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -622,7 +636,7 @@
   "totais": {
     "AMP": 1,
     "FJ": 3,
-    "P": 81
+    "P": 83
   },
-  "total_reunioes": 85
+  "total_reunioes": 87
 }

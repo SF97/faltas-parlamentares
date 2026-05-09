@@ -5,6 +5,20 @@
   "nome": "Idalina Durães",
   "sessoes": [
     {
+      "data": "2026-05-08",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376480
+    },
+    {
+      "data": "2026-05-07",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376478
+    },
+    {
       "data": "2026-05-06",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -602,7 +616,7 @@
   ],
   "totais": {
     "AMP": 2,
-    "P": 83
+    "P": 85
   },
-  "total_reunioes": 85
+  "total_reunioes": 87
 }

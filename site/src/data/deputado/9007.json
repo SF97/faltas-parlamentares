@@ -5,6 +5,20 @@
   "nome": "Raul Melo",
   "sessoes": [
     {
+      "data": "2026-05-08",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376480
+    },
+    {
+      "data": "2026-05-07",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 376478
+    },
+    {
       "data": "2026-05-06",
       "estado": "F",
       "estado_label": "Falta",
@@ -602,9 +616,9 @@
   ],
   "totais": {
     "AMP": 3,
-    "F": 1,
+    "F": 2,
     "FJ": 2,
-    "P": 79
+    "P": 80
   },
-  "total_reunioes": 85
+  "total_reunioes": 87
 }

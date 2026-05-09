@@ -18,10 +18,24 @@
   "nome": "Emanuel Câmara",
   "sessoes": [
     {
-      "data": "2026-05-06",
-      "estado": "F",
-      "estado_label": "Falta",
+      "data": "2026-05-08",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
+      "reuniao_bid": 376480
+    },
+    {
+      "data": "2026-05-07",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376478
+    },
+    {
+      "data": "2026-05-06",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Dificuldades de transportes",
       "reuniao_bid": 376477
     },
     {
@@ -425,9 +439,8 @@
     }
   ],
   "totais": {
-    "F": 1,
-    "FJ": 1,
-    "P": 56
+    "FJ": 2,
+    "P": 58
   },
-  "total_reunioes": 58
+  "total_reunioes": 60
 }
