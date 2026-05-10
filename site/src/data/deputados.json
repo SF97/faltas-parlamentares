@@ -75,13 +75,13 @@
     "bid": 7489,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 0,
+    "faltas_justificadas": 1,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
-    "missao_parlamentar": 0,
+    "missao_parlamentar": 2,
     "nome": "Adriana Rodrigues",
-    "presencas": 0,
-    "total_reunioes": 0
+    "presencas": 84,
+    "total_reunioes": 87
   },
   {
     "bid": 9194,
@@ -102,10 +102,10 @@
     "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
-    "missao_parlamentar": 0,
+    "missao_parlamentar": 3,
     "nome": "Alberto Fonseca",
-    "presencas": 0,
-    "total_reunioes": 0
+    "presencas": 84,
+    "total_reunioes": 87
   },
   {
     "bid": 7240,
@@ -147,13 +147,13 @@
     "bid": 7913,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 0,
+    "faltas_justificadas": 1,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
-    "missao_parlamentar": 0,
+    "missao_parlamentar": 3,
     "nome": "Ana Bernardo",
-    "presencas": 0,
-    "total_reunioes": 0
+    "presencas": 83,
+    "total_reunioes": 87
   },
   {
     "bid": 8179,
