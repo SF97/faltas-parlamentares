@@ -5,6 +5,20 @@
   "nome": "Carlos Barbosa",
   "sessoes": [
     {
+      "data": "2026-05-14",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376548
+    },
+    {
+      "data": "2026-05-13",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376547
+    },
+    {
       "data": "2026-05-08",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -616,7 +630,7 @@
   ],
   "totais": {
     "FJ": 7,
-    "P": 80
+    "P": 82
   },
-  "total_reunioes": 87
+  "total_reunioes": 89
 }

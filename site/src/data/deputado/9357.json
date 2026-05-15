@@ -12,6 +12,20 @@
   "nome": "Paulo Lopes Marcelo",
   "sessoes": [
     {
+      "data": "2026-05-14",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376548
+    },
+    {
+      "data": "2026-05-13",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376547
+    },
+    {
       "data": "2026-05-08",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -617,7 +631,8 @@
   "totais": {
     "AMP": 2,
     "FJ": 7,
-    "P": 77
+    "FQV": 1,
+    "P": 78
   },
-  "total_reunioes": 86
+  "total_reunioes": 88
 }

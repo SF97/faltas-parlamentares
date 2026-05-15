@@ -5,6 +5,20 @@
   "nome": "Catarina Louro",
   "sessoes": [
     {
+      "data": "2026-05-14",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376548
+    },
+    {
+      "data": "2026-05-13",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376547
+    },
+    {
       "data": "2026-05-08",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -617,7 +631,8 @@
   "totais": {
     "AMP": 10,
     "FJ": 8,
-    "P": 69
+    "FQV": 1,
+    "P": 70
   },
-  "total_reunioes": 87
+  "total_reunioes": 89
 }

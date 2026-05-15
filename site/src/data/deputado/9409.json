@@ -5,6 +5,20 @@
   "nome": "Patrícia Nascimento",
   "sessoes": [
     {
+      "data": "2026-05-14",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376548
+    },
+    {
+      "data": "2026-05-13",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376547
+    },
+    {
       "data": "2026-05-08",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -618,8 +632,8 @@
     "AMP": 2,
     "FJ": 11,
     "FQV": 1,
-    "P": 68,
+    "P": 70,
     "PNO": 5
   },
-  "total_reunioes": 87
+  "total_reunioes": 89
 }

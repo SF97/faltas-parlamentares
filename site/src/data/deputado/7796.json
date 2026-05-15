@@ -5,6 +5,20 @@
   "nome": "Francisco Sousa Vieira",
   "sessoes": [
     {
+      "data": "2026-05-14",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376548
+    },
+    {
+      "data": "2026-05-13",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376547
+    },
+    {
       "data": "2026-05-08",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -618,8 +632,8 @@
     "F": 1,
     "FJ": 1,
     "FQV": 1,
-    "P": 79,
+    "P": 81,
     "PNO": 5
   },
-  "total_reunioes": 87
+  "total_reunioes": 89
 }

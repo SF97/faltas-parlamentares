@@ -12,6 +12,20 @@
   "nome": "Martim Syder",
   "sessoes": [
     {
+      "data": "2026-05-14",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376548
+    },
+    {
+      "data": "2026-05-13",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376547
+    },
+    {
       "data": "2026-05-08",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -624,7 +638,7 @@
   "totais": {
     "AMP": 3,
     "FJ": 6,
-    "P": 78
+    "P": 80
   },
-  "total_reunioes": 87
+  "total_reunioes": 89
 }

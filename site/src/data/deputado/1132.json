@@ -5,6 +5,20 @@
   "nome": "António Rodrigues",
   "sessoes": [
     {
+      "data": "2026-05-14",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376548
+    },
+    {
+      "data": "2026-05-13",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376547
+    },
+    {
       "data": "2026-05-08",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -615,9 +629,9 @@
     }
   ],
   "totais": {
-    "AMP": 7,
+    "AMP": 9,
     "FJ": 3,
     "P": 77
   },
-  "total_reunioes": 87
+  "total_reunioes": 89
 }

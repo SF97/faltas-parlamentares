@@ -5,6 +5,20 @@
   "nome": "João Pedro Louro",
   "sessoes": [
     {
+      "data": "2026-05-14",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376548
+    },
+    {
+      "data": "2026-05-13",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376547
+    },
+    {
       "data": "2026-05-08",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -617,7 +631,7 @@
   "totais": {
     "F": 1,
     "FJ": 7,
-    "P": 79
+    "P": 81
   },
-  "total_reunioes": 87
+  "total_reunioes": 89
 }

@@ -5,6 +5,20 @@
   "nome": "Andreia Neto",
   "sessoes": [
     {
+      "data": "2026-05-14",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376548
+    },
+    {
+      "data": "2026-05-13",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376547
+    },
+    {
       "data": "2026-05-08",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -618,9 +632,9 @@
     "F": 2,
     "FI": 2,
     "FJ": 1,
-    "FQV": 1,
-    "P": 79,
+    "FQV": 2,
+    "P": 80,
     "PNO": 2
   },
-  "total_reunioes": 87
+  "total_reunioes": 89
 }

@@ -1,15 +1,15 @@
 [
   {
     "bid": 4396,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 2,
     "faltas_injustificadas": 2,
     "faltas_justificadas": 1,
     "faltas_nao_classificadas": 2,
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Andreia Neto",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 6870,
@@ -20,8 +20,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Marina Gonçalves",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 6937,
@@ -32,20 +32,20 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Alberto Machado",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 817,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 1,
     "faltas_justificadas": 2,
     "faltas_nao_classificadas": 0,
     "gp": "PCP",
     "missao_parlamentar": 4,
     "nome": "Alfredo Maia",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 4197,
@@ -56,20 +56,20 @@
     "gp": "PCP",
     "missao_parlamentar": 3,
     "nome": "Paula Santos",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 8719,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 1,
     "faltas_justificadas": 5,
     "faltas_nao_classificadas": 0,
     "gp": "PCP",
     "missao_parlamentar": 0,
     "nome": "Paulo Raimundo",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 82,
+    "total_reunioes": 89
   },
   {
     "bid": 7489,
@@ -80,8 +80,8 @@
     "gp": "PSD",
     "missao_parlamentar": 2,
     "nome": "Adriana Rodrigues",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 9194,
@@ -92,8 +92,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Aida Carvalho",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 5993,
@@ -104,8 +104,8 @@
     "gp": "PSD",
     "missao_parlamentar": 3,
     "nome": "Alberto Fonseca",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 7240,
@@ -116,8 +116,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Alexandre Poço",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 8152,
@@ -128,8 +128,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Almiro Moreira",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 8157,
@@ -138,10 +138,10 @@
     "faltas_justificadas": 5,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
-    "missao_parlamentar": 5,
+    "missao_parlamentar": 7,
     "nome": "Amílcar Almeida",
     "presencas": 76,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 7913,
@@ -152,8 +152,8 @@
     "gp": "PS",
     "missao_parlamentar": 3,
     "nome": "Ana Bernardo",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 8179,
@@ -164,20 +164,20 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Ana Gabriela Cabilhas",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 9506,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 2,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Ana Isabel Ferreira",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 8196,
@@ -188,8 +188,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Ana Martins",
-    "presencas": 77,
-    "total_reunioes": 87
+    "presencas": 79,
+    "total_reunioes": 89
   },
   {
     "bid": 4330,
@@ -200,8 +200,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Ana Oliveira",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 9629,
@@ -212,8 +212,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Ana Silveira",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 6050,
@@ -224,8 +224,8 @@
     "gp": "PS",
     "missao_parlamentar": 3,
     "nome": "André Pinotes Batista",
-    "presencas": 69,
-    "total_reunioes": 87
+    "presencas": 71,
+    "total_reunioes": 89
   },
   {
     "bid": 8230,
@@ -236,8 +236,8 @@
     "gp": "PS",
     "missao_parlamentar": 1,
     "nome": "André Rijo",
-    "presencas": 80,
-    "total_reunioes": 87
+    "presencas": 82,
+    "total_reunioes": 89
   },
   {
     "bid": 6535,
@@ -248,8 +248,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "André Ventura",
-    "presencas": 58,
-    "total_reunioes": 78
+    "presencas": 60,
+    "total_reunioes": 80
   },
   {
     "bid": 8246,
@@ -258,10 +258,10 @@
     "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "IL",
-    "missao_parlamentar": 4,
+    "missao_parlamentar": 6,
     "nome": "Angélique Da Teresa",
     "presencas": 82,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 8255,
@@ -272,20 +272,20 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "António Carneiro",
-    "presencas": 58,
-    "total_reunioes": 60
+    "presencas": 60,
+    "total_reunioes": 62
   },
   {
     "bid": 7888,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 2,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 2,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 11,
     "nome": "António Mendonça Mendes",
-    "presencas": 73,
-    "total_reunioes": 87
+    "presencas": 74,
+    "total_reunioes": 89
   },
   {
     "bid": 1132,
@@ -294,10 +294,10 @@
     "faltas_justificadas": 3,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
-    "missao_parlamentar": 7,
+    "missao_parlamentar": 9,
     "nome": "António Rodrigues",
     "presencas": 77,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 8269,
@@ -308,8 +308,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Armando Grave",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 9641,
@@ -320,8 +320,8 @@
     "gp": "PS",
     "missao_parlamentar": 2,
     "nome": "Armando Mourisco",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 8736,
@@ -332,8 +332,8 @@
     "gp": "CH",
     "missao_parlamentar": 2,
     "nome": "Bernardo Pessanha",
-    "presencas": 75,
-    "total_reunioes": 87
+    "presencas": 77,
+    "total_reunioes": 89
   },
   {
     "bid": 9650,
@@ -344,8 +344,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Bruno Faria",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 7338,
@@ -356,8 +356,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Bruno Nunes",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 2304,
@@ -368,8 +368,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Bruno Ventura",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 1713,
@@ -380,8 +380,8 @@
     "gp": "PSD",
     "missao_parlamentar": 6,
     "nome": "Bruno Vitorino",
-    "presencas": 78,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 9184,
@@ -392,12 +392,12 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Bárbara do Amaral Correia",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 4147,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 2,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 5,
     "faltas_nao_classificadas": 0,
@@ -405,7 +405,7 @@
     "missao_parlamentar": 0,
     "nome": "Carla Barros",
     "presencas": 82,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 1458,
@@ -416,8 +416,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Carlos Alberto Gonçalves",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 7948,
@@ -428,8 +428,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Carlos Barbosa",
-    "presencas": 80,
-    "total_reunioes": 87
+    "presencas": 82,
+    "total_reunioes": 89
   },
   {
     "bid": 7325,
@@ -440,8 +440,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Carlos Cação",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 7343,
@@ -452,8 +452,8 @@
     "gp": "IL",
     "missao_parlamentar": 3,
     "nome": "Carlos Guimarães Pinto",
-    "presencas": 70,
-    "total_reunioes": 77
+    "presencas": 72,
+    "total_reunioes": 79
   },
   {
     "bid": 6187,
@@ -464,8 +464,8 @@
     "gp": "PS",
     "missao_parlamentar": 6,
     "nome": "Carlos Pereira",
-    "presencas": 74,
-    "total_reunioes": 87
+    "presencas": 76,
+    "total_reunioes": 89
   },
   {
     "bid": 8783,
@@ -476,8 +476,8 @@
     "gp": "PSD",
     "missao_parlamentar": 11,
     "nome": "Carlos Silva Santiago",
-    "presencas": 73,
-    "total_reunioes": 87
+    "presencas": 75,
+    "total_reunioes": 89
   },
   {
     "bid": 8788,
@@ -488,20 +488,20 @@
     "gp": "PSD",
     "missao_parlamentar": 2,
     "nome": "Carolina Marques",
-    "presencas": 78,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 8165,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 8,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 10,
     "nome": "Catarina Louro",
-    "presencas": 69,
-    "total_reunioes": 87
+    "presencas": 70,
+    "total_reunioes": 89
   },
   {
     "bid": 7387,
@@ -512,8 +512,8 @@
     "gp": "CH",
     "missao_parlamentar": 1,
     "nome": "Catarina Salgueiro",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 8812,
@@ -524,8 +524,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Cláudia Estêvão",
-    "presencas": 78,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 6547,
@@ -536,8 +536,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Cristina Rodrigues",
-    "presencas": 80,
-    "total_reunioes": 87
+    "presencas": 82,
+    "total_reunioes": 89
   },
   {
     "bid": 7890,
@@ -548,8 +548,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Cristina Vieira Henriques",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 2297,
@@ -560,20 +560,20 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Cristóvão Norte",
-    "presencas": 76,
-    "total_reunioes": 87
+    "presencas": 78,
+    "total_reunioes": 89
   },
   {
     "bid": 7928,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 4,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 3,
     "nome": "Célia Freire",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 8832,
@@ -584,8 +584,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Daniel Teixeira",
-    "presencas": 77,
-    "total_reunioes": 87
+    "presencas": 79,
+    "total_reunioes": 89
   },
   {
     "bid": 5852,
@@ -596,8 +596,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Davide Amado",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 6858,
@@ -608,20 +608,20 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Diogo Pacheco de Amorim",
-    "presencas": 76,
-    "total_reunioes": 87
+    "presencas": 78,
+    "total_reunioes": 89
   },
   {
     "bid": 8863,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 3,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 2,
     "nome": "Dulcineia Catarina Moura",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 9483,
@@ -632,8 +632,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Dália Miranda",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 162,
@@ -644,20 +644,20 @@
     "gp": "PS",
     "missao_parlamentar": 23,
     "nome": "Edite Estrela",
-    "presencas": 55,
-    "total_reunioes": 87
+    "presencas": 57,
+    "total_reunioes": 89
   },
   {
     "bid": 7460,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 1,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 3,
     "nome": "Eduardo Pinheiro",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 2576,
@@ -668,8 +668,8 @@
     "gp": "CH",
     "missao_parlamentar": 7,
     "nome": "Eduardo Teixeira",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 8465,
@@ -680,8 +680,8 @@
     "gp": "CH",
     "missao_parlamentar": 1,
     "nome": "Eliseu Neves",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 4209,
@@ -690,10 +690,10 @@
     "faltas_justificadas": 2,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
-    "missao_parlamentar": 13,
+    "missao_parlamentar": 15,
     "nome": "Elza Pais",
     "presencas": 72,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 9389,
@@ -704,8 +704,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Emanuel Câmara",
-    "presencas": 58,
-    "total_reunioes": 60
+    "presencas": 60,
+    "total_reunioes": 62
   },
   {
     "bid": 2114,
@@ -716,8 +716,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Emídio Guerreiro",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 5600,
@@ -728,8 +728,8 @@
     "gp": "PS",
     "missao_parlamentar": 4,
     "nome": "Eurico Brilhante Dias",
-    "presencas": 80,
-    "total_reunioes": 87
+    "presencas": 82,
+    "total_reunioes": 89
   },
   {
     "bid": 4186,
@@ -740,8 +740,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Eurídice Pereira",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 8476,
@@ -752,8 +752,8 @@
     "gp": "PSD",
     "missao_parlamentar": 3,
     "nome": "Eva Brás Pinho",
-    "presencas": 73,
-    "total_reunioes": 87
+    "presencas": 75,
+    "total_reunioes": 89
   },
   {
     "bid": 9332,
@@ -764,8 +764,8 @@
     "gp": "PS",
     "missao_parlamentar": 1,
     "nome": "Eva Cruzeiro",
-    "presencas": 74,
-    "total_reunioes": 87
+    "presencas": 76,
+    "total_reunioes": 89
   },
   {
     "bid": 7040,
@@ -776,8 +776,8 @@
     "gp": "BE",
     "missao_parlamentar": 0,
     "nome": "Fabian Figueiredo",
-    "presencas": 45,
-    "total_reunioes": 45
+    "presencas": 47,
+    "total_reunioes": 47
   },
   {
     "bid": 8017,
@@ -788,8 +788,8 @@
     "gp": "CH",
     "missao_parlamentar": 3,
     "nome": "Felicidade Vital",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 9628,
@@ -800,8 +800,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Fernando Queiroga",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 8491,
@@ -812,8 +812,8 @@
     "gp": "L",
     "missao_parlamentar": 4,
     "nome": "Filipa Pinto",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 7332,
@@ -824,8 +824,8 @@
     "gp": "CH",
     "missao_parlamentar": 4,
     "nome": "Filipe Melo",
-    "presencas": 80,
-    "total_reunioes": 87
+    "presencas": 82,
+    "total_reunioes": 89
   },
   {
     "bid": 1554,
@@ -836,8 +836,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Filipe Neto Brandão",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 9378,
@@ -848,8 +848,8 @@
     "gp": "JPP",
     "missao_parlamentar": 0,
     "nome": "Filipe Sousa",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 9060,
@@ -860,8 +860,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Firmino Ferreira",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 2397,
@@ -872,8 +872,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Francisco Covelinhas Lopes",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 7341,
@@ -884,8 +884,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Francisco César",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 7359,
@@ -896,8 +896,8 @@
     "gp": "PSD",
     "missao_parlamentar": 2,
     "nome": "Francisco Figueira",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 4223,
@@ -908,8 +908,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Francisco Gomes",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 321,
@@ -920,8 +920,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Francisco José Martins",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 7351,
@@ -932,8 +932,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Francisco Pimentel",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 7796,
@@ -944,8 +944,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Francisco Sousa Vieira",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 9331,
@@ -956,8 +956,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Frederico Francisco",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 5984,
@@ -968,8 +968,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Germana Rocha",
-    "presencas": 87,
-    "total_reunioes": 87
+    "presencas": 89,
+    "total_reunioes": 89
   },
   {
     "bid": 1478,
@@ -980,8 +980,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Gonçalo Dinis Capitão",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 8526,
@@ -992,20 +992,20 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Gonçalo Lage",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 8525,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 2,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 6,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Gonçalo Valente",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 5490,
@@ -1016,8 +1016,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Helga Correia",
-    "presencas": 84,
-    "total_reunioes": 86
+    "presencas": 86,
+    "total_reunioes": 88
   },
   {
     "bid": 8546,
@@ -1028,8 +1028,8 @@
     "gp": "PSD",
     "missao_parlamentar": 2,
     "nome": "Hernâni Dias",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 3939,
@@ -1052,8 +1052,8 @@
     "gp": "PSD",
     "missao_parlamentar": 9,
     "nome": "Hugo Carneiro",
-    "presencas": 72,
-    "total_reunioes": 87
+    "presencas": 74,
+    "total_reunioes": 89
   },
   {
     "bid": 6013,
@@ -1064,8 +1064,8 @@
     "gp": "PS",
     "missao_parlamentar": 1,
     "nome": "Hugo Costa",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 5509,
@@ -1076,8 +1076,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Hugo Oliveira",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 6857,
@@ -1086,22 +1086,22 @@
     "faltas_justificadas": 2,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
-    "missao_parlamentar": 9,
+    "missao_parlamentar": 10,
     "nome": "Hugo Patrício Oliveira",
-    "presencas": 76,
-    "total_reunioes": 87
+    "presencas": 77,
+    "total_reunioes": 89
   },
   {
     "bid": 4300,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 2,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 6,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Hugo Soares",
-    "presencas": 80,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 9484,
@@ -1112,8 +1112,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Humberto Brito",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 8551,
@@ -1124,8 +1124,8 @@
     "gp": "CH",
     "missao_parlamentar": 2,
     "nome": "Idalina Durães",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 7388,
@@ -1136,8 +1136,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Inês Barroso",
-    "presencas": 66,
-    "total_reunioes": 87
+    "presencas": 68,
+    "total_reunioes": 89
   },
   {
     "bid": 6864,
@@ -1148,8 +1148,8 @@
     "gp": "PAN",
     "missao_parlamentar": 0,
     "nome": "Inês de Sousa Real",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 7494,
@@ -1158,10 +1158,10 @@
     "faltas_justificadas": 5,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
-    "missao_parlamentar": 0,
+    "missao_parlamentar": 2,
     "nome": "Irene Costa",
     "presencas": 81,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 4452,
@@ -1172,8 +1172,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Isabel Alves Moreira",
-    "presencas": 62,
-    "total_reunioes": 87
+    "presencas": 64,
+    "total_reunioes": 89
   },
   {
     "bid": 8558,
@@ -1184,8 +1184,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Isabel Fernandes",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 6544,
@@ -1196,20 +1196,20 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Isaura Morais",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 7339,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 4,
     "faltas_nao_classificadas": 0,
     "gp": "IL",
     "missao_parlamentar": 2,
     "nome": "Joana Cordeiro",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 2885,
@@ -1220,8 +1220,8 @@
     "gp": "PS",
     "missao_parlamentar": 8,
     "nome": "Joana Lima",
-    "presencas": 78,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 9149,
@@ -1232,8 +1232,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Joana Seabra",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 8425,
@@ -1244,8 +1244,8 @@
     "gp": "PSD",
     "missao_parlamentar": 2,
     "nome": "Joaquim Barbosa",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 7330,
@@ -1256,8 +1256,8 @@
     "gp": "CH",
     "missao_parlamentar": 5,
     "nome": "Jorge Galveias",
-    "presencas": 77,
-    "total_reunioes": 87
+    "presencas": 79,
+    "total_reunioes": 89
   },
   {
     "bid": 8343,
@@ -1268,8 +1268,8 @@
     "gp": "IL",
     "missao_parlamentar": 3,
     "nome": "Jorge Miguel Teixeira",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 8869,
@@ -1280,20 +1280,20 @@
     "gp": "L",
     "missao_parlamentar": 1,
     "nome": "Jorge Pinto",
-    "presencas": 70,
-    "total_reunioes": 87
+    "presencas": 72,
+    "total_reunioes": 89
   },
   {
     "bid": 7723,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "José Barreira Soares",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 6731,
@@ -1304,8 +1304,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "José Carlos Barbosa",
-    "presencas": 87,
-    "total_reunioes": 87
+    "presencas": 89,
+    "total_reunioes": 89
   },
   {
     "bid": 8353,
@@ -1316,8 +1316,8 @@
     "gp": "CH",
     "missao_parlamentar": 2,
     "nome": "José Carvalho",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 77,
@@ -1328,8 +1328,8 @@
     "gp": "PSD",
     "missao_parlamentar": 13,
     "nome": "José Cesário",
-    "presencas": 53,
-    "total_reunioes": 86
+    "presencas": 55,
+    "total_reunioes": 88
   },
   {
     "bid": 8359,
@@ -1340,8 +1340,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "José Dias Fernandes",
-    "presencas": 72,
-    "total_reunioes": 87
+    "presencas": 74,
+    "total_reunioes": 89
   },
   {
     "bid": 7396,
@@ -1352,8 +1352,8 @@
     "gp": "CH",
     "missao_parlamentar": 1,
     "nome": "José Dotti",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 7406,
@@ -1364,8 +1364,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "José Lago Gonçalves",
-    "presencas": 86,
-    "total_reunioes": 86
+    "presencas": 88,
+    "total_reunioes": 88
   },
   {
     "bid": 2105,
@@ -1376,8 +1376,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "José Luís Carneiro",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 2061,
@@ -1386,10 +1386,10 @@
     "faltas_justificadas": 6,
     "faltas_nao_classificadas": 1,
     "gp": "PSD",
-    "missao_parlamentar": 9,
+    "missao_parlamentar": 11,
     "nome": "José Pedro Aguiar-Branco",
     "presencas": 71,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 7317,
@@ -1400,8 +1400,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "João Antunes dos Santos",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 7589,
@@ -1412,8 +1412,8 @@
     "gp": "CH",
     "missao_parlamentar": 1,
     "nome": "João Lopes Aleixo",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 7358,
@@ -1424,8 +1424,8 @@
     "gp": "CH",
     "missao_parlamentar": 3,
     "nome": "João Paulo Graça",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 7408,
@@ -1436,8 +1436,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "João Pedro Louro",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 1657,
@@ -1448,8 +1448,8 @@
     "gp": "CDS-PP",
     "missao_parlamentar": 1,
     "nome": "João Pinho de Almeida",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 8591,
@@ -1460,8 +1460,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "João Ribeiro",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 8596,
@@ -1472,8 +1472,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "João Tilly",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 4405,
@@ -1484,8 +1484,8 @@
     "gp": "PS",
     "missao_parlamentar": 10,
     "nome": "João Torres",
-    "presencas": 72,
-    "total_reunioes": 87
+    "presencas": 74,
+    "total_reunioes": 89
   },
   {
     "bid": 4551,
@@ -1496,8 +1496,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Júlia Rodrigues",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 9110,
@@ -1508,8 +1508,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Leandro Ferreira Luís",
-    "presencas": 57,
-    "total_reunioes": 62
+    "presencas": 59,
+    "total_reunioes": 64
   },
   {
     "bid": 5595,
@@ -1520,8 +1520,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Leonor Cipriano",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 8387,
@@ -1544,8 +1544,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Liliana Fidalgo",
-    "presencas": 55,
-    "total_reunioes": 60
+    "presencas": 57,
+    "total_reunioes": 62
   },
   {
     "bid": 7039,
@@ -1556,8 +1556,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Liliana Sousa",
-    "presencas": 27,
-    "total_reunioes": 28
+    "presencas": 29,
+    "total_reunioes": 30
   },
   {
     "bid": 9073,
@@ -1568,8 +1568,8 @@
     "gp": "CH",
     "missao_parlamentar": 1,
     "nome": "Lina Pinheiro",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 8396,
@@ -1578,22 +1578,22 @@
     "faltas_justificadas": 2,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
-    "missao_parlamentar": 8,
+    "missao_parlamentar": 10,
     "nome": "Luís Dias",
     "presencas": 77,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 5677,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 1,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 13,
     "nome": "Luís Graça",
-    "presencas": 73,
-    "total_reunioes": 87
+    "presencas": 74,
+    "total_reunioes": 89
   },
   {
     "bid": 4126,
@@ -1604,8 +1604,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Luís Moreira Testa",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 7353,
@@ -1616,20 +1616,20 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Luís Paulo Fernandes",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 8418,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 2,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 4,
     "nome": "Madalena Cordeiro",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 82,
+    "total_reunioes": 89
   },
   {
     "bid": 7347,
@@ -1640,8 +1640,8 @@
     "gp": "CH",
     "missao_parlamentar": 10,
     "nome": "Manuel Magno",
-    "presencas": 50,
-    "total_reunioes": 87
+    "presencas": 52,
+    "total_reunioes": 89
   },
   {
     "bid": 9617,
@@ -1652,8 +1652,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Manuela Carvalho",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 4365,
@@ -1664,8 +1664,8 @@
     "gp": "CH",
     "missao_parlamentar": 11,
     "nome": "Manuela Tender",
-    "presencas": 74,
-    "total_reunioes": 87
+    "presencas": 76,
+    "total_reunioes": 89
   },
   {
     "bid": 4484,
@@ -1676,8 +1676,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Marco Claudino",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 2209,
@@ -1686,10 +1686,10 @@
     "faltas_justificadas": 1,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
-    "missao_parlamentar": 25,
+    "missao_parlamentar": 27,
     "nome": "Marcos Perestrello",
     "presencas": 60,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 7965,
@@ -1700,32 +1700,32 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Marcus Santos",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 9577,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 1,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Margarida Afonso",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 4090,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 8,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Margarida Saavedra",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 8613,
@@ -1736,8 +1736,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Maria José Aguiar",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 7973,
@@ -1748,8 +1748,8 @@
     "gp": "IL",
     "missao_parlamentar": 0,
     "nome": "Mariana Leitão",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 6934,
@@ -1760,20 +1760,20 @@
     "gp": "PS",
     "missao_parlamentar": 4,
     "nome": "Mariana Vieira da Silva",
-    "presencas": 78,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 7385,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 4,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Marta Martins da Silva",
-    "presencas": 80,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 8650,
@@ -1784,8 +1784,8 @@
     "gp": "PSD",
     "missao_parlamentar": 3,
     "nome": "Martim Syder",
-    "presencas": 78,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 4328,
@@ -1796,44 +1796,44 @@
     "gp": "PSD",
     "missao_parlamentar": 8,
     "nome": "Maurício Marques",
-    "presencas": 75,
-    "total_reunioes": 87
+    "presencas": 77,
+    "total_reunioes": 89
   },
   {
     "bid": 5841,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 2,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Miguel Cabrita",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 8374,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 1,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 2,
     "nome": "Miguel Guimarães",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 6706,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 2,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 10,
     "faltas_nao_classificadas": 1,
     "gp": "PS",
     "missao_parlamentar": 2,
     "nome": "Miguel Matos",
-    "presencas": 71,
-    "total_reunioes": 87
+    "presencas": 72,
+    "total_reunioes": 89
   },
   {
     "bid": 9428,
@@ -1844,12 +1844,12 @@
     "gp": "IL",
     "missao_parlamentar": 0,
     "nome": "Miguel Rangel",
-    "presencas": 59,
-    "total_reunioes": 65
+    "presencas": 61,
+    "total_reunioes": 67
   },
   {
     "bid": 2071,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 2,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 6,
     "faltas_nao_classificadas": 0,
@@ -1857,7 +1857,7 @@
     "missao_parlamentar": 5,
     "nome": "Miguel Santos",
     "presencas": 76,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 8636,
@@ -1868,8 +1868,8 @@
     "gp": "IL",
     "missao_parlamentar": 2,
     "nome": "Mário Amorim Lopes",
-    "presencas": 74,
-    "total_reunioes": 87
+    "presencas": 76,
+    "total_reunioes": 89
   },
   {
     "bid": 9020,
@@ -1880,8 +1880,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Nuna Menezes",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 6878,
@@ -1892,8 +1892,8 @@
     "gp": "PS",
     "missao_parlamentar": 15,
     "nome": "Nuno Fazenda",
-    "presencas": 70,
-    "total_reunioes": 87
+    "presencas": 72,
+    "total_reunioes": 89
   },
   {
     "bid": 8693,
@@ -1904,8 +1904,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Nuno Gabriel",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 8689,
@@ -1916,8 +1916,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Nuno Jorge Gonçalves",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 8778,
@@ -1928,8 +1928,8 @@
     "gp": "CH",
     "missao_parlamentar": 3,
     "nome": "Nuno Simões de Melo",
-    "presencas": 80,
-    "total_reunioes": 87
+    "presencas": 82,
+    "total_reunioes": 89
   },
   {
     "bid": 8698,
@@ -1940,8 +1940,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Olga Freire",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 7971,
@@ -1952,8 +1952,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Patrícia Almeida",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 7355,
@@ -1964,8 +1964,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Patrícia Carvalho",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 6371,
@@ -1976,8 +1976,8 @@
     "gp": "PS",
     "missao_parlamentar": 6,
     "nome": "Patrícia Faro",
-    "presencas": 76,
-    "total_reunioes": 87
+    "presencas": 78,
+    "total_reunioes": 89
   },
   {
     "bid": 6968,
@@ -1988,8 +1988,8 @@
     "gp": "L",
     "missao_parlamentar": 3,
     "nome": "Patrícia Gonçalves",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 9409,
@@ -2000,8 +2000,8 @@
     "gp": "CH",
     "missao_parlamentar": 2,
     "nome": "Patrícia Nascimento",
-    "presencas": 68,
-    "total_reunioes": 87
+    "presencas": 70,
+    "total_reunioes": 89
   },
   {
     "bid": 3918,
@@ -2012,8 +2012,8 @@
     "gp": "PSD",
     "missao_parlamentar": 14,
     "nome": "Paula Cardoso",
-    "presencas": 69,
-    "total_reunioes": 87
+    "presencas": 71,
+    "total_reunioes": 89
   },
   {
     "bid": 2641,
@@ -2024,8 +2024,8 @@
     "gp": "PSD",
     "missao_parlamentar": 3,
     "nome": "Paulo Cavaleiro",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 7504,
@@ -2036,20 +2036,20 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Paulo Edson Cunha",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 9357,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 7,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 2,
     "nome": "Paulo Lopes Marcelo",
-    "presencas": 77,
-    "total_reunioes": 86
+    "presencas": 78,
+    "total_reunioes": 88
   },
   {
     "bid": 9097,
@@ -2060,8 +2060,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Paulo Lopes Silva",
-    "presencas": 77,
-    "total_reunioes": 87
+    "presencas": 79,
+    "total_reunioes": 89
   },
   {
     "bid": 6537,
@@ -2072,8 +2072,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Paulo Moniz",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 6932,
@@ -2082,10 +2082,10 @@
     "faltas_justificadas": 3,
     "faltas_nao_classificadas": 0,
     "gp": "L",
-    "missao_parlamentar": 0,
+    "missao_parlamentar": 2,
     "nome": "Paulo Muacho",
     "presencas": 81,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 6178,
@@ -2096,8 +2096,8 @@
     "gp": "PSD",
     "missao_parlamentar": 5,
     "nome": "Paulo Neves",
-    "presencas": 78,
-    "total_reunioes": 87
+    "presencas": 80,
+    "total_reunioes": 89
   },
   {
     "bid": 8723,
@@ -2108,20 +2108,20 @@
     "gp": "CDS-PP",
     "missao_parlamentar": 5,
     "nome": "Paulo Núncio",
-    "presencas": 77,
-    "total_reunioes": 87
+    "presencas": 79,
+    "total_reunioes": 89
   },
   {
     "bid": 8730,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 2,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Paulo Seco",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 1738,
@@ -2130,10 +2130,10 @@
     "faltas_justificadas": 1,
     "faltas_nao_classificadas": 4,
     "gp": "PSD",
-    "missao_parlamentar": 1,
+    "missao_parlamentar": 3,
     "nome": "Pedro Alves",
     "presencas": 72,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 8879,
@@ -2144,8 +2144,8 @@
     "gp": "PSD",
     "missao_parlamentar": 2,
     "nome": "Pedro Coelho",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 1893,
@@ -2156,8 +2156,8 @@
     "gp": "PS",
     "missao_parlamentar": 5,
     "nome": "Pedro Coimbra",
-    "presencas": 77,
-    "total_reunioes": 87
+    "presencas": 79,
+    "total_reunioes": 89
   },
   {
     "bid": 7346,
@@ -2168,8 +2168,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Pedro Correia",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 4453,
@@ -2180,8 +2180,8 @@
     "gp": "PS",
     "missao_parlamentar": 2,
     "nome": "Pedro Delgado Alves",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 7391,
@@ -2190,10 +2190,10 @@
     "faltas_justificadas": 6,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
-    "missao_parlamentar": 8,
+    "missao_parlamentar": 10,
     "nome": "Pedro Pessanha",
     "presencas": 73,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 7336,
@@ -2204,8 +2204,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Pedro Pinto",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 1992,
@@ -2216,8 +2216,8 @@
     "gp": "PSD",
     "missao_parlamentar": 19,
     "nome": "Pedro Roque",
-    "presencas": 62,
-    "total_reunioes": 87
+    "presencas": 64,
+    "total_reunioes": 89
   },
   {
     "bid": 9358,
@@ -2228,8 +2228,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Pedro Soares Pimenta",
-    "presencas": 44,
-    "total_reunioes": 45
+    "presencas": 46,
+    "total_reunioes": 47
   },
   {
     "bid": 8898,
@@ -2240,8 +2240,8 @@
     "gp": "CH",
     "missao_parlamentar": 2,
     "nome": "Pedro Tavares",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 8888,
@@ -2252,8 +2252,8 @@
     "gp": "PS",
     "missao_parlamentar": 3,
     "nome": "Pedro Vaz",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 416,
@@ -2264,8 +2264,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Pedro do Carmo",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 7345,
@@ -2276,8 +2276,8 @@
     "gp": "CH",
     "missao_parlamentar": 2,
     "nome": "Pedro dos Santos Frazão",
-    "presencas": 68,
-    "total_reunioes": 87
+    "presencas": 70,
+    "total_reunioes": 89
   },
   {
     "bid": 469,
@@ -2288,8 +2288,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Porfírio Silva",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 9007,
@@ -2300,8 +2300,8 @@
     "gp": "CH",
     "missao_parlamentar": 3,
     "nome": "Raul Melo",
-    "presencas": 80,
-    "total_reunioes": 87
+    "presencas": 82,
+    "total_reunioes": 89
   },
   {
     "bid": 2106,
@@ -2312,8 +2312,8 @@
     "gp": "PSD",
     "missao_parlamentar": 11,
     "nome": "Regina Bastos",
-    "presencas": 52,
-    "total_reunioes": 87
+    "presencas": 54,
+    "total_reunioes": 89
   },
   {
     "bid": 8921,
@@ -2324,8 +2324,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Ricardo Aires",
-    "presencas": 80,
-    "total_reunioes": 87
+    "presencas": 82,
+    "total_reunioes": 89
   },
   {
     "bid": 9108,
@@ -2336,8 +2336,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Ricardo Barroso",
-    "presencas": 73,
-    "total_reunioes": 87
+    "presencas": 75,
+    "total_reunioes": 89
   },
   {
     "bid": 7586,
@@ -2348,32 +2348,32 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Ricardo Carlos",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 8916,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 8,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 21,
     "nome": "Ricardo Carvalho",
-    "presencas": 58,
-    "total_reunioes": 87
+    "presencas": 59,
+    "total_reunioes": 89
   },
   {
     "bid": 8918,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 14,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 5,
     "nome": "Ricardo Dias Pinto",
-    "presencas": 68,
-    "total_reunioes": 87
+    "presencas": 69,
+    "total_reunioes": 89
   },
   {
     "bid": 7731,
@@ -2384,8 +2384,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Ricardo Lima",
-    "presencas": 73,
-    "total_reunioes": 87
+    "presencas": 75,
+    "total_reunioes": 89
   },
   {
     "bid": 9543,
@@ -2396,8 +2396,8 @@
     "gp": "CH",
     "missao_parlamentar": 4,
     "nome": "Ricardo Lopes Reis",
-    "presencas": 80,
-    "total_reunioes": 87
+    "presencas": 82,
+    "total_reunioes": 89
   },
   {
     "bid": 7883,
@@ -2408,8 +2408,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Ricardo Moreira",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 7205,
@@ -2420,8 +2420,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Ricardo Oliveira",
-    "presencas": 85,
-    "total_reunioes": 87
+    "presencas": 87,
+    "total_reunioes": 89
   },
   {
     "bid": 7390,
@@ -2432,20 +2432,20 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Rita Matias",
-    "presencas": 74,
-    "total_reunioes": 87
+    "presencas": 76,
+    "total_reunioes": 89
   },
   {
     "bid": 7363,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 16,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Rodrigo Alves Taxa",
-    "presencas": 69,
-    "total_reunioes": 87
+    "presencas": 70,
+    "total_reunioes": 89
   },
   {
     "bid": 6945,
@@ -2456,8 +2456,8 @@
     "gp": "IL",
     "missao_parlamentar": 3,
     "nome": "Rodrigo Saraiva",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 5610,
@@ -2468,8 +2468,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Rosa Isabel Cruz",
-    "presencas": 87,
-    "total_reunioes": 87
+    "presencas": 89,
+    "total_reunioes": 89
   },
   {
     "bid": 7344,
@@ -2480,8 +2480,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Rui Afonso",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 8951,
@@ -2492,8 +2492,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Rui Cardoso",
-    "presencas": 79,
-    "total_reunioes": 87
+    "presencas": 81,
+    "total_reunioes": 89
   },
   {
     "bid": 8946,
@@ -2504,12 +2504,12 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Rui Fernandes",
-    "presencas": 66,
-    "total_reunioes": 70
+    "presencas": 68,
+    "total_reunioes": 72
   },
   {
     "bid": 1517,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 2,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 5,
     "faltas_nao_classificadas": 0,
@@ -2517,7 +2517,7 @@
     "missao_parlamentar": 0,
     "nome": "Rui Jorge Santos",
     "presencas": 80,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 7342,
@@ -2528,8 +2528,8 @@
     "gp": "CH",
     "missao_parlamentar": 3,
     "nome": "Rui Paulo Sousa",
-    "presencas": 76,
-    "total_reunioes": 87
+    "presencas": 78,
+    "total_reunioes": 89
   },
   {
     "bid": 7331,
@@ -2540,8 +2540,8 @@
     "gp": "IL",
     "missao_parlamentar": 3,
     "nome": "Rui Rocha",
-    "presencas": 67,
-    "total_reunioes": 87
+    "presencas": 69,
+    "total_reunioes": 89
   },
   {
     "bid": 9505,
@@ -2552,8 +2552,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Rui Rocha Pereira",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 7337,
@@ -2564,8 +2564,8 @@
     "gp": "L",
     "missao_parlamentar": 0,
     "nome": "Rui Tavares",
-    "presencas": 70,
-    "total_reunioes": 87
+    "presencas": 72,
+    "total_reunioes": 89
   },
   {
     "bid": 8962,
@@ -2576,20 +2576,20 @@
     "gp": "PS",
     "missao_parlamentar": 1,
     "nome": "Sandra Lopes",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 5749,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 8,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 7,
     "nome": "Sandra Pereira",
-    "presencas": 69,
-    "total_reunioes": 87
+    "presencas": 70,
+    "total_reunioes": 89
   },
   {
     "bid": 7373,
@@ -2600,8 +2600,8 @@
     "gp": "CH",
     "missao_parlamentar": 1,
     "nome": "Sandra Ribeiro",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 6710,
@@ -2612,8 +2612,8 @@
     "gp": "PS",
     "missao_parlamentar": 1,
     "nome": "Sofia Andrade",
-    "presencas": 81,
-    "total_reunioes": 87
+    "presencas": 83,
+    "total_reunioes": 89
   },
   {
     "bid": 9107,
@@ -2624,8 +2624,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Sofia Machado Fernandes",
-    "presencas": 87,
-    "total_reunioes": 87
+    "presencas": 89,
+    "total_reunioes": 89
   },
   {
     "bid": 8982,
@@ -2636,8 +2636,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Sofia Pereira",
-    "presencas": 82,
-    "total_reunioes": 87
+    "presencas": 84,
+    "total_reunioes": 89
   },
   {
     "bid": 6081,
@@ -2648,8 +2648,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Sonia dos Reis",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 6962,
@@ -2660,8 +2660,8 @@
     "gp": "PS",
     "missao_parlamentar": 1,
     "nome": "Susana Correia",
-    "presencas": 84,
-    "total_reunioes": 87
+    "presencas": 86,
+    "total_reunioes": 89
   },
   {
     "bid": 9109,
@@ -2672,8 +2672,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Sónia Margarida Fernandes",
-    "presencas": 74,
-    "total_reunioes": 87
+    "presencas": 76,
+    "total_reunioes": 89
   },
   {
     "bid": 8091,
@@ -2682,10 +2682,10 @@
     "faltas_justificadas": 18,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
-    "missao_parlamentar": 0,
+    "missao_parlamentar": 2,
     "nome": "Sónia Monteiro",
     "presencas": 69,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 1897,
@@ -2696,8 +2696,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Teresa Morais",
-    "presencas": 86,
-    "total_reunioes": 87
+    "presencas": 88,
+    "total_reunioes": 89
   },
   {
     "bid": 2445,
@@ -2708,8 +2708,8 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Tiago Barbosa Ribeiro",
-    "presencas": 87,
-    "total_reunioes": 87
+    "presencas": 89,
+    "total_reunioes": 89
   },
   {
     "bid": 7012,
@@ -2725,7 +2725,7 @@
   },
   {
     "bid": 7369,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 2,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 10,
     "faltas_nao_classificadas": 0,
@@ -2733,7 +2733,7 @@
     "missao_parlamentar": 0,
     "nome": "Vanessa Barata",
     "presencas": 77,
-    "total_reunioes": 87
+    "total_reunioes": 89
   },
   {
     "bid": 4221,
@@ -2744,8 +2744,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Vânia Jesus",
-    "presencas": 83,
-    "total_reunioes": 87
+    "presencas": 85,
+    "total_reunioes": 89
   },
   {
     "bid": 9174,
@@ -2756,7 +2756,7 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Vítor Guerreiro",
-    "presencas": 27,
-    "total_reunioes": 28
+    "presencas": 29,
+    "total_reunioes": 30
   }
 ]
