@@ -5,6 +5,13 @@
   "nome": "Sandra Pereira",
   "sessoes": [
     {
+      "data": "2026-05-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376549
+    },
+    {
       "data": "2026-05-14",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -632,8 +639,8 @@
     "AMP": 7,
     "FJ": 8,
     "FQV": 1,
-    "P": 70,
+    "P": 71,
     "PNO": 3
   },
-  "total_reunioes": 89
+  "total_reunioes": 90
 }

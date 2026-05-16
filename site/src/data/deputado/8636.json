@@ -5,6 +5,13 @@
   "nome": "Mário Amorim Lopes",
   "sessoes": [
     {
+      "data": "2026-05-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376549
+    },
+    {
       "data": "2026-05-14",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -631,8 +638,8 @@
   "totais": {
     "AMP": 2,
     "FJ": 6,
-    "P": 76,
+    "P": 77,
     "PNO": 5
   },
-  "total_reunioes": 89
+  "total_reunioes": 90
 }

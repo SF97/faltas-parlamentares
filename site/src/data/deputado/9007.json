@@ -5,6 +5,13 @@
   "nome": "Raul Melo",
   "sessoes": [
     {
+      "data": "2026-05-15",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376549
+    },
+    {
       "data": "2026-05-14",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -632,7 +639,8 @@
     "AMP": 3,
     "F": 2,
     "FJ": 2,
+    "FQV": 1,
     "P": 82
   },
-  "total_reunioes": 89
+  "total_reunioes": 90
 }

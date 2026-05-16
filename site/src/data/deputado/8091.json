@@ -5,6 +5,13 @@
   "nome": "Sónia Monteiro",
   "sessoes": [
     {
+      "data": "2026-05-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376549
+    },
+    {
       "data": "2026-05-14",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -631,7 +638,7 @@
   "totais": {
     "AMP": 2,
     "FJ": 18,
-    "P": 69
+    "P": 70
   },
-  "total_reunioes": 89
+  "total_reunioes": 90
 }

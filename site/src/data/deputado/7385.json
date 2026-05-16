@@ -5,6 +5,13 @@
   "nome": "Marta Martins da Silva",
   "sessoes": [
     {
+      "data": "2026-05-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376549
+    },
+    {
       "data": "2026-05-14",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -631,8 +638,8 @@
   "totais": {
     "FJ": 4,
     "FQV": 1,
-    "P": 81,
+    "P": 82,
     "PNO": 3
   },
-  "total_reunioes": 89
+  "total_reunioes": 90
 }

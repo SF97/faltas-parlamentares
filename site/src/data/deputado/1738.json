@@ -5,6 +5,13 @@
   "nome": "Pedro Alves",
   "sessoes": [
     {
+      "data": "2026-05-15",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376549
+    },
+    {
       "data": "2026-05-14",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -629,12 +636,12 @@
     }
   ],
   "totais": {
-    "AMP": 3,
+    "AMP": 4,
     "F": 4,
     "FJ": 1,
     "FQV": 8,
     "P": 72,
     "PNO": 1
   },
-  "total_reunioes": 89
+  "total_reunioes": 90
 }

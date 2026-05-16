@@ -5,6 +5,13 @@
   "nome": "Sofia Pereira",
   "sessoes": [
     {
+      "data": "2026-05-15",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376549
+    },
+    {
       "data": "2026-05-14",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -630,8 +637,8 @@
   ],
   "totais": {
     "FJ": 4,
-    "FQV": 1,
+    "FQV": 2,
     "P": 84
   },
-  "total_reunioes": 89
+  "total_reunioes": 90
 }

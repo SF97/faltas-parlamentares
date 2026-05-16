@@ -5,6 +5,13 @@
   "nome": "João Paulo Graça",
   "sessoes": [
     {
+      "data": "2026-05-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376549
+    },
+    {
       "data": "2026-05-14",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -631,8 +638,8 @@
   "totais": {
     "AMP": 3,
     "FJ": 1,
-    "P": 84,
+    "P": 85,
     "PNO": 1
   },
-  "total_reunioes": 89
+  "total_reunioes": 90
 }

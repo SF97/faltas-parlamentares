@@ -5,6 +5,13 @@
   "nome": "Madalena Cordeiro",
   "sessoes": [
     {
+      "data": "2026-05-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376549
+    },
+    {
       "data": "2026-05-14",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -632,7 +639,7 @@
     "AMP": 4,
     "FJ": 2,
     "FQV": 1,
-    "P": 82
+    "P": 83
   },
-  "total_reunioes": 89
+  "total_reunioes": 90
 }

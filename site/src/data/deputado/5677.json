@@ -12,6 +12,13 @@
   "nome": "Luís Graça",
   "sessoes": [
     {
+      "data": "2026-05-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376549
+    },
+    {
       "data": "2026-05-14",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -639,7 +646,7 @@
     "AMP": 13,
     "FJ": 1,
     "FQV": 1,
-    "P": 74
+    "P": 75
   },
-  "total_reunioes": 89
+  "total_reunioes": 90
 }
