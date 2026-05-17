@@ -34,9 +34,9 @@
     },
     {
       "data": "2026-05-07",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Maternidade",
       "reuniao_bid": 376478
     },
     {
@@ -636,8 +636,7 @@
     }
   ],
   "totais": {
-    "F": 1,
-    "FJ": 12,
+    "FJ": 13,
     "P": 77
   },
   "total_reunioes": 90
