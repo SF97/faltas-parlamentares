@@ -4,6 +4,8 @@ import hashlib
 import os
 import time
 from pathlib import Path
+import truststore
+import ssl
 
 import httpx
 
@@ -18,15 +20,17 @@ HEADERS = {
 
 _client: httpx.Client | None = None
 
+ctx = truststore.SSLContext(ssl.PROTOCOL_TLS_CLIENT)
 
 def client() -> httpx.Client:
     global _client
     if _client is None:
-        _client = httpx.Client(headers=HEADERS, timeout=60.0, follow_redirects=True)
+        _client = httpx.Client(headers=HEADERS, timeout=60.0, follow_redirects=True, verify=ctx)
     return _client
 
 
 def fetch(url: str, *, cache: bool = True) -> str:
+    print("Fetching URL", url)
     use_cache = cache and not NO_CACHE
     CACHE_DIR.mkdir(parents=True, exist_ok=True)
     key = hashlib.sha256(url.encode()).hexdigest()[:20]
