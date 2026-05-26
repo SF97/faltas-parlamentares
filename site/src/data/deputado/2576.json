@@ -5,6 +5,27 @@
   "nome": "Eduardo Teixeira",
   "sessoes": [
     {
+      "data": "2026-05-22",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376562
+    },
+    {
+      "data": "2026-05-21",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376551
+    },
+    {
+      "data": "2026-05-20",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376550
+    },
+    {
       "data": "2026-05-15",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -636,9 +657,9 @@
     }
   ],
   "totais": {
-    "AMP": 7,
+    "AMP": 9,
     "FJ": 1,
-    "P": 82
+    "P": 83
   },
-  "total_reunioes": 90
+  "total_reunioes": 93
 }

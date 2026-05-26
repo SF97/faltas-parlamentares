@@ -5,6 +5,27 @@
   "nome": "Dulcineia Catarina Moura",
   "sessoes": [
     {
+      "data": "2026-05-22",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376562
+    },
+    {
+      "data": "2026-05-21",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família",
+      "reuniao_bid": 376551
+    },
+    {
+      "data": "2026-05-20",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família",
+      "reuniao_bid": 376550
+    },
+    {
       "data": "2026-05-15",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -637,8 +658,9 @@
   ],
   "totais": {
     "AMP": 2,
-    "FJ": 4,
+    "FJ": 6,
+    "FQV": 1,
     "P": 84
   },
-  "total_reunioes": 90
+  "total_reunioes": 93
 }

@@ -5,6 +5,27 @@
   "nome": "Carlos Pereira",
   "sessoes": [
     {
+      "data": "2026-05-22",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376562
+    },
+    {
+      "data": "2026-05-21",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 376551
+    },
+    {
+      "data": "2026-05-20",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376550
+    },
+    {
       "data": "2026-05-15",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -637,9 +658,10 @@
   ],
   "totais": {
     "AMP": 6,
+    "F": 1,
     "FJ": 3,
-    "P": 77,
+    "P": 79,
     "PNO": 4
   },
-  "total_reunioes": 90
+  "total_reunioes": 93
 }

@@ -5,10 +5,31 @@
   "nome": "Raul Melo",
   "sessoes": [
     {
-      "data": "2026-05-15",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "data": "2026-05-22",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
+      "reuniao_bid": 376562
+    },
+    {
+      "data": "2026-05-21",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376551
+    },
+    {
+      "data": "2026-05-20",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376550
+    },
+    {
+      "data": "2026-05-15",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Parlamentar",
       "reuniao_bid": 376549
     },
     {
@@ -34,16 +55,16 @@
     },
     {
       "data": "2026-05-07",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 376478
     },
     {
       "data": "2026-05-06",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 376477
     },
     {
@@ -637,10 +658,8 @@
   ],
   "totais": {
     "AMP": 3,
-    "F": 2,
-    "FJ": 2,
-    "FQV": 1,
-    "P": 82
+    "FJ": 5,
+    "P": 85
   },
-  "total_reunioes": 90
+  "total_reunioes": 93
 }

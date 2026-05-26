@@ -5,6 +5,27 @@
   "nome": "Gonçalo Valente",
   "sessoes": [
     {
+      "data": "2026-05-22",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376562
+    },
+    {
+      "data": "2026-05-21",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376551
+    },
+    {
+      "data": "2026-05-20",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376550
+    },
+    {
       "data": "2026-05-15",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -20,9 +41,9 @@
     },
     {
       "data": "2026-05-13",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família",
       "reuniao_bid": 376547
     },
     {
@@ -636,10 +657,10 @@
     }
   ],
   "totais": {
-    "FJ": 7,
+    "FJ": 8,
     "FQV": 1,
-    "P": 81,
+    "P": 83,
     "PNO": 1
   },
-  "total_reunioes": 90
+  "total_reunioes": 93
 }
