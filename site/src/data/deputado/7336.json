@@ -6,8 +6,8 @@
   "sessoes": [
     {
       "data": "2026-05-22",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 376562
     },
@@ -658,8 +658,7 @@
   ],
   "totais": {
     "FJ": 3,
-    "FQV": 1,
-    "P": 89
+    "P": 90
   },
   "total_reunioes": 93
 }

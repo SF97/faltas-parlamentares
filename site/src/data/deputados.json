@@ -601,9 +601,9 @@
   },
   {
     "bid": 6858,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 11,
+    "faltas_justificadas": 12,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 0,
@@ -613,9 +613,9 @@
   },
   {
     "bid": 8863,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 6,
+    "faltas_justificadas": 7,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 2,
@@ -628,11 +628,11 @@
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 1,
-    "faltas_nao_classificadas": 1,
+    "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Dália Miranda",
-    "presencas": 89,
+    "presencas": 90,
     "total_reunioes": 93
   },
   {
@@ -997,9 +997,9 @@
   },
   {
     "bid": 8525,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 8,
+    "faltas_justificadas": 9,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 0,
@@ -1477,9 +1477,9 @@
   },
   {
     "bid": 4405,
-    "falta_quorum_votacao": 2,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 4,
+    "faltas_justificadas": 6,
     "faltas_nao_classificadas": 1,
     "gp": "PS",
     "missao_parlamentar": 10,
@@ -1789,12 +1789,12 @@
   },
   {
     "bid": 4328,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 3,
     "faltas_nao_classificadas": 1,
     "gp": "PSD",
-    "missao_parlamentar": 8,
+    "missao_parlamentar": 9,
     "nome": "Maurício Marques",
     "presencas": 79,
     "total_reunioes": 93
@@ -1861,14 +1861,14 @@
   },
   {
     "bid": 8636,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 6,
     "faltas_nao_classificadas": 0,
     "gp": "IL",
     "missao_parlamentar": 2,
     "nome": "Mário Amorim Lopes",
-    "presencas": 79,
+    "presencas": 80,
     "total_reunioes": 93
   },
   {
@@ -2197,14 +2197,14 @@
   },
   {
     "bid": 7336,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 3,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Pedro Pinto",
-    "presencas": 89,
+    "presencas": 90,
     "total_reunioes": 93
   },
   {
@@ -2497,9 +2497,9 @@
   },
   {
     "bid": 8946,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 4,
+    "faltas_justificadas": 5,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 0,
