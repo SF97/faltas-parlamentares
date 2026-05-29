@@ -5,6 +5,20 @@
   "nome": "Leandro Ferreira Luís",
   "sessoes": [
     {
+      "data": "2026-05-28",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376565
+    },
+    {
+      "data": "2026-05-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376563
+    },
+    {
       "data": "2026-05-22",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -484,7 +498,7 @@
   "totais": {
     "AMP": 1,
     "FJ": 4,
-    "P": 63
+    "P": 65
   },
-  "total_reunioes": 68
+  "total_reunioes": 70
 }

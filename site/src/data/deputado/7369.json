@@ -5,10 +5,24 @@
   "nome": "Vanessa Barata",
   "sessoes": [
     {
-      "data": "2026-05-22",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "data": "2026-05-28",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
+      "reuniao_bid": 376565
+    },
+    {
+      "data": "2026-05-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376563
+    },
+    {
+      "data": "2026-05-22",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Doença",
       "reuniao_bid": 376562
     },
     {
@@ -657,9 +671,8 @@
     }
   ],
   "totais": {
-    "FJ": 13,
-    "FQV": 1,
-    "P": 79
+    "FJ": 14,
+    "P": 81
   },
-  "total_reunioes": 93
+  "total_reunioes": 95
 }

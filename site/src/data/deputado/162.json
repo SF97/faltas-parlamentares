@@ -5,6 +5,20 @@
   "nome": "Edite Estrela",
   "sessoes": [
     {
+      "data": "2026-05-28",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376565
+    },
+    {
+      "data": "2026-05-27",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376563
+    },
+    {
       "data": "2026-05-22",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -657,9 +671,9 @@
     }
   ],
   "totais": {
-    "AMP": 26,
+    "AMP": 28,
     "FJ": 9,
     "P": 58
   },
-  "total_reunioes": 93
+  "total_reunioes": 95
 }

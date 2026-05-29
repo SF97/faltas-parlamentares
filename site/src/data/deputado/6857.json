@@ -5,6 +5,20 @@
   "nome": "Hugo Patrício Oliveira",
   "sessoes": [
     {
+      "data": "2026-05-28",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376565
+    },
+    {
+      "data": "2026-05-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376563
+    },
+    {
       "data": "2026-05-22",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -659,7 +673,7 @@
   "totais": {
     "AMP": 12,
     "FJ": 3,
-    "P": 78
+    "P": 80
   },
-  "total_reunioes": 93
+  "total_reunioes": 95
 }

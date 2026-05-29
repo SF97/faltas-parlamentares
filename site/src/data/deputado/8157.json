@@ -5,6 +5,20 @@
   "nome": "Amílcar Almeida",
   "sessoes": [
     {
+      "data": "2026-05-28",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376565
+    },
+    {
+      "data": "2026-05-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376563
+    },
+    {
       "data": "2026-05-22",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -659,8 +673,8 @@
   "totais": {
     "AMP": 10,
     "FJ": 5,
-    "P": 77,
+    "P": 79,
     "PNO": 1
   },
-  "total_reunioes": 93
+  "total_reunioes": 95
 }
