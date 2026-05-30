@@ -5,6 +5,13 @@
   "nome": "Bruno Vitorino",
   "sessoes": [
     {
+      "data": "2026-05-29",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376566
+    },
+    {
       "data": "2026-05-28",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -671,9 +678,9 @@
     }
   ],
   "totais": {
-    "AMP": 7,
+    "AMP": 8,
     "FJ": 3,
     "P": 85
   },
-  "total_reunioes": 95
+  "total_reunioes": 96
 }

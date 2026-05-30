@@ -5,6 +5,13 @@
   "nome": "Pedro Soares Pimenta",
   "sessoes": [
     {
+      "data": "2026-05-29",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376566
+    },
+    {
       "data": "2026-05-28",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -378,7 +385,7 @@
   ],
   "totais": {
     "FJ": 1,
-    "P": 52
+    "P": 53
   },
-  "total_reunioes": 53
+  "total_reunioes": 54
 }

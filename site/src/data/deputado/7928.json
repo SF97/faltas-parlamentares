@@ -12,10 +12,17 @@
   "nome": "Célia Freire",
   "sessoes": [
     {
-      "data": "2026-05-28",
-      "estado": "F",
-      "estado_label": "Falta",
+      "data": "2026-05-29",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
+      "reuniao_bid": 376566
+    },
+    {
+      "data": "2026-05-28",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 376565
     },
     {
@@ -679,10 +686,9 @@
   ],
   "totais": {
     "AMP": 3,
-    "F": 1,
-    "FJ": 5,
-    "P": 85,
+    "FJ": 6,
+    "P": 86,
     "PNO": 1
   },
-  "total_reunioes": 95
+  "total_reunioes": 96
 }

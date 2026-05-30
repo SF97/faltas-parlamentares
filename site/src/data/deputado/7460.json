@@ -5,10 +5,17 @@
   "nome": "Eduardo Pinheiro",
   "sessoes": [
     {
-      "data": "2026-05-28",
-      "estado": "F",
-      "estado_label": "Falta",
+      "data": "2026-05-29",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
+      "reuniao_bid": 376566
+    },
+    {
+      "data": "2026-05-28",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Parlamentar",
       "reuniao_bid": 376565
     },
     {
@@ -672,9 +679,8 @@
   ],
   "totais": {
     "AMP": 3,
-    "F": 1,
-    "FJ": 2,
-    "P": 89
+    "FJ": 3,
+    "P": 90
   },
-  "total_reunioes": 95
+  "total_reunioes": 96
 }

@@ -5,6 +5,13 @@
   "nome": "Mariana Vieira da Silva",
   "sessoes": [
     {
+      "data": "2026-05-29",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376566
+    },
+    {
       "data": "2026-05-28",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -673,8 +680,8 @@
   "totais": {
     "AMP": 4,
     "FJ": 2,
-    "P": 86,
+    "P": 87,
     "PNO": 3
   },
-  "total_reunioes": 95
+  "total_reunioes": 96
 }

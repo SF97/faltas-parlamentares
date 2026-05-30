@@ -12,6 +12,13 @@
   "nome": "Sofia Andrade",
   "sessoes": [
     {
+      "data": "2026-05-29",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376566
+    },
+    {
       "data": "2026-05-28",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -679,8 +686,8 @@
   ],
   "totais": {
     "AMP": 1,
-    "P": 89,
+    "P": 90,
     "PNO": 5
   },
-  "total_reunioes": 95
+  "total_reunioes": 96
 }

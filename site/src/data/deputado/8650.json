@@ -12,6 +12,13 @@
   "nome": "Martim Syder",
   "sessoes": [
     {
+      "data": "2026-05-29",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376566
+    },
+    {
       "data": "2026-05-28",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -678,9 +685,9 @@
     }
   ],
   "totais": {
-    "AMP": 4,
+    "AMP": 5,
     "FJ": 6,
     "P": 85
   },
-  "total_reunioes": 95
+  "total_reunioes": 96
 }

@@ -5,6 +5,13 @@
   "nome": "Davide Amado",
   "sessoes": [
     {
+      "data": "2026-05-29",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376566
+    },
+    {
       "data": "2026-05-28",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -672,7 +679,7 @@
   ],
   "totais": {
     "FJ": 4,
-    "P": 91
+    "P": 92
   },
-  "total_reunioes": 95
+  "total_reunioes": 96
 }

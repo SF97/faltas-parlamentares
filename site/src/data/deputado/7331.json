@@ -5,6 +5,13 @@
   "nome": "Rui Rocha",
   "sessoes": [
     {
+      "data": "2026-05-29",
+      "estado": "PNO",
+      "estado_label": "Presença Noutro Órgão (PNO)",
+      "motivo": null,
+      "reuniao_bid": 376566
+    },
+    {
       "data": "2026-05-28",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -676,7 +683,7 @@
     "FJ": 12,
     "FQV": 1,
     "P": 75,
-    "PNO": 2
+    "PNO": 3
   },
-  "total_reunioes": 95
+  "total_reunioes": 96
 }

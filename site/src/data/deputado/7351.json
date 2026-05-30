@@ -5,6 +5,13 @@
   "nome": "Francisco Pimentel",
   "sessoes": [
     {
+      "data": "2026-05-29",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376566
+    },
+    {
       "data": "2026-05-28",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -672,8 +679,9 @@
   ],
   "totais": {
     "FJ": 1,
+    "FQV": 1,
     "P": 89,
     "PNO": 5
   },
-  "total_reunioes": 95
+  "total_reunioes": 96
 }

@@ -30,6 +30,13 @@
   "nome": "Miguel Rangel",
   "sessoes": [
     {
+      "data": "2026-05-29",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376566
+    },
+    {
       "data": "2026-05-28",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -544,8 +551,8 @@
   "totais": {
     "F": 1,
     "FJ": 4,
-    "FQV": 1,
+    "FQV": 2,
     "P": 67
   },
-  "total_reunioes": 73
+  "total_reunioes": 74
 }

@@ -5,10 +5,17 @@
   "nome": "André Pinotes Batista",
   "sessoes": [
     {
-      "data": "2026-05-28",
-      "estado": "F",
-      "estado_label": "Falta",
+      "data": "2026-05-29",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
+      "reuniao_bid": 376566
+    },
+    {
+      "data": "2026-05-28",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família",
       "reuniao_bid": 376565
     },
     {
@@ -672,9 +679,9 @@
   ],
   "totais": {
     "AMP": 3,
-    "F": 2,
-    "FJ": 14,
-    "P": 76
+    "F": 1,
+    "FJ": 15,
+    "P": 77
   },
-  "total_reunioes": 95
+  "total_reunioes": 96
 }
