@@ -5,6 +5,13 @@
   "nome": "Mariana Vieira da Silva",
   "sessoes": [
     {
+      "data": "2026-06-02",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376698
+    },
+    {
       "data": "2026-05-29",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -678,10 +685,10 @@
     }
   ],
   "totais": {
-    "AMP": 4,
+    "AMP": 5,
     "FJ": 2,
     "P": 87,
     "PNO": 3
   },
-  "total_reunioes": 96
+  "total_reunioes": 97
 }

@@ -5,6 +5,13 @@
   "nome": "Carla Barros",
   "sessoes": [
     {
+      "data": "2026-06-02",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 376698
+    },
+    {
       "data": "2026-05-29",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -678,8 +685,9 @@
     }
   ],
   "totais": {
+    "F": 1,
     "FJ": 7,
     "P": 89
   },
-  "total_reunioes": 96
+  "total_reunioes": 97
 }

@@ -12,6 +12,13 @@
   "nome": "Paulo Cavaleiro",
   "sessoes": [
     {
+      "data": "2026-06-02",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376698
+    },
+    {
       "data": "2026-05-29",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -687,7 +694,7 @@
   "totais": {
     "AMP": 3,
     "FJ": 2,
-    "P": 91
+    "P": 92
   },
-  "total_reunioes": 96
+  "total_reunioes": 97
 }

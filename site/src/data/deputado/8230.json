@@ -5,6 +5,13 @@
   "nome": "André Rijo",
   "sessoes": [
     {
+      "data": "2026-06-02",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376698
+    },
+    {
       "data": "2026-05-29",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -680,8 +687,8 @@
   "totais": {
     "AMP": 1,
     "FQV": 1,
-    "P": 89,
+    "P": 90,
     "PNO": 5
   },
-  "total_reunioes": 96
+  "total_reunioes": 97
 }

@@ -12,6 +12,13 @@
   "nome": "Ana Martins",
   "sessoes": [
     {
+      "data": "2026-06-02",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376698
+    },
+    {
       "data": "2026-05-29",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -686,7 +693,7 @@
   ],
   "totais": {
     "FJ": 10,
-    "P": 86
+    "P": 87
   },
-  "total_reunioes": 96
+  "total_reunioes": 97
 }

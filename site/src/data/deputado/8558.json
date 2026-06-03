@@ -24,6 +24,13 @@
   "nome": "Isabel Fernandes",
   "sessoes": [
     {
+      "data": "2026-06-02",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376698
+    },
+    {
       "data": "2026-05-29",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -699,8 +706,8 @@
   "totais": {
     "AMP": 1,
     "FJ": 3,
-    "P": 87,
+    "P": 88,
     "PNO": 5
   },
-  "total_reunioes": 96
+  "total_reunioes": 97
 }

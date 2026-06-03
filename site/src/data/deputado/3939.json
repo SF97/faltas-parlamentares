@@ -12,11 +12,24 @@
       "data": "2026-05-03",
       "motivo": "Suspensão",
       "tipo": "saida"
+    },
+    {
+      "contraparte": "Isabel Costa",
+      "data": "2026-06-02",
+      "motivo": "Termo da suspensão",
+      "tipo": "entrada"
     }
   ],
   "gp": "PS",
   "nome": "Hernâni Loureiro",
   "sessoes": [
+    {
+      "data": "2026-06-02",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376698
+    },
     {
       "data": "2026-04-30",
       "estado": "P",
@@ -293,7 +306,7 @@
   ],
   "totais": {
     "AMP": 1,
-    "P": 38
+    "P": 39
   },
-  "total_reunioes": 39
+  "total_reunioes": 40
 }

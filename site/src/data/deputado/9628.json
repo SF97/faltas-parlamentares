@@ -5,6 +5,13 @@
   "nome": "Fernando Queiroga",
   "sessoes": [
     {
+      "data": "2026-06-02",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376698
+    },
+    {
       "data": "2026-05-29",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -679,8 +686,8 @@
   ],
   "totais": {
     "FJ": 1,
-    "P": 94,
+    "P": 95,
     "PNO": 1
   },
-  "total_reunioes": 96
+  "total_reunioes": 97
 }

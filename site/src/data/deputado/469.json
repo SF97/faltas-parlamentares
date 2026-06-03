@@ -5,6 +5,13 @@
   "nome": "Porfírio Silva",
   "sessoes": [
     {
+      "data": "2026-06-02",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376698
+    },
+    {
       "data": "2026-05-29",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -679,8 +686,8 @@
   ],
   "totais": {
     "FJ": 3,
-    "P": 91,
+    "P": 92,
     "PNO": 2
   },
-  "total_reunioes": 96
+  "total_reunioes": 97
 }

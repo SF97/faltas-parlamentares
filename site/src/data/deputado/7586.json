@@ -24,6 +24,13 @@
   "nome": "Ricardo Carlos",
   "sessoes": [
     {
+      "data": "2026-06-02",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 376698
+    },
+    {
       "data": "2026-05-29",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -698,10 +705,10 @@
   ],
   "totais": {
     "AMP": 1,
-    "F": 2,
+    "F": 3,
     "FQV": 1,
     "P": 89,
     "PNO": 3
   },
-  "total_reunioes": 96
+  "total_reunioes": 97
 }

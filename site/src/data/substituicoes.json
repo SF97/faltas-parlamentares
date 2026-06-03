@@ -1,6 +1,14 @@
 [
   {
     "circulo": "Braga",
+    "data": "2026-06-02",
+    "gp": "PS",
+    "motivo": "Termo da suspensão",
+    "substituido": "Isabel Costa",
+    "substituto": "Hernâni Loureiro"
+  },
+  {
+    "circulo": "Braga",
     "data": "2026-05-03",
     "gp": "PS",
     "motivo": "Suspensão",
