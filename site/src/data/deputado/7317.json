@@ -13,9 +13,9 @@
     },
     {
       "data": "2026-05-29",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 376566
     },
     {
@@ -686,8 +686,7 @@
   ],
   "totais": {
     "AMP": 1,
-    "FJ": 4,
-    "FQV": 1,
+    "FJ": 5,
     "P": 91
   },
   "total_reunioes": 97
