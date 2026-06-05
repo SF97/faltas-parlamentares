@@ -25,9 +25,9 @@
   "sessoes": [
     {
       "data": "2026-06-02",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Casamento",
       "reuniao_bid": 376698
     },
     {
@@ -705,8 +705,7 @@
   ],
   "totais": {
     "AMP": 1,
-    "F": 1,
-    "FJ": 3,
+    "FJ": 4,
     "P": 89,
     "PNO": 3
   },
