@@ -5,6 +5,13 @@
   "nome": "José Pedro Aguiar-Branco",
   "sessoes": [
     {
+      "data": "2026-06-03",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376699
+    },
+    {
       "data": "2026-06-02",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -688,7 +695,7 @@
     "AMP": 11,
     "F": 1,
     "FJ": 6,
-    "P": 79
+    "P": 80
   },
-  "total_reunioes": 97
+  "total_reunioes": 98
 }

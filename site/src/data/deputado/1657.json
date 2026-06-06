@@ -24,6 +24,13 @@
   "nome": "João Pinho de Almeida",
   "sessoes": [
     {
+      "data": "2026-06-03",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376699
+    },
+    {
       "data": "2026-06-02",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -706,7 +713,7 @@
   "totais": {
     "AMP": 1,
     "FJ": 5,
-    "P": 91
+    "P": 92
   },
-  "total_reunioes": 97
+  "total_reunioes": 98
 }

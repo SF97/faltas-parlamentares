@@ -5,6 +5,13 @@
   "nome": "João Torres",
   "sessoes": [
     {
+      "data": "2026-06-03",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376699
+    },
+    {
       "data": "2026-06-02",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -688,7 +695,8 @@
     "AMP": 13,
     "F": 1,
     "FJ": 6,
+    "FQV": 1,
     "P": 77
   },
-  "total_reunioes": 97
+  "total_reunioes": 98
 }

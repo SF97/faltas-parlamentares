@@ -5,6 +5,13 @@
   "nome": "Francisco Figueira",
   "sessoes": [
     {
+      "data": "2026-06-03",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376699
+    },
+    {
       "data": "2026-06-02",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -687,7 +694,7 @@
   "totais": {
     "AMP": 2,
     "FJ": 3,
-    "P": 92
+    "P": 93
   },
-  "total_reunioes": 97
+  "total_reunioes": 98
 }

@@ -5,6 +5,13 @@
   "nome": "Ricardo Dias Pinto",
   "sessoes": [
     {
+      "data": "2026-06-03",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376699
+    },
+    {
       "data": "2026-06-02",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -13,9 +20,9 @@
     },
     {
       "data": "2026-05-29",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Motivo justificado",
       "reuniao_bid": 376566
     },
     {
@@ -685,10 +692,9 @@
     }
   ],
   "totais": {
-    "AMP": 6,
-    "FJ": 15,
-    "FQV": 1,
+    "AMP": 7,
+    "FJ": 16,
     "P": 75
   },
-  "total_reunioes": 97
+  "total_reunioes": 98
 }

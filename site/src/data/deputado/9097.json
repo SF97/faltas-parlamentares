@@ -5,6 +5,13 @@
   "nome": "Paulo Lopes Silva",
   "sessoes": [
     {
+      "data": "2026-06-03",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376699
+    },
+    {
       "data": "2026-06-02",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -685,9 +692,9 @@
     }
   ],
   "totais": {
-    "AMP": 1,
+    "AMP": 2,
     "FJ": 10,
     "P": 86
   },
-  "total_reunioes": 97
+  "total_reunioes": 98
 }
