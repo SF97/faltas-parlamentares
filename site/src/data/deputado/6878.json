@@ -5,6 +5,13 @@
   "nome": "Nuno Fazenda",
   "sessoes": [
     {
+      "data": "2026-06-11",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376700
+    },
+    {
       "data": "2026-06-03",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -695,7 +702,7 @@
     "AMP": 17,
     "F": 1,
     "FQV": 1,
-    "P": 79
+    "P": 80
   },
-  "total_reunioes": 98
+  "total_reunioes": 99
 }

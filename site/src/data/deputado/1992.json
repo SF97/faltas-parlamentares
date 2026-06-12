@@ -5,6 +5,13 @@
   "nome": "Pedro Roque",
   "sessoes": [
     {
+      "data": "2026-06-11",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376700
+    },
+    {
       "data": "2026-06-03",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -694,7 +701,7 @@
   "totais": {
     "AMP": 19,
     "FJ": 6,
-    "P": 73
+    "P": 74
   },
-  "total_reunioes": 98
+  "total_reunioes": 99
 }

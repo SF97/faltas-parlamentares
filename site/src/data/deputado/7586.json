@@ -24,6 +24,13 @@
   "nome": "Ricardo Carlos",
   "sessoes": [
     {
+      "data": "2026-06-11",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 376700
+    },
+    {
       "data": "2026-06-03",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -712,9 +719,10 @@
   ],
   "totais": {
     "AMP": 1,
+    "F": 1,
     "FJ": 5,
     "P": 89,
     "PNO": 3
   },
-  "total_reunioes": 98
+  "total_reunioes": 99
 }

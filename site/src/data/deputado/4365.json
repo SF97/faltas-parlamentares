@@ -5,6 +5,13 @@
   "nome": "Manuela Tender",
   "sessoes": [
     {
+      "data": "2026-06-11",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376700
+    },
+    {
       "data": "2026-06-03",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -692,9 +699,9 @@
     }
   ],
   "totais": {
-    "AMP": 13,
+    "AMP": 14,
     "FJ": 2,
     "P": 83
   },
-  "total_reunioes": 98
+  "total_reunioes": 99
 }

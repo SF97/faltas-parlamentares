@@ -5,6 +5,13 @@
   "nome": "Pedro Soares Pimenta",
   "sessoes": [
     {
+      "data": "2026-06-11",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376700
+    },
+    {
       "data": "2026-06-03",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -398,8 +405,9 @@
     }
   ],
   "totais": {
+    "AMP": 1,
     "FJ": 1,
     "P": 55
   },
-  "total_reunioes": 56
+  "total_reunioes": 57
 }

@@ -5,10 +5,17 @@
   "nome": "Paulo Raimundo",
   "sessoes": [
     {
-      "data": "2026-06-03",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "data": "2026-06-11",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
+      "reuniao_bid": 376700
+    },
+    {
+      "data": "2026-06-03",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 376699
     },
     {
@@ -693,9 +700,8 @@
   ],
   "totais": {
     "FI": 1,
-    "FJ": 7,
-    "FQV": 1,
-    "P": 89
+    "FJ": 8,
+    "P": 90
   },
-  "total_reunioes": 98
+  "total_reunioes": 99
 }

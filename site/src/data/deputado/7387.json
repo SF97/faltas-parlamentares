@@ -5,6 +5,13 @@
   "nome": "Catarina Salgueiro",
   "sessoes": [
     {
+      "data": "2026-06-11",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376700
+    },
+    {
       "data": "2026-06-03",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -694,8 +701,8 @@
   "totais": {
     "AMP": 1,
     "FJ": 1,
-    "P": 94,
+    "P": 95,
     "PNO": 2
   },
-  "total_reunioes": 98
+  "total_reunioes": 99
 }

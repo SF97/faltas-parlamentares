@@ -24,6 +24,13 @@
   "nome": "Bruno Faria",
   "sessoes": [
     {
+      "data": "2026-06-11",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376700
+    },
+    {
       "data": "2026-06-03",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -713,8 +720,8 @@
   "totais": {
     "FJ": 3,
     "FQV": 1,
-    "P": 93,
+    "P": 94,
     "PNO": 1
   },
-  "total_reunioes": 98
+  "total_reunioes": 99
 }
