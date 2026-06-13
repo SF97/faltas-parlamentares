@@ -5,6 +5,13 @@
   "nome": "Ana Bernardo",
   "sessoes": [
     {
+      "data": "2026-06-12",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376701
+    },
+    {
       "data": "2026-06-11",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -701,7 +708,7 @@
   "totais": {
     "AMP": 4,
     "FJ": 1,
-    "P": 94
+    "P": 95
   },
-  "total_reunioes": 99
+  "total_reunioes": 100
 }

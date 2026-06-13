@@ -5,6 +5,13 @@
   "nome": "Bruno Vitorino",
   "sessoes": [
     {
+      "data": "2026-06-12",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376701
+    },
+    {
       "data": "2026-06-11",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -701,7 +708,8 @@
   "totais": {
     "AMP": 10,
     "FJ": 3,
+    "FQV": 1,
     "P": 86
   },
-  "total_reunioes": 99
+  "total_reunioes": 100
 }

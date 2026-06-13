@@ -5,6 +5,13 @@
   "nome": "Marina Gonçalves",
   "sessoes": [
     {
+      "data": "2026-06-12",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376701
+    },
+    {
       "data": "2026-06-11",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -701,8 +708,8 @@
   "totais": {
     "AMP": 2,
     "FI": 2,
-    "P": 91,
+    "P": 92,
     "PNO": 4
   },
-  "total_reunioes": 99
+  "total_reunioes": 100
 }

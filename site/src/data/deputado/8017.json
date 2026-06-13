@@ -5,6 +5,13 @@
   "nome": "Felicidade Vital",
   "sessoes": [
     {
+      "data": "2026-06-12",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376701
+    },
+    {
       "data": "2026-06-11",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -702,7 +709,7 @@
     "AMP": 3,
     "FJ": 2,
     "FQV": 1,
-    "P": 93
+    "P": 94
   },
-  "total_reunioes": 99
+  "total_reunioes": 100
 }

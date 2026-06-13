@@ -12,6 +12,13 @@
   "nome": "Miguel Santos",
   "sessoes": [
     {
+      "data": "2026-06-12",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376701
+    },
+    {
       "data": "2026-06-11",
       "estado": "F",
       "estado_label": "Falta",
@@ -709,7 +716,8 @@
     "AMP": 5,
     "F": 1,
     "FJ": 9,
+    "FQV": 1,
     "P": 84
   },
-  "total_reunioes": 99
+  "total_reunioes": 100
 }

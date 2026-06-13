@@ -5,6 +5,13 @@
   "nome": "Alfredo Maia",
   "sessoes": [
     {
+      "data": "2026-06-12",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376701
+    },
+    {
       "data": "2026-06-11",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -702,8 +709,8 @@
     "AMP": 4,
     "FI": 1,
     "FJ": 5,
-    "P": 88,
+    "P": 89,
     "PNO": 1
   },
-  "total_reunioes": 99
+  "total_reunioes": 100
 }

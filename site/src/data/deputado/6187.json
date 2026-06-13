@@ -5,6 +5,13 @@
   "nome": "Carlos Pereira",
   "sessoes": [
     {
+      "data": "2026-06-12",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376701
+    },
+    {
       "data": "2026-06-11",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -702,8 +709,8 @@
     "AMP": 6,
     "F": 1,
     "FJ": 3,
-    "P": 85,
+    "P": 86,
     "PNO": 4
   },
-  "total_reunioes": 99
+  "total_reunioes": 100
 }
