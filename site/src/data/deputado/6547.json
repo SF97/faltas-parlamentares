@@ -26,9 +26,9 @@
     },
     {
       "data": "2026-06-11",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Doença",
       "reuniao_bid": 376700
     },
     {
@@ -719,8 +719,7 @@
     }
   ],
   "totais": {
-    "F": 1,
-    "FJ": 8,
+    "FJ": 9,
     "P": 91
   },
   "total_reunioes": 100
