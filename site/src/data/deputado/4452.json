@@ -5,6 +5,13 @@
   "nome": "Isabel Alves Moreira",
   "sessoes": [
     {
+      "data": "2026-06-17",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376702
+    },
+    {
       "data": "2026-06-12",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -708,8 +715,8 @@
   "totais": {
     "FJ": 22,
     "FQV": 1,
-    "P": 75,
+    "P": 76,
     "PNO": 2
   },
-  "total_reunioes": 100
+  "total_reunioes": 101
 }

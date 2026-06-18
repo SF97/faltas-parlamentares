@@ -5,6 +5,13 @@
   "nome": "Patrícia Carvalho",
   "sessoes": [
     {
+      "data": "2026-06-17",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 376702
+    },
+    {
       "data": "2026-06-12",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -706,8 +713,9 @@
     }
   ],
   "totais": {
+    "F": 1,
     "FJ": 2,
     "P": 98
   },
-  "total_reunioes": 100
+  "total_reunioes": 101
 }

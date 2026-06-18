@@ -24,6 +24,13 @@
   "nome": "Paulo Edson Cunha",
   "sessoes": [
     {
+      "data": "2026-06-17",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376702
+    },
+    {
       "data": "2026-06-12",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -726,7 +733,7 @@
   ],
   "totais": {
     "AMP": 1,
-    "P": 99
+    "P": 100
   },
-  "total_reunioes": 100
+  "total_reunioes": 101
 }

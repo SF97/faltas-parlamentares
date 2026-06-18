@@ -5,6 +5,13 @@
   "nome": "Pedro Coimbra",
   "sessoes": [
     {
+      "data": "2026-06-17",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 376702
+    },
+    {
       "data": "2026-06-12",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -707,10 +714,10 @@
   ],
   "totais": {
     "AMP": 5,
-    "F": 1,
+    "F": 2,
     "FJ": 5,
     "FQV": 3,
     "P": 86
   },
-  "total_reunioes": 100
+  "total_reunioes": 101
 }

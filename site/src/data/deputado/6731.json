@@ -5,6 +5,13 @@
   "nome": "José Carlos Barbosa",
   "sessoes": [
     {
+      "data": "2026-06-17",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376702
+    },
+    {
       "data": "2026-06-12",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -706,7 +713,7 @@
     }
   ],
   "totais": {
-    "P": 100
+    "P": 101
   },
-  "total_reunioes": 100
+  "total_reunioes": 101
 }

@@ -12,6 +12,13 @@
   "nome": "Célia Freire",
   "sessoes": [
     {
+      "data": "2026-06-17",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376702
+    },
+    {
       "data": "2026-06-12",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -715,8 +722,8 @@
   "totais": {
     "AMP": 3,
     "FJ": 6,
-    "P": 90,
+    "P": 91,
     "PNO": 1
   },
-  "total_reunioes": 100
+  "total_reunioes": 101
 }

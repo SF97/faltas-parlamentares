@@ -5,6 +5,13 @@
   "nome": "Sónia Monteiro",
   "sessoes": [
     {
+      "data": "2026-06-17",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376702
+    },
+    {
       "data": "2026-06-12",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -708,7 +715,7 @@
   "totais": {
     "AMP": 2,
     "FJ": 18,
-    "P": 80
+    "P": 81
   },
-  "total_reunioes": 100
+  "total_reunioes": 101
 }
