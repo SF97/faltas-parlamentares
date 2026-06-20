@@ -5,6 +5,13 @@
   "nome": "Paulo Neves",
   "sessoes": [
     {
+      "data": "2026-06-18",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 376703
+    },
+    {
       "data": "2026-06-17",
       "estado": "F",
       "estado_label": "Falta",
@@ -714,9 +721,9 @@
   ],
   "totais": {
     "AMP": 5,
-    "F": 1,
+    "F": 2,
     "FJ": 8,
     "P": 87
   },
-  "total_reunioes": 101
+  "total_reunioes": 102
 }

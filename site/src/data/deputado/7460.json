@@ -5,6 +5,13 @@
   "nome": "Eduardo Pinheiro",
   "sessoes": [
     {
+      "data": "2026-06-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376703
+    },
+    {
       "data": "2026-06-17",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -715,7 +722,7 @@
   "totais": {
     "AMP": 3,
     "FJ": 3,
-    "P": 95
+    "P": 96
   },
-  "total_reunioes": 101
+  "total_reunioes": 102
 }

@@ -12,6 +12,13 @@
   "nome": "Luís Graça",
   "sessoes": [
     {
+      "data": "2026-06-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376703
+    },
+    {
       "data": "2026-06-17",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -722,7 +729,7 @@
   "totais": {
     "AMP": 13,
     "FJ": 2,
-    "P": 86
+    "P": 87
   },
-  "total_reunioes": 101
+  "total_reunioes": 102
 }

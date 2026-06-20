@@ -5,6 +5,13 @@
   "nome": "Regina Bastos",
   "sessoes": [
     {
+      "data": "2026-06-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376703
+    },
+    {
       "data": "2026-06-17",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -519,7 +526,7 @@
       "data": "2025-11-20",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
-      "motivo": "Doença",
+      "motivo": null,
       "reuniao_bid": 335182
     },
     {
@@ -715,7 +722,7 @@
   "totais": {
     "AMP": 11,
     "FJ": 24,
-    "P": 66
+    "P": 67
   },
-  "total_reunioes": 101
+  "total_reunioes": 102
 }
