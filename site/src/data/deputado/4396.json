@@ -673,7 +673,7 @@
       "data": "2025-07-02",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
-      "motivo": null,
+      "motivo": "Motivo justificado",
       "reuniao_bid": 334797
     },
     {

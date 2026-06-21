@@ -526,7 +526,7 @@
       "data": "2025-11-20",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
-      "motivo": null,
+      "motivo": "Luto",
       "reuniao_bid": 335182
     },
     {
@@ -673,7 +673,7 @@
       "data": "2025-07-02",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
-      "motivo": null,
+      "motivo": "Trabalho Parlamentar",
       "reuniao_bid": 334797
     },
     {
