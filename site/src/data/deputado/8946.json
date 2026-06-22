@@ -12,6 +12,13 @@
   "nome": "Rui Fernandes",
   "sessoes": [
     {
+      "data": "2026-06-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376704
+    },
+    {
       "data": "2026-06-18",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -609,7 +616,7 @@
   ],
   "totais": {
     "FJ": 5,
-    "P": 80
+    "P": 81
   },
-  "total_reunioes": 85
+  "total_reunioes": 86
 }

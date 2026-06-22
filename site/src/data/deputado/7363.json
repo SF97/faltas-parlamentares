@@ -5,6 +5,13 @@
   "nome": "Rodrigo Alves Taxa",
   "sessoes": [
     {
+      "data": "2026-06-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376704
+    },
+    {
       "data": "2026-06-18",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -721,8 +728,8 @@
   ],
   "totais": {
     "FJ": 19,
-    "P": 81,
+    "P": 82,
     "PNO": 2
   },
-  "total_reunioes": 102
+  "total_reunioes": 103
 }

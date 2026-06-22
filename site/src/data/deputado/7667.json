@@ -12,6 +12,13 @@
   "nome": "Liliana Fidalgo",
   "sessoes": [
     {
+      "data": "2026-06-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376704
+    },
+    {
       "data": "2026-06-18",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -539,7 +546,7 @@
   ],
   "totais": {
     "FJ": 5,
-    "P": 70
+    "P": 71
   },
-  "total_reunioes": 75
+  "total_reunioes": 76
 }

@@ -18,6 +18,13 @@
   "nome": "José Cesário",
   "sessoes": [
     {
+      "data": "2026-06-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376704
+    },
+    {
       "data": "2026-06-18",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -728,7 +735,7 @@
   "totais": {
     "AMP": 13,
     "FJ": 24,
-    "P": 64
+    "P": 65
   },
-  "total_reunioes": 101
+  "total_reunioes": 102
 }

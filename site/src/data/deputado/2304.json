@@ -5,6 +5,13 @@
   "nome": "Bruno Ventura",
   "sessoes": [
     {
+      "data": "2026-06-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376704
+    },
+    {
       "data": "2026-06-18",
       "estado": "F",
       "estado_label": "Falta",
@@ -722,7 +729,7 @@
   "totais": {
     "F": 1,
     "FJ": 2,
-    "P": 99
+    "P": 100
   },
-  "total_reunioes": 102
+  "total_reunioes": 103
 }

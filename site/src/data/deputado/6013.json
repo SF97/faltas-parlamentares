@@ -5,6 +5,13 @@
   "nome": "Hugo Costa",
   "sessoes": [
     {
+      "data": "2026-06-19",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376704
+    },
+    {
       "data": "2026-06-18",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -722,7 +729,8 @@
   "totais": {
     "AMP": 1,
     "FJ": 4,
+    "FQV": 1,
     "P": 97
   },
-  "total_reunioes": 102
+  "total_reunioes": 103
 }

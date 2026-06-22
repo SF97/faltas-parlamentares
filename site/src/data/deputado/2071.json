@@ -12,6 +12,13 @@
   "nome": "Miguel Santos",
   "sessoes": [
     {
+      "data": "2026-06-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376704
+    },
+    {
       "data": "2026-06-18",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -729,7 +736,7 @@
   "totais": {
     "AMP": 5,
     "FJ": 11,
-    "P": 86
+    "P": 87
   },
-  "total_reunioes": 102
+  "total_reunioes": 103
 }

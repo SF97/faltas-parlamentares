@@ -5,6 +5,13 @@
   "nome": "Joana Cordeiro",
   "sessoes": [
     {
+      "data": "2026-06-19",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376704
+    },
+    {
       "data": "2026-06-18",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -722,8 +729,9 @@
   "totais": {
     "AMP": 2,
     "FJ": 6,
+    "FQV": 1,
     "P": 92,
     "PNO": 2
   },
-  "total_reunioes": 102
+  "total_reunioes": 103
 }

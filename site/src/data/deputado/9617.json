@@ -5,6 +5,13 @@
   "nome": "Manuela Carvalho",
   "sessoes": [
     {
+      "data": "2026-06-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376704
+    },
+    {
       "data": "2026-06-18",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -720,8 +727,8 @@
     }
   ],
   "totais": {
-    "P": 101,
+    "P": 102,
     "PNO": 1
   },
-  "total_reunioes": 102
+  "total_reunioes": 103
 }
