@@ -5,6 +5,13 @@
   "nome": "João Pedro Louro",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -730,7 +737,7 @@
     "F": 1,
     "FJ": 9,
     "FQV": 1,
-    "P": 92
+    "P": 93
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

@@ -5,6 +5,13 @@
   "nome": "Pedro Pessanha",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -729,7 +736,7 @@
   "totais": {
     "AMP": 13,
     "FJ": 7,
-    "P": 83
+    "P": 84
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

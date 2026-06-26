@@ -5,6 +5,13 @@
   "nome": "Pedro Roque",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -729,7 +736,8 @@
   "totais": {
     "AMP": 19,
     "FJ": 6,
+    "FQV": 1,
     "P": 78
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

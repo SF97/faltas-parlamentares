@@ -5,6 +5,13 @@
   "nome": "Jorge Galveias",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -729,7 +736,7 @@
   "totais": {
     "AMP": 7,
     "FJ": 5,
-    "P": 91
+    "P": 92
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

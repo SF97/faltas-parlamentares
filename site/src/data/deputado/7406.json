@@ -12,6 +12,13 @@
   "nome": "José Lago Gonçalves",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -727,7 +734,7 @@
     }
   ],
   "totais": {
-    "P": 102
+    "P": 103
   },
-  "total_reunioes": 102
+  "total_reunioes": 103
 }

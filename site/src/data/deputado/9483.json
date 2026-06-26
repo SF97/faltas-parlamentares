@@ -5,6 +5,13 @@
   "nome": "Dália Miranda",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -728,8 +735,8 @@
   ],
   "totais": {
     "FJ": 1,
-    "P": 100,
+    "P": 101,
     "PNO": 2
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

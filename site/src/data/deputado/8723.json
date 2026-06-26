@@ -5,6 +5,13 @@
   "nome": "Paulo Núncio",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -729,7 +736,7 @@
   "totais": {
     "AMP": 5,
     "FJ": 8,
-    "P": 90
+    "P": 91
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

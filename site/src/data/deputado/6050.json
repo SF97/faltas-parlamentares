@@ -5,6 +5,13 @@
   "nome": "André Pinotes Batista",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -730,8 +737,8 @@
     "AMP": 4,
     "F": 1,
     "FJ": 15,
-    "FQV": 1,
+    "FQV": 2,
     "P": 82
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

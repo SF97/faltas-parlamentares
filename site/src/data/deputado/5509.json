@@ -5,6 +5,13 @@
   "nome": "Hugo Oliveira",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -729,7 +736,7 @@
   "totais": {
     "FJ": 4,
     "FQV": 1,
-    "P": 98
+    "P": 99
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

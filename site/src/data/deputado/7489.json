@@ -5,6 +5,13 @@
   "nome": "Adriana Rodrigues",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -727,9 +734,9 @@
     }
   ],
   "totais": {
-    "AMP": 2,
+    "AMP": 3,
     "FJ": 2,
     "P": 99
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

@@ -5,6 +5,13 @@
   "nome": "Pedro Alves",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -731,8 +738,8 @@
     "F": 4,
     "FJ": 1,
     "FQV": 9,
-    "P": 81,
+    "P": 82,
     "PNO": 1
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

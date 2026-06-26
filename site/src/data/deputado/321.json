@@ -24,6 +24,13 @@
   "nome": "Francisco José Martins",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -746,8 +753,8 @@
     }
   ],
   "totais": {
-    "P": 101,
+    "P": 102,
     "PNO": 2
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

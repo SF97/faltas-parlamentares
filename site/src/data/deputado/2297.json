@@ -5,6 +5,13 @@
   "nome": "Cristóvão Norte",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -730,7 +737,7 @@
     "F": 2,
     "FJ": 8,
     "FQV": 3,
-    "P": 90
+    "P": 91
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

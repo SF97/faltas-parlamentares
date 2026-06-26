@@ -5,6 +5,13 @@
   "nome": "Paulo Neves",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -731,7 +738,7 @@
     "F": 2,
     "FJ": 8,
     "FQV": 1,
-    "P": 87
+    "P": 88
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }

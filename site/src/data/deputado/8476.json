@@ -12,6 +12,13 @@
   "nome": "Eva Brás Pinho",
   "sessoes": [
     {
+      "data": "2026-06-24",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376705
+    },
+    {
       "data": "2026-06-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -734,10 +741,10 @@
     }
   ],
   "totais": {
-    "AMP": 3,
+    "AMP": 4,
     "FJ": 7,
     "P": 88,
     "PNO": 5
   },
-  "total_reunioes": 103
+  "total_reunioes": 104
 }
