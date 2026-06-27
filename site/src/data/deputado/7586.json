@@ -24,6 +24,20 @@
   "nome": "Ricardo Carlos",
   "sessoes": [
     {
+      "data": "2026-06-26",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376707
+    },
+    {
+      "data": "2026-06-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376706
+    },
+    {
       "data": "2026-06-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -55,7 +69,7 @@
       "data": "2026-06-12",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
-      "motivo": "Casamento",
+      "motivo": null,
       "reuniao_bid": 376701
     },
     {
@@ -83,14 +97,14 @@
       "data": "2026-05-29",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
-      "motivo": "Trabalho Político",
+      "motivo": null,
       "reuniao_bid": 376566
     },
     {
       "data": "2026-05-28",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
-      "motivo": "Trabalho Político",
+      "motivo": null,
       "reuniao_bid": 376565
     },
     {
@@ -755,8 +769,8 @@
   "totais": {
     "AMP": 1,
     "FJ": 7,
-    "P": 93,
+    "P": 95,
     "PNO": 3
   },
-  "total_reunioes": 104
+  "total_reunioes": 106
 }

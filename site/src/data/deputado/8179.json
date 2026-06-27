@@ -5,6 +5,20 @@
   "nome": "Ana Gabriela Cabilhas",
   "sessoes": [
     {
+      "data": "2026-06-26",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376707
+    },
+    {
+      "data": "2026-06-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376706
+    },
+    {
       "data": "2026-06-24",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -736,8 +750,8 @@
   "totais": {
     "AMP": 2,
     "FJ": 3,
-    "P": 98,
+    "P": 100,
     "PNO": 1
   },
-  "total_reunioes": 104
+  "total_reunioes": 106
 }

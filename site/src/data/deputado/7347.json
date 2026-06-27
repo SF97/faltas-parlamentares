@@ -5,6 +5,20 @@
   "nome": "Manuel Magno",
   "sessoes": [
     {
+      "data": "2026-06-26",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": null,
+      "reuniao_bid": 376707
+    },
+    {
+      "data": "2026-06-25",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": null,
+      "reuniao_bid": 376706
+    },
+    {
       "data": "2026-06-24",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -64,14 +78,14 @@
       "data": "2026-05-29",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
-      "motivo": "Trabalho Político",
+      "motivo": null,
       "reuniao_bid": 376566
     },
     {
       "data": "2026-05-28",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
-      "motivo": "Trabalho Político",
+      "motivo": null,
       "reuniao_bid": 376565
     },
     {
@@ -735,8 +749,8 @@
   ],
   "totais": {
     "AMP": 10,
-    "FJ": 34,
+    "FJ": 36,
     "P": 60
   },
-  "total_reunioes": 104
+  "total_reunioes": 106
 }

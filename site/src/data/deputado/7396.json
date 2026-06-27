@@ -5,6 +5,20 @@
   "nome": "José Dotti",
   "sessoes": [
     {
+      "data": "2026-06-26",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376707
+    },
+    {
+      "data": "2026-06-25",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376706
+    },
+    {
       "data": "2026-06-24",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -736,8 +750,8 @@
   "totais": {
     "AMP": 1,
     "FJ": 4,
-    "FQV": 1,
-    "P": 98
+    "FQV": 2,
+    "P": 99
   },
-  "total_reunioes": 104
+  "total_reunioes": 106
 }

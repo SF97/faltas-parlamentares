@@ -5,6 +5,20 @@
   "nome": "Teresa Morais",
   "sessoes": [
     {
+      "data": "2026-06-26",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376707
+    },
+    {
+      "data": "2026-06-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376706
+    },
+    {
       "data": "2026-06-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -735,7 +749,7 @@
   ],
   "totais": {
     "FJ": 1,
-    "P": 103
+    "P": 105
   },
-  "total_reunioes": 104
+  "total_reunioes": 106
 }

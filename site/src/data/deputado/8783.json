@@ -5,6 +5,20 @@
   "nome": "Carlos Silva Santiago",
   "sessoes": [
     {
+      "data": "2026-06-26",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376707
+    },
+    {
+      "data": "2026-06-25",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376706
+    },
+    {
       "data": "2026-06-24",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -734,11 +748,11 @@
     }
   ],
   "totais": {
-    "AMP": 12,
+    "AMP": 14,
     "F": 1,
     "FJ": 3,
     "FQV": 1,
     "P": 87
   },
-  "total_reunioes": 104
+  "total_reunioes": 106
 }

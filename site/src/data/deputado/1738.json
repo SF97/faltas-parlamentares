@@ -5,6 +5,20 @@
   "nome": "Pedro Alves",
   "sessoes": [
     {
+      "data": "2026-06-26",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376707
+    },
+    {
+      "data": "2026-06-25",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376706
+    },
+    {
       "data": "2026-06-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -737,9 +751,9 @@
     "AMP": 7,
     "F": 4,
     "FJ": 1,
-    "FQV": 9,
-    "P": 82,
+    "FQV": 10,
+    "P": 83,
     "PNO": 1
   },
-  "total_reunioes": 104
+  "total_reunioes": 106
 }
