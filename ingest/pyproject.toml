@@ -6,7 +6,6 @@ dependencies = [
     "httpx>=0.28.1",
     "lxml>=6.1.1",
     "pydantic>=2.13.4",
-    "truststore>=0.10.4",
 ]
 
 [tool.hatch.build.targets.wheel]
