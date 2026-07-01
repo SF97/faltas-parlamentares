@@ -20,9 +20,9 @@
     },
     {
       "data": "2026-06-24",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família",
       "reuniao_bid": 376705
     },
     {
@@ -748,8 +748,7 @@
     }
   ],
   "totais": {
-    "FJ": 12,
-    "FQV": 1,
+    "FJ": 13,
     "P": 93
   },
   "total_reunioes": 106
