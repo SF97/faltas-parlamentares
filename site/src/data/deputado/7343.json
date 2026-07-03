@@ -18,6 +18,20 @@
   "nome": "Carlos Guimarães Pinto",
   "sessoes": [
     {
+      "data": "2026-07-02",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376835
+    },
+    {
+      "data": "2026-07-01",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376708
+    },
+    {
       "data": "2026-06-26",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -693,7 +707,7 @@
   "totais": {
     "AMP": 3,
     "FJ": 4,
-    "P": 89
+    "P": 91
   },
-  "total_reunioes": 96
+  "total_reunioes": 98
 }

@@ -5,6 +5,20 @@
   "nome": "Mariana Leitão",
   "sessoes": [
     {
+      "data": "2026-07-02",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376835
+    },
+    {
+      "data": "2026-07-01",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376708
+    },
+    {
       "data": "2026-06-26",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -749,7 +763,8 @@
   ],
   "totais": {
     "FJ": 6,
-    "P": 100
+    "FQV": 1,
+    "P": 101
   },
-  "total_reunioes": 106
+  "total_reunioes": 108
 }

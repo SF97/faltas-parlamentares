@@ -24,6 +24,20 @@
   "nome": "Leonor Cipriano",
   "sessoes": [
     {
+      "data": "2026-07-02",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376835
+    },
+    {
+      "data": "2026-07-01",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376708
+    },
+    {
       "data": "2026-06-26",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -769,7 +783,7 @@
   "totais": {
     "AMP": 1,
     "FJ": 3,
-    "P": 102
+    "P": 104
   },
-  "total_reunioes": 106
+  "total_reunioes": 108
 }

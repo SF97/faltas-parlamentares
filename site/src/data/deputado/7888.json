@@ -5,6 +5,20 @@
   "nome": "António Mendonça Mendes",
   "sessoes": [
     {
+      "data": "2026-07-02",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376835
+    },
+    {
+      "data": "2026-07-01",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376708
+    },
+    {
       "data": "2026-06-26",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -750,7 +764,7 @@
   "totais": {
     "AMP": 14,
     "FJ": 5,
-    "P": 87
+    "P": 89
   },
-  "total_reunioes": 106
+  "total_reunioes": 108
 }
