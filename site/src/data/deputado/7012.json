@@ -16,7 +16,94 @@
   ],
   "gp": "L",
   "nome": "Tomás Pereira",
-  "sessoes": [],
-  "totais": {},
-  "total_reunioes": 0
+  "sessoes": [
+    {
+      "data": "2026-04-10",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376274
+    },
+    {
+      "data": "2026-04-09",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376273
+    },
+    {
+      "data": "2026-04-08",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376272
+    },
+    {
+      "data": "2026-04-02",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366154
+    },
+    {
+      "data": "2026-04-01",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366153
+    },
+    {
+      "data": "2026-03-26",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366152
+    },
+    {
+      "data": "2026-03-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366151
+    },
+    {
+      "data": "2026-03-20",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366150
+    },
+    {
+      "data": "2026-03-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366149
+    },
+    {
+      "data": "2026-03-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366148
+    },
+    {
+      "data": "2026-03-13",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366065
+    },
+    {
+      "data": "2026-03-12",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 366056
+    }
+  ],
+  "totais": {
+    "P": 12
+  },
+  "total_reunioes": 12
 }
