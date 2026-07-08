@@ -2149,14 +2149,14 @@
   },
   {
     "bid": 1893,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 11,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 5,
     "nome": "Pedro Coimbra",
-    "presencas": 92,
+    "presencas": 93,
     "total_reunioes": 109
   },
   {
