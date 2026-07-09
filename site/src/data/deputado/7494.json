@@ -6,8 +6,8 @@
   "sessoes": [
     {
       "data": "2026-07-03",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
       "motivo": null,
       "reuniao_bid": 376836
     },
@@ -769,9 +769,8 @@
     }
   ],
   "totais": {
-    "AMP": 2,
+    "AMP": 3,
     "FJ": 6,
-    "FQV": 1,
     "P": 99,
     "PNO": 1
   },

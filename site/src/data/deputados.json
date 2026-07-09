@@ -133,12 +133,12 @@
   },
   {
     "bid": 8157,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 5,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
-    "missao_parlamentar": 10,
+    "missao_parlamentar": 11,
     "nome": "Amílcar Almeida",
     "presencas": 92,
     "total_reunioes": 109
@@ -661,12 +661,12 @@
   },
   {
     "bid": 2576,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 1,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
-    "missao_parlamentar": 10,
+    "missao_parlamentar": 11,
     "nome": "Eduardo Teixeira",
     "presencas": 97,
     "total_reunioes": 109
@@ -1153,12 +1153,12 @@
   },
   {
     "bid": 7494,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 6,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
-    "missao_parlamentar": 2,
+    "missao_parlamentar": 3,
     "nome": "Irene Costa",
     "presencas": 99,
     "total_reunioes": 109
@@ -2140,11 +2140,11 @@
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 0,
-    "faltas_nao_classificadas": 1,
+    "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 2,
     "nome": "Pedro Coelho",
-    "presencas": 106,
+    "presencas": 107,
     "total_reunioes": 109
   },
   {

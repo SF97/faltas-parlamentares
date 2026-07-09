@@ -20,8 +20,8 @@
     },
     {
       "data": "2026-07-01",
-      "estado": "F",
-      "estado_label": "Falta",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 376708
     },
@@ -770,8 +770,7 @@
   ],
   "totais": {
     "AMP": 2,
-    "F": 1,
-    "P": 106
+    "P": 107
   },
   "total_reunioes": 109
 }
