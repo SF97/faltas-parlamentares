@@ -433,8 +433,8 @@
     },
     {
       "data": "2026-01-23",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 355453
     },
@@ -496,8 +496,8 @@
     },
     {
       "data": "2025-12-12",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 335282
     },
@@ -510,8 +510,8 @@
     },
     {
       "data": "2025-12-10",
-      "estado": "F",
-      "estado_label": "Falta",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 335280
     },
@@ -524,8 +524,8 @@
     },
     {
       "data": "2025-12-04",
-      "estado": "F",
-      "estado_label": "Falta",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 335277
     },
@@ -770,10 +770,10 @@
   ],
   "totais": {
     "AMP": 7,
-    "F": 4,
+    "F": 2,
     "FJ": 1,
-    "FQV": 11,
-    "P": 85,
+    "FQV": 9,
+    "P": 89,
     "PNO": 1
   },
   "total_reunioes": 109

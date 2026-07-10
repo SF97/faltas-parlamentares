@@ -2125,14 +2125,14 @@
   },
   {
     "bid": 1738,
-    "falta_quorum_votacao": 11,
+    "falta_quorum_votacao": 9,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 1,
-    "faltas_nao_classificadas": 4,
+    "faltas_nao_classificadas": 2,
     "gp": "PSD",
     "missao_parlamentar": 7,
     "nome": "Pedro Alves",
-    "presencas": 85,
+    "presencas": 89,
     "total_reunioes": 109
   },
   {
