@@ -2610,46 +2610,46 @@
     "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
-    "missao_parlamentar": 1,
+    "missao_parlamentar": 0,
     "nome": "Sofia Andrade",
-    "presencas": 103,
-    "total_reunioes": 109
+    "presencas": 0,
+    "total_reunioes": 0
   },
   {
     "bid": 9107,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 1,
+    "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Sofia Machado Fernandes",
-    "presencas": 108,
-    "total_reunioes": 109
+    "presencas": 0,
+    "total_reunioes": 0
   },
   {
     "bid": 8982,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 5,
+    "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Sofia Pereira",
-    "presencas": 103,
-    "total_reunioes": 109
+    "presencas": 0,
+    "total_reunioes": 0
   },
   {
     "bid": 6081,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 3,
+    "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Sonia dos Reis",
-    "presencas": 106,
-    "total_reunioes": 109
+    "presencas": 0,
+    "total_reunioes": 0
   },
   {
     "bid": 6962,
