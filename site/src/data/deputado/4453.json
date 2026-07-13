@@ -6,9 +6,9 @@
   "sessoes": [
     {
       "data": "2026-07-03",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Casamento",
       "reuniao_bid": 376836
     },
     {
@@ -770,8 +770,7 @@
   ],
   "totais": {
     "AMP": 2,
-    "FJ": 5,
-    "FQV": 1,
+    "FJ": 6,
     "P": 100,
     "PNO": 1
   },

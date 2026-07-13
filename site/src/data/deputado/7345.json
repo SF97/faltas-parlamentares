@@ -19,16 +19,16 @@
   "sessoes": [
     {
       "data": "2026-07-03",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 376836
     },
     {
       "data": "2026-07-02",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Parlamentar",
       "reuniao_bid": 376835
     },
     {
@@ -783,8 +783,7 @@
   ],
   "totais": {
     "AMP": 2,
-    "FJ": 15,
-    "FQV": 2,
+    "FJ": 17,
     "P": 86,
     "PNO": 4
   },

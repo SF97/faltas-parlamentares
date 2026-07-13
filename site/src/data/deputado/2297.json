@@ -160,9 +160,9 @@
     },
     {
       "data": "2026-05-08",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família",
       "reuniao_bid": 376480
     },
     {
@@ -188,9 +188,9 @@
     },
     {
       "data": "2026-04-29",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família",
       "reuniao_bid": 376475
     },
     {
@@ -272,9 +272,9 @@
     },
     {
       "data": "2026-04-01",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família",
       "reuniao_bid": 366153
     },
     {
@@ -769,9 +769,9 @@
     }
   ],
   "totais": {
-    "F": 2,
-    "FJ": 8,
-    "FQV": 3,
+    "F": 1,
+    "FJ": 11,
+    "FQV": 1,
     "P": 96
   },
   "total_reunioes": 109
