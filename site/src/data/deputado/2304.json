@@ -55,8 +55,8 @@
     },
     {
       "data": "2026-06-18",
-      "estado": "F",
-      "estado_label": "Falta",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 376703
     },
@@ -769,9 +769,8 @@
     }
   ],
   "totais": {
-    "F": 1,
     "FJ": 2,
-    "P": 106
+    "P": 107
   },
   "total_reunioes": 109
 }
