@@ -1141,14 +1141,14 @@
   },
   {
     "bid": 6864,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 1,
     "faltas_nao_classificadas": 0,
     "gp": "PAN",
     "missao_parlamentar": 0,
     "nome": "Inês de Sousa Real",
-    "presencas": 107,
+    "presencas": 108,
     "total_reunioes": 109
   },
   {
