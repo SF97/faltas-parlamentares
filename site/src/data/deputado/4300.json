@@ -5,6 +5,13 @@
   "nome": "Hugo Soares",
   "sessoes": [
     {
+      "data": "2026-07-17",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376838
+    },
+    {
       "data": "2026-07-03",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -771,7 +778,7 @@
   "totais": {
     "FJ": 7,
     "FQV": 3,
-    "P": 99
+    "P": 100
   },
-  "total_reunioes": 109
+  "total_reunioes": 110
 }

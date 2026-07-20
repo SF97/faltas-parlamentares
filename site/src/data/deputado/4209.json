@@ -5,6 +5,13 @@
   "nome": "Elza Pais",
   "sessoes": [
     {
+      "data": "2026-07-17",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376838
+    },
+    {
       "data": "2026-07-03",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -769,9 +776,9 @@
     }
   ],
   "totais": {
-    "AMP": 19,
+    "AMP": 20,
     "FJ": 2,
     "P": 88
   },
-  "total_reunioes": 109
+  "total_reunioes": 110
 }

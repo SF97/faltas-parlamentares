@@ -5,6 +5,13 @@
   "nome": "Ricardo Moreira",
   "sessoes": [
     {
+      "data": "2026-07-17",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376838
+    },
+    {
       "data": "2026-07-03",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -770,8 +777,8 @@
   ],
   "totais": {
     "FJ": 1,
-    "P": 107,
+    "P": 108,
     "PNO": 1
   },
-  "total_reunioes": 109
+  "total_reunioes": 110
 }

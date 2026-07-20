@@ -5,6 +5,13 @@
   "nome": "João Torres",
   "sessoes": [
     {
+      "data": "2026-07-17",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376838
+    },
+    {
       "data": "2026-07-03",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -769,10 +776,10 @@
     }
   ],
   "totais": {
-    "AMP": 13,
+    "AMP": 14,
     "F": 1,
     "FJ": 7,
     "P": 88
   },
-  "total_reunioes": 109
+  "total_reunioes": 110
 }

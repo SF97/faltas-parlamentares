@@ -5,6 +5,13 @@
   "nome": "Leandro Ferreira Luís",
   "sessoes": [
     {
+      "data": "2026-07-17",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 376838
+    },
+    {
       "data": "2026-07-03",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -596,7 +603,8 @@
   "totais": {
     "AMP": 1,
     "FJ": 4,
+    "FQV": 1,
     "P": 79
   },
-  "total_reunioes": 84
+  "total_reunioes": 85
 }

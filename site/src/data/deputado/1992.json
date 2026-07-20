@@ -5,6 +5,13 @@
   "nome": "Pedro Roque",
   "sessoes": [
     {
+      "data": "2026-07-17",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376838
+    },
+    {
       "data": "2026-07-03",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -771,7 +778,7 @@
   "totais": {
     "AMP": 24,
     "FJ": 7,
-    "P": 78
+    "P": 79
   },
-  "total_reunioes": 109
+  "total_reunioes": 110
 }
