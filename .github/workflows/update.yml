@@ -20,9 +20,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7.0.1
 
-      - uses: astral-sh/setup-uv@v3
+      - uses: astral-sh/setup-uv@v9.0.0
         if: github.event_name != 'push'
         with:
           enable-cache: true
@@ -57,13 +57,11 @@ jobs:
           git commit -m "chore(data): refresh from parlamento.pt [skip ci]"
           git push
 
-      - uses: pnpm/action-setup@v4
-        with:
-          version: 9
+      - uses: pnpm/action-setup@v6.0.9
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v7.0.0
         with:
-          node-version: 22
+          node-version-file: site/package.json
           cache: pnpm
           cache-dependency-path: site/pnpm-lock.yaml
 
@@ -75,9 +73,9 @@ jobs:
         run: pnpm build
         working-directory: site
 
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6.0.0
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5.0.0
         with:
           path: site/dist
 
