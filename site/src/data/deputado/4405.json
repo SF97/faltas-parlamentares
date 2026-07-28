@@ -12,6 +12,13 @@
       "reuniao_bid": 376838
     },
     {
+      "data": "2026-07-16",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 376837
+    },
+    {
       "data": "2026-07-03",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -776,10 +783,10 @@
     }
   ],
   "totais": {
-    "AMP": 14,
+    "AMP": 15,
     "F": 1,
     "FJ": 7,
     "P": 88
   },
-  "total_reunioes": 110
+  "total_reunioes": 111
 }

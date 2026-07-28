@@ -12,6 +12,13 @@
       "reuniao_bid": 376838
     },
     {
+      "data": "2026-07-16",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 376837
+    },
+    {
       "data": "2026-07-03",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -780,7 +787,7 @@
     "F": 1,
     "FJ": 3,
     "FQV": 1,
-    "P": 91
+    "P": 92
   },
-  "total_reunioes": 110
+  "total_reunioes": 111
 }
