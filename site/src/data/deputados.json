@@ -2079,25 +2079,25 @@
     "bid": 6932,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 3,
+    "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "L",
-    "missao_parlamentar": 2,
+    "missao_parlamentar": 0,
     "nome": "Paulo Muacho",
-    "presencas": 102,
-    "total_reunioes": 111
+    "presencas": 0,
+    "total_reunioes": 0
   },
   {
     "bid": 6178,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 11,
+    "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
-    "missao_parlamentar": 5,
+    "missao_parlamentar": 0,
     "nome": "Paulo Neves",
-    "presencas": 95,
-    "total_reunioes": 111
+    "presencas": 0,
+    "total_reunioes": 0
   },
   {
     "bid": 8723,
