@@ -3,18 +3,11 @@ name: Update data
 on:
   schedule:
     - cron: "0 6 * * *"
-  workflow_dispatch:
-  push:
-    branches: [main]
 
 permissions:
   contents: write
   pages: write
   id-token: write
-
-concurrency:
-  group: pages
-  cancel-in-progress: false
 
 jobs:
   update-data:
