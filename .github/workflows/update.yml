@@ -1,4 +1,4 @@
-name: Update data and deploy
+name: Update data
 
 on:
   schedule:
@@ -17,7 +17,7 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  build:
+  update-data:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7.0.1
@@ -59,34 +59,10 @@ jobs:
 
       - uses: pnpm/action-setup@v6.0.9
         with:
-          version: ">=11.0.0 <12.0.0"
+          package_json_file: site/package.json
 
       - uses: actions/setup-node@v7.0.0
         with:
           node-version-file: site/package.json
           cache: pnpm
           cache-dependency-path: site/pnpm-lock.yaml
-
-      - name: Install site deps
-        run: pnpm install --frozen-lockfile
-        working-directory: site
-
-      - name: Build site
-        run: pnpm build
-        working-directory: site
-
-      - uses: actions/configure-pages@v6.0.0
-
-      - uses: actions/upload-pages-artifact@v5.0.0
-        with:
-          path: site/dist
-
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
