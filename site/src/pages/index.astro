@@ -72,6 +72,55 @@ const fqv = deputados
 	.sort((a, b) => b.falta_quorum_votacao - a.falta_quorum_votacao || a.nome.localeCompare(b.nome, "pt-PT"));
 ---
 
+<script>
+  document.querySelectorAll("table.sortable").forEach((table) => {
+    const headers = table.querySelectorAll("thead th");
+    const tbody = table.querySelector("tbody");
+
+    headers.forEach((header, columnIndex) => {
+      header.style.cursor = "pointer";
+
+      header.addEventListener("click", () => {
+        const type = header.dataset.sort || "text";
+        const ascending = header.dataset.order !== "asc";
+
+        // Reset sort state on other headers
+        headers.forEach((h) => delete h.dataset.order);
+
+        header.dataset.order = ascending ? "asc" : "desc";
+
+        const rows = [...tbody.querySelectorAll("tr")];
+
+        rows.sort((a, b) => {
+          let aValue = a.cells[columnIndex]?.textContent.trim() ?? "";
+          let bValue = b.cells[columnIndex]?.textContent.trim() ?? "";
+
+          if (type === "number") {
+            aValue = parseFloat(aValue) || 0;
+            bValue = parseFloat(bValue) || 0;
+
+            return ascending
+              ? aValue - bValue
+              : bValue - aValue;
+          }
+
+          return ascending
+            ? aValue.localeCompare(bValue, undefined, {
+                numeric: true,
+                sensitivity: "base"
+              })
+            : bValue.localeCompare(aValue, undefined, {
+                numeric: true,
+                sensitivity: "base"
+              });
+        });
+
+        tbody.append(...rows);
+      });
+    });
+  });
+</script>
+
 <Base title={`Ranking de faltas dos ${totals.deputados} deputados`} description={`Ranking dos ${totals.deputados} deputados da Assembleia da República na XVII Legislatura, ordenados pelas faltas em reuniões plenárias. Dados oficiais, atualizados diariamente.`}>
 	<h1>Ranking de faltas em plenário</h1>
 	<p class="lede">{totals.deputados} deputados da {meta.legislatura} Legislatura, por ordem decrescente de faltas injustificadas.</p>
@@ -102,15 +151,15 @@ const fqv = deputados
 		<span><span class="badge F">F</span> Falta não classificada</span>
 		<span><span class="badge AMP">AMP</span> Ausência em missão parlamentar</span>
 	</div>
-	<table>
+	<table class="sortable">
 		<thead>
 			<tr>
-				<th>GP</th>
-				<th class="num">Deputados</th>
-				<th class="num"><abbr title="Falta Injustificada">FI</abbr></th>
-				<th class="num"><abbr title="Falta Justificada">FJ</abbr></th>
-				<th class="num"><abbr title="Falta não classificada">F</abbr></th>
-				<th class="num"><abbr title="Ausência em Missão Parlamentar">AMP</abbr></th>
+				<th data-sort="text">GP</th>
+				<th data-sort="number" class="num">Deputados</th>
+				<th data-sort="number" class="num"><abbr title="Falta Injustificada">FI</abbr></th>
+				<th data-sort="number" class="num"><abbr title="Falta Justificada">FJ</abbr></th>
+				<th data-sort="number" class="num"><abbr title="Falta não classificada">F</abbr></th>
+				<th data-sort="number" class="num"><abbr title="Ausência em Missão Parlamentar">AMP</abbr></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -131,12 +180,12 @@ const fqv = deputados
 		<Fragment>
 			<h2>Faltas ao quórum de votação</h2>
 			<p class="lede">Deputados que estiveram presentes mas não participaram no número mínimo de votações do dia.</p>
-			<table>
+			<table class="sortable">
 				<thead>
 					<tr>
-						<th>Deputado</th>
-						<th>GP</th>
-						<th class="num"><abbr title="Falta ao Quórum de Votação">FQV</abbr></th>
+						<th data-sort="text">Deputado</th>
+						<th data-sort="text">GP</th>
+						<th data-sort="number" class="num"><abbr title="Falta ao Quórum de Votação">FQV</abbr></th>
 					</tr>
 				</thead>
 				<tbody>
@@ -167,17 +216,17 @@ const fqv = deputados
 		))}
 	</div>
 
-	<table id="deputados-table">
+	<table id="deputados-table" class="sortable">
 		<thead>
 			<tr>
-				<th>Deputado</th>
-				<th>GP</th>
-				<th class="num">Reuniões</th>
-				<th class="num">P</th>
-				<th class="num">FJ</th>
-				<th class="num">FI</th>
-				<th class="num"><abbr title="Falta não classificada">F</abbr></th>
-				<th class="num">AMP</th>
+				<th data-sort="text">Deputado</th>
+				<th data-sort="text">GP</th>
+				<th data-sort="number" class="num">Reuniões</th>
+				<th data-sort="number" class="num">P</th>
+				<th data-sort="number" class="num">FJ</th>
+				<th data-sort="number" class="num">FI</th>
+				<th data-sort="number" class="num"><abbr title="Falta não classificada">F</abbr></th>
+				<th data-sort="number" class="num">AMP</th>
 			</tr>
 		</thead>
 		<tbody>
