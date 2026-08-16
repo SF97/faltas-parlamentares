@@ -49,6 +49,8 @@ There is no test suite and no linter configured.
 - `pages/deputado/[bid].astro` — one page per MP, generated via `getStaticPaths` from `deputados.json`.
 - `pages/motivo/[slug].astro` — aggregates by justification reason, slugified from the FJ `motivo` field.
 
+`site/src/lib/sortable-tables.js` is loaded once from `Base.astro` and makes every `<table>` on the site sortable by clicking (or keyboard-activating) a header. It's progressive enhancement — the build-time order is the default. `<th class="num">` sorts numerically; opt out with `data-sortable="false"` on a table or a `th`, and override a cell's sort key with `data-sort`.
+
 `site/src/lib/base.ts` exports `base` (`import.meta.env.BASE_URL` trimmed) — always use it when constructing internal links so the site works under both root and a subpath.
 
 ## Conventions

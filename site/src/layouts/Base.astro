@@ -59,6 +59,7 @@ const dataChangedAt = formatPT(DATA_UPDATED_AT);
 				<p>Última verificação: {checkedAt}. Última alteração nos dados: {dataChangedAt}.</p>
 			</div>
 		</footer>
+		<script src="../lib/sortable-tables.js"></script>
 		<style is:global>
 			:root {
 				--fg: #1a1a1a;
@@ -108,6 +109,19 @@ const dataChangedAt = formatPT(DATA_UPDATED_AT);
 			th { background: #f3f1ec; font-weight: 600; color: var(--fg-muted); font-size: .8rem; text-transform: uppercase; letter-spacing: .03em; position: sticky; top: 0; z-index: 1; }
 			tr:last-child td { border-bottom: 0; }
 			td.num, th.num { text-align: right; font-variant-numeric: tabular-nums; }
+			th.sortable { padding: 0; }
+			th.sortable .sort-btn {
+				display: flex; align-items: center; gap: .3rem; width: 100%;
+				padding: .55rem .75rem; margin: 0; border: 0; background: none; cursor: pointer;
+				font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit; text-align: inherit;
+			}
+			th.num.sortable .sort-btn { justify-content: flex-end; }
+			th.sortable .sort-btn:hover { color: var(--fg); }
+			th.sortable .sort-btn:focus-visible { outline: 2px solid var(--accent); outline-offset: -2px; }
+			th[aria-sort] .sort-btn { color: var(--fg); }
+			.sort-arrow::before { content: "↕"; font-size: .9em; opacity: .35; }
+			th[aria-sort="ascending"] .sort-arrow::before { content: "↑"; opacity: 1; }
+			th[aria-sort="descending"] .sort-arrow::before { content: "↓"; opacity: 1; }
 			.gp { display: inline-block; padding: .1rem .45rem; border-radius: 3px; font-size: .75rem; font-weight: 600; color: #fff; letter-spacing: .02em; text-decoration: none; }
 			a.gp:hover { filter: brightness(1.1); }
 			.gp[data-p="PS"]   { background: #ec407a; }
