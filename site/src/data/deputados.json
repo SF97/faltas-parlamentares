@@ -193,9 +193,9 @@
   },
   {
     "bid": 4330,
-    "falta_quorum_votacao": 2,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 5,
+    "faltas_justificadas": 6,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 0,
