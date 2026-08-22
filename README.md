@@ -4,7 +4,7 @@ Site público, em português europeu, que acompanha as ausências dos deputados 
 
 🔗 **[faltasparlamentares.sergioferreira.net](https://faltasparlamentares.sergioferreira.net)**
 
-![Quem falta mais ao plenário?](site/public/og.png)
+[![Quem falta mais ao plenário?](site/public/og.png)](https://faltasparlamentares.sergioferreira.net)
 
 Os dados vêm das páginas oficiais de [presenças em reuniões plenárias](https://www.parlamento.pt/DeputadoGP/Paginas/reunioesplenarias.aspx) publicadas pelo Parlamento (uma por deputado), complementadas pelo [portal de dados abertos](https://www.parlamento.pt/Cidadania/paginas/dadosabertos.aspx) para metadados. Não há comentário editorial nem interpretação política — só os números, organizados de forma legível.
 
