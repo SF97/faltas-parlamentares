@@ -99,7 +99,7 @@
       "data": "2026-06-03",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
-      "motivo": "Trabalho Político",
+      "motivo": null,
       "reuniao_bid": 376699
     },
     {
@@ -162,7 +162,7 @@
       "data": "2026-05-14",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
-      "motivo": "Trabalho Político",
+      "motivo": null,
       "reuniao_bid": 376548
     },
     {
