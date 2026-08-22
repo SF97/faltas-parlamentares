@@ -1,0 +1,29 @@
+version: 2
+
+updates:
+  # pnpm uses the "npm" ecosystem, but Dependabot does not yet support the
+  # pnpm 11 multi-document lockfile used by site/. Re-enable this entry when
+  # https://github.com/dependabot/dependabot-core/issues/14794 is resolved.
+  # - package-ecosystem: "npm"
+  #   directory: "/site"
+  #   schedule:
+  #     interval: "weekly"
+  #     day: "monday"
+  #     time: "07:00"
+  #     timezone: "Europe/Lisbon"
+
+  - package-ecosystem: "uv"
+    directory: "/ingest"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "07:00"
+      timezone: "Europe/Lisbon"
+
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "07:00"
+      timezone: "Europe/Lisbon"
