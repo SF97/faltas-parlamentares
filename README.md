@@ -10,11 +10,25 @@ Os dados vêm das páginas oficiais de [presenças em reuniões plenárias](http
 
 ## Estrutura
 
-- `ingest/` — pipeline em Python (3.12, [uv](https://github.com/astral-sh/uv), httpx) que faz scraping das páginas "Presenças às Reuniões Plenárias" e escreve JSON para `site/src/data/`.
+- `ingest/` — pipeline em Python (3.14, [uv](https://github.com/astral-sh/uv), httpx) que faz scraping das páginas "Presenças às Reuniões Plenárias" e escreve JSON para `site/src/data/`.
 - `site/` — site estático em [Astro](https://astro.build), gerado a partir dos JSON do `ingest/`.
 - `.github/workflows/update.yml` — cron diário (06:00 UTC) que corre o `ingest`, faz commit dos dados se mudaram, e republica no GitHub Pages independentemente disso.
 
 ## Desenvolvimento
+
+Com [mise](https://mise.jdx.dev/), a partir da raiz do repositório:
+
+```bash
+mise install --monorepo # instala as ferramentas dos dois projetos
+mise //ingest:sync    # instala as dependências Python
+mise //ingest:run     # corre o ingest com a cache HTTP local
+mise //ingest:refresh # corre o ingest sem a cache HTTP
+mise //site:dev       # inicia o site em http://localhost:4321
+mise //site:build     # gera site/dist
+mise //site:preview   # pré-visualiza o site gerado
+```
+
+Os comandos subjacentes também podem ser executados diretamente:
 
 ```bash
 # Ingest (Python)

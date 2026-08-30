@@ -1,0 +1,23 @@
+[tools]
+uv = "0.12.7"
+
+[settings]
+idiomatic_version_file_enable_tools = ["python"]
+python.uv_venv_auto = "source"
+
+[tasks.sync]
+description = "Instala as dependências do ingest"
+run = "uv sync"
+sources = ["pyproject.toml", "uv.lock"]
+outputs = [".venv/pyvenv.cfg"]
+
+[tasks.run]
+description = "Atualiza os dados usando a cache HTTP local"
+depends = [":sync"]
+run = "uv run python -m ingest.main"
+
+[tasks.refresh]
+description = "Atualiza os dados sem usar a cache HTTP"
+depends = [":sync"]
+env = { FALTAS_NO_CACHE = "1" }
+run = "uv run python -m ingest.main"

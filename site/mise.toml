@@ -1,0 +1,23 @@
+[settings]
+idiomatic_version_file_enable_tools = ["node", "pnpm"]
+
+[tasks.install]
+description = "Instala as dependências do site"
+run = "mise exec -- pnpm install"
+sources = ["package.json", "pnpm-lock.yaml", "pnpm-workspace.yaml"]
+outputs = ["node_modules/.pnpm/lock.yaml"]
+
+[tasks.dev]
+description = "Inicia o servidor de desenvolvimento"
+depends = [":install"]
+run = "mise exec -- pnpm dev"
+
+[tasks.build]
+description = "Gera o site estático"
+depends = [":install"]
+run = "mise exec -- pnpm build"
+
+[tasks.preview]
+description = "Pré-visualiza o site gerado"
+depends = [":build"]
+run = "mise exec -- pnpm preview"

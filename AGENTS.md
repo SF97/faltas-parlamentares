@@ -6,12 +6,25 @@ This file provides guidance to coding agents when working with code in this repo
 
 Static PT-PT site that ranks Assembleia da República MPs of the **XVII Legislatura** by plenary absences. Two halves:
 
-- `ingest/` — Python 3.12 + uv + httpx. Scrapes parlamento.pt HTML and writes JSON files into `site/src/data/`.
+- `ingest/` — Python 3.14 + uv + httpx. Scrapes parlamento.pt HTML and writes JSON files into `site/src/data/`.
 - `site/` — Astro 6 static site that consumes those JSON files at build time. Deployed via GitHub Pages (`.github/workflows/update.yml`, daily cron at 06:00 UTC).
 
 The ingest output is *committed* to the repo by the cron job; the site rebuilds from those committed JSONs.
 
 ## Common commands
+
+With mise, these tasks can be run from anywhere in the repository:
+
+```bash
+mise //ingest:sync
+mise //ingest:run
+mise //ingest:refresh
+mise //site:dev
+mise //site:build
+mise //site:preview
+```
+
+The underlying commands are:
 
 ```bash
 # Ingest (run from ingest/)

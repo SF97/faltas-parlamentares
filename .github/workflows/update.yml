@@ -19,25 +19,15 @@ jobs:
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - uses: astral-sh/setup-uv@20cfd1bf945f4377ade1205e4dbc17946fc9a30d # v10.0.1
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
         with:
-          enable-cache: true
+          install_args: --monorepo
 
-      - name: Set up Python
-        run: uv python install 3.14
-        working-directory: ingest
-
-      - name: Install ingest deps
-        run: uv sync
-        working-directory: ingest
-
-      - name: Run ingest (no HTTP cache)
-        env:
-          FALTAS_NO_CACHE: "1"
-        run: uv run python -m ingest.main
-        working-directory: ingest
+      - name: Run ingest
+        run: mise //ingest:refresh
 
       - name: Commit refreshed data
+        if: ${{ !env.ACT }}
         run: |
           if [[ -z "$(git status --porcelain site/src/data)" ]]; then
             echo "No data changes."
