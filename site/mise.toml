@@ -17,6 +17,16 @@ description = "Gera o site estático"
 depends = [":install"]
 run = "mise exec -- pnpm build"
 
+[tasks.lint]
+description = "Verifica o JavaScript, TypeScript e frontmatter Astro"
+depends = [":install"]
+run = "mise exec -- pnpm lint"
+
+[tasks.lint-fix]
+description = "Corrige automaticamente os problemas detetados pelo Oxlint"
+depends = [":install"]
+run = "mise exec -- pnpm lint:fix"
+
 [tasks.preview]
 description = "Pré-visualiza o site gerado"
 depends = [":build"]

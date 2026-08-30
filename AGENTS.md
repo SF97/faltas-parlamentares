@@ -7,7 +7,7 @@ This file provides guidance to coding agents when working with code in this repo
 Static PT-PT site that ranks Assembleia da República MPs of the **XVII Legislatura** by plenary absences. Two halves:
 
 - `ingest/` — Python 3.14 + uv + httpx. Scrapes parlamento.pt HTML and writes JSON files into `site/src/data/`.
-- `site/` — Astro 6 static site that consumes those JSON files at build time. Deployed via GitHub Pages (`.github/workflows/update.yml`, daily cron at 06:00 UTC).
+- `site/` — Astro 7 static site that consumes those JSON files at build time. Deployed via GitHub Pages (`.github/workflows/update.yml`, daily cron at 06:00 UTC).
 
 The ingest output is *committed* to the repo by the cron job; the site rebuilds from those committed JSONs.
 
@@ -16,11 +16,18 @@ The ingest output is *committed* to the repo by the cron job; the site rebuilds 
 With mise, these tasks can be run from anywhere in the repository:
 
 ```bash
+mise //:lint
+mise //:lint-actions
 mise //ingest:sync
 mise //ingest:run
 mise //ingest:refresh
+mise //ingest:lint
+mise //ingest:lint-fix
+mise //ingest:format
 mise //site:dev
 mise //site:build
+mise //site:lint
+mise //site:lint-fix
 mise //site:preview
 ```
 
@@ -31,15 +38,22 @@ The underlying commands are:
 uv sync
 uv run python -m ingest.main         # uses local HTTP cache under ingest/.cache/http
 FALTAS_NO_CACHE=1 uv run python -m ingest.main   # force re-fetch (what CI uses)
+uv run ruff check .
+uv run ruff format --check .
 
 # Site (run from site/) — pnpm only, not npm
 pnpm install
 pnpm dev          # http://localhost:4321
 pnpm build        # outputs to site/dist
+pnpm lint
+pnpm lint:fix
 pnpm preview
+
+# Repository root
+actionlint        # automatically uses ShellCheck for workflow run scripts
 ```
 
-There is no test suite and no linter configured.
+There is no test suite. Python uses Ruff, the site uses Oxlint for JavaScript, TypeScript, and Astro frontmatter, and GitHub Actions uses actionlint with ShellCheck. Oxlint does not lint Astro template markup.
 
 ## Architecture notes
 

@@ -2,3 +2,15 @@ monorepo_root = true
 
 [monorepo]
 config_roots = ["ingest", "site"]
+
+[tools]
+actionlint = "1.7.12"
+shellcheck = "0.11.0"
+
+[tasks.lint-actions]
+description = "Verifica os workflows do GitHub Actions e os scripts shell"
+run = "actionlint"
+
+[tasks.lint]
+description = "Executa todos os linters do repositório"
+depends = [":lint-actions", "//ingest:lint", "//site:lint"]

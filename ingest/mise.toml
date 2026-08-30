@@ -21,3 +21,29 @@ description = "Atualiza os dados sem usar a cache HTTP"
 depends = [":sync"]
 env = { FALTAS_NO_CACHE = "1" }
 run = "uv run python -m ingest.main"
+
+[tasks.lint]
+description = "Verifica e valida a formatação do código Python"
+depends = [":sync"]
+run = """
+uv run ruff check .
+uv run ruff format --check .
+"""
+
+[tasks.lint-fix]
+description = "Corrige e formata automaticamente o código Python"
+depends = [":sync"]
+run = """
+uv run ruff check --fix .
+uv run ruff format .
+"""
+
+[tasks.format]
+description = "Formata o código Python"
+depends = [":sync"]
+run = "uv run ruff format ."
+
+[tasks.format-check]
+description = "Valida a formatação do código Python"
+depends = [":sync"]
+run = "uv run ruff format --check ."

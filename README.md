@@ -20,11 +20,18 @@ Com [mise](https://mise.jdx.dev/), a partir da raiz do repositório:
 
 ```bash
 mise install --monorepo # instala as ferramentas dos dois projetos
+mise //:lint           # executa todos os linters do repositório
+mise //:lint-actions   # verifica GitHub Actions e os scripts shell
 mise //ingest:sync    # instala as dependências Python
 mise //ingest:run     # corre o ingest com a cache HTTP local
 mise //ingest:refresh # corre o ingest sem a cache HTTP
+mise //ingest:lint    # verifica e valida a formatação do Python
+mise //ingest:lint-fix # corrige e formata o Python
+mise //ingest:format  # formata o Python
 mise //site:dev       # inicia o site em http://localhost:4321
 mise //site:build     # gera site/dist
+mise //site:lint      # verifica JavaScript, TypeScript e frontmatter Astro
+mise //site:lint-fix  # corrige automaticamente problemas do Oxlint
 mise //site:preview   # pré-visualiza o site gerado
 ```
 
@@ -36,14 +43,20 @@ cd ingest
 uv sync
 uv run python -m ingest.main                  # usa cache local em ingest/.cache/http
 FALTAS_NO_CACHE=1 uv run python -m ingest.main  # força re-fetch (como o CI)
+uv run ruff check .
+uv run ruff format --check .
 
 # Site (Astro) — pnpm, não npm
 cd site
 pnpm install
 pnpm dev        # http://localhost:4321
 pnpm build      # gera dist/
+pnpm lint       # verifica JavaScript, TypeScript e frontmatter Astro
+pnpm lint:fix   # corrige automaticamente problemas do Oxlint
 pnpm preview    # serve dist/
 ```
+
+O lint agregado também executa o actionlint a partir da raiz. Quando o ShellCheck está disponível através do mise, o actionlint usa-o automaticamente para validar os blocos `run:` dos workflows.
 
 Os JSON gerados pelo `ingest` são commitados para o repositório — o site não corre o ingest no build.
 

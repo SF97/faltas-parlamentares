@@ -6,7 +6,9 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "lint": "oxlint",
+    "lint:fix": "oxlint --fix"
   },
   "devEngines": {
     "runtime": {
@@ -24,6 +26,7 @@
     "astro": "7.2.9"
   },
   "devDependencies": {
-    "@astrojs/sitemap": "3.7.3"
+    "@astrojs/sitemap": "3.7.3",
+    "oxlint": "1.80.0"
   }
 }
