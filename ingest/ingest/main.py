@@ -3,9 +3,8 @@ from __future__ import annotations
 import json
 import sys
 from collections import Counter
-from pathlib import Path
-
 from dataclasses import asdict
+from pathlib import Path
 
 from .alteracoes import Alteracao, fetch_alteracoes
 from .fetch import BASE_URL, fetch
@@ -32,9 +31,23 @@ def events_for(name: str, alteracoes: list[Alteracao]) -> list[dict]:
     out: list[dict] = []
     for a in alteracoes:
         if a.substituto == name:
-            out.append({"data": a.data, "tipo": "entrada", "motivo": a.motivo, "contraparte": a.substituido})
+            out.append(
+                {
+                    "data": a.data,
+                    "tipo": "entrada",
+                    "motivo": a.motivo,
+                    "contraparte": a.substituido,
+                }
+            )
         elif a.substituido == name:
-            out.append({"data": a.data, "tipo": "saida", "motivo": a.motivo, "contraparte": a.substituto})
+            out.append(
+                {
+                    "data": a.data,
+                    "tipo": "saida",
+                    "motivo": a.motivo,
+                    "contraparte": a.substituto,
+                }
+            )
     out.sort(key=lambda e: e["data"])
     return out
 
@@ -52,7 +65,12 @@ def main() -> int:
             "Parliament's HTML may have changed."
         )
     (SITE_DATA / "substituicoes.json").write_text(
-        json.dumps([asdict(a) for a in alteracoes], ensure_ascii=False, indent=2, sort_keys=True),
+        json.dumps(
+            [asdict(a) for a in alteracoes],
+            ensure_ascii=False,
+            indent=2,
+            sort_keys=True,
+        ),
         encoding="utf-8",
     )
 
@@ -67,10 +85,15 @@ def main() -> int:
 
     attendances: dict[int, list] = {}
     for i, r in enumerate(sorted(roster_rows, key=lambda x: x.name), 1):
-        print(f"[{i}/{len(roster_rows)}] attendance {r.name} (BID={r.bid})", file=sys.stderr)
+        print(
+            f"[{i}/{len(roster_rows)}] attendance {r.name} (BID={r.bid})",
+            file=sys.stderr,
+        )
         attendances[r.bid] = parse_attendance(fetch(presencas_url(r.bid)))
 
-    session_bids = sorted({e.session_bid for entries in attendances.values() for e in entries})
+    session_bids = sorted(
+        {e.session_bid for entries in attendances.values() for e in entries}
+    )
     print(f"motivos: fetching {len(session_bids)} session pages…", file=sys.stderr)
     motivos: dict[int, dict[int, str]] = {}
     for j, sbid in enumerate(session_bids, 1):
@@ -102,7 +125,8 @@ def main() -> int:
             ],
         }
         (SITE_DATA / "deputado" / f"{r.bid}.json").write_text(
-            json.dumps(detail, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8"
+            json.dumps(detail, ensure_ascii=False, indent=2, sort_keys=True),
+            encoding="utf-8",
         )
 
         summary.append(
@@ -122,7 +146,8 @@ def main() -> int:
 
     summary.sort(key=lambda d: -(d["faltas_injustificadas"]))
     (SITE_DATA / "deputados.json").write_text(
-        json.dumps(summary, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8"
+        json.dumps(summary, ensure_ascii=False, indent=2, sort_keys=True),
+        encoding="utf-8",
     )
 
     meta = {
