@@ -2533,10 +2533,10 @@
   },
   {
     "bid": 7331,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 12,
-    "faltas_nao_classificadas": 2,
+    "faltas_justificadas": 15,
+    "faltas_nao_classificadas": 0,
     "gp": "IL",
     "missao_parlamentar": 3,
     "nome": "Rui Rocha",
