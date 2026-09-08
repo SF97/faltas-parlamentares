@@ -1,5 +1,21 @@
 [
   {
+    "circulo": "Lisboa",
+    "data": "2026-09-01",
+    "gp": "BE",
+    "motivo": "Suspensão",
+    "substituido": "Fabian Figueiredo",
+    "substituto": "Andreia Galvão"
+  },
+  {
+    "circulo": "Lisboa",
+    "data": "2026-08-26",
+    "gp": "PS",
+    "motivo": "Suspensão",
+    "substituido": "Miguel Matos",
+    "substituto": "Maria Begonha"
+  },
+  {
     "circulo": "Braga",
     "data": "2026-06-02",
     "gp": "PS",

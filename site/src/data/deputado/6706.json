@@ -1,6 +1,13 @@
 {
   "bid": 6706,
-  "eventos": [],
+  "eventos": [
+    {
+      "contraparte": "Maria Begonha",
+      "data": "2026-08-26",
+      "motivo": "Suspensão",
+      "tipo": "saida"
+    }
+  ],
   "gp": "PS",
   "nome": "Miguel Matos",
   "sessoes": [

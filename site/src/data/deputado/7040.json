@@ -6,6 +6,12 @@
       "data": "2026-01-01",
       "motivo": "Cessação",
       "tipo": "entrada"
+    },
+    {
+      "contraparte": "Andreia Galvão",
+      "data": "2026-09-01",
+      "motivo": "Suspensão",
+      "tipo": "saida"
     }
   ],
   "gp": "BE",
