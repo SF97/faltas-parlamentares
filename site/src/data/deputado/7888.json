@@ -5,6 +5,13 @@
   "nome": "António Mendonça Mendes",
   "sessoes": [
     {
+      "data": "2026-09-08",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387138
+    },
+    {
       "data": "2026-07-17",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -785,7 +792,7 @@
   "totais": {
     "AMP": 14,
     "FJ": 5,
-    "P": 92
+    "P": 93
   },
-  "total_reunioes": 111
+  "total_reunioes": 112
 }
