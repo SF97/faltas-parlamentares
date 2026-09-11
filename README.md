@@ -12,7 +12,7 @@ Os dados vêm das páginas oficiais de [presenças em reuniões plenárias](http
 
 - `ingest/` — pipeline em Python (3.14, [uv](https://github.com/astral-sh/uv), httpx) que faz scraping das páginas "Presenças às Reuniões Plenárias" e escreve JSON para `site/src/data/`.
 - `site/` — site estático em [Astro](https://astro.build), gerado a partir dos JSON do `ingest/`.
-- `.github/workflows/update.yml` — cron diário (06:00 UTC) que corre o `ingest`, faz commit dos dados se mudaram, e republica no GitHub Pages independentemente disso.
+- `.github/workflows/update.yml` — cron diário (06:00 UTC) que corre o `ingest` e faz commit e push dos dados se mudaram. O push desencadeia o build e a publicação no Cloudflare Pages através da integração com o GitHub.
 
 ## Desenvolvimento
 
