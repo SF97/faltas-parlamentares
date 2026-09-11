@@ -4,6 +4,7 @@ import json
 import sys
 from collections import Counter
 from dataclasses import asdict
+from datetime import UTC, datetime
 from pathlib import Path
 
 from .alteracoes import Alteracao, fetch_alteracoes
@@ -12,6 +13,18 @@ from .parse import STATUS_CODES, parse_attendance, parse_session_roster
 
 SITE_DATA = Path(__file__).resolve().parents[2] / "site" / "src" / "data"
 ROSTER_SESSION_BID = 376274
+
+
+def data_snapshot() -> dict:
+    """Compare data content independently of formatting and refresh timestamps."""
+    snapshot = {}
+    for path in SITE_DATA.rglob("*.json"):
+        content = json.loads(path.read_text(encoding="utf-8"))
+        if path.name == "meta.json":
+            content.pop("checked_at", None)
+            content.pop("updated_at", None)
+        snapshot[str(path.relative_to(SITE_DATA))] = content
+    return snapshot
 
 
 def detalhe_url(bid: int) -> str:
@@ -53,6 +66,11 @@ def events_for(name: str, alteracoes: list[Alteracao]) -> list[dict]:
 
 
 def main() -> int:
+    previous_data = data_snapshot()
+    meta_path = SITE_DATA / "meta.json"
+    previous_meta = (
+        json.loads(meta_path.read_text(encoding="utf-8")) if meta_path.exists() else {}
+    )
     SITE_DATA.mkdir(parents=True, exist_ok=True)
     (SITE_DATA / "deputado").mkdir(exist_ok=True)
 
@@ -156,6 +174,13 @@ def main() -> int:
         "deputados": len(summary),
         "substituicoes": len(alteracoes),
     }
+    current_data = data_snapshot()
+    current_data["meta.json"] = meta.copy()
+    now = datetime.now(UTC).isoformat()
+    meta["checked_at"] = now
+    meta["updated_at"] = (
+        now if current_data != previous_data else previous_meta.get("updated_at") or now
+    )
     (SITE_DATA / "meta.json").write_text(
         json.dumps(meta, ensure_ascii=False, indent=2, sort_keys=True), encoding="utf-8"
     )

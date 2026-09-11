@@ -1,28 +1,14 @@
-import { execSync } from "node:child_process";
-import { dirname, resolve } from "node:path";
-import { fileURLToPath } from "node:url";
+import meta from "../data/meta.json";
 
-const repoDir = resolve(dirname(fileURLToPath(import.meta.url)), "../../..");
+const timestamps = meta as typeof meta & { checked_at?: string; updated_at?: string };
 
-function lastDataChangeISO(): string {
-	try {
-		const out = execSync("git log -1 --format=%cI -- site/src/data", {
-			cwd: repoDir,
-			encoding: "utf8",
-			stdio: ["ignore", "pipe", "ignore"],
-		}).trim();
-		if (out) return out;
-	} catch {
-		// fall through
-	}
-	return new Date().toISOString();
-}
+export const DATA_CHECKED_AT = timestamps.checked_at;
+export const DATA_UPDATED_AT = timestamps.updated_at;
 
-export const BUILD_TIME = new Date();
-export const DATA_UPDATED_AT = new Date(lastDataChangeISO());
+const PT = new Intl.DateTimeFormat("pt-PT", { day: "numeric", month: "long", year: "numeric", timeZone: "Europe/Lisbon" });
 
-const PT = new Intl.DateTimeFormat("pt-PT", { day: "numeric", month: "long", year: "numeric" });
-
-export function formatPT(d: Date): string {
+export function formatPT(value: string | undefined): string {
+	const d = value ? new Date(value) : null;
+	if (!d || Number.isNaN(d.getTime())) return "não registada";
 	return PT.format(d);
 }

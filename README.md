@@ -60,6 +60,8 @@ O lint agregado também executa o actionlint a partir da raiz. Quando o ShellChe
 
 Os JSON gerados pelo `ingest` são commitados para o repositório — o site não corre o ingest no build.
 
+O `meta.json` guarda `checked_at` após cada execução bem-sucedida do ingest e `updated_at` quando o conteúdo dos dados muda. Uma execução sem alterações mantém `updated_at`, mas atualiza `checked_at`, originando um commit e uma publicação para mostrar a verificação mais recente. O rodapé apresenta estas datas no fuso horário de Lisboa; datas ainda não registadas aparecem como «não registada». Para verificar os dados diretamente na fonte, sem reutilizar a cache HTTP, usar `mise //ingest:refresh`, como no workflow diário.
+
 ## Classificação das ausências
 
 Cada reunião plenária é classificada pelo Parlamento numa de sete categorias, todas usadas no site:
