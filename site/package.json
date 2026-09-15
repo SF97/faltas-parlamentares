@@ -27,6 +27,6 @@
   },
   "devDependencies": {
     "@astrojs/sitemap": "3.7.3",
-    "oxlint": "1.80.0"
+    "oxlint": "1.82.0"
   }
 }
