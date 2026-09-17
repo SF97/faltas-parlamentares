@@ -5,6 +5,13 @@
   "nome": "Eva Cruzeiro",
   "sessoes": [
     {
+      "data": "2026-09-16",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387149
+    },
+    {
       "data": "2026-09-08",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -792,7 +799,7 @@
   "totais": {
     "AMP": 2,
     "FJ": 14,
-    "P": 96
+    "P": 97
   },
-  "total_reunioes": 112
+  "total_reunioes": 113
 }

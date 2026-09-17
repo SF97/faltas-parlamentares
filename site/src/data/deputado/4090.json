@@ -5,10 +5,17 @@
   "nome": "Margarida Saavedra",
   "sessoes": [
     {
-      "data": "2026-09-08",
-      "estado": "F",
-      "estado_label": "Falta",
+      "data": "2026-09-16",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
+      "reuniao_bid": 387149
+    },
+    {
+      "data": "2026-09-08",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Força Maior",
       "reuniao_bid": 387138
     },
     {
@@ -790,9 +797,8 @@
     }
   ],
   "totais": {
-    "F": 1,
-    "FJ": 9,
-    "P": 102
+    "FJ": 10,
+    "P": 103
   },
-  "total_reunioes": 112
+  "total_reunioes": 113
 }

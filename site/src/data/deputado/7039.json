@@ -5,6 +5,13 @@
   "nome": "Liliana Sousa",
   "sessoes": [
     {
+      "data": "2026-09-16",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387149
+    },
+    {
       "data": "2026-09-08",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -378,7 +385,7 @@
   ],
   "totais": {
     "FJ": 1,
-    "P": 52
+    "P": 53
   },
-  "total_reunioes": 53
+  "total_reunioes": 54
 }

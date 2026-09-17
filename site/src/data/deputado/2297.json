@@ -5,6 +5,13 @@
   "nome": "Cristóvão Norte",
   "sessoes": [
     {
+      "data": "2026-09-16",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387149
+    },
+    {
       "data": "2026-09-08",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -153,9 +160,9 @@
     },
     {
       "data": "2026-05-20",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família",
       "reuniao_bid": 376550
     },
     {
@@ -790,10 +797,9 @@
     }
   ],
   "totais": {
-    "F": 1,
-    "FJ": 11,
+    "FJ": 12,
     "FQV": 1,
-    "P": 99
+    "P": 100
   },
-  "total_reunioes": 112
+  "total_reunioes": 113
 }
