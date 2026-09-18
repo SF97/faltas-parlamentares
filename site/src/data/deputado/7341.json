@@ -5,6 +5,13 @@
   "nome": "Francisco César",
   "sessoes": [
     {
+      "data": "2026-09-17",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387150
+    },
+    {
       "data": "2026-09-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -798,7 +805,7 @@
   ],
   "totais": {
     "FJ": 6,
-    "P": 107
+    "P": 108
   },
-  "total_reunioes": 113
+  "total_reunioes": 114
 }

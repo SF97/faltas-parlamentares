@@ -5,6 +5,13 @@
   "nome": "Rita Matias",
   "sessoes": [
     {
+      "data": "2026-09-17",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387150
+    },
+    {
       "data": "2026-09-16",
       "estado": "F",
       "estado_label": "Falta",
@@ -797,9 +804,9 @@
     }
   ],
   "totais": {
-    "F": 1,
+    "F": 2,
     "FJ": 16,
     "P": 96
   },
-  "total_reunioes": 113
+  "total_reunioes": 114
 }

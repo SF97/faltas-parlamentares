@@ -5,6 +5,13 @@
   "nome": "Cristina Vieira Henriques",
   "sessoes": [
     {
+      "data": "2026-09-17",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": "Trabalho Político",
+      "reuniao_bid": 387150
+    },
+    {
       "data": "2026-09-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -797,8 +804,9 @@
     }
   ],
   "totais": {
+    "F": 1,
     "FJ": 6,
     "P": 107
   },
-  "total_reunioes": 113
+  "total_reunioes": 114
 }

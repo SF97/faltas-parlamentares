@@ -5,6 +5,13 @@
   "nome": "Ricardo Dias Pinto",
   "sessoes": [
     {
+      "data": "2026-09-17",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387150
+    },
+    {
       "data": "2026-09-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -798,8 +805,9 @@
   ],
   "totais": {
     "AMP": 7,
+    "F": 1,
     "FJ": 16,
     "P": 90
   },
-  "total_reunioes": 113
+  "total_reunioes": 114
 }

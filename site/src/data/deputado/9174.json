@@ -12,6 +12,13 @@
   "nome": "Vítor Guerreiro",
   "sessoes": [
     {
+      "data": "2026-09-17",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387150
+    },
+    {
       "data": "2026-09-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -392,7 +399,7 @@
   ],
   "totais": {
     "FJ": 3,
-    "P": 51
+    "P": 52
   },
-  "total_reunioes": 54
+  "total_reunioes": 55
 }

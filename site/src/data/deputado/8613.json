@@ -5,6 +5,13 @@
   "nome": "Maria José Aguiar",
   "sessoes": [
     {
+      "data": "2026-09-17",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387150
+    },
+    {
       "data": "2026-09-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -799,8 +806,8 @@
   "totais": {
     "AMP": 2,
     "FJ": 4,
-    "P": 105,
+    "P": 106,
     "PNO": 2
   },
-  "total_reunioes": 113
+  "total_reunioes": 114
 }

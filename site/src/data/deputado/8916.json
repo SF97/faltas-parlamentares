@@ -5,6 +5,13 @@
   "nome": "Ricardo Carvalho",
   "sessoes": [
     {
+      "data": "2026-09-17",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387150
+    },
+    {
       "data": "2026-09-16",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -797,9 +804,9 @@
     }
   ],
   "totais": {
-    "AMP": 25,
+    "AMP": 26,
     "FJ": 12,
     "P": 76
   },
-  "total_reunioes": 113
+  "total_reunioes": 114
 }

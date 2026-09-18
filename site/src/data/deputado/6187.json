@@ -5,6 +5,13 @@
   "nome": "Carlos Pereira",
   "sessoes": [
     {
+      "data": "2026-09-17",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387150
+    },
+    {
       "data": "2026-09-16",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -797,10 +804,10 @@
     }
   ],
   "totais": {
-    "AMP": 7,
+    "AMP": 8,
     "FJ": 4,
     "P": 98,
     "PNO": 4
   },
-  "total_reunioes": 113
+  "total_reunioes": 114
 }
