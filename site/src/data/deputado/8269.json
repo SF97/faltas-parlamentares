@@ -5,6 +5,13 @@
   "nome": "Armando Grave",
   "sessoes": [
     {
+      "data": "2026-09-18",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387151
+    },
+    {
       "data": "2026-09-17",
       "estado": "F",
       "estado_label": "Falta",
@@ -805,9 +812,9 @@
   ],
   "totais": {
     "AMP": 1,
-    "F": 1,
+    "F": 2,
     "FJ": 3,
     "P": 109
   },
-  "total_reunioes": 114
+  "total_reunioes": 115
 }

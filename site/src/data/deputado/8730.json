@@ -5,6 +5,13 @@
   "nome": "Paulo Seco",
   "sessoes": [
     {
+      "data": "2026-09-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387151
+    },
+    {
       "data": "2026-09-17",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -805,7 +812,7 @@
   ],
   "totais": {
     "FJ": 3,
-    "P": 111
+    "P": 112
   },
-  "total_reunioes": 114
+  "total_reunioes": 115
 }

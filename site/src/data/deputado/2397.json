@@ -5,6 +5,13 @@
   "nome": "Francisco Covelinhas Lopes",
   "sessoes": [
     {
+      "data": "2026-09-18",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387151
+    },
+    {
       "data": "2026-09-17",
       "estado": "F",
       "estado_label": "Falta",
@@ -804,9 +811,9 @@
     }
   ],
   "totais": {
-    "F": 1,
+    "F": 2,
     "FJ": 6,
     "P": 107
   },
-  "total_reunioes": 114
+  "total_reunioes": 115
 }

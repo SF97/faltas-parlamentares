@@ -5,10 +5,17 @@
   "nome": "Paula Cardoso",
   "sessoes": [
     {
-      "data": "2026-09-17",
-      "estado": "F",
-      "estado_label": "Falta",
+      "data": "2026-09-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
+      "reuniao_bid": 387151
+    },
+    {
+      "data": "2026-09-17",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Parlamentar",
       "reuniao_bid": 387150
     },
     {
@@ -805,9 +812,8 @@
   ],
   "totais": {
     "AMP": 15,
-    "F": 1,
-    "FJ": 4,
-    "P": 94
+    "FJ": 5,
+    "P": 95
   },
-  "total_reunioes": 114
+  "total_reunioes": 115
 }

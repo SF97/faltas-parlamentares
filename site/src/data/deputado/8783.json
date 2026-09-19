@@ -5,6 +5,13 @@
   "nome": "Carlos Silva Santiago",
   "sessoes": [
     {
+      "data": "2026-09-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387151
+    },
+    {
       "data": "2026-09-17",
       "estado": "F",
       "estado_label": "Falta",
@@ -807,7 +814,7 @@
     "AMP": 14,
     "F": 1,
     "FJ": 5,
-    "P": 94
+    "P": 95
   },
-  "total_reunioes": 114
+  "total_reunioes": 115
 }

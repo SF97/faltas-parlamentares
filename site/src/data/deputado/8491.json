@@ -5,9 +5,16 @@
   "nome": "Filipa Pinto",
   "sessoes": [
     {
+      "data": "2026-09-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387151
+    },
+    {
       "data": "2026-09-17",
-      "estado": "F",
-      "estado_label": "Falta",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 387150
     },
@@ -805,10 +812,9 @@
   ],
   "totais": {
     "AMP": 4,
-    "F": 1,
     "FJ": 2,
-    "P": 106,
+    "P": 108,
     "PNO": 1
   },
-  "total_reunioes": 114
+  "total_reunioes": 115
 }

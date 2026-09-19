@@ -5,9 +5,16 @@
   "nome": "Andreia Neto",
   "sessoes": [
     {
+      "data": "2026-09-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387151
+    },
+    {
       "data": "2026-09-17",
-      "estado": "F",
-      "estado_label": "Falta",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 387150
     },
@@ -804,11 +811,10 @@
     }
   ],
   "totais": {
-    "F": 1,
     "FI": 2,
     "FJ": 5,
-    "P": 104,
+    "P": 106,
     "PNO": 2
   },
-  "total_reunioes": 114
+  "total_reunioes": 115
 }
