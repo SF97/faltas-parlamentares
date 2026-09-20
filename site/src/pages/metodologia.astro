@@ -15,7 +15,7 @@ import meta from "../data/meta.json";
 	</p>
 
 	<h2>Classificação de cada reunião</h2>
-	<p>O próprio Parlamento classifica a participação de cada deputado em cada reunião plenária numa de cinco categorias:</p>
+	<p>O próprio Parlamento classifica a participação de cada deputado em cada reunião plenária numa de sete categorias:</p>
 	<ul>
 		<li><span class="badge P">P</span> <strong>Presença</strong> — o deputado esteve presente.</li>
 		<li><span class="badge FJ">FJ</span> <strong>Falta Justificada</strong> — o deputado não esteve presente mas apresentou justificação aceite (motivos legais previstos no Estatuto dos Deputados).</li>
@@ -30,6 +30,30 @@ import meta from "../data/meta.json";
 	<p>
 		A tabela principal está ordenada por <strong>faltas injustificadas (FI)</strong>, com desempate por faltas justificadas (FJ),
 		depois por faltas não classificadas (F) e finalmente por nome. O total de reuniões elegíveis varia por deputado (ver secção seguinte).
+	</p>
+
+	<h2 id="percentagem-de-faltas">Percentagem de faltas</h2>
+	<p><strong>Faltas (%) = 100 × (FJ + FI + F) / (FJ + FI + F + P + AMP + PNO + FQV).</strong></p>
+	<p>
+		As faltas justificadas, injustificadas e não classificadas entram no numerador. As presenças (P), missões parlamentares
+		(AMP) e presenças noutro órgão (PNO) contam como trabalho parlamentar no denominador, sem contar como faltas.
+		As faltas ao quórum de votação (FQV) também contam como presença neste cálculo: o deputado esteve presente,
+		apesar de não ter participado no número mínimo de votações. Esta classificação continua a ser apresentada separadamente.
+	</p>
+	<p>
+		A percentagem varia entre 0% e 100% e é apresentada com uma casa decimal. Sem registos nas categorias acima,
+		apresenta-se «—», pois não é possível calcular uma percentagem. A ordenação usa o valor sem arredondamento.
+		As faltas não classificadas podem ser reclassificadas pelo Parlamento, alterando esta percentagem numa atualização posterior.
+	</p>
+	<p>
+		Para cada grupo parlamentar e para a AR, somam-se primeiro as contagens dos deputados e aplica-se a mesma fórmula.
+		Não se faz a média aritmética das percentagens individuais: cada reunião registada de cada deputado tem o mesmo peso,
+		mesmo quando os deputados têm números de reuniões diferentes. Por exemplo, 1 falta em 2 registos e 0 faltas em 8 registos
+		resultam em 10% no conjunto, e não em 25%.
+	</p>
+	<p>
+		Os totais da AR abrangem os deputados apresentados no ranking da XVII Legislatura, com os grupos parlamentares
+		indicados nos dados.
 	</p>
 
 	<h2>Substituições e efetivos temporariamente substituídos</h2>

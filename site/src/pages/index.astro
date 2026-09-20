@@ -4,6 +4,9 @@ import deputados from "../data/deputados.json";
 import meta from "../data/meta.json";
 import { base } from "../lib/base";
 
+import AbsenceNote from "../components/AbsenceNote.astro";
+import { absencePercentage, formatAbsencePercentage, unavailableExplanation } from "../lib/absence";
+
 type Row = (typeof deputados)[number];
 
 type Sessao = { estado: string; motivo: string | null };
@@ -18,6 +21,8 @@ const slugify = (s: string): string =>
 		.replace(/(^-|-$)/g, "");
 
 const detailFiles = import.meta.glob<{ default: DeputadoDetail }>("../data/deputado/*.json", { eager: true });
+const statusByBid = new Map(Object.values(detailFiles).map(({ default: d }) => [d.bid, d.totais]));
+const percentageFor = (list: Row[]) => absencePercentage(list.map((d) => statusByBid.get(d.bid) ?? {}));
 const motivoCounts = new Map<string, number>();
 const fCountsByBid = new Map<number, number>();
 for (const mod of Object.values(detailFiles)) {
@@ -47,11 +52,12 @@ const byParty = (list: Row[]) => {
 		e.total += d.total_reunioes;
 		m.set(d.gp, e);
 	}
-	return Array.from(m.values()).sort((a, b) => b.fi - a.fi);
+	return Array.from(m.values()).map((p) => ({ ...p, percentage: percentageFor(list.filter((d) => d.gp === p.gp)) })).sort((a, b) => b.fi - a.fi);
 };
 
 const totals = {
 	deputados: deputados.length,
+	percentage: percentageFor(deputados),
 	fi: deputados.reduce((a, d) => a + d.faltas_injustificadas, 0),
 	fj: deputados.reduce((a, d) => a + d.faltas_justificadas, 0),
 	amp: deputados.reduce((a, d) => a + d.missao_parlamentar, 0),
@@ -59,7 +65,7 @@ const totals = {
 };
 
 const ranked = deputados
-	.map((d) => ({ ...d, f: fCountsByBid.get(d.bid) ?? 0 }))
+	.map((d) => ({ ...d, f: fCountsByBid.get(d.bid) ?? 0, percentage: percentageFor([d]) }))
 	.sort((a, b) => {
 		if (b.faltas_injustificadas !== a.faltas_injustificadas) return b.faltas_injustificadas - a.faltas_injustificadas;
 		if (b.faltas_justificadas !== a.faltas_justificadas) return b.faltas_justificadas - a.faltas_justificadas;
@@ -92,6 +98,13 @@ const fqv = deputados
         const rows = [...tbody.querySelectorAll("tr")];
 
         rows.sort((a, b) => {
+          if (type === "percentage") {
+            const aRaw = a.cells[columnIndex]?.dataset.sortValue ?? "";
+            const bRaw = b.cells[columnIndex]?.dataset.sortValue ?? "";
+            if (aRaw === "" || bRaw === "") return aRaw === bRaw ? 0 : aRaw === "" ? 1 : -1;
+            return ascending ? Number(aRaw) - Number(bRaw) : Number(bRaw) - Number(aRaw);
+          }
+
           let aValue = a.cells[columnIndex]?.textContent.trim() ?? "";
           let bValue = b.cells[columnIndex]?.textContent.trim() ?? "";
 
@@ -131,7 +144,10 @@ const fqv = deputados
 		<div class="stat"><div class="n">{totals.fj}</div><div class="l">Faltas justificadas</div></div>
 		<div class="stat"><div class="n">{totals.f}</div><div class="l">Faltas não classificadas</div></div>
 		<div class="stat"><div class="n">{totals.amp}</div><div class="l">Ausências em missão</div></div>
+		<div class="stat"><div class="n" title={totals.percentage === null ? unavailableExplanation : undefined}>{formatAbsencePercentage(totals.percentage)}</div><div class="l">Faltas (%) · AR</div></div>
 	</div>
+	<AbsenceNote />
+	<p>A percentagem da AR abrange todos os deputados deste ranking. Os valores da AR e dos grupos são calculados a partir das contagens somadas.</p>
 
 	<h2>Principais motivos das faltas justificadas</h2>
 	<ul class="motivo-list">
@@ -160,6 +176,7 @@ const fqv = deputados
 				<th data-sort="number" class="num"><abbr title="Falta Justificada">FJ</abbr></th>
 				<th data-sort="number" class="num"><abbr title="Falta não classificada">F</abbr></th>
 				<th data-sort="number" class="num"><abbr title="Ausência em Missão Parlamentar">AMP</abbr></th>
+				<th data-sort="percentage" class="num">Faltas (%)</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -171,6 +188,7 @@ const fqv = deputados
 					<td class="num">{p.fj}</td>
 					<td class="num">{p.f}</td>
 					<td class="num">{p.amp}</td>
+					<td class="num" data-sort-value={p.percentage ?? ""} title={p.percentage === null ? unavailableExplanation : undefined}>{formatAbsencePercentage(p.percentage)}</td>
 				</tr>
 			))}
 		</tbody>
@@ -227,6 +245,7 @@ const fqv = deputados
 				<th data-sort="number" class="num">FI</th>
 				<th data-sort="number" class="num"><abbr title="Falta não classificada">F</abbr></th>
 				<th data-sort="number" class="num">AMP</th>
+				<th data-sort="percentage" class="num">Faltas (%)</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -240,6 +259,7 @@ const fqv = deputados
 					<td class="num">{d.faltas_injustificadas}</td>
 					<td class="num">{d.f}</td>
 					<td class="num">{d.missao_parlamentar}</td>
+					<td class="num" data-sort-value={d.percentage ?? ""} title={d.percentage === null ? unavailableExplanation : undefined}>{formatAbsencePercentage(d.percentage)}</td>
 				</tr>
 			))}
 		</tbody>

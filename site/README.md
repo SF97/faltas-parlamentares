@@ -41,3 +41,24 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Percentagem de faltas
+
+O site calcula `100 × (FJ + FI + F) / (FJ + FI + F + P + AMP + PNO + FQV)`
+a partir dos totais nos ficheiros de detalhe dos deputados, através de
+`src/lib/absence.ts`. FJ, FI e F são faltas; P, AMP e PNO são presença ou trabalho
+parlamentar. FQV conta como presença para esta percentagem porque o deputado
+esteve presente, embora não tenha participado no número mínimo de votações.
+A classificação FQV continua a ser apresentada separadamente.
+
+Os valores por grupo parlamentar e para toda a AR aplicam a fórmula às contagens
+somadas dos deputados do ranking da XVII Legislatura, mantendo os grupos dos
+dados atuais. Não são médias aritméticas das percentagens individuais. Os registos
+de efetivos e suplentes continuam separados.
+
+A apresentação usa uma casa decimal e o formato `pt-PT`; a ordenação usa o valor
+sem arredondamento. Sem registos nas sete categorias, o cálculo devolve `null` e
+a interface mostra «—» com explicação; estes valores ficam no fim da ordenação
+em ambos os sentidos. Faltas não classificadas podem ser reclassificadas em
+atualizações posteriores. A explicação pública está em
+`/metodologia#percentagem-de-faltas`.

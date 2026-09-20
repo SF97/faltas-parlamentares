@@ -3,6 +3,9 @@ import Base from "../../layouts/Base.astro";
 import deputados from "../../data/deputados.json";
 import { base } from "../../lib/base";
 
+import AbsenceNote from "../../components/AbsenceNote.astro";
+import { absencePercentage, formatAbsencePercentage, unavailableExplanation } from "../../lib/absence";
+
 type Summary = (typeof deputados)[number];
 
 export async function getStaticPaths() {
@@ -40,6 +43,7 @@ const eventoFrase = (e: Evento, nome: string) => {
 
 const { detail } = Astro.props as { detail: DeputadoDetail };
 const t = detail.totais;
+const percentage = absencePercentage([t]);
 const rank = [...deputados]
 	.sort((a, b) => b.faltas_injustificadas - a.faltas_injustificadas)
 	.findIndex((d) => d.bid === detail.bid) + 1;
@@ -62,7 +66,9 @@ const desc = `${detail.nome} (${detail.gp}), XVII Legislatura: ${fi} ${fi === 1 
 		<div class="stat"><div class="n">{t.FJ ?? 0}</div><div class="l">Falta justificada</div></div>
 		<div class="stat"><div class="n">{t.FI ?? 0}</div><div class="l">Falta injustificada</div></div>
 		<div class="stat"><div class="n">{t.AMP ?? 0}</div><div class="l">Missão parlamentar</div></div>
+		<div class="stat"><div class="n" title={percentage === null ? unavailableExplanation : undefined}>{formatAbsencePercentage(percentage)}</div><div class="l">Faltas (%)</div></div>
 	</div>
+	<AbsenceNote />
 
 	{(detail.eventos ?? []).length > 0 && (
 		<Fragment>

@@ -3,6 +3,9 @@ import Base from "../../layouts/Base.astro";
 import deputados from "../../data/deputados.json";
 import { base } from "../../lib/base";
 
+import AbsenceNote from "../../components/AbsenceNote.astro";
+import { absencePercentage, formatAbsencePercentage, unavailableExplanation } from "../../lib/absence";
+
 type Sessao = { estado: string; motivo: string | null };
 type DeputadoDetail = { bid: number; gp: string; totais: Record<string, number>; sessoes: Sessao[] };
 
@@ -15,6 +18,7 @@ export async function getStaticPaths() {
 			.replace(/[^a-z0-9]+/g, "-")
 			.replace(/(^-|-$)/g, "");
 	const files = import.meta.glob<{ default: DeputadoDetail }>("../../data/deputado/*.json", { eager: true });
+	const statusByBid = new Map(Object.values(files).map(({ default: d }) => [d.bid, d.totais]));
 	const fByBid = new Map<number, number>();
 	const motivosByGp = new Map<string, Map<string, number>>();
 	for (const mod of Object.values(files)) {
@@ -32,7 +36,7 @@ export async function getStaticPaths() {
 	return gps.map((gp) => {
 		const members = deputados
 			.filter((d) => d.gp === gp)
-			.map((d) => ({ ...d, f: fByBid.get(d.bid) ?? 0 }))
+			.map((d) => ({ ...d, f: fByBid.get(d.bid) ?? 0, percentage: absencePercentage([statusByBid.get(d.bid) ?? {}]) }))
 			.sort((a, b) => {
 				if (b.faltas_injustificadas !== a.faltas_injustificadas) return b.faltas_injustificadas - a.faltas_injustificadas;
 				if (b.faltas_justificadas !== a.faltas_justificadas) return b.faltas_justificadas - a.faltas_justificadas;
@@ -41,6 +45,7 @@ export async function getStaticPaths() {
 			});
 		const totals = {
 			deputados: members.length,
+			percentage: absencePercentage(members.map((d) => statusByBid.get(d.bid) ?? {})),
 			reunioes: members.reduce((a, m) => a + m.total_reunioes, 0),
 			p: members.reduce((a, m) => a + m.presencas, 0),
 			fj: members.reduce((a, m) => a + m.faltas_justificadas, 0),
@@ -57,11 +62,11 @@ export async function getStaticPaths() {
 	});
 }
 
-type Member = (typeof deputados)[number] & { f: number };
+type Member = (typeof deputados)[number] & { f: number; percentage: number | null };
 const { gp, members, totals, topMotivos } = Astro.props as {
 	gp: string;
 	members: Member[];
-	totals: { deputados: number; reunioes: number; p: number; fj: number; fi: number; f: number; amp: number; fqv: number };
+	totals: { percentage: number | null; deputados: number; reunioes: number; p: number; fj: number; fi: number; f: number; amp: number; fqv: number };
 	topMotivos: { motivo: string; n: number; slug: string }[];
 };
 ---
@@ -79,7 +84,10 @@ const { gp, members, totals, topMotivos } = Astro.props as {
 		<div class="stat"><div class="n">{totals.f}</div><div class="l">Faltas não classificadas</div></div>
 		<div class="stat"><div class="n">{totals.amp}</div><div class="l">Ausências em missão</div></div>
 		<div class="stat"><div class="n">{totals.fqv}</div><div class="l">Faltas ao quórum</div></div>
+		<div class="stat"><div class="n" title={totals.percentage === null ? unavailableExplanation : undefined}>{formatAbsencePercentage(totals.percentage)}</div><div class="l">Faltas (%)</div></div>
 	</div>
+	<AbsenceNote />
+	<p>A percentagem do grupo é calculada a partir das contagens somadas dos seus deputados.</p>
 
 	{topMotivos.length > 0 && (
 		<Fragment>
@@ -113,6 +121,7 @@ const { gp, members, totals, topMotivos } = Astro.props as {
 				<th class="num">FI</th>
 				<th class="num"><abbr title="Falta não classificada">F</abbr></th>
 				<th class="num">AMP</th>
+				<th class="num">Faltas (%)</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -125,6 +134,7 @@ const { gp, members, totals, topMotivos } = Astro.props as {
 					<td class="num">{d.faltas_injustificadas}</td>
 					<td class="num">{d.f}</td>
 					<td class="num">{d.missao_parlamentar}</td>
+					<td class="num" title={d.percentage === null ? unavailableExplanation : undefined}>{formatAbsencePercentage(d.percentage)}</td>
 				</tr>
 			))}
 		</tbody>
