@@ -23,10 +23,10 @@
     }
   },
   "dependencies": {
-    "astro": "7.3.2"
+    "astro": "7.3.3"
   },
   "devDependencies": {
     "@astrojs/sitemap": "3.7.4",
-    "oxlint": "1.82.0"
+    "oxlint": "1.83.0"
   }
 }
