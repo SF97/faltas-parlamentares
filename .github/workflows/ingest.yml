@@ -1,0 +1,59 @@
+name: Validate ingest
+
+on:
+  # Do not use pull_request.paths: when a workflow is skipped by a path filter,
+  # its required check stays pending and blocks unrelated PRs from merging.
+  # Start on every PR and detect changes below so unrelated PRs report success
+  # without running ingestion, while relevant changes must pass the full refresh.
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ingest-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    name: Ingest sem cache
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    env:
+      UV_LOCKED: "1"
+
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Detetar alterações no ingest
+        id: changes
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if [[ "$EVENT_NAME" == "workflow_dispatch" ]]; then
+            echo "refresh=true" >> "$GITHUB_OUTPUT"
+          else
+            git diff --name-only "$BASE_SHA...$HEAD_SHA" -- \
+              ingest/ mise.toml .github/workflows/ > "$RUNNER_TEMP/ingest-changes.txt"
+            if [[ -s "$RUNNER_TEMP/ingest-changes.txt" ]]; then
+              echo "refresh=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "refresh=false" >> "$GITHUB_OUTPUT"
+              echo "Sem alterações no ingest ou na configuração de CI."
+            fi
+          fi
+
+      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
+        if: steps.changes.outputs.refresh == 'true'
+        with:
+          install_args: "--monorepo python uv"
+
+      - name: Atualizar dados sem cache HTTP
+        if: steps.changes.outputs.refresh == 'true'
+        run: mise //ingest:refresh
