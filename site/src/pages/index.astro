@@ -78,61 +78,7 @@ const fqv = deputados
 	.sort((a, b) => b.falta_quorum_votacao - a.falta_quorum_votacao || a.nome.localeCompare(b.nome, "pt-PT"));
 ---
 
-<script>
-  document.querySelectorAll("table.sortable").forEach((table) => {
-    const headers = table.querySelectorAll("thead th");
-    const tbody = table.querySelector("tbody");
 
-    headers.forEach((header, columnIndex) => {
-      header.style.cursor = "pointer";
-
-      header.addEventListener("click", () => {
-        const type = header.dataset.sort || "text";
-        const ascending = header.dataset.order !== "asc";
-
-        // Reset sort state on other headers
-        headers.forEach((h) => delete h.dataset.order);
-
-        header.dataset.order = ascending ? "asc" : "desc";
-
-        const rows = [...tbody.querySelectorAll("tr")];
-
-        rows.sort((a, b) => {
-          if (type === "percentage") {
-            const aRaw = a.cells[columnIndex]?.dataset.sortValue ?? "";
-            const bRaw = b.cells[columnIndex]?.dataset.sortValue ?? "";
-            if (aRaw === "" || bRaw === "") return aRaw === bRaw ? 0 : aRaw === "" ? 1 : -1;
-            return ascending ? Number(aRaw) - Number(bRaw) : Number(bRaw) - Number(aRaw);
-          }
-
-          let aValue = a.cells[columnIndex]?.textContent.trim() ?? "";
-          let bValue = b.cells[columnIndex]?.textContent.trim() ?? "";
-
-          if (type === "number") {
-            aValue = parseFloat(aValue) || 0;
-            bValue = parseFloat(bValue) || 0;
-
-            return ascending
-              ? aValue - bValue
-              : bValue - aValue;
-          }
-
-          return ascending
-            ? aValue.localeCompare(bValue, undefined, {
-                numeric: true,
-                sensitivity: "base"
-              })
-            : bValue.localeCompare(aValue, undefined, {
-                numeric: true,
-                sensitivity: "base"
-              });
-        });
-
-        tbody.append(...rows);
-      });
-    });
-  });
-</script>
 
 <Base title={`Ranking de faltas dos ${totals.deputados} deputados`} description={`Ranking dos ${totals.deputados} deputados da Assembleia da República na XVII Legislatura, ordenados pelas faltas em reuniões plenárias. Dados oficiais, atualizados diariamente.`}>
 	<h1>Ranking de faltas em plenário</h1>

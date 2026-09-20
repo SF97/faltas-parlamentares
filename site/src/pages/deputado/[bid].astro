@@ -90,15 +90,15 @@ const desc = `${detail.nome} (${detail.gp}), XVII Legislatura: ${fi} ${fi === 1 
 	)}
 
 	<h2>Histórico de reuniões</h2>
-	<table>
+	<table class="sortable">
 		<thead>
-			<tr><th>Data</th><th>Estado</th></tr>
+			<tr><th data-sort="date">Data</th><th data-sort="text">Estado</th></tr>
 		</thead>
 		<tbody>
 			{detail.sessoes.map((s) => (
 				<tr>
 					<td>{s.data}</td>
-					<td>
+					<td data-sort-value={s.estado_label}>
 						<span class={`badge ${s.estado}`}>{s.estado}</span> {s.estado === "F" ? "Falta (não classificada pelo Parlamento)" : s.estado_label}
 						{s.motivo && <span class="motivo"> — {s.motivo}</span>}
 					</td>

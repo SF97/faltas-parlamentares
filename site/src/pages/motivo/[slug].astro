@@ -62,13 +62,13 @@ const deputadoList = Array.from(byDeputy.values()).sort((a, b) => b.datas.length
 	</p>
 
 	<h2>Deputados</h2>
-	<table>
+	<table class="sortable">
 		<thead>
 			<tr>
-				<th>Deputado</th>
-				<th>GP</th>
-				<th class="num">Faltas</th>
-				<th>Datas</th>
+				<th data-sort="text">Deputado</th>
+				<th data-sort="text">GP</th>
+				<th data-sort="number" class="num">Faltas</th>
+				<th data-sort="date"><abbr title="Ordenar pela data mais recente">Datas</abbr></th>
 			</tr>
 		</thead>
 		<tbody>
@@ -77,7 +77,7 @@ const deputadoList = Array.from(byDeputy.values()).sort((a, b) => b.datas.length
 					<td><a href={`${base}/deputado/${d.bid}`}>{d.nome}</a></td>
 					<td><span class="gp" data-p={d.gp}>{d.gp}</span></td>
 					<td class="num">{d.datas.length}</td>
-					<td class="motivo">{d.datas.slice().sort((a, b) => b.localeCompare(a)).join(", ")}</td>
+					<td class="motivo" data-sort-value={d.datas.slice().sort().at(-1) ?? ""}>{d.datas.slice().sort((a, b) => b.localeCompare(a)).join(", ")}</td>
 				</tr>
 			))}
 		</tbody>

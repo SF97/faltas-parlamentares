@@ -54,12 +54,12 @@ const rows = Array.from(counts.values())
 		{fjSemMotivo > 0 && ` (${fjSemMotivo} sem motivo indicado)`}
 	</p>
 
-	<table>
+	<table class="sortable">
 		<thead>
 			<tr>
-				<th>Motivo</th>
-				<th class="num">Faltas</th>
-				<th class="num">Deputados</th>
+				<th data-sort="text">Motivo</th>
+				<th data-sort="number" class="num">Faltas</th>
+				<th data-sort="number" class="num">Deputados</th>
 			</tr>
 		</thead>
 		<tbody>

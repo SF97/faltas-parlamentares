@@ -111,17 +111,17 @@ const { gp, members, totals, topMotivos } = Astro.props as {
 		<span><span class="badge F">F</span> Falta não classificada</span>
 		<span><span class="badge AMP">AMP</span> Ausência em missão parlamentar</span>
 	</div>
-	<table>
+	<table class="sortable">
 		<thead>
 			<tr>
-				<th>Deputado</th>
-				<th class="num">Reuniões</th>
-				<th class="num">P</th>
-				<th class="num">FJ</th>
-				<th class="num">FI</th>
-				<th class="num"><abbr title="Falta não classificada">F</abbr></th>
-				<th class="num">AMP</th>
-				<th class="num">Faltas (%)</th>
+				<th data-sort="text">Deputado</th>
+				<th data-sort="number" class="num">Reuniões</th>
+				<th data-sort="number" class="num">P</th>
+				<th data-sort="number" class="num">FJ</th>
+				<th data-sort="number" class="num">FI</th>
+				<th data-sort="number" class="num"><abbr title="Falta não classificada">F</abbr></th>
+				<th data-sort="number" class="num">AMP</th>
+				<th data-sort="percentage" class="num">Faltas (%)</th>
 			</tr>
 		</thead>
 		<tbody>
@@ -134,7 +134,7 @@ const { gp, members, totals, topMotivos } = Astro.props as {
 					<td class="num">{d.faltas_injustificadas}</td>
 					<td class="num">{d.f}</td>
 					<td class="num">{d.missao_parlamentar}</td>
-					<td class="num" title={d.percentage === null ? unavailableExplanation : undefined}>{formatAbsencePercentage(d.percentage)}</td>
+					<td class="num" data-sort-value={d.percentage ?? ""} title={d.percentage === null ? unavailableExplanation : undefined}>{formatAbsencePercentage(d.percentage)}</td>
 				</tr>
 			))}
 		</tbody>
