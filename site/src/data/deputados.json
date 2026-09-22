@@ -1972,11 +1972,11 @@
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 5,
-    "faltas_nao_classificadas": 1,
+    "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 6,
     "nome": "Patrícia Faro",
-    "presencas": 103,
+    "presencas": 104,
     "total_reunioes": 115
   },
   {
