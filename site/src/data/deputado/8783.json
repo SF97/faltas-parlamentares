@@ -13,9 +13,9 @@
     },
     {
       "data": "2026-09-17",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387150
     },
     {
@@ -812,8 +812,7 @@
   ],
   "totais": {
     "AMP": 14,
-    "F": 1,
-    "FJ": 5,
+    "FJ": 6,
     "P": 95
   },
   "total_reunioes": 115
