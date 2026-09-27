@@ -34,9 +34,9 @@
     },
     {
       "data": "2026-09-16",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Doença",
       "reuniao_bid": 387149
     },
     {
@@ -826,8 +826,7 @@
   ],
   "totais": {
     "AMP": 7,
-    "F": 1,
-    "FJ": 11,
+    "FJ": 12,
     "P": 95,
     "PNO": 3
   },
