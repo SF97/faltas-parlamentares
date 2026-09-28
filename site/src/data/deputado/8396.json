@@ -5,6 +5,13 @@
   "nome": "Luís Dias",
   "sessoes": [
     {
+      "data": "2026-09-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387160
+    },
+    {
       "data": "2026-09-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -827,7 +834,7 @@
   "totais": {
     "AMP": 10,
     "FJ": 2,
-    "P": 105
+    "P": 106
   },
-  "total_reunioes": 117
+  "total_reunioes": 118
 }

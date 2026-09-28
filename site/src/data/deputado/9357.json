@@ -12,6 +12,13 @@
   "nome": "Paulo Lopes Marcelo",
   "sessoes": [
     {
+      "data": "2026-09-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387160
+    },
+    {
       "data": "2026-09-24",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -827,7 +834,7 @@
   "totais": {
     "AMP": 2,
     "FJ": 13,
-    "P": 101
+    "P": 102
   },
-  "total_reunioes": 116
+  "total_reunioes": 117
 }

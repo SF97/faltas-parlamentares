@@ -18,6 +18,13 @@
   "nome": "André Ventura",
   "sessoes": [
     {
+      "data": "2026-09-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387160
+    },
+    {
       "data": "2026-09-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -776,7 +783,7 @@
   ],
   "totais": {
     "FJ": 23,
-    "P": 85
+    "P": 86
   },
-  "total_reunioes": 108
+  "total_reunioes": 109
 }

@@ -5,6 +5,13 @@
   "nome": "Ana Oliveira",
   "sessoes": [
     {
+      "data": "2026-09-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387160
+    },
+    {
       "data": "2026-09-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -827,7 +834,7 @@
   "totais": {
     "FJ": 6,
     "FQV": 1,
-    "P": 110
+    "P": 111
   },
-  "total_reunioes": 117
+  "total_reunioes": 118
 }

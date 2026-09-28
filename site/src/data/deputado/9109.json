@@ -24,6 +24,13 @@
   "nome": "Sónia Margarida Fernandes",
   "sessoes": [
     {
+      "data": "2026-09-25",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387160
+    },
+    {
       "data": "2026-09-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -846,7 +853,8 @@
   "totais": {
     "AMP": 1,
     "FJ": 13,
+    "FQV": 1,
     "P": 103
   },
-  "total_reunioes": 117
+  "total_reunioes": 118
 }

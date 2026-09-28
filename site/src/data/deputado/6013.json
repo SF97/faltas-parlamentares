@@ -5,6 +5,13 @@
   "nome": "Hugo Costa",
   "sessoes": [
     {
+      "data": "2026-09-25",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387160
+    },
+    {
       "data": "2026-09-24",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -825,9 +832,9 @@
     }
   ],
   "totais": {
-    "AMP": 3,
+    "AMP": 4,
     "FJ": 5,
     "P": 109
   },
-  "total_reunioes": 117
+  "total_reunioes": 118
 }

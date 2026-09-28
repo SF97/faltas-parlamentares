@@ -5,6 +5,13 @@
   "nome": "Regina Bastos",
   "sessoes": [
     {
+      "data": "2026-09-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387160
+    },
+    {
       "data": "2026-09-24",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -827,7 +834,7 @@
   "totais": {
     "AMP": 16,
     "FJ": 24,
-    "P": 77
+    "P": 78
   },
-  "total_reunioes": 117
+  "total_reunioes": 118
 }
