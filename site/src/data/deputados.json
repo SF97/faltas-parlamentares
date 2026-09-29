@@ -1743,13 +1743,13 @@
     "bid": 7973,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 0,
+    "faltas_justificadas": 10,
     "faltas_nao_classificadas": 0,
     "gp": "IL",
     "missao_parlamentar": 0,
     "nome": "Mariana Leitão",
-    "presencas": 0,
-    "total_reunioes": 0
+    "presencas": 108,
+    "total_reunioes": 118
   },
   {
     "bid": 6934,
