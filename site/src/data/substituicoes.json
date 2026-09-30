@@ -1,6 +1,14 @@
 [
   {
     "circulo": "Lisboa",
+    "data": "2026-09-30",
+    "gp": "PS",
+    "motivo": "Termo da suspensão",
+    "substituido": "Maria Begonha",
+    "substituto": "Miguel Matos"
+  },
+  {
+    "circulo": "Lisboa",
     "data": "2026-09-01",
     "gp": "BE",
     "motivo": "Suspensão",

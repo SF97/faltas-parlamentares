@@ -6,6 +6,12 @@
       "data": "2026-08-26",
       "motivo": "Suspensão",
       "tipo": "saida"
+    },
+    {
+      "contraparte": "Maria Begonha",
+      "data": "2026-09-30",
+      "motivo": "Termo da suspensão",
+      "tipo": "entrada"
     }
   ],
   "gp": "PS",
