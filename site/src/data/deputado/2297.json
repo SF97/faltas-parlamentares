@@ -13,8 +13,8 @@
     },
     {
       "data": "2026-09-24",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 387159
     },
@@ -833,8 +833,8 @@
   ],
   "totais": {
     "FJ": 12,
-    "FQV": 2,
-    "P": 104
+    "FQV": 1,
+    "P": 105
   },
   "total_reunioes": 118
 }

@@ -553,14 +553,14 @@
   },
   {
     "bid": 2297,
-    "falta_quorum_votacao": 2,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 12,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Cristóvão Norte",
-    "presencas": 104,
+    "presencas": 105,
     "total_reunioes": 118
   },
   {
