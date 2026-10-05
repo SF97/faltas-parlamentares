@@ -15,7 +15,7 @@ concurrency:
 
 jobs:
   update-data:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     steps:
       - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
@@ -28,7 +28,10 @@ jobs:
         run: mise //ingest:refresh
 
       - name: Commit refreshed data
-        if: ${{ !env.ACT }}
+        # Commit and push only when both conditions hold:
+        # - !env.ACT: this is a GitHub run, rather than a local act run.
+        # - github.ref is main: manual runs on other branches only generate data.
+        if: ${{ !env.ACT && github.ref == 'refs/heads/main' }}
         run: |
           if [[ -z "$(git status --porcelain site/src/data)" ]]; then
             echo "No data changes."
