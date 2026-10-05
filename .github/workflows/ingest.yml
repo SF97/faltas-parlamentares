@@ -18,7 +18,7 @@ concurrency:
 jobs:
   validate:
     name: Ingest sem cache
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-26.04
     timeout-minutes: 60
     env:
       UV_LOCKED: "1"
