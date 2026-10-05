@@ -1,5 +1,6 @@
-# actionlint 1.7.12 predates this GitHub-hosted runner label.
-# Temporary workaround: this is still a GitHub-hosted runner.
+# All repository workflows passed on GitHub-hosted Ubuntu 26.04.1 runners.
+# Temporary workaround: upstream actionlint has not updated its runner label list.
+# https://github.com/rhysd/actionlint/issues/682
 # Remove this label (and this file if empty) when an actionlint upgrade
 # includes ubuntu-26.04 in its built-in runner labels.
 self-hosted-runner:
