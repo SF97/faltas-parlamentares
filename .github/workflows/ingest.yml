@@ -49,10 +49,11 @@ jobs:
             fi
           fi
 
-      - uses: jdx/mise-action@c2a87611a18de5b3828c5652fe268e992400cb5c # v4.3.0
+      - uses: jdx/mise-action@2d8d4cafcbd33be2ea37d2b6f5ad595363d1f1ca # v5.1.1
         if: steps.changes.outputs.refresh == 'true'
         with:
-          install_args: "--monorepo python uv"
+          # mise run also loads the root tools; install them while the token is available.
+          install_args: "--monorepo python uv act actionlint shellcheck"
 
       - name: Atualizar dados sem cache HTTP
         if: steps.changes.outputs.refresh == 'true'
