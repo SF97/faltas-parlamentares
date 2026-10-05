@@ -1,4 +1,7 @@
 # actionlint 1.7.12 predates this GitHub-hosted runner label.
+# Temporary workaround: this is still a GitHub-hosted runner.
+# Remove this label (and this file if empty) when an actionlint upgrade
+# includes ubuntu-26.04 in its built-in runner labels.
 self-hosted-runner:
   labels:
     - ubuntu-26.04
