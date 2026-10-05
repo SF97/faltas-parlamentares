@@ -28,6 +28,9 @@ jobs:
         run: mise //ingest:refresh
 
       - name: Commit refreshed data
+        # Commit and push only when both conditions hold:
+        # - !env.ACT: this is a GitHub run, rather than a local act run.
+        # - github.ref is main: manual runs on other branches only generate data.
         if: ${{ !env.ACT && github.ref == 'refs/heads/main' }}
         run: |
           if [[ -z "$(git status --porcelain site/src/data)" ]]; then
