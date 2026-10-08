@@ -2732,8 +2732,8 @@
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Vanessa Barata",
-    "presencas": 104,
-    "total_reunioes": 118
+    "presencas": 105,
+    "total_reunioes": 119
   },
   {
     "bid": 4221,
@@ -2744,8 +2744,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Vânia Jesus",
-    "presencas": 114,
-    "total_reunioes": 118
+    "presencas": 115,
+    "total_reunioes": 119
   },
   {
     "bid": 9174,
@@ -2756,7 +2756,7 @@
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "Vítor Guerreiro",
-    "presencas": 56,
-    "total_reunioes": 59
+    "presencas": 57,
+    "total_reunioes": 60
   }
 ]
