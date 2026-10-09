@@ -5,6 +5,13 @@
   "nome": "Bárbara do Amaral Correia",
   "sessoes": [
     {
+      "data": "2026-10-07",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387162
+    },
+    {
       "data": "2026-09-25",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -832,9 +839,9 @@
     }
   ],
   "totais": {
-    "AMP": 2,
+    "AMP": 3,
     "FJ": 4,
     "P": 112
   },
-  "total_reunioes": 118
+  "total_reunioes": 119
 }

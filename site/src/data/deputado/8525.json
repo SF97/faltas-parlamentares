@@ -5,6 +5,13 @@
   "nome": "Gonçalo Valente",
   "sessoes": [
     {
+      "data": "2026-10-07",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387162
+    },
+    {
       "data": "2026-09-25",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -833,8 +840,8 @@
   ],
   "totais": {
     "FJ": 11,
-    "P": 106,
+    "P": 107,
     "PNO": 1
   },
-  "total_reunioes": 118
+  "total_reunioes": 119
 }

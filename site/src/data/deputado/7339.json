@@ -5,6 +5,13 @@
   "nome": "Joana Cordeiro",
   "sessoes": [
     {
+      "data": "2026-10-07",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387162
+    },
+    {
       "data": "2026-09-25",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -834,8 +841,8 @@
   "totais": {
     "AMP": 2,
     "FJ": 13,
-    "P": 101,
+    "P": 102,
     "PNO": 2
   },
-  "total_reunioes": 118
+  "total_reunioes": 119
 }

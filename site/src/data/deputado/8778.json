@@ -5,6 +5,13 @@
   "nome": "Nuno Simões de Melo",
   "sessoes": [
     {
+      "data": "2026-10-07",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387162
+    },
+    {
       "data": "2026-09-25",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -834,7 +841,7 @@
   "totais": {
     "AMP": 3,
     "FJ": 5,
-    "P": 110
+    "P": 111
   },
-  "total_reunioes": 118
+  "total_reunioes": 119
 }

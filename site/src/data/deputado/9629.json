@@ -12,6 +12,13 @@
   "nome": "Ana Silveira",
   "sessoes": [
     {
+      "data": "2026-10-07",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387162
+    },
+    {
       "data": "2026-09-25",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -841,8 +848,8 @@
   "totais": {
     "AMP": 1,
     "FJ": 2,
-    "P": 114,
+    "P": 115,
     "PNO": 1
   },
-  "total_reunioes": 118
+  "total_reunioes": 119
 }

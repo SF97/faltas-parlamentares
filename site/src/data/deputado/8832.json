@@ -5,6 +5,13 @@
   "nome": "Daniel Teixeira",
   "sessoes": [
     {
+      "data": "2026-10-07",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387162
+    },
+    {
       "data": "2026-09-25",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -832,8 +839,9 @@
     }
   ],
   "totais": {
+    "F": 1,
     "FJ": 10,
     "P": 108
   },
-  "total_reunioes": 118
+  "total_reunioes": 119
 }

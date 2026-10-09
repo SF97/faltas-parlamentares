@@ -5,10 +5,17 @@
   "nome": "Sandra Ribeiro",
   "sessoes": [
     {
-      "data": "2026-09-25",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "data": "2026-10-07",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
+      "reuniao_bid": 387162
+    },
+    {
+      "data": "2026-09-25",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387160
     },
     {
@@ -833,8 +840,8 @@
   ],
   "totais": {
     "AMP": 1,
-    "FQV": 1,
-    "P": 116
+    "FJ": 1,
+    "P": 117
   },
-  "total_reunioes": 118
+  "total_reunioes": 119
 }

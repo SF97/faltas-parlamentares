@@ -5,6 +5,13 @@
   "nome": "Manuel Magno",
   "sessoes": [
     {
+      "data": "2026-10-07",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387162
+    },
+    {
       "data": "2026-09-25",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -834,7 +841,7 @@
   "totais": {
     "AMP": 10,
     "FJ": 37,
-    "P": 71
+    "P": 72
   },
-  "total_reunioes": 118
+  "total_reunioes": 119
 }

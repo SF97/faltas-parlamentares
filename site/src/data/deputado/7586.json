@@ -24,6 +24,13 @@
   "nome": "Ricardo Carlos",
   "sessoes": [
     {
+      "data": "2026-10-07",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387162
+    },
+    {
       "data": "2026-09-25",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -853,8 +860,8 @@
   "totais": {
     "AMP": 4,
     "FJ": 7,
-    "P": 104,
+    "P": 105,
     "PNO": 3
   },
-  "total_reunioes": 118
+  "total_reunioes": 119
 }

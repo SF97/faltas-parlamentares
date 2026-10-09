@@ -18,6 +18,13 @@
   "nome": "Cristina Rodrigues",
   "sessoes": [
     {
+      "data": "2026-10-07",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387162
+    },
+    {
       "data": "2026-09-25",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -846,7 +853,7 @@
   ],
   "totais": {
     "FJ": 10,
-    "P": 108
+    "P": 109
   },
-  "total_reunioes": 118
+  "total_reunioes": 119
 }

@@ -5,6 +5,13 @@
   "nome": "Hugo Carneiro",
   "sessoes": [
     {
+      "data": "2026-10-07",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387162
+    },
+    {
       "data": "2026-09-25",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -832,10 +839,10 @@
     }
   ],
   "totais": {
-    "AMP": 11,
+    "AMP": 12,
     "FJ": 4,
     "P": 101,
     "PNO": 2
   },
-  "total_reunioes": 118
+  "total_reunioes": 119
 }

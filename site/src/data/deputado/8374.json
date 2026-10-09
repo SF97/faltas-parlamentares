@@ -5,6 +5,13 @@
   "nome": "Miguel Guimarães",
   "sessoes": [
     {
+      "data": "2026-10-07",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387162
+    },
+    {
       "data": "2026-09-25",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -834,8 +841,8 @@
   "totais": {
     "AMP": 2,
     "FJ": 3,
-    "P": 108,
+    "P": 109,
     "PNO": 5
   },
-  "total_reunioes": 118
+  "total_reunioes": 119
 }
