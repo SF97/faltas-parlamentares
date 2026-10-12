@@ -5,11 +5,25 @@
   "nome": "Nuno Fazenda",
   "sessoes": [
     {
+      "data": "2026-10-09",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387164
+    },
+    {
       "data": "2026-10-07",
       "estado": "F",
       "estado_label": "Falta",
       "motivo": null,
       "reuniao_bid": 387162
+    },
+    {
+      "data": "2026-09-30",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387161
     },
     {
       "data": "2026-09-25",
@@ -841,8 +855,8 @@
   "totais": {
     "AMP": 18,
     "F": 2,
-    "FQV": 1,
+    "FQV": 3,
     "P": 98
   },
-  "total_reunioes": 119
+  "total_reunioes": 121
 }

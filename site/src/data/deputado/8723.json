@@ -5,11 +5,25 @@
   "nome": "Paulo Núncio",
   "sessoes": [
     {
+      "data": "2026-10-09",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387164
+    },
+    {
       "data": "2026-10-07",
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 387162
+    },
+    {
+      "data": "2026-09-30",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Parlamentar",
+      "reuniao_bid": 387161
     },
     {
       "data": "2026-09-25",
@@ -840,8 +854,8 @@
   ],
   "totais": {
     "AMP": 7,
-    "FJ": 8,
-    "P": 104
+    "FJ": 9,
+    "P": 105
   },
-  "total_reunioes": 119
+  "total_reunioes": 121
 }

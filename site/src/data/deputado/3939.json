@@ -24,11 +24,25 @@
   "nome": "Hernâni Loureiro",
   "sessoes": [
     {
+      "data": "2026-10-09",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387164
+    },
+    {
       "data": "2026-10-07",
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 387162
+    },
+    {
+      "data": "2026-09-30",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387161
     },
     {
       "data": "2026-09-25",
@@ -460,7 +474,7 @@
   ],
   "totais": {
     "AMP": 1,
-    "P": 61
+    "P": 63
   },
-  "total_reunioes": 62
+  "total_reunioes": 64
 }

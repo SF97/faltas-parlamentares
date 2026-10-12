@@ -5,11 +5,25 @@
   "nome": "Carlos Barbosa",
   "sessoes": [
     {
+      "data": "2026-10-09",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387164
+    },
+    {
       "data": "2026-10-07",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
       "motivo": null,
       "reuniao_bid": 387162
+    },
+    {
+      "data": "2026-09-30",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387161
     },
     {
       "data": "2026-09-25",
@@ -839,10 +853,10 @@
     }
   ],
   "totais": {
-    "AMP": 3,
+    "AMP": 5,
     "FJ": 8,
     "FQV": 1,
     "P": 107
   },
-  "total_reunioes": 119
+  "total_reunioes": 121
 }

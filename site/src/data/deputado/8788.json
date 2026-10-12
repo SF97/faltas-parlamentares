@@ -24,11 +24,25 @@
   "nome": "Carolina Marques",
   "sessoes": [
     {
+      "data": "2026-10-09",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387164
+    },
+    {
       "data": "2026-10-07",
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 387162
+    },
+    {
+      "data": "2026-09-30",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387161
     },
     {
       "data": "2026-09-25",
@@ -860,8 +874,8 @@
   "totais": {
     "AMP": 2,
     "FJ": 1,
-    "P": 110,
+    "P": 112,
     "PNO": 6
   },
-  "total_reunioes": 119
+  "total_reunioes": 121
 }

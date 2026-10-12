@@ -18,11 +18,25 @@
   "nome": "Pedro dos Santos Frazão",
   "sessoes": [
     {
+      "data": "2026-10-09",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387164
+    },
+    {
       "data": "2026-10-07",
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 387162
+    },
+    {
+      "data": "2026-09-30",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387161
     },
     {
       "data": "2026-09-25",
@@ -854,8 +868,8 @@
   "totais": {
     "AMP": 2,
     "FJ": 17,
-    "P": 96,
+    "P": 98,
     "PNO": 4
   },
-  "total_reunioes": 119
+  "total_reunioes": 121
 }

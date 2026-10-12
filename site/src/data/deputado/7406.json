@@ -12,11 +12,25 @@
   "nome": "José Lago Gonçalves",
   "sessoes": [
     {
+      "data": "2026-10-09",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387164
+    },
+    {
       "data": "2026-10-07",
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 387162
+    },
+    {
+      "data": "2026-09-30",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387161
     },
     {
       "data": "2026-09-25",
@@ -839,7 +853,8 @@
     }
   ],
   "totais": {
-    "P": 118
+    "AMP": 1,
+    "P": 119
   },
-  "total_reunioes": 118
+  "total_reunioes": 120
 }

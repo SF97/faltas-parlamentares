@@ -12,11 +12,25 @@
   "nome": "Helga Correia",
   "sessoes": [
     {
+      "data": "2026-10-09",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387164
+    },
+    {
       "data": "2026-10-07",
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 387162
+    },
+    {
+      "data": "2026-09-30",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387161
     },
     {
       "data": "2026-09-25",
@@ -840,7 +854,7 @@
   ],
   "totais": {
     "FJ": 2,
-    "P": 116
+    "P": 118
   },
-  "total_reunioes": 118
+  "total_reunioes": 120
 }
