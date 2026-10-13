@@ -6,9 +6,9 @@
   "sessoes": [
     {
       "data": "2026-10-09",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Parlamentar",
       "reuniao_bid": 387164
     },
     {
@@ -854,8 +854,7 @@
   ],
   "totais": {
     "AMP": 1,
-    "FJ": 3,
-    "FQV": 1,
+    "FJ": 4,
     "P": 116
   },
   "total_reunioes": 121

@@ -1141,9 +1141,9 @@
   },
   {
     "bid": 6864,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 1,
+    "faltas_justificadas": 2,
     "faltas_nao_classificadas": 0,
     "gp": "PAN",
     "missao_parlamentar": 0,
@@ -2653,9 +2653,9 @@
   },
   {
     "bid": 6962,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 3,
+    "faltas_justificadas": 4,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 1,
