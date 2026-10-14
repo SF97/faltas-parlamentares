@@ -13,8 +13,8 @@
     },
     {
       "data": "2026-10-07",
-      "estado": "F",
-      "estado_label": "Falta",
+      "estado": "PNO",
+      "estado_label": "Presença Noutro Órgão (PNO)",
       "motivo": null,
       "reuniao_bid": 387162
     },
@@ -854,11 +854,10 @@
   ],
   "totais": {
     "AMP": 5,
-    "F": 1,
     "FJ": 11,
     "FQV": 2,
     "P": 101,
-    "PNO": 1
+    "PNO": 2
   },
   "total_reunioes": 121
 }
