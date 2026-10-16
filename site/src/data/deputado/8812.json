@@ -5,11 +5,32 @@
   "nome": "Cláudia Estêvão",
   "sessoes": [
     {
+      "data": "2026-10-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387256
+    },
+    {
+      "data": "2026-10-14",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387255
+    },
+    {
       "data": "2026-10-09",
       "estado": "P",
       "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 387164
+    },
+    {
+      "data": "2026-10-08",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387163
     },
     {
       "data": "2026-10-07",
@@ -854,8 +875,8 @@
   ],
   "totais": {
     "FJ": 5,
-    "P": 111,
+    "P": 114,
     "PNO": 5
   },
-  "total_reunioes": 121
+  "total_reunioes": 124
 }

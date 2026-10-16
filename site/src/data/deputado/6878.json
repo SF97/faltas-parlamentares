@@ -5,23 +5,44 @@
   "nome": "Nuno Fazenda",
   "sessoes": [
     {
+      "data": "2026-10-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387256
+    },
+    {
+      "data": "2026-10-14",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387255
+    },
+    {
       "data": "2026-10-09",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
       "motivo": null,
       "reuniao_bid": 387164
     },
     {
+      "data": "2026-10-08",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387163
+    },
+    {
       "data": "2026-10-07",
-      "estado": "PNO",
-      "estado_label": "Presença Noutro Órgão (PNO)",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
       "motivo": null,
       "reuniao_bid": 387162
     },
     {
       "data": "2026-09-30",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
       "motivo": null,
       "reuniao_bid": 387161
     },
@@ -853,11 +874,10 @@
     }
   ],
   "totais": {
-    "AMP": 18,
+    "AMP": 22,
     "F": 1,
-    "FQV": 3,
-    "P": 98,
-    "PNO": 1
+    "FQV": 1,
+    "P": 100
   },
-  "total_reunioes": 121
+  "total_reunioes": 124
 }

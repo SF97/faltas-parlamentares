@@ -5,11 +5,32 @@
   "nome": "Daniel Teixeira",
   "sessoes": [
     {
+      "data": "2026-10-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387256
+    },
+    {
+      "data": "2026-10-14",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387255
+    },
+    {
       "data": "2026-10-09",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
       "motivo": "Trabalho Político",
       "reuniao_bid": 387164
+    },
+    {
+      "data": "2026-10-08",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
+      "reuniao_bid": 387163
     },
     {
       "data": "2026-10-07",
@@ -853,8 +874,8 @@
     }
   ],
   "totais": {
-    "FJ": 12,
-    "P": 109
+    "FJ": 13,
+    "P": 111
   },
-  "total_reunioes": 121
+  "total_reunioes": 124
 }

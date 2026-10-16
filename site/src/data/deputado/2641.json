@@ -12,11 +12,32 @@
   "nome": "Paulo Cavaleiro",
   "sessoes": [
     {
+      "data": "2026-10-15",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387256
+    },
+    {
+      "data": "2026-10-14",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387255
+    },
+    {
       "data": "2026-10-09",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
       "motivo": null,
       "reuniao_bid": 387164
+    },
+    {
+      "data": "2026-10-08",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387163
     },
     {
       "data": "2026-10-07",
@@ -860,10 +881,11 @@
     }
   ],
   "totais": {
-    "AMP": 7,
+    "AMP": 8,
+    "F": 2,
     "FJ": 2,
     "FQV": 1,
     "P": 111
   },
-  "total_reunioes": 121
+  "total_reunioes": 124
 }
