@@ -5,6 +5,13 @@
   "nome": "Aida Carvalho",
   "sessoes": [
     {
+      "data": "2026-10-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387256
+    },
+    {
       "data": "2026-10-14",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -869,8 +876,8 @@
   "totais": {
     "AMP": 2,
     "FJ": 1,
-    "P": 119,
+    "P": 120,
     "PNO": 1
   },
-  "total_reunioes": 123
+  "total_reunioes": 124
 }

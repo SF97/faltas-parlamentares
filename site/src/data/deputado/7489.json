@@ -5,6 +5,13 @@
   "nome": "Adriana Rodrigues",
   "sessoes": [
     {
+      "data": "2026-10-15",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387256
+    },
+    {
       "data": "2026-10-14",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -869,7 +876,7 @@
   "totais": {
     "AMP": 3,
     "FJ": 2,
-    "P": 118
+    "P": 119
   },
-  "total_reunioes": 123
+  "total_reunioes": 124
 }

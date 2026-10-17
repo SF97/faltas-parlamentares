@@ -4,11 +4,11 @@
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 2,
     "faltas_justificadas": 6,
-    "faltas_nao_classificadas": 1,
+    "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Andreia Neto",
-    "presencas": 113,
+    "presencas": 114,
     "total_reunioes": 124
   },
   {
@@ -32,20 +32,20 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Alberto Machado",
-    "presencas": 119,
-    "total_reunioes": 123
+    "presencas": 120,
+    "total_reunioes": 124
   },
   {
     "bid": 817,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 1,
     "faltas_justificadas": 6,
-    "faltas_nao_classificadas": 0,
+    "faltas_nao_classificadas": 1,
     "gp": "PCP",
     "missao_parlamentar": 4,
     "nome": "Alfredo Maia",
     "presencas": 111,
-    "total_reunioes": 123
+    "total_reunioes": 124
   },
   {
     "bid": 4197,
@@ -80,8 +80,8 @@
     "gp": "PSD",
     "missao_parlamentar": 3,
     "nome": "Adriana Rodrigues",
-    "presencas": 118,
-    "total_reunioes": 123
+    "presencas": 119,
+    "total_reunioes": 124
   },
   {
     "bid": 9194,
@@ -92,8 +92,8 @@
     "gp": "PS",
     "missao_parlamentar": 2,
     "nome": "Aida Carvalho",
-    "presencas": 119,
-    "total_reunioes": 123
+    "presencas": 120,
+    "total_reunioes": 124
   },
   {
     "bid": 5993,
@@ -102,10 +102,10 @@
     "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
-    "missao_parlamentar": 11,
+    "missao_parlamentar": 12,
     "nome": "Alberto Fonseca",
     "presencas": 112,
-    "total_reunioes": 123
+    "total_reunioes": 124
   },
   {
     "bid": 7240,
@@ -116,8 +116,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Alexandre Poço",
-    "presencas": 119,
-    "total_reunioes": 123
+    "presencas": 120,
+    "total_reunioes": 124
   },
   {
     "bid": 8152,
@@ -128,8 +128,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Almiro Moreira",
-    "presencas": 117,
-    "total_reunioes": 123
+    "presencas": 118,
+    "total_reunioes": 124
   },
   {
     "bid": 8157,
@@ -140,8 +140,8 @@
     "gp": "PSD",
     "missao_parlamentar": 11,
     "nome": "Amílcar Almeida",
-    "presencas": 106,
-    "total_reunioes": 123
+    "presencas": 107,
+    "total_reunioes": 124
   },
   {
     "bid": 7913,
@@ -152,8 +152,8 @@
     "gp": "PS",
     "missao_parlamentar": 4,
     "nome": "Ana Bernardo",
-    "presencas": 118,
-    "total_reunioes": 123
+    "presencas": 119,
+    "total_reunioes": 124
   },
   {
     "bid": 8179,
@@ -1396,7 +1396,7 @@
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 6,
-    "faltas_nao_classificadas": 1,
+    "faltas_nao_classificadas": 0,
     "gp": "PSD",
     "missao_parlamentar": 2,
     "nome": "João Antunes dos Santos",
