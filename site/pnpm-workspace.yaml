@@ -3,3 +3,4 @@ allowBuilds:
   sharp: true
 trustPolicy: no-downgrade
 savePrefix: ''
+minimumReleaseAgeStrict: true
