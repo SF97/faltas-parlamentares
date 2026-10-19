@@ -5,6 +5,13 @@
   "nome": "Paulo Lopes Silva",
   "sessoes": [
     {
+      "data": "2026-10-16",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387257
+    },
+    {
       "data": "2026-10-15",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -876,7 +883,7 @@
   "totais": {
     "AMP": 2,
     "FJ": 12,
-    "P": 110
+    "P": 111
   },
-  "total_reunioes": 124
+  "total_reunioes": 125
 }

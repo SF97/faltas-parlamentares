@@ -5,6 +5,13 @@
   "nome": "Patrícia Gonçalves",
   "sessoes": [
     {
+      "data": "2026-10-16",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387257
+    },
+    {
       "data": "2026-10-15",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -876,8 +883,8 @@
   "totais": {
     "AMP": 5,
     "FJ": 3,
-    "P": 114,
+    "P": 115,
     "PNO": 2
   },
-  "total_reunioes": 124
+  "total_reunioes": 125
 }

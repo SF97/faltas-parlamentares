@@ -5,17 +5,24 @@
   "nome": "Ricardo Dias Pinto",
   "sessoes": [
     {
+      "data": "2026-10-16",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387257
+    },
+    {
       "data": "2026-10-15",
       "estado": "F",
       "estado_label": "Falta",
-      "motivo": null,
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387256
     },
     {
       "data": "2026-10-14",
       "estado": "F",
       "estado_label": "Falta",
-      "motivo": null,
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387255
     },
     {
@@ -877,7 +884,8 @@
     "AMP": 7,
     "F": 2,
     "FJ": 17,
+    "FQV": 1,
     "P": 98
   },
-  "total_reunioes": 124
+  "total_reunioes": 125
 }

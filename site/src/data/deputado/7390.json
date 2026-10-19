@@ -5,6 +5,13 @@
   "nome": "Rita Matias",
   "sessoes": [
     {
+      "data": "2026-10-16",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387257
+    },
+    {
       "data": "2026-10-15",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -875,7 +882,8 @@
   ],
   "totais": {
     "FJ": 21,
+    "FQV": 1,
     "P": 103
   },
-  "total_reunioes": 124
+  "total_reunioes": 125
 }

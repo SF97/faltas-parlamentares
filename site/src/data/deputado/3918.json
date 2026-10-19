@@ -5,6 +5,13 @@
   "nome": "Paula Cardoso",
   "sessoes": [
     {
+      "data": "2026-10-16",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387257
+    },
+    {
       "data": "2026-10-15",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -876,7 +883,7 @@
   "totais": {
     "AMP": 18,
     "FJ": 5,
-    "P": 101
+    "P": 102
   },
-  "total_reunioes": 124
+  "total_reunioes": 125
 }

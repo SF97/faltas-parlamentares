@@ -24,6 +24,13 @@
   "nome": "Firmino Ferreira",
   "sessoes": [
     {
+      "data": "2026-10-16",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387257
+    },
+    {
       "data": "2026-10-15",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -893,8 +900,8 @@
     }
   ],
   "totais": {
-    "P": 123,
+    "P": 124,
     "PNO": 1
   },
-  "total_reunioes": 124
+  "total_reunioes": 125
 }

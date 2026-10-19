@@ -12,6 +12,13 @@
   "nome": "Paulo Cavaleiro",
   "sessoes": [
     {
+      "data": "2026-10-16",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387257
+    },
+    {
       "data": "2026-10-15",
       "estado": "F",
       "estado_label": "Falta",
@@ -884,8 +891,8 @@
     "AMP": 8,
     "F": 2,
     "FJ": 2,
-    "FQV": 1,
+    "FQV": 2,
     "P": 111
   },
-  "total_reunioes": 124
+  "total_reunioes": 125
 }
