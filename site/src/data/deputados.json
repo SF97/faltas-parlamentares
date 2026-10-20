@@ -32,20 +32,20 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Alberto Machado",
-    "presencas": 120,
-    "total_reunioes": 124
+    "presencas": 121,
+    "total_reunioes": 125
   },
   {
     "bid": 817,
-    "falta_quorum_votacao": 0,
+    "falta_quorum_votacao": 1,
     "faltas_injustificadas": 1,
-    "faltas_justificadas": 6,
-    "faltas_nao_classificadas": 1,
+    "faltas_justificadas": 7,
+    "faltas_nao_classificadas": 0,
     "gp": "PCP",
     "missao_parlamentar": 4,
     "nome": "Alfredo Maia",
     "presencas": 111,
-    "total_reunioes": 124
+    "total_reunioes": 125
   },
   {
     "bid": 4197,
@@ -80,8 +80,8 @@
     "gp": "PSD",
     "missao_parlamentar": 3,
     "nome": "Adriana Rodrigues",
-    "presencas": 119,
-    "total_reunioes": 124
+    "presencas": 120,
+    "total_reunioes": 125
   },
   {
     "bid": 9194,
@@ -92,8 +92,8 @@
     "gp": "PS",
     "missao_parlamentar": 2,
     "nome": "Aida Carvalho",
-    "presencas": 120,
-    "total_reunioes": 124
+    "presencas": 121,
+    "total_reunioes": 125
   },
   {
     "bid": 5993,
@@ -104,8 +104,8 @@
     "gp": "PSD",
     "missao_parlamentar": 12,
     "nome": "Alberto Fonseca",
-    "presencas": 112,
-    "total_reunioes": 124
+    "presencas": 113,
+    "total_reunioes": 125
   },
   {
     "bid": 7240,
@@ -116,8 +116,8 @@
     "gp": "PSD",
     "missao_parlamentar": 0,
     "nome": "Alexandre Poço",
-    "presencas": 120,
-    "total_reunioes": 124
+    "presencas": 121,
+    "total_reunioes": 125
   },
   {
     "bid": 8152,
@@ -128,8 +128,8 @@
     "gp": "PSD",
     "missao_parlamentar": 1,
     "nome": "Almiro Moreira",
-    "presencas": 118,
-    "total_reunioes": 124
+    "presencas": 119,
+    "total_reunioes": 125
   },
   {
     "bid": 8157,
@@ -140,8 +140,8 @@
     "gp": "PSD",
     "missao_parlamentar": 11,
     "nome": "Amílcar Almeida",
-    "presencas": 107,
-    "total_reunioes": 124
+    "presencas": 108,
+    "total_reunioes": 125
   },
   {
     "bid": 7913,
@@ -152,8 +152,8 @@
     "gp": "PS",
     "missao_parlamentar": 4,
     "nome": "Ana Bernardo",
-    "presencas": 119,
-    "total_reunioes": 124
+    "presencas": 120,
+    "total_reunioes": 125
   },
   {
     "bid": 8179,
@@ -267,8 +267,8 @@
     "bid": 8255,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 2,
-    "faltas_nao_classificadas": 1,
+    "faltas_justificadas": 3,
+    "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "António Carneiro",
@@ -541,9 +541,9 @@
   },
   {
     "bid": 7890,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 7,
+    "faltas_justificadas": 8,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 0,
@@ -1417,9 +1417,9 @@
   },
   {
     "bid": 7358,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 1,
+    "faltas_justificadas": 2,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 3,
@@ -1575,8 +1575,8 @@
     "bid": 8396,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 2,
-    "faltas_nao_classificadas": 1,
+    "faltas_justificadas": 3,
+    "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 10,
     "nome": "Luís Dias",
@@ -1611,8 +1611,8 @@
     "bid": 7353,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 7,
-    "faltas_nao_classificadas": 1,
+    "faltas_justificadas": 8,
+    "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 0,
     "nome": "Luís Paulo Fernandes",
@@ -1863,8 +1863,8 @@
     "bid": 8636,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 7,
-    "faltas_nao_classificadas": 2,
+    "faltas_justificadas": 9,
+    "faltas_nao_classificadas": 0,
     "gp": "IL",
     "missao_parlamentar": 2,
     "nome": "Mário Amorim Lopes",
@@ -2101,9 +2101,9 @@
   },
   {
     "bid": 8723,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 8,
+    "faltas_justificadas": 9,
     "faltas_nao_classificadas": 0,
     "gp": "CDS-PP",
     "missao_parlamentar": 8,
@@ -2151,8 +2151,8 @@
     "bid": 1893,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 11,
-    "faltas_nao_classificadas": 1,
+    "faltas_justificadas": 12,
+    "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 9,
     "nome": "Pedro Coimbra",
@@ -2367,8 +2367,8 @@
     "bid": 8918,
     "falta_quorum_votacao": 1,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 17,
-    "faltas_nao_classificadas": 2,
+    "faltas_justificadas": 19,
+    "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 7,
     "nome": "Ricardo Dias Pinto",

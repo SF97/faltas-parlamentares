@@ -24,6 +24,13 @@
   "nome": "Alberto Fonseca",
   "sessoes": [
     {
+      "data": "2026-10-16",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387257
+    },
+    {
       "data": "2026-10-15",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -894,7 +901,7 @@
   ],
   "totais": {
     "AMP": 12,
-    "P": 112
+    "P": 113
   },
-  "total_reunioes": 124
+  "total_reunioes": 125
 }
