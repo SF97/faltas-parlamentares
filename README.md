@@ -62,13 +62,15 @@ pnpm lint:fix   # corrige automaticamente problemas do Oxlint
 pnpm preview    # serve dist/
 ```
 
-O lint agregado também executa o actionlint a partir da raiz. Quando o ShellCheck está disponível através do mise, o actionlint usa-o automaticamente para validar os blocos `run:` dos workflows.
+As tarefas `mise //ingest:run` e `mise //ingest:refresh` instalam apenas as dependências Python de execução; `mise //ingest:sync` inclui também o Ruff. As tarefas do site instalam apenas as dependências JavaScript desse projeto. `mise //:install` prepara ambos os projetos por completo; o lint agregado instala apenas dependências de desenvolvimento. O `act` e os linters dos workflows são ferramentas das respetivas tarefas mise, instaladas apenas quando utilizadas.
+
+O lint agregado também executa o actionlint a partir da raiz. A tarefa instala o actionlint e o ShellCheck através do mise para validar os blocos `run:` dos workflows.
 
 Para validar os workflows localmente com Docker e `act` num Mac ARM64:
 
 ```bash
-mise exec -- act push -W .github/workflows/lint.yml -P ubuntu-26.04=catthehacker/ubuntu:act-24.04 --container-architecture linux/arm64
-mise exec -- act workflow_dispatch -W .github/workflows/ingest.yml -P ubuntu-26.04=catthehacker/ubuntu:act-24.04 --container-architecture linux/arm64
+mise run act -- push -W .github/workflows/lint.yml -P ubuntu-26.04=catthehacker/ubuntu:act-24.04 --container-architecture linux/arm64
+mise run act -- workflow_dispatch -W .github/workflows/ingest.yml -P ubuntu-26.04=catthehacker/ubuntu:act-24.04 --container-architecture linux/arm64
 ```
 
 O runner local usa Ubuntu 24.04; o GitHub Actions usa Ubuntu 26.04. A cache da ação mise fica desativada sob `act`, e o workflow de atualização não faz commit nem push nas execuções locais. Num host x64, usar `linux/amd64`.

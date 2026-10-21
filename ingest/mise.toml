@@ -1,15 +1,19 @@
 [tasks.sync]
 description = "Instala as dependências do ingest"
-depends = ["//:install"]
+run = "pnpm install --filter @faltas-parlamentares/ingest --frozen-lockfile"
+
+[tasks.sync-runtime]
+description = "Instala apenas as dependências de execução do ingest"
+run = "pnpm install --filter @faltas-parlamentares/ingest --prod --frozen-lockfile"
 
 [tasks.run]
 description = "Atualiza os dados usando a cache HTTP local"
-depends = [":sync"]
+depends = [":sync-runtime"]
 run = "pnpm exec python -m ingest.main"
 
 [tasks.refresh]
 description = "Atualiza os dados sem usar a cache HTTP"
-depends = [":sync"]
+depends = [":sync-runtime"]
 env = { FALTAS_NO_CACHE = "1" }
 run = "pnpm exec python -m ingest.main"
 

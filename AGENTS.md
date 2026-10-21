@@ -53,8 +53,10 @@ pnpm lint:fix
 pnpm preview
 
 # Repository root
-actionlint        # automatically uses ShellCheck for workflow run scripts
+mise //:lint-actions  # installs actionlint and ShellCheck for workflow scripts
 ```
+
+Ingest run/refresh tasks use a filtered production-only install; ingest sync/lint include dev dependencies. Site tasks use a site-only install. Root install prepares the full workspace; root lint installs only dev dependencies for both projects. act, actionlint, and ShellCheck are task-specific mise tools.
 
 There is no test suite. Python uses Ruff, the site uses Oxlint for JavaScript, TypeScript, and Astro frontmatter, and GitHub Actions uses actionlint with ShellCheck. Oxlint does not lint Astro template markup.
 

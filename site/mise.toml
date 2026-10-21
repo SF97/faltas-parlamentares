@@ -1,6 +1,6 @@
 [tasks.install]
 description = "Instala as dependências do site"
-depends = ["//:install"]
+run = "mise exec -- pnpm install --filter @faltas-parlamentares/site --frozen-lockfile"
 
 [tasks.dev]
 description = "Inicia o servidor de desenvolvimento"
