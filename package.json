@@ -1,0 +1,19 @@
+{
+  "name": "faltas-parlamentares",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm --filter @faltas-parlamentares/site dev",
+    "build": "pnpm --filter @faltas-parlamentares/site build",
+    "preview": "pnpm --filter @faltas-parlamentares/site preview",
+    "lint": "pnpm -r run lint",
+    "ingest": "pnpm --filter @faltas-parlamentares/ingest start"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.14.0",
+      "onFail": "error"
+    }
+  }
+}

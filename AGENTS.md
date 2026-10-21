@@ -6,7 +6,7 @@ This file provides guidance to coding agents when working with code in this repo
 
 Static PT-PT site that ranks Assembleia da República MPs of the **XVII Legislatura** by plenary absences. Two halves:
 
-- `ingest/` — Python 3.15 + uv + httpx. Scrapes parlamento.pt HTML and writes JSON files into `site/src/data/`.
+- `ingest/` — Python 3.15 + pnpm + httpx. Scrapes parlamento.pt HTML and writes JSON files into `site/src/data/`.
 - `site/` — Astro 7 static site that consumes those JSON files at build time. Deployed via GitHub Pages (`.github/workflows/update.yml`, daily cron at 06:00 UTC).
 
 The ingest output is *committed* to the repo by the cron job; the site rebuilds from those committed JSONs.
@@ -16,6 +16,7 @@ The ingest output is *committed* to the repo by the cron job; the site rebuilds 
 With mise, these tasks can be run from anywhere in the repository:
 
 ```bash
+mise //:install
 mise //:lint
 mise //:lint-actions
 mise //ingest:sync
@@ -34,12 +35,14 @@ mise //site:preview
 The underlying commands are:
 
 ```bash
+# Workspace (run from repository root)
+pnpm install --frozen-lockfile
+
 # Ingest (run from ingest/)
-uv sync
-uv run python -m ingest.main         # uses local HTTP cache under ingest/.cache/http
-FALTAS_NO_CACHE=1 uv run python -m ingest.main   # force re-fetch (what CI uses)
-uv run ruff check .
-uv run ruff format --check .
+pnpm exec python -m ingest.main         # uses local HTTP cache under ingest/.cache/http
+FALTAS_NO_CACHE=1 pnpm exec python -m ingest.main   # force re-fetch (what CI uses)
+pnpm exec ruff check .
+pnpm exec ruff format --check .
 
 # Site (run from site/) — pnpm only, not npm
 pnpm install
@@ -83,5 +86,5 @@ There is no test suite. Python uses Ruff, the site uses Oxlint for JavaScript, T
 - Project name in code/UI: **faltas-parlamentares** (or "Faltas parlamentares").
 - All user-facing text is **Portuguese (PT-PT)**.
 - Scope is **XVII Legislatura only**. Don't add multi-legislature logic unless asked.
-- pnpm only on the site side; uv only on the ingest side.
+- pnpm workspace at the repository root for both Python dependencies in ingest and JavaScript dependencies in site. JavaScript uses root pnpm-lock.yaml; Python uses ingest/pylock.toml. Run pnpm install --no-frozen-lockfile at the root after changing dependencies.
 - Don't commit `ingest/.cache/` (gitignored). The committed data lives in `site/src/data/`.

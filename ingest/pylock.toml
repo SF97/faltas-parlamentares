@@ -1,0 +1,208 @@
+lock-version = "1.0"
+created-by = "pnpm"
+environments = [
+    "implementation_name == 'cpython' and platform_machine == 'arm64' and platform_python_implementation == 'CPython' and platform_system == 'Darwin' and python_version == '3.15' and sys_platform == 'darwin'",
+    "implementation_name == 'cpython' and platform_machine == 'x86_64' and platform_python_implementation == 'CPython' and platform_system == 'Linux' and python_version == '3.15' and sys_platform == 'linux'",
+    "implementation_name == 'cpython' and platform_machine == 'aarch64' and platform_python_implementation == 'CPython' and platform_system == 'Linux' and python_version == '3.15' and sys_platform == 'linux'",
+]
+requires-python = ">=3.15"
+
+[[packages]]
+name = "annotated-types"
+version = "0.8.0"
+
+[[packages.wheels]]
+name = "annotated_types-0.8.0-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/99/91/8acff4f5e50511b911bbccb72b8628a49c68ce14148cd9f6431094859a90/annotated_types-0.8.0-py3-none-any.whl"
+
+[packages.wheels.hashes]
+sha256 = "f072f4d804ea359e4eaf198b1af7a8b0943881a87f31bb764f8bf219bb9419e0"
+
+[[packages]]
+name = "anyio"
+version = "4.15.1"
+
+[[packages.wheels]]
+name = "anyio-4.15.1-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/12/b8/4bd346e22b28902df4d651910f5242c28d84e4a5c2435ca5c3f797ed7e2e/anyio-4.15.1-py3-none-any.whl"
+
+[packages.wheels.hashes]
+sha256 = "6152fdbbf9a77fdec97731721bebf7c4c44f7c29b424b0065826173efc7ed101"
+
+[[packages]]
+name = "certifi"
+version = "2026.10.19"
+
+[[packages.wheels]]
+name = "certifi-2026.10.19-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/c4/51/29046e48f693c54e5b7412216d447a1d8362c9653148d98c02cdf65fa733/certifi-2026.10.19-py3-none-any.whl"
+
+[packages.wheels.hashes]
+sha256 = "42d35340cc5b9ba78e818ddbff0c5b1c2b779de448a340fd1b989f5fa8670e1b"
+
+[[packages]]
+name = "h11"
+version = "0.16.0"
+
+[[packages.wheels]]
+name = "h11-0.16.0-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/04/4b/29cac41a4d98d144bf5f6d33995617b185d14b22401f75ca86f384e87ff1/h11-0.16.0-py3-none-any.whl"
+
+[packages.wheels.hashes]
+sha256 = "63cf8bbe7522de3bf65932fda1d9c2772064ffb3dae62d55932da54b31cb6c86"
+
+[[packages]]
+name = "httpcore"
+version = "1.0.9"
+
+[[packages.wheels]]
+name = "httpcore-1.0.9-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/7e/f5/f66802a942d491edb555dd61e3a9961140fd64c90bce1eafd741609d334d/httpcore-1.0.9-py3-none-any.whl"
+
+[packages.wheels.hashes]
+sha256 = "2d400746a40668fc9dec9810239072b40b4484b640a8c38fd654a024c7a1bf55"
+
+[[packages]]
+name = "httpx"
+version = "0.28.1"
+
+[[packages.wheels]]
+name = "httpx-0.28.1-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/2a/39/e50c7c3a983047577ee07d2a9e53faf5a69493943ec3f6a384bdc792deb2/httpx-0.28.1-py3-none-any.whl"
+
+[packages.wheels.hashes]
+sha256 = "d909fcccc110f8c7faf814ca82a9a4d816bc5a6dbfea25d6591d6985b8ba59ad"
+
+[[packages]]
+name = "idna"
+version = "3.20"
+
+[[packages.wheels]]
+name = "idna-3.20-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/58/a2/bb081bab032533a855d44de1d56f8e8426114ff1ba5d1f07a438a0a654f8/idna-3.20-py3-none-any.whl"
+
+[packages.wheels.hashes]
+sha256 = "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c"
+
+[[packages]]
+name = "lxml"
+version = "6.1.3"
+
+[[packages.wheels]]
+name = "lxml-6.1.3-cp315-cp315-macosx_10_15_universal2.whl"
+url = "https://files.pythonhosted.org/packages/e1/8e/4614fcd65496054cfb7172662f3576a59200278739506433b8c241ea422a/lxml-6.1.3-cp315-cp315-macosx_10_15_universal2.whl"
+
+[packages.wheels.hashes]
+sha256 = "6ea2f13dce778ca072ccee598bca46a092ce192e8fd907b6c1f0e52c800529a0"
+
+[[packages.wheels]]
+name = "lxml-6.1.3-cp315-cp315-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl"
+url = "https://files.pythonhosted.org/packages/52/09/0b30084e9eb1c546a4be3d9c56df70058d116b1a320400a59b0f7da87bf0/lxml-6.1.3-cp315-cp315-manylinux_2_26_aarch64.manylinux_2_28_aarch64.whl"
+
+[packages.wheels.hashes]
+sha256 = "2e01125896585139453cab8cb235893644d8815d7509520da95ae3ee8d1c1f79"
+
+[[packages.wheels]]
+name = "lxml-6.1.3-cp315-cp315-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl"
+url = "https://files.pythonhosted.org/packages/70/c5/b71ffb289b15e2642e2a3cf6d468c44da39ea119061a99e5b05e3d10f217/lxml-6.1.3-cp315-cp315-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl"
+
+[packages.wheels.hashes]
+sha256 = "73fc05988ed20809450474ba760a87c8ad4e455fc09783c02195e56ec634b41a"
+
+[[packages]]
+name = "pydantic"
+version = "2.14.1"
+
+[[packages.wheels]]
+name = "pydantic-2.14.1-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/35/ea/a56b9fe5066f3537b7882f77e9c5dfb26d8c2eefdaed9b5fc73d57b4dc22/pydantic-2.14.1-py3-none-any.whl"
+
+[packages.wheels.hashes]
+sha256 = "9195d967ec791692a04438115466764fb8b9a27b31f14a760437694f40d6b454"
+
+[[packages]]
+name = "pydantic-core"
+version = "2.50.1"
+
+[[packages.wheels]]
+name = "pydantic_core-2.50.1-cp315-cp315-macosx_11_0_arm64.whl"
+url = "https://files.pythonhosted.org/packages/4d/90/a63cf8586abc1d1a3f6d9b18f0224789ebf003851f092ebda3c7c863fd32/pydantic_core-2.50.1-cp315-cp315-macosx_11_0_arm64.whl"
+
+[packages.wheels.hashes]
+sha256 = "84f34323a61a365b4e9295de6028474754829aaddd59c7bf1a040e7487ef8f3c"
+
+[[packages.wheels]]
+name = "pydantic_core-2.50.1-cp315-cp315-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+url = "https://files.pythonhosted.org/packages/a6/6a/f34bff9808ffb4907fbf5f5040457d253cacf2da7fce9efbc99ca1b1a44d/pydantic_core-2.50.1-cp315-cp315-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+
+[packages.wheels.hashes]
+sha256 = "23edad659e8dbd8ca7e4e877fe6c81573abbdf215bd25a68b53e1272f58b80c7"
+
+[[packages.wheels]]
+name = "pydantic_core-2.50.1-cp315-cp315-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+url = "https://files.pythonhosted.org/packages/b8/0d/1b1149f60a00ea21ba5f70e28acbd40feb4598af414f80f53c921fac07c9/pydantic_core-2.50.1-cp315-cp315-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+
+[packages.wheels.hashes]
+sha256 = "7689580e72a642ab5ec64d5f55b2e33636fa43b4ebe63c0c2c965ef307c7d1aa"
+
+[[packages]]
+name = "ruff"
+version = "0.17.1"
+
+[[packages.wheels]]
+name = "ruff-0.17.1-py3-none-macosx_11_0_arm64.whl"
+url = "https://files.pythonhosted.org/packages/8e/71/7a9029a81c8206ee01a98f6cfeeb56e6c095af86857581a37045c46d7e94/ruff-0.17.1-py3-none-macosx_11_0_arm64.whl"
+
+[packages.wheels.hashes]
+sha256 = "29b454f18ca3eeaf37fbf140841dcf27d36109e29dee9aae8acecb68c26c6f74"
+
+[[packages.wheels]]
+name = "ruff-0.17.1-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+url = "https://files.pythonhosted.org/packages/c0/8c/e075e9c917cb0575297880c96768304e881240171c870cbd8d9b7b54bec2/ruff-0.17.1-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+
+[packages.wheels.hashes]
+sha256 = "872e03dd231744d6c5ec5c8af6be52b71323fc6ee096e4c8b34d9f844ee3b978"
+
+[[packages.wheels]]
+name = "ruff-0.17.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+url = "https://files.pythonhosted.org/packages/62/86/5566290219708ce2928f3a29c4f843a1185b341ec6111c4631a33c5ceced/ruff-0.17.1-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+
+[packages.wheels.hashes]
+sha256 = "a6ef98e51de8ef38082f90653ceeb84944bd7673783eea13e1647c5b9b064189"
+
+[[packages]]
+name = "typing-extensions"
+version = "4.16.0"
+
+[[packages.wheels]]
+name = "typing_extensions-4.16.0-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/49/d3/b8441a820a491ddfc024b0b0cf0393375b75ea13866d9c66727e54c2fc80/typing_extensions-4.16.0-py3-none-any.whl"
+
+[packages.wheels.hashes]
+sha256 = "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
+
+[[packages]]
+name = "typing-inspection"
+version = "0.4.4"
+
+[[packages.wheels]]
+name = "typing_inspection-0.4.4-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/67/81/4add07e5172b7ac40d8ed5ff580409a7801a4fe26d529bdd915401dabfbe/typing_inspection-0.4.4-py3-none-any.whl"
+
+[packages.wheels.hashes]
+sha256 = "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147"
+
+[tool.pnpm]
+requirements = [
+    "httpx>=0.28.1",
+    "lxml>=6.1.3",
+    "pydantic>=2.14.1",
+    "ruff==0.17.1",
+]
+platforms = [
+    "darwin-arm64",
+    "linux-x64-manylinux_2_28",
+    "linux-arm64-manylinux_2_28",
+]
+python-versions = ["3.15"]
+index = "https://pypi.org/simple/"

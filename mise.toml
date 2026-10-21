@@ -3,6 +3,9 @@ monorepo_root = true
 [monorepo]
 config_roots = ["ingest", "site"]
 
+[settings]
+idiomatic_version_file_enable_tools = ["node", "pnpm", "python"]
+
 [tools]
 act = "0.2.89"
 actionlint = "1.7.12"
@@ -15,3 +18,9 @@ run = "actionlint"
 [tasks.lint]
 description = "Executa todos os linters do repositório"
 depends = [":lint-actions", "//ingest:lint", "//site:lint"]
+
+[tasks.install]
+description = "Instala as dependências Python e JavaScript do workspace"
+run = "pnpm install --frozen-lockfile"
+sources = ["package.json", "pnpm-lock.yaml", "pnpm-workspace.yaml", "site/package.json", "ingest/package.json", "ingest/pyproject.toml", "ingest/pylock.toml", "ingest/.python-version"]
+outputs = ["node_modules/.pnpm/lock.yaml", "ingest/.venv/pyvenv.cfg"]
