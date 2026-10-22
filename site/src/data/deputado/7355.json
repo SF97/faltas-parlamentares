@@ -13,16 +13,16 @@
     },
     {
       "data": "2026-10-15",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387256
     },
     {
       "data": "2026-10-14",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387255
     },
     {
@@ -881,8 +881,7 @@
     }
   ],
   "totais": {
-    "F": 2,
-    "FJ": 3,
+    "FJ": 5,
     "FQV": 1,
     "P": 119
   },

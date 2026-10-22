@@ -19,23 +19,23 @@
   "sessoes": [
     {
       "data": "2026-10-16",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387257
     },
     {
       "data": "2026-10-15",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387256
     },
     {
       "data": "2026-10-14",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387255
     },
     {
@@ -888,9 +888,7 @@
   ],
   "totais": {
     "AMP": 15,
-    "F": 2,
-    "FJ": 26,
-    "FQV": 1,
+    "FJ": 29,
     "P": 80
   },
   "total_reunioes": 124

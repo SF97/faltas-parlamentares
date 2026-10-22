@@ -6,9 +6,9 @@
   "sessoes": [
     {
       "data": "2026-10-16",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Doença",
       "reuniao_bid": 387257
     },
     {
@@ -881,8 +881,7 @@
     }
   ],
   "totais": {
-    "FJ": 21,
-    "FQV": 1,
+    "FJ": 22,
     "P": 103
   },
   "total_reunioes": 125
