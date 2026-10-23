@@ -18,6 +18,13 @@
   "nome": "José Cesário",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -889,7 +896,8 @@
   "totais": {
     "AMP": 15,
     "FJ": 29,
+    "FQV": 1,
     "P": 80
   },
-  "total_reunioes": 124
+  "total_reunioes": 125
 }

@@ -5,6 +5,13 @@
   "nome": "Dulcineia Catarina Moura",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -884,7 +891,7 @@
     "AMP": 6,
     "FJ": 12,
     "FQV": 1,
-    "P": 106
+    "P": 107
   },
-  "total_reunioes": 125
+  "total_reunioes": 126
 }

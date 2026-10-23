@@ -5,6 +5,13 @@
   "nome": "Pedro Pessanha",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -883,7 +890,7 @@
   "totais": {
     "AMP": 18,
     "FJ": 9,
-    "P": 98
+    "P": 99
   },
-  "total_reunioes": 125
+  "total_reunioes": 126
 }

@@ -5,6 +5,13 @@
   "nome": "Hugo Carneiro",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -883,8 +890,8 @@
   "totais": {
     "AMP": 12,
     "FJ": 4,
-    "P": 107,
+    "P": 108,
     "PNO": 2
   },
-  "total_reunioes": 125
+  "total_reunioes": 126
 }

@@ -5,6 +5,13 @@
   "nome": "Manuela Carvalho",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -881,8 +888,9 @@
     }
   ],
   "totais": {
+    "FQV": 1,
     "P": 124,
     "PNO": 1
   },
-  "total_reunioes": 125
+  "total_reunioes": 126
 }

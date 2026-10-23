@@ -18,6 +18,13 @@
   "nome": "Cristina Rodrigues",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -894,8 +901,8 @@
     }
   ],
   "totais": {
-    "FJ": 10,
+    "FJ": 11,
     "P": 115
   },
-  "total_reunioes": 125
+  "total_reunioes": 126
 }

@@ -5,6 +5,13 @@
   "nome": "Rui Paulo Sousa",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -883,8 +890,8 @@
   "totais": {
     "AMP": 6,
     "FJ": 8,
-    "P": 109,
+    "P": 110,
     "PNO": 2
   },
-  "total_reunioes": 125
+  "total_reunioes": 126
 }

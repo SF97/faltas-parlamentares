@@ -5,6 +5,13 @@
   "nome": "Paulo Muacho",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -883,8 +890,8 @@
   "totais": {
     "AMP": 2,
     "FJ": 4,
-    "P": 115,
+    "P": 116,
     "PNO": 4
   },
-  "total_reunioes": 125
+  "total_reunioes": 126
 }

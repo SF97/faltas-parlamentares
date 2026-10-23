@@ -5,6 +5,13 @@
   "nome": "José Dotti",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -883,7 +890,8 @@
   "totais": {
     "AMP": 1,
     "FJ": 9,
+    "FQV": 1,
     "P": 115
   },
-  "total_reunioes": 125
+  "total_reunioes": 126
 }

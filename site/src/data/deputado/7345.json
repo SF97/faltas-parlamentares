@@ -18,6 +18,13 @@
   "nome": "Pedro dos Santos Frazão",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -896,8 +903,9 @@
   "totais": {
     "AMP": 2,
     "FJ": 18,
+    "FQV": 1,
     "P": 101,
     "PNO": 4
   },
-  "total_reunioes": 125
+  "total_reunioes": 126
 }

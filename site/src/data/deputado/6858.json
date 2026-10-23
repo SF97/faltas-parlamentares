@@ -5,6 +5,13 @@
   "nome": "Diogo Pacheco de Amorim",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -883,8 +890,8 @@
   "totais": {
     "F": 2,
     "FJ": 14,
-    "FQV": 1,
+    "FQV": 2,
     "P": 108
   },
-  "total_reunioes": 125
+  "total_reunioes": 126
 }

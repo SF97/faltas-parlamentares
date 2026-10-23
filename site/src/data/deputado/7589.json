@@ -5,6 +5,13 @@
   "nome": "João Lopes Aleixo",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -883,8 +890,8 @@
   "totais": {
     "AMP": 1,
     "FJ": 3,
-    "P": 120,
+    "P": 121,
     "PNO": 1
   },
-  "total_reunioes": 125
+  "total_reunioes": 126
 }

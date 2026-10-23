@@ -5,6 +5,13 @@
   "nome": "Germana Rocha",
   "sessoes": [
     {
+      "data": "2026-10-21",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387258
+    },
+    {
       "data": "2026-10-16",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -881,7 +888,7 @@
     }
   ],
   "totais": {
-    "P": 125
+    "P": 126
   },
-  "total_reunioes": 125
+  "total_reunioes": 126
 }
