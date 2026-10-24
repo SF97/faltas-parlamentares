@@ -3,7 +3,6 @@ packages:
   - ingest
 python:
   enabled: true
-  versions: ['3.15']
 supportedArchitectures:
   - darwin-arm64
   - linux-x64-manylinux_2_28
