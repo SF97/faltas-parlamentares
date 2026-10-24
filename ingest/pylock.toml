@@ -5,7 +5,7 @@ environments = [
     "implementation_name == 'cpython' and platform_machine == 'x86_64' and platform_python_implementation == 'CPython' and platform_system == 'Linux' and python_version == '3.15' and sys_platform == 'linux'",
     "implementation_name == 'cpython' and platform_machine == 'aarch64' and platform_python_implementation == 'CPython' and platform_system == 'Linux' and python_version == '3.15' and sys_platform == 'linux'",
 ]
-requires-python = ">=3.15"
+requires-python = ">=3.15.1"
 
 [[packages]]
 name = "annotated-types"
