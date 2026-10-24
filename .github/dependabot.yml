@@ -2,14 +2,15 @@ version: 2
 
 updates:
   - package-ecosystem: "npm"
-    directory: "/site"
+    directory: "/"
     schedule:
       interval: "weekly"
       day: "monday"
       time: "07:00"
       timezone: "Europe/Lisbon"
 
-  - package-ecosystem: "uv"
+  # pnpm manages Python via pyproject.toml; regenerate pylock.toml after updates.
+  - package-ecosystem: "pip"
     directory: "/ingest"
     schedule:
       interval: "weekly"

@@ -1,0 +1,92 @@
+# Dependabot updates pyproject.toml but does not yet support updating pylock.toml.
+# Regenerate and commit the lockfile here until upstream support is available:
+# https://github.com/dependabot/dependabot-core/issues/12094
+name: Update Python lockfile
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened]
+    paths:
+      - "ingest/pyproject.toml"
+  workflow_dispatch:
+    inputs:
+      pr:
+        description: "Dependabot PR number"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+  pull-requests: read
+
+concurrency:
+  group: python-lockfile-${{ github.event.pull_request.number || inputs.pr }}
+  cancel-in-progress: false
+
+jobs:
+  update-lockfile:
+    name: Update Python lockfile
+    if: >-
+      github.event_name == 'workflow_dispatch' ||
+      (github.event.pull_request.user.login == 'dependabot[bot]' &&
+       github.event.pull_request.head.repo.full_name == github.repository)
+    runs-on: ubuntu-26.04
+    timeout-minutes: 15
+    steps:
+      - name: Identify PR
+        id: pr
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          PR_NUMBER: ${{ github.event.pull_request.number || inputs.pr }}
+        run: |
+          if [[ ! "$PR_NUMBER" =~ ^[1-9][0-9]*$ ]]; then
+            echo "Enter a valid PR number."
+            exit 1
+          fi
+          gh api "repos/$GH_REPO/pulls/$PR_NUMBER" > "$RUNNER_TEMP/pr.json"
+          jq -e --arg repo "$GH_REPO" '
+            .state == "open" and
+            .user.login == "dependabot[bot]" and
+            .head.repo.full_name == $repo
+          ' "$RUNNER_TEMP/pr.json" > /dev/null
+          gh api --paginate "repos/$GH_REPO/pulls/$PR_NUMBER/files" \
+            --jq '.[].filename' > "$RUNNER_TEMP/pr-files.txt"
+          if ! grep -Fxq 'ingest/pyproject.toml' "$RUNNER_TEMP/pr-files.txt"; then
+            echo "The PR does not change ingest/pyproject.toml."
+            exit 1
+          fi
+          {
+            echo "sha=$(jq -r '.head.sha' "$RUNNER_TEMP/pr.json")"
+            echo "branch=$(jq -r '.head.ref' "$RUNNER_TEMP/pr.json")"
+          } >> "$GITHUB_OUTPUT"
+
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ steps.pr.outputs.sha }}
+          persist-credentials: false
+
+      - uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5.2.1
+        with:
+          cache: ${{ !env.ACT }}
+          install_args: "python pnpm"
+
+      - name: Regenerate Python lockfile
+        run: pnpm install --filter faltas-parlamentares-ingest --fail-if-no-match --lockfile-only --no-frozen-lockfile
+
+      - name: Commit lockfile to PR
+        env:
+          GH_TOKEN: ${{ github.token }}
+          PR_BRANCH: ${{ steps.pr.outputs.branch }}
+        run: |
+          if git diff --quiet -- ingest/pylock.toml; then
+            echo "The Python lockfile is already up to date." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add ingest/pylock.toml
+          git commit -m "chore(deps): refresh Python lockfile"
+          gh auth setup-git
+          git push origin "HEAD:refs/heads/$PR_BRANCH"
+          echo "Lockfile updated in the PR. If checks await approval, select Approve workflows to run on the PR." >> "$GITHUB_STEP_SUMMARY"
