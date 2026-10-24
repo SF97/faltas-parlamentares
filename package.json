@@ -10,6 +10,11 @@
     "ingest": "mise //ingest:run"
   },
   "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^24.22.1",
+      "onFail": "error"
+    },
     "packageManager": {
       "name": "pnpm",
       "version": "12.15.0",

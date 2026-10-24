@@ -16,12 +16,5 @@
   "devDependencies": {
     "@astrojs/sitemap": "3.7.4",
     "oxlint": "1.89.0"
-  },
-  "devEngines": {
-    "runtime": {
-      "name": "node",
-      "version": "^24.22.0",
-      "onFail": "error"
-    }
   }
 }
