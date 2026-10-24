@@ -83,6 +83,8 @@ O workspace pnpm 12.15.0 tem configuração e `pnpm-lock.yaml` na raiz e inclui 
 
 O `meta.json` guarda `checked_at` após cada execução bem-sucedida do ingest e `updated_at` quando o conteúdo dos dados muda. Uma execução sem alterações mantém `updated_at`, mas atualiza `checked_at`, originando um commit e uma publicação para mostrar a verificação mais recente. O rodapé apresenta estas datas no fuso horário de Lisboa; datas ainda não registadas aparecem como «não registada». Para verificar os dados diretamente na fonte, sem reutilizar a cache HTTP, usar `mise //ingest:refresh`, como no workflow diário.
 
+O workflow **Update Python lockfile** corre automaticamente nos PRs do Dependabot que alteram `ingest/pyproject.toml`. Regenera o lockfile Python e faz commit apenas de `ingest/pylock.toml` no ramo do PR, usando o token automático do GitHub; não exige secrets adicionais. Após o commit, se os checks aguardarem aprovação, selecionar **Approve workflows to run** no PR. Para repetir manualmente, abrir **Actions → Update Python lockfile → Run workflow** e indicar o número do PR. A opção manual fica disponível depois de o workflow ser integrado no ramo predefinido.
+
 ## Classificação das ausências
 
 Cada reunião plenária é classificada pelo Parlamento numa de sete categorias, todas usadas no site:
