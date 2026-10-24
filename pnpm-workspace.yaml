@@ -1,0 +1,16 @@
+packages:
+  - site
+  - ingest
+python:
+  enabled: true
+supportedArchitectures:
+  - darwin-arm64
+  - linux-x64-manylinux_2_28
+  - linux-arm64-manylinux_2_28
+allowBuilds:
+  'pkg:pypi/hatchling': true
+  'pkg:pypi/editables': true
+  esbuild: true
+trustPolicy: no-downgrade
+savePrefix: ''
+minimumReleaseAgeStrict: true

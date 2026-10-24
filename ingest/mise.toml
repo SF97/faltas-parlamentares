@@ -1,49 +1,44 @@
-[tools]
-uv = "0.13.2"
-
-[settings]
-idiomatic_version_file_enable_tools = ["python"]
-python.uv_venv_auto = "source"
-
 [tasks.sync]
 description = "Instala as dependências do ingest"
-run = "uv sync"
-sources = ["pyproject.toml", "uv.lock"]
-outputs = [".venv/pyvenv.cfg"]
+run = "pnpm install --filter faltas-parlamentares-ingest --fail-if-no-match --frozen-lockfile"
+
+[tasks.sync-runtime]
+description = "Instala apenas as dependências de execução do ingest"
+run = "pnpm install --filter faltas-parlamentares-ingest --fail-if-no-match --prod --frozen-lockfile"
 
 [tasks.run]
 description = "Atualiza os dados usando a cache HTTP local"
-depends = [":sync"]
-run = "uv run python -m ingest.main"
+depends = [":sync-runtime"]
+run = "pnpm --dir . exec python -m ingest.main"
 
 [tasks.refresh]
 description = "Atualiza os dados sem usar a cache HTTP"
-depends = [":sync"]
+depends = [":sync-runtime"]
 env = { FALTAS_NO_CACHE = "1" }
-run = "uv run python -m ingest.main"
+run = "pnpm --dir . exec python -m ingest.main"
 
 [tasks.lint]
 description = "Verifica e valida a formatação do código Python"
 depends = [":sync"]
 run = """
-uv run ruff check .
-uv run ruff format --check .
+pnpm --dir . exec ruff check .
+pnpm --dir . exec ruff format --check .
 """
 
 [tasks.lint-fix]
 description = "Corrige e formata automaticamente o código Python"
 depends = [":sync"]
 run = """
-uv run ruff check --fix .
-uv run ruff format .
+pnpm --dir . exec ruff check --fix .
+pnpm --dir . exec ruff format .
 """
 
 [tasks.format]
 description = "Formata o código Python"
 depends = [":sync"]
-run = "uv run ruff format ."
+run = "pnpm --dir . exec ruff format ."
 
 [tasks.format-check]
 description = "Valida a formatação do código Python"
 depends = [":sync"]
-run = "uv run ruff format --check ."
+run = "pnpm --dir . exec ruff format --check ."

@@ -1,5 +1,6 @@
 # Node / Astro
 node_modules/
+.pnpm-store/
 .astro/
 dist/
 .output/
@@ -8,11 +9,10 @@ dist/
 .wrangler/
 .cache/
 
-# Python / uv
+# Python
 __pycache__/
 *.pyc
-.venv/
-.uv-cache/
+.venv
 
 # Raw XML cache from parlamento.pt
 ingest/.cache/
