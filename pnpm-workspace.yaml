@@ -13,4 +13,5 @@ allowBuilds:
   esbuild: true
 trustPolicy: no-downgrade
 savePrefix: ''
+minimumReleaseAge: 4320
 minimumReleaseAgeStrict: true
