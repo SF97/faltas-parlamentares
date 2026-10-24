@@ -1345,9 +1345,9 @@
   },
   {
     "bid": 7396,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 9,
+    "faltas_justificadas": 10,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 1,
