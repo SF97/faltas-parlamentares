@@ -11,8 +11,6 @@ allowBuilds:
   'pkg:pypi/hatchling': true
   'pkg:pypi/editables': true
   esbuild: true
-  sharp: true
 trustPolicy: no-downgrade
 savePrefix: ''
 minimumReleaseAgeStrict: true
-packageImportMethod: clone-or-copy
