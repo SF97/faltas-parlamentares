@@ -1,44 +1,44 @@
 [tasks.sync]
 description = "Instala as dependências do ingest"
-run = "pnpm install --filter @faltas-parlamentares/ingest --frozen-lockfile"
+run = "pnpm install --filter faltas-parlamentares-ingest --fail-if-no-match --frozen-lockfile"
 
 [tasks.sync-runtime]
 description = "Instala apenas as dependências de execução do ingest"
-run = "pnpm install --filter @faltas-parlamentares/ingest --prod --frozen-lockfile"
+run = "pnpm install --filter faltas-parlamentares-ingest --fail-if-no-match --prod --frozen-lockfile"
 
 [tasks.run]
 description = "Atualiza os dados usando a cache HTTP local"
 depends = [":sync-runtime"]
-run = "pnpm exec python -m ingest.main"
+run = "pnpm --dir . exec python -m ingest.main"
 
 [tasks.refresh]
 description = "Atualiza os dados sem usar a cache HTTP"
 depends = [":sync-runtime"]
 env = { FALTAS_NO_CACHE = "1" }
-run = "pnpm exec python -m ingest.main"
+run = "pnpm --dir . exec python -m ingest.main"
 
 [tasks.lint]
 description = "Verifica e valida a formatação do código Python"
 depends = [":sync"]
 run = """
-pnpm exec ruff check .
-pnpm exec ruff format --check .
+pnpm --dir . exec ruff check .
+pnpm --dir . exec ruff format --check .
 """
 
 [tasks.lint-fix]
 description = "Corrige e formata automaticamente o código Python"
 depends = [":sync"]
 run = """
-pnpm exec ruff check --fix .
-pnpm exec ruff format .
+pnpm --dir . exec ruff check --fix .
+pnpm --dir . exec ruff format .
 """
 
 [tasks.format]
 description = "Formata o código Python"
 depends = [":sync"]
-run = "pnpm exec ruff format ."
+run = "pnpm --dir . exec ruff format ."
 
 [tasks.format-check]
 description = "Valida a formatação do código Python"
 depends = [":sync"]
-run = "pnpm exec ruff format --check ."
+run = "pnpm --dir . exec ruff format --check ."

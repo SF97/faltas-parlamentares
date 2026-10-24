@@ -19,7 +19,7 @@ run = "act"
 [tasks.lint]
 description = "Executa todos os linters do repositório"
 depends = [":install-lint", ":lint-actions"]
-run = "pnpm -r run lint"
+run = "mise run --skip-deps //ingest:lint ::: //site:lint"
 
 [tasks.install-lint]
 description = "Instala apenas as dependências de desenvolvimento para lint"

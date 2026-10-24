@@ -1,8 +1,0 @@
-{
-  "name": "@faltas-parlamentares/ingest",
-  "private": true,
-  "scripts": {
-    "start": "python -m ingest.main",
-    "lint": "ruff check . && ruff format --check ."
-  }
-}

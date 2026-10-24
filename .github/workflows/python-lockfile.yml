@@ -72,7 +72,7 @@ jobs:
           install_args: "python pnpm"
 
       - name: Regenerate Python lockfile
-        run: pnpm install --filter @faltas-parlamentares/ingest --lockfile-only --no-frozen-lockfile
+        run: pnpm install --filter faltas-parlamentares-ingest --fail-if-no-match --lockfile-only --no-frozen-lockfile
 
       - name: Commit lockfile to PR
         env:

@@ -39,10 +39,10 @@ The underlying commands are:
 pnpm install --frozen-lockfile
 
 # Ingest (run from ingest/)
-pnpm exec python -m ingest.main         # uses local HTTP cache under ingest/.cache/http
-FALTAS_NO_CACHE=1 pnpm exec python -m ingest.main   # force re-fetch (what CI uses)
-pnpm exec ruff check .
-pnpm exec ruff format --check .
+pnpm --dir . exec python -m ingest.main         # uses local HTTP cache under ingest/.cache/http
+FALTAS_NO_CACHE=1 pnpm --dir . exec python -m ingest.main   # force re-fetch (what CI uses)
+pnpm --dir . exec ruff check .
+pnpm --dir . exec ruff format --check .
 
 # Site (run from site/) — pnpm only, not npm
 pnpm install
@@ -88,5 +88,5 @@ There is no test suite. Python uses Ruff, the site uses Oxlint for JavaScript, T
 - Project name in code/UI: **faltas-parlamentares** (or "Faltas parlamentares").
 - All user-facing text is **Portuguese (PT-PT)**.
 - Scope is **XVII Legislatura only**. Don't add multi-legislature logic unless asked.
-- pnpm workspace at the repository root for both Python dependencies in ingest and JavaScript dependencies in site. JavaScript uses root pnpm-lock.yaml; Python uses ingest/pylock.toml. Run pnpm install --no-frozen-lockfile at the root after changing dependencies.
+- pnpm configuration at the repository root manages Python dependencies in ingest and JavaScript dependencies in site. The workspace lists site and ingest; ingest is a Python project defined by pyproject.toml and has no package.json. mise owns ingest tasks and combined lint; root pnpm lint/ingest scripts delegate to mise. Select ingest installs by the Python project name (`--filter faltas-parlamentares-ingest --fail-if-no-match`). JavaScript uses root pnpm-lock.yaml; Python uses ingest/pylock.toml. Run pnpm install --no-frozen-lockfile at the root after changing dependencies.
 - Don't commit `ingest/.cache/` (gitignored). The committed data lives in `site/src/data/`.

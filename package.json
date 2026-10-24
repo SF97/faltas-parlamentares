@@ -6,8 +6,8 @@
     "dev": "pnpm --filter @faltas-parlamentares/site dev",
     "build": "pnpm --filter @faltas-parlamentares/site build",
     "preview": "pnpm --filter @faltas-parlamentares/site preview",
-    "lint": "pnpm -r run lint",
-    "ingest": "pnpm --filter @faltas-parlamentares/ingest start"
+    "lint": "mise //:lint",
+    "ingest": "mise //ingest:run"
   },
   "devEngines": {
     "packageManager": {
