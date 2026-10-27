@@ -505,14 +505,14 @@
   },
   {
     "bid": 7387,
-    "falta_quorum_votacao": 1,
+    "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
     "faltas_justificadas": 2,
     "faltas_nao_classificadas": 0,
     "gp": "CH",
     "missao_parlamentar": 2,
     "nome": "Catarina Salgueiro",
-    "presencas": 119,
+    "presencas": 120,
     "total_reunioes": 126
   },
   {
