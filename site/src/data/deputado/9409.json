@@ -5,6 +5,13 @@
   "nome": "Patrícia Nascimento",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -891,8 +898,8 @@
     "AMP": 2,
     "FJ": 13,
     "FQV": 1,
-    "P": 105,
+    "P": 106,
     "PNO": 5
   },
-  "total_reunioes": 126
+  "total_reunioes": 127
 }

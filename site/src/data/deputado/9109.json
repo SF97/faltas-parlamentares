@@ -24,6 +24,13 @@
   "nome": "Sónia Margarida Fernandes",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -909,7 +916,7 @@
   "totais": {
     "AMP": 1,
     "FJ": 14,
-    "P": 111
+    "P": 112
   },
-  "total_reunioes": 126
+  "total_reunioes": 127
 }

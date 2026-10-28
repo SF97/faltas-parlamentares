@@ -12,6 +12,13 @@
   "nome": "Miguel Santos",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -895,9 +902,9 @@
     }
   ],
   "totais": {
-    "AMP": 6,
+    "AMP": 7,
     "FJ": 11,
     "P": 109
   },
-  "total_reunioes": 126
+  "total_reunioes": 127
 }

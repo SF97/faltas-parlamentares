@@ -24,9 +24,16 @@
   "nome": "Hernâni Loureiro",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
       "motivo": null,
       "reuniao_bid": 387258
     },
@@ -508,9 +515,8 @@
     }
   ],
   "totais": {
-    "AMP": 1,
-    "FQV": 1,
-    "P": 67
+    "AMP": 2,
+    "P": 68
   },
-  "total_reunioes": 69
+  "total_reunioes": 70
 }

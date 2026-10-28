@@ -5,6 +5,13 @@
   "nome": "Mariana Vieira da Silva",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -891,8 +898,8 @@
     "AMP": 6,
     "FJ": 2,
     "FQV": 1,
-    "P": 114,
+    "P": 115,
     "PNO": 3
   },
-  "total_reunioes": 126
+  "total_reunioes": 127
 }

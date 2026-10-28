@@ -24,6 +24,13 @@
   "nome": "Alberto Fonseca",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -908,7 +915,7 @@
   ],
   "totais": {
     "AMP": 12,
-    "P": 114
+    "P": 115
   },
-  "total_reunioes": 126
+  "total_reunioes": 127
 }

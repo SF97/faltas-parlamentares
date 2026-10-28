@@ -5,9 +5,16 @@
   "nome": "Bárbara do Amaral Correia",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
       "motivo": null,
       "reuniao_bid": 387258
     },
@@ -888,10 +895,9 @@
     }
   ],
   "totais": {
-    "AMP": 5,
+    "AMP": 6,
     "FJ": 4,
-    "FQV": 1,
-    "P": 116
+    "P": 117
   },
-  "total_reunioes": 126
+  "total_reunioes": 127
 }

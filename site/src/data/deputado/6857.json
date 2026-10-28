@@ -5,6 +5,13 @@
   "nome": "Hugo Patrício Oliveira",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
       "estado": "FJ",
       "estado_label": "Falta Justificada (FJ)",
@@ -888,9 +895,9 @@
     }
   ],
   "totais": {
-    "AMP": 17,
+    "AMP": 18,
     "FJ": 4,
     "P": 105
   },
-  "total_reunioes": 126
+  "total_reunioes": 127
 }

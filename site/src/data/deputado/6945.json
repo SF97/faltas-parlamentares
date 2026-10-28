@@ -5,6 +5,13 @@
   "nome": "Rodrigo Saraiva",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -890,7 +897,7 @@
   "totais": {
     "AMP": 4,
     "FJ": 2,
-    "P": 120
+    "P": 121
   },
-  "total_reunioes": 126
+  "total_reunioes": 127
 }

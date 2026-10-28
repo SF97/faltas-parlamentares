@@ -18,6 +18,13 @@
   "nome": "Emanuel Câmara",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -713,7 +720,7 @@
   ],
   "totais": {
     "FJ": 4,
-    "P": 95
+    "P": 96
   },
-  "total_reunioes": 99
+  "total_reunioes": 100
 }

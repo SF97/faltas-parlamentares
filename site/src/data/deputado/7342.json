@@ -5,6 +5,13 @@
   "nome": "Rui Paulo Sousa",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -890,8 +897,8 @@
   "totais": {
     "AMP": 6,
     "FJ": 8,
-    "P": 110,
+    "P": 111,
     "PNO": 2
   },
-  "total_reunioes": 126
+  "total_reunioes": 127
 }

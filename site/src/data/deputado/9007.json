@@ -5,10 +5,17 @@
   "nome": "Raul Melo",
   "sessoes": [
     {
-      "data": "2026-10-21",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "data": "2026-10-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
+      "data": "2026-10-21",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Parlamentar",
       "reuniao_bid": 387258
     },
     {
@@ -889,9 +896,8 @@
   ],
   "totais": {
     "AMP": 3,
-    "FJ": 5,
-    "FQV": 1,
-    "P": 117
+    "FJ": 6,
+    "P": 118
   },
-  "total_reunioes": 126
+  "total_reunioes": 127
 }

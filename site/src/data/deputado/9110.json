@@ -1,6 +1,13 @@
 {
   "bid": 9110,
-  "eventos": [],
+  "eventos": [
+    {
+      "contraparte": "Ana Catarina Peixoto",
+      "data": "2026-10-26",
+      "motivo": "Suspensão",
+      "tipo": "saida"
+    }
+  ],
   "gp": "PSD",
   "nome": "Leandro Ferreira Luís",
   "sessoes": [

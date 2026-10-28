@@ -18,6 +18,13 @@
   "nome": "Miguel Matos",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -854,8 +861,8 @@
   "totais": {
     "AMP": 4,
     "FJ": 13,
-    "P": 100,
+    "P": 101,
     "PNO": 2
   },
-  "total_reunioes": 119
+  "total_reunioes": 120
 }

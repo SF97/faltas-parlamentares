@@ -5,6 +5,13 @@
   "nome": "Tiago Barbosa Ribeiro",
   "sessoes": [
     {
+      "data": "2026-10-27",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387343
+    },
+    {
       "data": "2026-10-21",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -888,7 +895,7 @@
     }
   ],
   "totais": {
-    "P": 126
+    "P": 127
   },
-  "total_reunioes": 126
+  "total_reunioes": 127
 }
