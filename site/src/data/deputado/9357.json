@@ -9,8 +9,15 @@
     }
   ],
   "gp": "PSD",
-  "nome": "Paulo Lopes Marcelo",
+  "nome": "Paulo Marcelo",
   "sessoes": [
+    {
+      "data": "2026-10-28",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387344
+    },
     {
       "data": "2026-10-27",
       "estado": "P",
@@ -897,7 +904,7 @@
   "totais": {
     "AMP": 2,
     "FJ": 16,
-    "P": 108
+    "P": 109
   },
-  "total_reunioes": 126
+  "total_reunioes": 127
 }

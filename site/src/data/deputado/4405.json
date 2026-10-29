@@ -5,6 +5,13 @@
   "nome": "João Torres",
   "sessoes": [
     {
+      "data": "2026-10-28",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387344
+    },
+    {
       "data": "2026-10-27",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -899,7 +906,7 @@
     "F": 1,
     "FJ": 7,
     "FQV": 1,
-    "P": 102
+    "P": 103
   },
-  "total_reunioes": 127
+  "total_reunioes": 128
 }

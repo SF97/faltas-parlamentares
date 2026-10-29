@@ -5,10 +5,17 @@
   "nome": "Pedro Coimbra",
   "sessoes": [
     {
-      "data": "2026-10-27",
-      "estado": "F",
-      "estado_label": "Falta",
+      "data": "2026-10-28",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
+      "reuniao_bid": 387344
+    },
+    {
+      "data": "2026-10-27",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Força Maior",
       "reuniao_bid": 387343
     },
     {
@@ -896,10 +903,9 @@
   ],
   "totais": {
     "AMP": 9,
-    "F": 1,
-    "FJ": 12,
-    "P": 104,
+    "FJ": 13,
+    "P": 105,
     "PNO": 1
   },
-  "total_reunioes": 127
+  "total_reunioes": 128
 }

@@ -12,6 +12,13 @@
   "nome": "Ana Isabel Ferreira",
   "sessoes": [
     {
+      "data": "2026-10-28",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387344
+    },
+    {
       "data": "2026-10-27",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -903,8 +910,8 @@
   ],
   "totais": {
     "FJ": 5,
-    "P": 121,
+    "P": 122,
     "PNO": 1
   },
-  "total_reunioes": 127
+  "total_reunioes": 128
 }

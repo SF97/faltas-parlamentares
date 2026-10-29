@@ -5,6 +5,13 @@
   "nome": "Alberto Machado",
   "sessoes": [
     {
+      "data": "2026-10-28",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387344
+    },
+    {
       "data": "2026-10-27",
       "estado": "F",
       "estado_label": "Falta",
@@ -898,7 +905,7 @@
     "F": 1,
     "FI": 1,
     "FJ": 3,
-    "P": 122
+    "P": 123
   },
-  "total_reunioes": 127
+  "total_reunioes": 128
 }

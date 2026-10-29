@@ -12,6 +12,13 @@
   "nome": "Inês Barroso",
   "sessoes": [
     {
+      "data": "2026-10-28",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387344
+    },
+    {
       "data": "2026-10-27",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -903,7 +910,7 @@
   ],
   "totais": {
     "FJ": 21,
-    "P": 106
+    "P": 107
   },
-  "total_reunioes": 127
+  "total_reunioes": 128
 }
