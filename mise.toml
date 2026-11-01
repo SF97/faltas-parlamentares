@@ -13,7 +13,7 @@ run = "actionlint"
 
 [tasks.act]
 description = "Executa workflows localmente com act"
-tools = { act = "0.2.89" }
+tools = { act = "0.2.94" }
 run = "act"
 
 [tasks.lint]
