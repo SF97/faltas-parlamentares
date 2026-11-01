@@ -1371,13 +1371,13 @@
     "bid": 2105,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 0,
+    "faltas_justificadas": 11,
     "faltas_nao_classificadas": 0,
     "gp": "PS",
     "missao_parlamentar": 0,
     "nome": "José Luís Carneiro",
-    "presencas": 0,
-    "total_reunioes": 0
+    "presencas": 117,
+    "total_reunioes": 128
   },
   {
     "bid": 2061,
