@@ -79,7 +79,7 @@ Os JSON gerados pelo `ingest` são commitados para o repositório — o site nã
 
 Para publicar a partir da raiz, usar `pnpm build` como comando de build e `site/dist` como diretório de saída.
 
-O ficheiro `.node-version` na raiz fixa o Node.js 26.13.0 para o build no Cloudflare Pages. Remover a variável `NODE_VERSION` nas configurações de produção e de pré-visualização para que a versão seja lida deste ficheiro.
+No Cloudflare Pages, definir a variável `NODE_VERSION` como `26.13.0` nas configurações de produção e de pré-visualização.
 
 O pnpm 12.16.1 tem configuração e `pnpm-lock.yaml` na raiz. O workspace inclui `site/` e `ingest/`; o pnpm lê o projeto Python a partir de `ingest/pyproject.toml`, sem precisar de `ingest/package.json`. O mise define as tarefas do ingest; os atalhos `pnpm lint` e `pnpm ingest` delegam no mise. Uma instalação na raiz prepara ambos os projetos; o Python mantém o seu `ingest/pylock.toml` e a sua `ingest/.venv`. O pnpm seleciona o interpretador a partir de `ingest/.python-version`; `supportedArchitectures` define as plataformas do lockfile. O `ingest/pylock.toml` inclui Python 3.15 em macOS ARM64, Linux x64 (CI) e Linux ARM64 (act local). Após alterar dependências, executar `pnpm install --no-frozen-lockfile` na raiz e incluir os lockfiles no commit. Numa migração de uv, mover primeiro a antiga `.venv`: o pnpm não substitui ambientes criados por outras ferramentas. O Dependabot acompanha o `pyproject.toml` através do ecossistema `pip`; o lockfile deve ser regenerado nessas atualizações.
 
