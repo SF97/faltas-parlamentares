@@ -2223,13 +2223,13 @@
     "bid": 9358,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 1,
+    "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
-    "missao_parlamentar": 2,
+    "missao_parlamentar": 0,
     "nome": "Pedro Soares Pimenta",
-    "presencas": 83,
-    "total_reunioes": 86
+    "presencas": 0,
+    "total_reunioes": 0
   },
   {
     "bid": 8898,
@@ -2307,13 +2307,13 @@
     "bid": 2106,
     "falta_quorum_votacao": 0,
     "faltas_injustificadas": 0,
-    "faltas_justificadas": 24,
+    "faltas_justificadas": 0,
     "faltas_nao_classificadas": 0,
     "gp": "PSD",
-    "missao_parlamentar": 17,
+    "missao_parlamentar": 0,
     "nome": "Regina Bastos",
-    "presencas": 87,
-    "total_reunioes": 128
+    "presencas": 0,
+    "total_reunioes": 0
   },
   {
     "bid": 8921,
