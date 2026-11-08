@@ -27,9 +27,9 @@
     },
     {
       "data": "2026-10-16",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387257
     },
     {
@@ -903,8 +903,7 @@
   ],
   "totais": {
     "AMP": 2,
-    "FJ": 13,
-    "FQV": 1,
+    "FJ": 14,
     "P": 107,
     "PNO": 5
   },
