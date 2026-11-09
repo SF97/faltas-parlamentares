@@ -111,39 +111,39 @@ sha256 = "73fc05988ed20809450474ba760a87c8ad4e455fc09783c02195e56ec634b41a"
 
 [[packages]]
 name = "pydantic"
-version = "2.14.2"
+version = "2.14.3"
 
 [[packages.wheels]]
-name = "pydantic-2.14.2-py3-none-any.whl"
-url = "https://files.pythonhosted.org/packages/97/01/c71a71258b58659c72504e5fd65b451f6e36e34dc931d0b237ded213c814/pydantic-2.14.2-py3-none-any.whl"
+name = "pydantic-2.14.3-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/72/b8/b864503789ef5c58597d2a7b4adbee62c26440ab1e682581fc6838df8947/pydantic-2.14.3-py3-none-any.whl"
 
 [packages.wheels.hashes]
-sha256 = "7efbf7507b937931cd32a5755acb00ea1cf5ccb1d4e8067a5850d5069e382118"
+sha256 = "3f7b347782ab7e4cf4c798496ae3a82787d9f21ec12676a9c564355eeef8daa8"
 
 [[packages]]
 name = "pydantic-core"
-version = "2.50.2"
+version = "2.50.4"
 
 [[packages.wheels]]
-name = "pydantic_core-2.50.2-cp315-cp315-macosx_11_0_arm64.whl"
-url = "https://files.pythonhosted.org/packages/ae/ff/af99a09eddc348c1d0744c0df28dfcd4839ca497067f0fa2168208b41b1b/pydantic_core-2.50.2-cp315-cp315-macosx_11_0_arm64.whl"
+name = "pydantic_core-2.50.4-cp315-cp315-macosx_11_0_arm64.whl"
+url = "https://files.pythonhosted.org/packages/6f/02/65951efadbf7826e6a270843f97e3da2ef726de2b6d9cd7c5dfa4c48807e/pydantic_core-2.50.4-cp315-cp315-macosx_11_0_arm64.whl"
 
 [packages.wheels.hashes]
-sha256 = "f73930dacad5e611fe019e18df6f53c30629b1843d038d303b8dec86a32493bd"
+sha256 = "930ad463d3fb7a340d323bcc496ec32dae469ec9974c29ff569f19806b6b03b4"
 
 [[packages.wheels]]
-name = "pydantic_core-2.50.2-cp315-cp315-manylinux2014_aarch64.manylinux_2_17_aarch64.whl"
-url = "https://files.pythonhosted.org/packages/ee/9d/98c8d524921ca24e5c8a81a4b8f12209ac6ab05d0dd58b374e357da0ffc5/pydantic_core-2.50.2-cp315-cp315-manylinux2014_aarch64.manylinux_2_17_aarch64.whl"
+name = "pydantic_core-2.50.4-cp315-cp315-manylinux2014_aarch64.manylinux_2_17_aarch64.whl"
+url = "https://files.pythonhosted.org/packages/63/83/42e70436c523357b49393b73f161f2741acf36003c8efd2f941d2be56bae/pydantic_core-2.50.4-cp315-cp315-manylinux2014_aarch64.manylinux_2_17_aarch64.whl"
 
 [packages.wheels.hashes]
-sha256 = "1fdf5b52ed22f1404c2433d0b46df2d86d9befb742d0b9b4042a2325c43cdb97"
+sha256 = "49eb1241a969a5994db6880c18c012b6cbe2340343d8f529721571806583e500"
 
 [[packages.wheels]]
-name = "pydantic_core-2.50.2-cp315-cp315-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
-url = "https://files.pythonhosted.org/packages/e6/d0/dd0e355694094f0045922f4da60ac9bc7a314babc494e46089fb00640fd3/pydantic_core-2.50.2-cp315-cp315-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+name = "pydantic_core-2.50.4-cp315-cp315-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
+url = "https://files.pythonhosted.org/packages/ac/5e/145a02bf2b9f66981108caf6cc9e78917e31e4caca14d1e3ccd3ff2c7293/pydantic_core-2.50.4-cp315-cp315-manylinux2014_x86_64.manylinux_2_17_x86_64.whl"
 
 [packages.wheels.hashes]
-sha256 = "5299296ff5cafcb69851fd652de8f9268a0bb036bcbedbfcaa94cf743baf3986"
+sha256 = "26cb012c4b8ca9f847bd0ac15978bd3d0f55b050bfbe6c47355edfc7e945029b"
 
 [[packages]]
 name = "ruff"
@@ -183,20 +183,20 @@ sha256 = "481caa481374e813c1b176ada14e97f1f67a4539ce9cfeb3f350d78d6370c2e8"
 
 [[packages]]
 name = "typing-inspection"
-version = "0.4.4"
+version = "0.4.5"
 
 [[packages.wheels]]
-name = "typing_inspection-0.4.4-py3-none-any.whl"
-url = "https://files.pythonhosted.org/packages/67/81/4add07e5172b7ac40d8ed5ff580409a7801a4fe26d529bdd915401dabfbe/typing_inspection-0.4.4-py3-none-any.whl"
+name = "typing_inspection-0.4.5-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/de/0c/ea2544850a7c135e15033a5c7a8e7211136184b7ae63e2239d557c2b3019/typing_inspection-0.4.5-py3-none-any.whl"
 
 [packages.wheels.hashes]
-sha256 = "65b8397ba37ccbce054456aaccddfc91e6e3083c92824df348d96ca832f3f147"
+sha256 = "bc210535442b39e1bf2805e0c7a17dfd6a4ace760c84c7f7d16245d23a6b1c39"
 
 [tool.pnpm]
 requirements = [
     "httpx==0.28.1",
     "lxml==6.1.3",
-    "pydantic==2.14.2",
+    "pydantic==2.14.3",
     "ruff==0.17.3",
 ]
 platforms = [
