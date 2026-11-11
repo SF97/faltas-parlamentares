@@ -15,9 +15,7 @@ on:
         required: true
         type: string
 
-permissions:
-  contents: write
-  pull-requests: read
+permissions: {}
 
 concurrency:
   group: python-lockfile-${{ github.event.pull_request.number || inputs.pr }}
@@ -25,6 +23,9 @@ concurrency:
 
 jobs:
   update-lockfile:
+    permissions:
+      contents: write
+      pull-requests: read
     name: Update Python lockfile
     if: >-
       github.event_name == 'workflow_dispatch' ||

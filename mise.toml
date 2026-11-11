@@ -8,12 +8,12 @@ idiomatic_version_file_enable_tools = ["node", "pnpm", "python"]
 
 [tasks.lint-actions]
 description = "Verifica os workflows do GitHub Actions e os scripts shell"
-tools = { actionlint = "1.7.12", shellcheck = "0.11.0" }
-run = "actionlint"
+tools = { jactionlint = "2.5.0", shellcheck = "0.11.0" }
+run = "jactionlint --profile correctness"
 
 [tasks.act]
 description = "Executa workflows localmente com act"
-tools = { act = "0.2.94" }
+tools = { act = "0.2.97" }
 run = "act"
 
 [tasks.lint]

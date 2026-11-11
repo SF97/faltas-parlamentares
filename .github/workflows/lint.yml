@@ -32,6 +32,6 @@ jobs:
 
       - name: Lint
         env:
-          # Task-specific actionlint and ShellCheck installs can use GitHub releases.
+          # Task-specific jactionlint and ShellCheck installs can use GitHub releases.
           MISE_GITHUB_TOKEN: ${{ github.token }}
         run: mise //:lint
