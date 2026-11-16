@@ -147,28 +147,28 @@ sha256 = "26cb012c4b8ca9f847bd0ac15978bd3d0f55b050bfbe6c47355edfc7e945029b"
 
 [[packages]]
 name = "ruff"
-version = "0.17.4"
+version = "0.17.5"
 
 [[packages.wheels]]
-name = "ruff-0.17.4-py3-none-macosx_11_0_arm64.whl"
-url = "https://files.pythonhosted.org/packages/28/32/89a94a8eb11fd505a381ae6f04e190d038d9958695209dc1786ce5cfcda3/ruff-0.17.4-py3-none-macosx_11_0_arm64.whl"
+name = "ruff-0.17.5-py3-none-macosx_11_0_arm64.whl"
+url = "https://files.pythonhosted.org/packages/dc/4b/8b10f6c9d0a18413301ae8dd2af9d180a81bb738b1b731d944a37404c523/ruff-0.17.5-py3-none-macosx_11_0_arm64.whl"
 
 [packages.wheels.hashes]
-sha256 = "7ed2f416349944f908f9574215994602242b0836844eba48eec61473033afca0"
+sha256 = "6f0db748508f04a04e3fbebcc636a5c8b3bd76274f8ed28f497c44d75c2ea2d7"
 
 [[packages.wheels]]
-name = "ruff-0.17.4-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-url = "https://files.pythonhosted.org/packages/58/de/a392dc38b215798ae72e639d228b7f6c02d826a95d1c0ad7c4c0ee49ef5b/ruff-0.17.4-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+name = "ruff-0.17.5-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+url = "https://files.pythonhosted.org/packages/b7/ea/1b3afa3943239dede7a0755ea139bdb51879f0f3f96f92894081d5c7d2e5/ruff-0.17.5-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
 
 [packages.wheels.hashes]
-sha256 = "8ea6e0017c785f7282092b11e46338e4ebed1b9e575ebf2e55a8a1eda968241a"
+sha256 = "6f6a7b138edf9cc402ca736a59d9525e6d766e5395760b72e7e146e6251ac963"
 
 [[packages.wheels]]
-name = "ruff-0.17.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-url = "https://files.pythonhosted.org/packages/af/1b/62874f14c7873f27c7887d2b1ea41de990e14ba9518801ffe8eacb5d51a6/ruff-0.17.4-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+name = "ruff-0.17.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+url = "https://files.pythonhosted.org/packages/f2/8a/1e29c0c3785ae7e5cd0d54ee8717a08867ef71545796340be4c653c57e24/ruff-0.17.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 
 [packages.wheels.hashes]
-sha256 = "2cd025509b2e15721b426fc70fd946d71f43b3db3b08e946dfec2d696d911690"
+sha256 = "40ca8afaac309b41a5b2e09e4e7beb1f824826b93c25697c4d74f573324fba4e"
 
 [[packages]]
 name = "typing-extensions"
@@ -197,7 +197,7 @@ requirements = [
     "httpx==0.28.1",
     "lxml==6.1.3",
     "pydantic==2.14.3",
-    "ruff==0.17.4",
+    "ruff==0.17.5",
 ]
 platforms = [
     "darwin-arm64",
