@@ -5,6 +5,20 @@
   "nome": "Eva Cruzeiro",
   "sessoes": [
     {
+      "data": "2026-11-19",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387367
+    },
+    {
+      "data": "2026-11-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387366
+    },
+    {
       "data": "2026-10-28",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -904,7 +918,8 @@
   "totais": {
     "AMP": 2,
     "FJ": 15,
-    "P": 111
+    "FQV": 1,
+    "P": 112
   },
-  "total_reunioes": 128
+  "total_reunioes": 130
 }

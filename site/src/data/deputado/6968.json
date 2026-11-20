@@ -5,6 +5,20 @@
   "nome": "Patrícia Gonçalves",
   "sessoes": [
     {
+      "data": "2026-11-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387367
+    },
+    {
+      "data": "2026-11-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387366
+    },
+    {
       "data": "2026-10-28",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -904,8 +918,8 @@
   "totais": {
     "AMP": 5,
     "FJ": 3,
-    "P": 118,
+    "P": 120,
     "PNO": 2
   },
-  "total_reunioes": 128
+  "total_reunioes": 130
 }

@@ -5,6 +5,20 @@
   "nome": "Pedro Tavares",
   "sessoes": [
     {
+      "data": "2026-11-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387367
+    },
+    {
+      "data": "2026-11-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387366
+    },
+    {
       "data": "2026-10-28",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -904,7 +918,7 @@
   "totais": {
     "AMP": 5,
     "FJ": 2,
-    "P": 121
+    "P": 123
   },
-  "total_reunioes": 128
+  "total_reunioes": 130
 }

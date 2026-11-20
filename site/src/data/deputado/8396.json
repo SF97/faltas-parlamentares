@@ -5,6 +5,20 @@
   "nome": "Luís Dias",
   "sessoes": [
     {
+      "data": "2026-11-19",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387367
+    },
+    {
+      "data": "2026-11-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387366
+    },
+    {
       "data": "2026-10-28",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -902,9 +916,9 @@
     }
   ],
   "totais": {
-    "AMP": 12,
+    "AMP": 13,
     "FJ": 3,
-    "P": 113
+    "P": 114
   },
-  "total_reunioes": 128
+  "total_reunioes": 130
 }

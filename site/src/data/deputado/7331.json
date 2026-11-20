@@ -5,6 +5,20 @@
   "nome": "Rui Rocha",
   "sessoes": [
     {
+      "data": "2026-11-19",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
+      "reuniao_bid": 387367
+    },
+    {
+      "data": "2026-11-18",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
+      "reuniao_bid": 387366
+    },
+    {
       "data": "2026-10-28",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -903,9 +917,9 @@
   ],
   "totais": {
     "AMP": 3,
-    "FJ": 17,
+    "FJ": 19,
     "P": 105,
     "PNO": 3
   },
-  "total_reunioes": 128
+  "total_reunioes": 130
 }

@@ -5,6 +5,20 @@
   "nome": "Marcus Santos",
   "sessoes": [
     {
+      "data": "2026-11-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387367
+    },
+    {
+      "data": "2026-11-18",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387366
+    },
+    {
       "data": "2026-10-28",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -904,7 +918,7 @@
   "totais": {
     "AMP": 2,
     "FJ": 1,
-    "P": 125
+    "P": 127
   },
-  "total_reunioes": 128
+  "total_reunioes": 130
 }

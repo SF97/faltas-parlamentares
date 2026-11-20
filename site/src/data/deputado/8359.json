@@ -5,6 +5,20 @@
   "nome": "José Dias Fernandes",
   "sessoes": [
     {
+      "data": "2026-11-19",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387367
+    },
+    {
+      "data": "2026-11-18",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387366
+    },
+    {
       "data": "2026-10-28",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -902,8 +916,9 @@
     }
   ],
   "totais": {
+    "F": 1,
     "FJ": 19,
-    "P": 109
+    "P": 110
   },
-  "total_reunioes": 128
+  "total_reunioes": 130
 }
