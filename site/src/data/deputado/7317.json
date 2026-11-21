@@ -5,6 +5,13 @@
   "nome": "João Antunes dos Santos",
   "sessoes": [
     {
+      "data": "2026-11-20",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387368
+    },
+    {
       "data": "2026-11-19",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -918,7 +925,8 @@
   "totais": {
     "AMP": 4,
     "FJ": 6,
+    "FQV": 1,
     "P": 120
   },
-  "total_reunioes": 130
+  "total_reunioes": 131
 }

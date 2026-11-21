@@ -5,6 +5,13 @@
   "nome": "José Pedro Aguiar-Branco",
   "sessoes": [
     {
+      "data": "2026-11-20",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387368
+    },
+    {
       "data": "2026-11-19",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -919,7 +926,7 @@
     "AMP": 15,
     "F": 1,
     "FJ": 7,
-    "P": 107
+    "P": 108
   },
-  "total_reunioes": 130
+  "total_reunioes": 131
 }

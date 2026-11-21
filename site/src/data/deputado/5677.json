@@ -12,6 +12,13 @@
   "nome": "Luís Graça",
   "sessoes": [
     {
+      "data": "2026-11-20",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387368
+    },
+    {
       "data": "2026-11-19",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -925,7 +932,7 @@
   "totais": {
     "AMP": 20,
     "FJ": 2,
-    "P": 108
+    "P": 109
   },
-  "total_reunioes": 130
+  "total_reunioes": 131
 }

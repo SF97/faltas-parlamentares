@@ -5,6 +5,13 @@
   "nome": "Jorge Miguel Teixeira",
   "sessoes": [
     {
+      "data": "2026-11-20",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387368
+    },
+    {
       "data": "2026-11-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -919,8 +926,8 @@
     "AMP": 4,
     "F": 1,
     "FJ": 2,
-    "P": 122,
+    "P": 123,
     "PNO": 1
   },
-  "total_reunioes": 130
+  "total_reunioes": 131
 }

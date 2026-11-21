@@ -5,6 +5,13 @@
   "nome": "Rui Jorge Santos",
   "sessoes": [
     {
+      "data": "2026-11-20",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387368
+    },
+    {
       "data": "2026-11-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -917,8 +924,8 @@
   ],
   "totais": {
     "FJ": 8,
-    "P": 120,
+    "P": 121,
     "PNO": 2
   },
-  "total_reunioes": 130
+  "total_reunioes": 131
 }

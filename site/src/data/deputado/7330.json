@@ -5,6 +5,13 @@
   "nome": "Jorge Galveias",
   "sessoes": [
     {
+      "data": "2026-11-20",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387368
+    },
+    {
       "data": "2026-11-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -918,7 +925,7 @@
   "totais": {
     "AMP": 7,
     "FJ": 7,
-    "P": 116
+    "P": 117
   },
-  "total_reunioes": 130
+  "total_reunioes": 131
 }

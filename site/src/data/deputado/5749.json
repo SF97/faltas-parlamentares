@@ -5,6 +5,13 @@
   "nome": "Sandra Pereira",
   "sessoes": [
     {
+      "data": "2026-11-20",
+      "estado": "FQV",
+      "estado_label": "Falta ao Quórum de Votação",
+      "motivo": null,
+      "reuniao_bid": 387368
+    },
+    {
       "data": "2026-11-19",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -918,9 +925,9 @@
   "totais": {
     "AMP": 7,
     "FJ": 12,
-    "FQV": 1,
+    "FQV": 2,
     "P": 107,
     "PNO": 3
   },
-  "total_reunioes": 130
+  "total_reunioes": 131
 }
