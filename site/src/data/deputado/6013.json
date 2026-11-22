@@ -6,9 +6,9 @@
   "sessoes": [
     {
       "data": "2026-11-20",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Assistência à família",
       "reuniao_bid": 387368
     },
     {
@@ -924,8 +924,7 @@
   ],
   "totais": {
     "AMP": 4,
-    "FJ": 5,
-    "FQV": 1,
+    "FJ": 6,
     "P": 121
   },
   "total_reunioes": 131
