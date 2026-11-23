@@ -31,14 +31,14 @@ sha256 = "c66ae634e0b8228396b801741beb3294326d4b6102f7bba4041c0dfb58c29026"
 
 [[packages]]
 name = "certifi"
-version = "2026.10.23"
+version = "2026.11.20"
 
 [[packages.wheels]]
-name = "certifi-2026.10.23-py3-none-any.whl"
-url = "https://files.pythonhosted.org/packages/32/d1/a3652fe2c19134d0d15922177821d863cbd7e842d53a21bbe7e8e3a1b5ac/certifi-2026.10.23-py3-none-any.whl"
+name = "certifi-2026.11.20-py3-none-any.whl"
+url = "https://files.pythonhosted.org/packages/6d/39/5eec3296860b94ac20bb8ed807725b88f6adfab3f343df592afd975f5f86/certifi-2026.11.20-py3-none-any.whl"
 
 [packages.wheels.hashes]
-sha256 = "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1"
+sha256 = "7422df25243767b9877031a2248cb14d09ddac9beee846f4cef3d5c9191d488f"
 
 [[packages]]
 name = "h11"
@@ -147,28 +147,28 @@ sha256 = "26cb012c4b8ca9f847bd0ac15978bd3d0f55b050bfbe6c47355edfc7e945029b"
 
 [[packages]]
 name = "ruff"
-version = "0.17.5"
+version = "0.17.6"
 
 [[packages.wheels]]
-name = "ruff-0.17.5-py3-none-macosx_11_0_arm64.whl"
-url = "https://files.pythonhosted.org/packages/dc/4b/8b10f6c9d0a18413301ae8dd2af9d180a81bb738b1b731d944a37404c523/ruff-0.17.5-py3-none-macosx_11_0_arm64.whl"
+name = "ruff-0.17.6-py3-none-macosx_11_0_arm64.whl"
+url = "https://files.pythonhosted.org/packages/ba/d4/c31391b36c729cd9fafa65b7a52a58850b99afb2b65da6be4263a53302f2/ruff-0.17.6-py3-none-macosx_11_0_arm64.whl"
 
 [packages.wheels.hashes]
-sha256 = "6f0db748508f04a04e3fbebcc636a5c8b3bd76274f8ed28f497c44d75c2ea2d7"
+sha256 = "9fbddc08577592e283c265d865e0182de6e33db185494db7b06290d989d888e5"
 
 [[packages.wheels]]
-name = "ruff-0.17.5-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
-url = "https://files.pythonhosted.org/packages/b7/ea/1b3afa3943239dede7a0755ea139bdb51879f0f3f96f92894081d5c7d2e5/ruff-0.17.5-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+name = "ruff-0.17.6-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
+url = "https://files.pythonhosted.org/packages/eb/11/f3032684dcb3a676d7924545153d76fb56f76753e038f2ea650b99c71bdf/ruff-0.17.6-py3-none-manylinux_2_17_aarch64.manylinux2014_aarch64.whl"
 
 [packages.wheels.hashes]
-sha256 = "6f6a7b138edf9cc402ca736a59d9525e6d766e5395760b72e7e146e6251ac963"
+sha256 = "435241c61af5909a022f76219d3d1bf24730dc1bf0acabb5ddf4b569ab3cbb30"
 
 [[packages.wheels]]
-name = "ruff-0.17.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
-url = "https://files.pythonhosted.org/packages/f2/8a/1e29c0c3785ae7e5cd0d54ee8717a08867ef71545796340be4c653c57e24/ruff-0.17.5-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+name = "ruff-0.17.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
+url = "https://files.pythonhosted.org/packages/be/48/3df7d81249fd69ee6a49519b149fb5d11e13118fd7d0e8d65329a237087b/ruff-0.17.6-py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl"
 
 [packages.wheels.hashes]
-sha256 = "40ca8afaac309b41a5b2e09e4e7beb1f824826b93c25697c4d74f573324fba4e"
+sha256 = "aa3b08254a732acba246891089a152c47c5733dc36b8ecb76ce8602f8326e5e4"
 
 [[packages]]
 name = "typing-extensions"
@@ -197,7 +197,7 @@ requirements = [
     "httpx==0.28.1",
     "lxml==6.1.3",
     "pydantic==2.14.3",
-    "ruff==0.17.5",
+    "ruff==0.17.6",
 ]
 platforms = [
     "darwin-arm64",
