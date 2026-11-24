@@ -30,6 +30,13 @@
   "nome": "Miguel Rangel",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -797,7 +804,7 @@
     "F": 1,
     "FJ": 8,
     "FQV": 1,
-    "P": 99
+    "P": 100
   },
-  "total_reunioes": 109
+  "total_reunioes": 110
 }

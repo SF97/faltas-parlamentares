@@ -5,6 +5,13 @@
   "nome": "Rosa Isabel Cruz",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -923,7 +930,7 @@
     }
   ],
   "totais": {
-    "P": 131
+    "P": 132
   },
-  "total_reunioes": 131
+  "total_reunioes": 132
 }

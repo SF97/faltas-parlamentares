@@ -5,6 +5,13 @@
   "nome": "Carlos Barbosa",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -926,7 +933,7 @@
     "AMP": 6,
     "FJ": 8,
     "FQV": 1,
-    "P": 116
+    "P": 117
   },
-  "total_reunioes": 131
+  "total_reunioes": 132
 }

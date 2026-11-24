@@ -5,6 +5,13 @@
   "nome": "Eduardo Teixeira",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -925,7 +932,7 @@
   "totais": {
     "AMP": 12,
     "FJ": 1,
-    "P": 118
+    "P": 119
   },
-  "total_reunioes": 131
+  "total_reunioes": 132
 }

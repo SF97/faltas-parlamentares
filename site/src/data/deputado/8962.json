@@ -5,6 +5,13 @@
   "nome": "Sandra Lopes",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -925,8 +932,8 @@
   "totais": {
     "AMP": 1,
     "FJ": 2,
-    "P": 127,
+    "P": 128,
     "PNO": 1
   },
-  "total_reunioes": 131
+  "total_reunioes": 132
 }

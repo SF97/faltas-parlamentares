@@ -5,6 +5,13 @@
   "nome": "José Pedro Aguiar-Branco",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Força Maior",
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -925,8 +932,8 @@
   "totais": {
     "AMP": 15,
     "F": 1,
-    "FJ": 7,
+    "FJ": 8,
     "P": 108
   },
-  "total_reunioes": 131
+  "total_reunioes": 132
 }

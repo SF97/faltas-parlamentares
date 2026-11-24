@@ -5,9 +5,16 @@
   "nome": "Tiago Barbosa Ribeiro",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 387368
     },
@@ -923,8 +930,8 @@
     }
   ],
   "totais": {
-    "FQV": 1,
-    "P": 130
+    "F": 1,
+    "P": 131
   },
-  "total_reunioes": 131
+  "total_reunioes": 132
 }

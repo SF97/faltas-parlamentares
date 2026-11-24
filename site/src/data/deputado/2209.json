@@ -5,6 +5,13 @@
   "nome": "Marcos Perestrello",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "AMP",
+      "estado_label": "Ausência em Missão Parlamentar (AMP)",
+      "motivo": null,
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -923,10 +930,10 @@
     }
   ],
   "totais": {
-    "AMP": 37,
+    "AMP": 38,
     "FJ": 1,
     "P": 92,
     "PNO": 1
   },
-  "total_reunioes": 131
+  "total_reunioes": 132
 }

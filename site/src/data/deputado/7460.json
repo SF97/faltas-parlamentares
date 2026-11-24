@@ -5,6 +5,13 @@
   "nome": "Eduardo Pinheiro",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -924,8 +931,9 @@
   ],
   "totais": {
     "AMP": 6,
+    "F": 1,
     "FJ": 6,
     "P": 119
   },
-  "total_reunioes": 131
+  "total_reunioes": 132
 }

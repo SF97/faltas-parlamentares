@@ -12,6 +12,13 @@
   "nome": "António Carneiro",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -742,7 +749,7 @@
   ],
   "totais": {
     "FJ": 3,
-    "P": 101
+    "P": 102
   },
-  "total_reunioes": 104
+  "total_reunioes": 105
 }

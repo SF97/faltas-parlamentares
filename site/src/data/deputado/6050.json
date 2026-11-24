@@ -5,6 +5,13 @@
   "nome": "André Pinotes Batista",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -927,7 +934,7 @@
     "F": 1,
     "FJ": 20,
     "FQV": 1,
-    "P": 99
+    "P": 100
   },
-  "total_reunioes": 131
+  "total_reunioes": 132
 }

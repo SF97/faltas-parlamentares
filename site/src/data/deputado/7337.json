@@ -5,6 +5,13 @@
   "nome": "Rui Tavares",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -923,8 +930,9 @@
     }
   ],
   "totais": {
+    "F": 1,
     "FJ": 17,
     "P": 114
   },
-  "total_reunioes": 131
+  "total_reunioes": 132
 }

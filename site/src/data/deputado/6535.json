@@ -18,6 +18,13 @@
   "nome": "André Ventura",
   "sessoes": [
     {
+      "data": "2026-11-23",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387369
+    },
+    {
       "data": "2026-11-20",
       "estado": "FQV",
       "estado_label": "Falta ao Quórum de Votação",
@@ -873,9 +880,10 @@
     }
   ],
   "totais": {
+    "F": 1,
     "FJ": 26,
     "FQV": 1,
     "P": 95
   },
-  "total_reunioes": 122
+  "total_reunioes": 123
 }
