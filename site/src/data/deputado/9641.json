@@ -5,6 +5,13 @@
   "nome": "Armando Mourisco",
   "sessoes": [
     {
+      "data": "2026-11-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387370
+    },
+    {
       "data": "2026-11-23",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -931,7 +938,7 @@
   ],
   "totais": {
     "AMP": 2,
-    "P": 130
+    "P": 131
   },
-  "total_reunioes": 132
+  "total_reunioes": 133
 }

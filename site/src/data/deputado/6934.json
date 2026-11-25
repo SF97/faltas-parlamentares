@@ -5,6 +5,13 @@
   "nome": "Mariana Vieira da Silva",
   "sessoes": [
     {
+      "data": "2026-11-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387370
+    },
+    {
       "data": "2026-11-23",
       "estado": "AMP",
       "estado_label": "Ausência em Missão Parlamentar (AMP)",
@@ -48,9 +55,9 @@
     },
     {
       "data": "2026-10-21",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387258
     },
     {
@@ -931,10 +938,9 @@
   ],
   "totais": {
     "AMP": 9,
-    "FJ": 2,
-    "FQV": 1,
-    "P": 117,
+    "FJ": 3,
+    "P": 118,
     "PNO": 3
   },
-  "total_reunioes": 132
+  "total_reunioes": 133
 }

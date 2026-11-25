@@ -5,6 +5,13 @@
   "nome": "José Barreira Soares",
   "sessoes": [
     {
+      "data": "2026-11-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387370
+    },
+    {
       "data": "2026-11-23",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -931,8 +938,8 @@
   ],
   "totais": {
     "FJ": 1,
-    "P": 128,
+    "P": 129,
     "PNO": 3
   },
-  "total_reunioes": 132
+  "total_reunioes": 133
 }

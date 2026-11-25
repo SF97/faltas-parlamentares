@@ -5,6 +5,13 @@
   "nome": "Edite Estrela",
   "sessoes": [
     {
+      "data": "2026-11-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387370
+    },
+    {
       "data": "2026-11-23",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -932,7 +939,7 @@
   "totais": {
     "AMP": 38,
     "FJ": 9,
-    "P": 85
+    "P": 86
   },
-  "total_reunioes": 132
+  "total_reunioes": 133
 }

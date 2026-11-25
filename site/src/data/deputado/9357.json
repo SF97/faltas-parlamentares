@@ -12,6 +12,13 @@
   "nome": "Paulo Lopes Marcelo",
   "sessoes": [
     {
+      "data": "2026-11-24",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387370
+    },
+    {
       "data": "2026-11-23",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -932,7 +939,7 @@
   "totais": {
     "AMP": 2,
     "FJ": 16,
-    "P": 113
+    "P": 114
   },
-  "total_reunioes": 131
+  "total_reunioes": 132
 }
