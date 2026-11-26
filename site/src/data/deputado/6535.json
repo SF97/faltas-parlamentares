@@ -18,6 +18,13 @@
   "nome": "André Ventura",
   "sessoes": [
     {
+      "data": "2026-11-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387371
+    },
+    {
       "data": "2026-11-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -26,16 +33,16 @@
     },
     {
       "data": "2026-11-23",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387369
     },
     {
       "data": "2026-11-20",
-      "estado": "FQV",
-      "estado_label": "Falta ao Quórum de Votação",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
       "reuniao_bid": 387368
     },
     {
@@ -887,10 +894,8 @@
     }
   ],
   "totais": {
-    "F": 1,
-    "FJ": 26,
-    "FQV": 1,
-    "P": 96
+    "FJ": 28,
+    "P": 97
   },
-  "total_reunioes": 124
+  "total_reunioes": 125
 }

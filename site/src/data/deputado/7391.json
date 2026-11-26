@@ -5,6 +5,13 @@
   "nome": "Pedro Pessanha",
   "sessoes": [
     {
+      "data": "2026-11-25",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": null,
+      "reuniao_bid": 387371
+    },
+    {
       "data": "2026-11-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -938,8 +945,8 @@
   ],
   "totais": {
     "AMP": 19,
-    "FJ": 10,
+    "FJ": 11,
     "P": 104
   },
-  "total_reunioes": 133
+  "total_reunioes": 134
 }

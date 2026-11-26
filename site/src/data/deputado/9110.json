@@ -6,6 +6,12 @@
       "data": "2026-10-26",
       "motivo": "Suspensão",
       "tipo": "saida"
+    },
+    {
+      "contraparte": "Ana Catarina Peixoto",
+      "data": "2026-11-26",
+      "motivo": "Termo da suspensão",
+      "tipo": "entrada"
     }
   ],
   "gp": "PSD",

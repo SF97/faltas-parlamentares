@@ -5,6 +5,13 @@
   "nome": "Frederico Francisco",
   "sessoes": [
     {
+      "data": "2026-11-25",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Motivo justificado",
+      "reuniao_bid": 387371
+    },
+    {
       "data": "2026-11-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -938,8 +945,8 @@
   ],
   "totais": {
     "F": 1,
-    "FJ": 4,
+    "FJ": 5,
     "P": 128
   },
-  "total_reunioes": 133
+  "total_reunioes": 134
 }

@@ -5,6 +5,13 @@
   "nome": "Ricardo Carvalho",
   "sessoes": [
     {
+      "data": "2026-11-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387371
+    },
+    {
       "data": "2026-11-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -939,7 +946,7 @@
   "totais": {
     "AMP": 27,
     "FJ": 18,
-    "P": 88
+    "P": 89
   },
-  "total_reunioes": 133
+  "total_reunioes": 134
 }

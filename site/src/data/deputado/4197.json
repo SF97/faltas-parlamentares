@@ -5,6 +5,13 @@
   "nome": "Paula Santos",
   "sessoes": [
     {
+      "data": "2026-11-25",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387371
+    },
+    {
       "data": "2026-11-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -938,9 +945,10 @@
   ],
   "totais": {
     "AMP": 3,
+    "F": 1,
     "FI": 1,
     "P": 127,
     "PNO": 2
   },
-  "total_reunioes": 133
+  "total_reunioes": 134
 }

@@ -5,6 +5,13 @@
   "nome": "Ricardo Oliveira",
   "sessoes": [
     {
+      "data": "2026-11-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387371
+    },
+    {
       "data": "2026-11-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -938,8 +945,8 @@
   ],
   "totais": {
     "FJ": 2,
-    "P": 130,
+    "P": 131,
     "PNO": 1
   },
-  "total_reunioes": 133
+  "total_reunioes": 134
 }

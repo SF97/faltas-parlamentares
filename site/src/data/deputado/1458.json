@@ -12,6 +12,13 @@
   "nome": "Carlos Alberto Gonçalves",
   "sessoes": [
     {
+      "data": "2026-11-25",
+      "estado": "F",
+      "estado_label": "Falta",
+      "motivo": null,
+      "reuniao_bid": 387371
+    },
+    {
       "data": "2026-11-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -944,8 +951,9 @@
     }
   ],
   "totais": {
+    "F": 1,
     "FJ": 8,
     "P": 125
   },
-  "total_reunioes": 133
+  "total_reunioes": 134
 }

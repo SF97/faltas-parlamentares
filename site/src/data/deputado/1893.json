@@ -5,6 +5,13 @@
   "nome": "Pedro Coimbra",
   "sessoes": [
     {
+      "data": "2026-11-25",
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Trabalho Político",
+      "reuniao_bid": 387371
+    },
+    {
       "data": "2026-11-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -938,9 +945,9 @@
   ],
   "totais": {
     "AMP": 9,
-    "FJ": 14,
+    "FJ": 15,
     "P": 109,
     "PNO": 1
   },
-  "total_reunioes": 133
+  "total_reunioes": 134
 }

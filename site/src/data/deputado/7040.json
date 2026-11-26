@@ -24,6 +24,13 @@
   "nome": "Fabian Figueiredo",
   "sessoes": [
     {
+      "data": "2026-11-25",
+      "estado": "P",
+      "estado_label": "Presença (P)",
+      "motivo": null,
+      "reuniao_bid": 387371
+    },
+    {
       "data": "2026-11-24",
       "estado": "P",
       "estado_label": "Presença (P)",
@@ -606,7 +613,7 @@
     }
   ],
   "totais": {
-    "P": 83
+    "P": 84
   },
-  "total_reunioes": 83
+  "total_reunioes": 84
 }
