@@ -20,9 +20,9 @@
     },
     {
       "data": "2026-11-23",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Motivo justificado",
       "reuniao_bid": 387369
     },
     {
@@ -945,8 +945,7 @@
   ],
   "totais": {
     "AMP": 6,
-    "F": 1,
-    "FJ": 6,
+    "FJ": 7,
     "P": 121
   },
   "total_reunioes": 134

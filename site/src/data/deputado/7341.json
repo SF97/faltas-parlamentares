@@ -6,9 +6,9 @@
   "sessoes": [
     {
       "data": "2026-11-25",
-      "estado": "F",
-      "estado_label": "Falta",
-      "motivo": null,
+      "estado": "FJ",
+      "estado_label": "Falta Justificada (FJ)",
+      "motivo": "Doença",
       "reuniao_bid": 387371
     },
     {
@@ -944,8 +944,7 @@
     }
   ],
   "totais": {
-    "F": 1,
-    "FJ": 6,
+    "FJ": 7,
     "P": 127
   },
   "total_reunioes": 134

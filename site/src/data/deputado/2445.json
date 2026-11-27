@@ -6,8 +6,8 @@
   "sessoes": [
     {
       "data": "2026-11-25",
-      "estado": "F",
-      "estado_label": "Falta",
+      "estado": "P",
+      "estado_label": "Presença (P)",
       "motivo": null,
       "reuniao_bid": 387371
     },
@@ -944,8 +944,8 @@
     }
   ],
   "totais": {
-    "F": 2,
-    "P": 132
+    "F": 1,
+    "P": 133
   },
   "total_reunioes": 134
 }
